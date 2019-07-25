@@ -1,0 +1,327 @@
+options= {
+		date			: new Date,
+		flat			: false,
+		first_day		: 1,
+		prev			: '&#9664;',
+		next			: '&#9654;',
+		mode			: 'single',
+		select_year		: true,
+		select_month	: true,
+		select_day		: true,
+		view			: 'days',
+		calendars		: 1,
+		format			: 'd-m-Y',
+		position		: 'bottom',
+		trigger_event	: 'click touchstart',
+		class_name		: '',
+		separator		: ' - ',
+		hide_on_select	: false,
+		min				: null,
+		max				: null,
+		render			: function () {},
+		change			: function () {return true;},
+		before_show		: function () {return true;},
+		show			: function () {return true;},
+		hide			: function () {return true;},
+		fill			: function () {return true;},
+		locale			: {
+			days		: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+			daysShort	: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+			daysMin		: ['S', 'M', 'T', 'W', 'T', 'F', 'S', 'S'],
+			months		: ['December','January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November'],
+			monthsShort	: ['Dec','Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov']
+		}
+}
+		
+var dtpicker=function(current_date)
+{	
+	this.current_date= current_date//gives today's date	
+	this.local_date		= new Date(this.current_date);//gives today's date initially		
+	this.local_date.addDays= function (n) 
+								{										
+									this.setDate(this.getDate() + n);
+								};																	
+	this.local_date.addMonths	= function (n) 
+									{
+		
+									var day	= this.getDate();//gives max date that is at end of calendar		
+									this.setDate(1);		
+									this.setMonth(this.getMonth() + n);		
+									//this.setDate(Math.min(day, getMaxDays.apply(this)));	
+								};
+	
+	
+	this.getMaxDays=function () {
+									var tmpDate	= new Date(this.toString()),
+									d		= 28,
+									m		= tmpDate.getMonth();
+								while (tmpDate.getMonth() == m) 
+								{
+									++d;
+									tmpDate.setDate(d);
+								}
+								return d - 1;
+							}
+
+//////////////////////////////////////////////////////////								
+								
+	this.local_date.getUSDate=
+		function () {
+						var date = this;      
+						var dateString = (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear().toString();
+						return dateString;
+					};
+					
+	this.today = (new Date).setHours(0,0,0,0).valueOf();
+				//today = current_date.setHours(0,0,0,0).valueOf();		
+
+	this.tpl		= {	
+						body	: 
+			function (elements, container_class_name,t) 
+			{
+
+				var tophtml="";
+				
+				(function(t)
+				{	
+							
+						if(t.local_date.getMonth()==0) 
+							var myYear=(t.local_date.getFullYear() - 1);
+						else  
+							var myYear=(t.local_date.getFullYear());
+										
+				tophtml+='<div style="top: 0px; left: 0px;display:block;" class="jpui datepicker calendars ">'+
+				'<div tabindex="-1" class="calendar-header">'+
+				'<h6 tabindex="-1" class="util hidden-header accessible-text" id="accessible-header-transactionInitiationDate_0"></h6>'+
+				'<a data-af-test="previousMonth" class="jpui jpjs nav-button prev " href="javascript:undefined" tabindex="0" id="prev-transactionInitiationDate_0">'+
+				'<span class="util accessible-text " id="undefined">'+ options.locale.months[t.local_date.getMonth()] + ',' + myYear + '</span>' +
+				'<i aria-hidden="true" class="jpui progressleft icon"></i></a><span class="jpui month">'+ options.locale.months[t.local_date.getMonth()] +
+				'</span><span class="jpui year">, '+ myYear + 
+				'</span>' +  //year shown on datepicker
+				'<a data-af-test="nextMonth" class="jpui jpjs nav-button next " href="javascript:undefined" tabindex="0" id="next-transactionInitiationDate_0">'+
+				'<span class="util accessible-text " id="undefined">'+options.locale.months[t.local_date.getMonth()] + ',' + myYear +
+				'</span> <i aria-hidden="true" class="jpui progressright icon "></i></a></div>'+
+				'<table class="jpui calendar">'+ 
+				'<caption class="util accessible-text" id="accessible-instructions-transactionInitiationDate_0">'+
+				'Use arrows keys to find available dates. Press Enter to select.</caption>'+
+				'<thead><tr class="days">';
+					
+					for(i=0;i<7;i++)
+					{
+						tophtml+='<th><span aria-hidden="true" tabindex="-1" id="day-0-transactionInitiationDate_0">'+options.locale.daysMin[i]+
+						'</span> <span class="util accessible-text" id="accessible-transactionInitiationDate_0">'+options.locale.days[i]+'</span></th>';
+					}
+					tophtml+='</tr> </thead>';
+					//console.log(tophtml);							 		 		      
+  
+				})(t);
+				
+				var result	= '',tdctr=0, mydate = new Date();
+				//***** result+=tophtml;  and  result+='<tbody class="' + container_class_name + '">'; new added to get top portion dynamically
+				result+=tophtml;
+				result+='<tbody class="' + container_class_name + '">';
+				var dateString = (mydate.getMonth() + 1) + "/" + mydate.getDate() + "/" + mydate.getFullYear().toString();
+				//alert(dateString);
+				for (var i = 0; i < elements.length; ++i) 
+				{
+					if(tdctr==0)
+						result	+= '<tr>';			
+						tdctr++;						
+					if( elements[i].id=="") 																
+						result	+= '<td data-af-test="day" data-date="' +   elements[i].USFormattedDate   + '"  class="jpjs calendarcell ' + elements[i].class_name +  
+					 	'" tabindex="' + elements[i].tabindex + '">' + elements[i].text + '</td>'
+					 else
+					 	result	+= '<td data-af-test="day" data-date="' +   elements[i].USFormattedDate   + '"  class="jpjs calendarcell ' + elements[i].class_name +  
+					 	'" tabindex="' + elements[i].tabindex 
+						+ '" id="' + elements[i].id +  '">' + elements[i].accessibelText + '</td>'
+					 
+					if(tdctr==7)
+					{
+						result	+= '</tr>';
+						tdctr=0;
+					}
+				}
+				//return '<tbody class="' + container_class_name + '">' + result + '</tbody>';
+				return result + '</tbody></div></table>';
+			}
+		};
+	
+				
+};	//end dtpicker object
+dtpicker.prototype.arrow=0;
+dtpicker.prototype.setArrow
+=function(a){this.arrow=a;}
+dtpicker.prototype.getArrow
+=function(){return this.arrow;}
+
+//  click on any calendar cell
+dtpicker.prototype.dayClickSingle=function dayClickSingle ( event,$calendar ) {
+        var eventObj = event;	
+		//console.log(eventObj);			    
+       	var cellClicked = $(event.target);
+        cellClicked.focus();		
+        var cellDateStr = cellClicked.attr('data-date');	
+		$calendar
+		.parents("div#outerDiv")
+		.find("*")
+		.filter("input")
+		.val(cellDateStr);		
+		$calendar.parents("div#outerDiv").find("*").filter("div.jpui.calendars-container").css("display","none");
+
+    }	
+
+dtpicker.prototype.fill2=function (mnth,year){
+				//alert(currentdate);
+				//local_date= new Date();
+				
+				if(mnth && year)
+				{
+					this.local_date.setYear(parseInt(year));				
+					this.local_date.setMonth(parseInt(mnth));
+					
+				 }
+				//alert(this.local_date);//$$$$$$$$
+				var html="";
+				var dateFlag=false;				
+				if(this.getArrow()== (-1) && mnth==0)
+					{
+						
+						this.local_date.addMonths(-2);//to avoid showing march insted of january
+					}
+				var days = [], current_month = this.local_date.getMonth(), day; //current_month is 6 for july			
+				
+				// Correct first day in calendar taking into account first day of week (Sunday or Monday)
+				(function (d) {	
+						
+					d.local_date.setDate(1);//local_date is first day's date of current month						
+					//local_date.getDay()  --> it is weekday in no ...i.e 1st july is wed so this no is 3
+					//var day = (local_date.getDay() - options.first_day) % 7;// day is 2
+					var day = (d.local_date.getDay()) % 7; // day is 3 for july									
+					d.local_date.addDays(- ( day + (day < 0 ? 7 : 0) )  );//-3 added so local date is june 28....which is first day to be shown in month of july
+				})(this);
+				//alert(this.local_date);//$$$$$$$$
+				var k;
+				//*** for fill2 code see datepicker_temp3.js
+						
+						for (var j = 0; j < 42; ++j) //42 total elements on calendar
+					{					
+							var day	= {
+									text		: this.local_date.getDate(),//gives date number
+									USFormattedDate: this.local_date.getUSDate(),
+									class_name	: [],
+									id:"",
+									tabindex:"",
+									accessibelText:""
+								};					
+						//now current_month is 6 and local_date.getMonth is 5 initially
+						var val	=this.local_date.setHours(0,0,0,0).valueOf();
+						//not in month
+						if (current_month != this.local_date.getMonth()) {
+							day.class_name.push('notinmonth invalid ');
+							day.tabindex="-1";
+						}
+						
+						if (this.local_date.getDay() == 0) 
+						{
+							if(this.today == val)
+							{
+								if( day.class_name.join(' ').search("notinmonth")==-1 )
+									day.class_name.push('sunday valid selected');
+								else 
+									day.class_name.push('sunday');
+								day.tabindex="0";
+							}
+							else
+								{
+									if( day.class_name.join(' ').search("invalid")==-1 )
+									{
+										day.class_name.push('sunday invalid ');
+										day.tabindex="-1";
+									}
+									else
+									{
+										day.class_name.push('sunday');	
+										day.tabindex="-1";
+									}
+								}
+						} else if (this.local_date.getDay() == 6) 
+						{
+							if(this.today == val)
+							{
+								day.class_name.push('saturday valid selected');
+								day.tabindex="0";
+							}
+							else
+								{
+									if( day.class_name.join(' ').search("invalid")==-1 )
+									{
+										day.class_name.push('saturday invalid ');
+										day.tabindex="-1";
+									}
+									else
+									{
+										day.class_name.push('saturday');	
+										day.tabindex="-1";
+									}
+								}
+						}
+															
+								var from_user	= options.render(this.local_date) || {};//val	= local_date.valueOf();																								
+								//all dates before today's date
+								if (  (val < this.today)  && (day.class_name.join(' ').search("invalid")==-1) ) 
+								{
+									
+									//day.class_name.push('invalid');
+									day.tabindex="-1";
+								}
+								//all dates after or eq to today's date
+								if (val >= this.today  ) 
+								{								
+										if(this.today == val)
+										{
+											if (!(this.local_date.getDay() == 0 || this.local_date.getDay() == 6))
+												{
+													if( day.class_name.join(' ').search("notinmonth")==-1 )
+														day.class_name.push('today valid selected');
+													else
+														day.class_name.push('today selected');
+														
+													day.id="accessible-transactionInitiationDate_0";
+													day.tabindex="0";
+													day.accessibelText=
+													'<span tabindex="0" class="util accessible-text"' +
+													 'id="accessible-transactionInitiationDate_0">'+ (this.local_date.getMonth()+1) + '</span>' + this.local_date.getDate() + 
+													 '<span tabindex="0" class="util accessible-text" id="accessible-transactionInitiationDate_0">' +
+													 ' , today first available date  ,current selection</span>';
+												}										
+										}
+										else
+										{
+											if (!(this.local_date.getDay() == 0 || this.local_date.getDay() == 6))
+												{
+													if( day.class_name.join(' ').search("notinmonth")==-1 )
+														day.class_name.push('valid');
+													day.id="accessible-transactionInitiationDate_0";
+													day.tabindex="-1";
+													day.accessibelText=
+													'<span tabindex="0" class="util accessible-text"' +
+													 ' id="accessible-transactionInitiationDate_0">'+ (this.local_date.getMonth()+1) + '</span>' + this.local_date.getDate() + 
+													 '<span tabindex="0" class="util accessible-text" id="accessible-transactionInitiationDate_0">' +
+													 ' , today first available date  ,current selection</span>';
+												}
+										}
+								}
+								if (from_user.class_name) {
+									day.class_name.push(from_user.class_name);
+								}
+								day.class_name = day.class_name.join(' ');
+								days.push(day);
+								// Move to next day
+								this.local_date.addDays(1);
+				}//end of for loop
+				//console.log(days);
+				html	+= this.tpl.body(days, 'cln',this);									
+				return html;				
+			}	//end fill2 function
+			
+

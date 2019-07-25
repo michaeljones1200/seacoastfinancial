@@ -1,0 +1,1923 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,300);
+
+html,
+body,
+.homepage {
+  height: 100%;
+}
+/* Import each of the features here */
+.mfa .text.centered {
+  text-align: center;
+}
+.mfa .text.right {
+  text-align: right;
+}
+.mfa .text.small {
+  font-size: 0.85714286em !important;
+  font-weight: 600;
+}
+.mfa .text.blue {
+  color: #126bc5;
+  font-style: normal;
+}
+.mfa .text.inline {
+  vertical-align: middle;
+}
+.mfa .text.inline a {
+  color: #126bc5;
+  text-decoration: none;
+}
+.mfa .hidden {
+  display: none !important;
+}
+.mfa .linked-label {
+  font-size: 14px !important;
+  display: block !important;
+  margin: 1em 0;
+  padding: 0;
+  line-height: 1.1em;
+}
+.mfa input:-moz-focusring {
+  outline: 1px dotted;
+}
+.logon .hidden {
+  display: none !important;
+}
+.margin-bottom-20px {
+  margin-bottom: 1.42857143em !important;
+}
+.margin-top-20px {
+  margin-top: 1.42857143em !important;
+  display: block;
+}
+.clear-padding {
+  padding-left: 0;
+}
+.vertical-padding {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.u-no-outline:focus {
+  outline: none;
+}
+.jpui.no-underline {
+  text-decoration: none;
+}
+.jpui.no-underline .icon {
+  font-size: .75em;
+}
+
+.homepage .msg-intnl {width:365px; height:35px; background-color:#ffffff; margin:0 auto; text-align:center; padding-top:5px;}
+@media only screen and (min-width: 768px) {
+  .container-sm-height {
+    display: table;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  .row-sm-height {
+    display: table-row;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+  }
+  .col-top {
+    vertical-align: top;
+  }
+  .col-middle {
+    vertical-align: middle;
+  }
+  .col-bottom {
+    vertical-align: baseline;
+  }
+  .col-test {
+    vertical-align: baseline;
+  }
+}
+.util.high-contrast {
+  color: transparent;
+}
+.logon.header {
+  padding: 18px 0;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .logon.header {
+    padding: 1.5em 0;
+  }
+}
+.logon.header.jpui.transparent.bar {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+}
+.logon.header .chase.logo {
+  width: 220px;
+  margin: 0 auto;
+  text-align: center;
+}
+.logon.header .chase.logo a {
+  display: inline-block;
+  width: 100%;
+  height: 2.2em;
+  background: url('../img/wordmark-white.png') no-repeat;
+  background-image: url('../img/wordmark-white.svg');
+  background-position: center center;
+}
+.footer-container {
+  background: #fff;
+  font-size: 14px;
+  padding: 1em 0;
+  margin-top: 50px;
+  position: static;
+}
+@media only screen and (min-width: 768px) {
+  .footer-container {
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (min-height: 830px) {
+  .footer-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-container li {
+  display: inline-block;
+  margin-right: 16px;
+}
+.footer-container a,
+.footer-container a:visited {
+  text-decoration: none;
+  color: #757575;
+  transition: color 400ms ease;
+}
+.footer-container a:hover,
+.footer-container a:visited:hover {
+  color: #414042;
+}
+.footer-container .social-links {
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+  padding-top: 6px;
+  padding-bottom: 12px;
+  margin-bottom: 26px;
+}
+.footer-container .social-links .follow-us-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.125em;
+  color: #717171;
+}
+.footer-container .social-links ul.icon-links {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+.footer-container .social-links li {
+  margin-left: 10px;
+  margin-right: 0;
+  width: 1.6em;
+  vertical-align: middle;
+}
+.footer-container .social-links a {
+  color: #717171;
+}
+.footer-container .social-links a:hover {
+  color: #414042;
+}
+.footer-container .social-links .icon.footer {
+  font-size: 1.6em;
+}
+.footer-container .footer-links ul {
+  text-align: center;
+}
+.footer-container .footer-links li {
+  color: #757575;
+  margin-bottom: 10px;
+  font-size: 0.75em;
+}
+.footer-container .footer-links .equal-housing-lender {
+  padding: .3em;
+  padding-left: 2.2em;
+}
+.footer-container .footer-links .copyright-label {
+  width: 100%;
+}
+.logon {
+  /*  If you really need to define app specific css this is place to do it. */
+  font-size: 14px;
+}
+.logon #login-error-msg:empty {
+  display: none;
+}
+.logon .input input {
+  padding: .65em 1em;
+  font-size: 1em;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  outline: 0;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+.logon .jpui.input {
+  width: 100%;
+  font-size: 1.1em;
+  color: #757575;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #757575;
+  padding: 5px;
+  margin: 10px 0;
+  border-radius: 0;
+}
+.logon.dim {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100%;
+}
+.logon .logon-box {
+  margin-top: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .logon .logon-box {
+    margin-top: 60px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .logon .logon-box {
+    margin-top: 80px;
+  }
+}
+.logon h3 {
+  font-size: 1.28571429em;
+  color: #717171;
+  font-weight: 200;
+  margin: 0;
+  line-height: 110%;
+}
+@media only screen and (min-width: 768px) {
+  .logon h3 {
+    font-size: 1.42857143em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .logon h3 {
+    font-size: 1.71428571em;
+  }
+}
+.logon .jpui.primary.link {
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0 0 10px 0;
+  font-size: 1em;
+}
+@media only screen and (min-width: 768px) {
+  .logon .jpui.primary.link {
+    font-size: 1.14285714em;
+  }
+}
+.logon .jpui.primary.link.last {
+  margin: 0;
+}
+.logon .jpui.primary.link:hover {
+  color: #0092ff !important;
+}
+.logon .jpui.primary.link:active {
+  color: #004c96 !important;
+}
+.logon .jpui.primary.link:focus {
+  outline: auto 5px -webkit-focus-ring-color;
+}
+.logon .jpui.primary.link:-moz-focusring {
+  outline: 1px dotted;
+}
+.logon .jpui.raised.segment {
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 5px;
+  padding: 1.42857143em 8px 1.42857143em 8px;
+  max-width: 384px !important;
+  overflow: visible !important;
+}
+.logon .jpui.input {
+  color: #666666;
+  font-size: 1.28571429em;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  padding: 5px;
+  margin: 10px 0;
+}
+.logon .jpui.context.link {
+  color: #126bc5;
+}
+.logon .jpui.button.primary {
+  border-radius: 5px;
+  background: #0b6efd !important;
+  color: #fff;
+  font-size: 1.28571429em;
+  font-weight: 600;
+  margin: 25px 0 20px 0;
+}
+@media only screen and (min-width: 768px) {
+  .logon .jpui.button.primary {
+    margin: 13px 0;
+  }
+}
+.logon .jpui.button.primary:hover {
+  opacity: 1;
+  background: #0092ff !important;
+}
+.logon .jpui.button.primary:active {
+  background: #004c96 !important;
+}
+.logon .jpui.button.primary:-moz-focusring {
+  outline: 1px dashed #0092ff;
+}
+.logon .jpui.button.primary .label {
+  line-height: 49px;
+}
+.logon .jpui .checkbox {
+  margin-top: 2px;
+  float: right;
+}
+.logon .jpui .checkbox .checkbox-label {
+  font-size: 1em;
+  color: #666;
+  margin-right: .7777em;
+}
+.logon .accessible-text {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.logon .jpui.error.alert {
+  background: transparent !important;
+  color: #bf2155 !important;
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 1em;
+}
+.logon .jpui.error.input {
+  color: #666666 !important;
+  border: 2px solid #bf2155 !important;
+}
+.logon input:focus,
+.logon a:focus {
+  -moz-box-shadow: 0 0 7px #126bc5;
+}
+.logoff {
+  opacity: 0;
+  margin-top: 12em;
+}
+@media only screen and (min-width: 768px) {
+  .logoff {
+    margin-top: 15.7em;
+  }
+}
+.logoff .jpui.raised.segment {
+  padding: 0;
+  max-width: none;
+  border: none;
+  overflow: hidden !important;
+}
+.logoff .col-xs-10.col-xs-offset-1 {
+  padding: 2.3em 0;
+}
+.logoff h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.42857143em;
+  color: #717171;
+  font-weight: 200;
+}
+@media only screen and (min-width: 768px) {
+  .logoff h3 {
+    font-size: 1.71428571em;
+  }
+}
+.logoff h3:focus {
+  outline: none;
+}
+.logoff .progress {
+  width: 100%;
+  height: 5px;
+  background: #cbcbcb;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.logoff .progress .bar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #2ca853;
+  -webkit-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.homepage {
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.mfa {
+  font-size: 14px;
+}
+.mfa p {
+  font-size: 14px;
+}
+.mfa a {
+  color: #126bc5;
+}
+.mfa a:visited {
+  color: #126bc5;
+}
+@media only screen and (min-width: 768px) {
+  .mfa .inside-container {
+    margin-bottom: 128px;
+  }
+}
+.mfa .jpui.panel.primary .content-container {
+  box-shadow: 0 0 3px 3px rgba(102, 102, 102, 0.4);
+}
+.mfa .jpui.panel.primary h1.header {
+  background: #0b6efd;
+  color: #FFF;
+  border: none;
+  padding: .7em 1em;
+  margin: 0 -8px;
+  font-weight: 200;
+  font-size: 1.71428571em;
+}
+@media only screen and (min-width: 992px) {
+  .mfa .jpui.panel.primary h1.header {
+    font-size: 1.85714286em;
+  }
+}
+.mfa .jpui.panel.primary .body {
+  padding: 0;
+  color: #414042;
+}
+.mfa .jpui.panel.primary .body:after,
+.mfa .jpui.panel.primary .body:before {
+  clear: both;
+  content: " ";
+  display: table;
+}
+.mfa .jpui.panel.primary .body h3 {
+  font-weight: 200;
+  display: inline-block;
+  color: #717171;
+  margin-top: 0;
+  line-height: 1.3em;
+  font-size: 1.28571429em;
+}
+@media only screen and (min-width: 768px) {
+  .mfa .jpui.panel.primary .body h3 {
+    font-size: 1.42857143em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mfa .jpui.panel.primary .body h3 {
+    font-size: 1.71428571em;
+  }
+}
+.mfa .jpui.panel.primary .body p {
+  font-size: 14px;
+  line-height: 1.57142857em;
+  margin-bottom: 1.42857143em;
+}
+.mfa .jpui.dropdown {
+  color: #333;
+  font-size: 1em;
+}
+.mfa .jpui.button {
+  background: #ededed;
+  color: #666;
+  border-radius: 5px;
+}
+.mfa .jpui.button:hover {
+  opacity: 1;
+  background: #ccc;
+}
+.mfa .jpui.button.primary {
+  background: #0b6efd !important;
+  color: #fff;
+}
+.mfa .jpui.button.primary:hover {
+  background: #0092ff !important;
+}
+.mfa .jpui.button.primary:active {
+  background: #004c96 !important;
+}
+.mfa .input-row {
+  margin: 1em 0 .5em 0;
+}
+.mfa .row.userid {
+  margin-bottom: 2em;
+}
+.mfa .user {
+  padding: .7em 0;
+  margin: .4em 0;
+  display: inline-block;
+}
+.mfa .password-requirements {
+  margin-top: 22px;
+}
+.mfa .password-requirements h4 {
+  font-weight: 700;
+  margin: 1em 0 .4em 0;
+}
+.mfa .password-requirements ul {
+  padding: .4em 0;
+  margin: 0;
+  margin-left: 16px;
+  list-style-position: outside;
+}
+.mfa .password-requirements ul li {
+  margin-bottom: .5em;
+}
+.mfa .jpui.input.clientSideError:focus {
+  outline: none !important;
+}
+.mfa .accessible-text {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.password-reset .group {
+  display: none;
+}
+.password-reset .group.active {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .password-reset .label-column {
+    text-align: right;
+  }
+}
+.password-reset .label-column .label {
+  display: inline-block;
+  margin: 0;
+}
+@media only screen and (min-width: 768px) {
+  .password-reset .label-column .label {
+    padding: .7em 0;
+    margin: .4em .5em;
+  }
+}
+.password-reset p.toggle-paragraph {
+  margin: 0 !important;
+}
+.password-reset .toggle-link {
+  text-decoration: none;
+}
+.password-reset .form-column {
+  position: relative;
+}
+.password-reset .form-column div {
+  position: relative;
+}
+.password-reset .form-column p {
+  margin: 1em 0;
+}
+.password-reset .form-column label.customer-identification-number,
+.password-reset .form-column p.customer-identification-number {
+  margin-top: 10px !important;
+}
+.password-reset .radio-text-group {
+  margin: 1em 0 .5em 0;
+}
+.password-reset .radio-text-group label {
+  color: #717171;
+}
+.password-reset .radio-text-group p.form-context {
+  color: #717171;
+  margin: 0 0 1em .5em;
+}
+.password-reset .fieldgroup > div,
+.password-reset .fielditem {
+  padding-top: .325em;
+  padding-bottom: .325em;
+}
+.password-reset p.form-context {
+  font-size: .875em !important;
+  margin-top: 0;
+}
+.password-reset .user-dropdown {
+  width: 40%;
+}
+.password-reset .fieldset-header {
+  color: #414042;
+  font-size: 14px;
+  margin: 0;
+  display: inline-block;
+}
+.password-reset .jpui.label.phone-mask {
+  color: #717171;
+  padding: .25em 0;
+  line-height: normal;
+}
+@media only screen and (min-width: 768px) {
+  .password-reset .customer-question {
+    text-align: right;
+    margin-top: -28px;
+  }
+}
+.password-reset .jpui.label.account-type-label {
+  margin-top: 2em;
+}
+@media only screen and (min-width: 768px) {
+  .password-reset .jpui.label.account-type-label {
+    margin-top: 0;
+  }
+}
+.password-reset .language-link {
+  margin-top: 1.69em;
+  text-align: left;
+  color: #126bc5;
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .password-reset .language-link {
+    display: none;
+  }
+}
+.password-reset .language-link.sm {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .password-reset .language-link.sm {
+    display: block;
+  }
+}
+.password-reset .language-link a {
+  text-decoration: none;
+}
+#overlay .outdated-browser h1 {
+  font-weight: 200;
+  margin-bottom: 1em;
+  text-align: left;
+  color: #bf2155 !important;
+}
+#overlay .outdated-browser p {
+  margin-bottom: 2em;
+}
+#overlay .outdated-browser p.small {
+  font-size: .75em;
+  margin-top: 2em;
+}
+#overlay .outdated-browser ul li {
+  margin-bottom: .5em;
+}
+#overlay .outdated-browser div p {
+  margin-bottom: 1.25em;
+}
+#overlay .outdated-browser .browsers {
+  margin-bottom: 2em;
+}
+#overlay .outdated-browser .browsers > div {
+  text-align: center;
+}
+#overlay .outdated-browser .browsers a {
+  color: #126bc5;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: .5em;
+}
+#overlay .outdated-browser .seurat-preview {
+  text-align: center;
+}
+#overlay .outdated-browser .seurat-preview img {
+  margin-bottom: 1.75em;
+}
+#overlay .outdated-browser .seurat-preview p {
+  margin-bottom: 2em;
+}
+.suspended-advisory p {
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 1em !important;
+}
+.suspended-advisory p:first-child,
+.suspended-advisory p:last-child {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1.5em !important;
+  line-height: 1.6em;
+}
+@media only screen and (min-width: 768px) {
+  .progressBar .show-sm {
+    display: table-cell !important;
+  }
+}
+.progressBar h2 {
+  font-size: 1.71428571em;
+  font-weight: 200;
+  color: #717171;
+  margin: .5em 0;
+}
+@media only screen and (min-width: 768px) {
+  .progressBar h2 {
+    margin: 1.14285714em 0;
+  }
+}
+.progressBar .clear-padding {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+@media only screen and (min-width: 768px) {
+  .progressBar .clear-padding {
+    padding: 0;
+  }
+}
+.jpui.progress ol {
+  overflow: hidden;
+  height: 8px;
+  padding: 0;
+  margin: 1em 0 0;
+}
+@media only screen and (min-width: 768px) {
+  .jpui.progress ol {
+    margin: 0;
+  }
+}
+.jpui.progress li.bars {
+  float: left;
+  display: block;
+  background: #ffffff;
+  border: 1px solid #919191;
+  list-style: none;
+  height: 100%;
+  margin: 0 1%;
+}
+@media only screen and (min-width: 768px) {
+  .jpui.progress li.bars {
+    margin: 0 1%;
+  }
+}
+.jpui.progress li.bars:first-child {
+  margin-left: 0;
+}
+.jpui.progress li.bars:last-child {
+  margin-right: 0;
+}
+.jpui.progress li.bars.current {
+  background: #0b6efd;
+  border: 5px solid transparent;
+}
+.jpui.progress.steps-1 li.bars {
+  width: 100%;
+}
+.jpui.progress.steps-2 li.bars {
+  width: 49%;
+}
+.jpui.progress.steps-3 li.bars {
+  width: 31.66%;
+}
+@media only screen and (min-width: 768px) {
+  .jpui.progress.steps-3 li.bars {
+    width: 32%;
+  }
+}
+.jpui.progress.steps-4 li.bars {
+  width: 23%;
+}
+@media only screen and (min-width: 768px) {
+  .jpui.progress.steps-4 li.bars {
+    width: 23.5%;
+  }
+}
+.mfa .jpui.tooltip-module {
+  display: inline-block;
+}
+.mfa .jpui.tooltip-module a.trigger {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  vertical-align: top;
+}
+.mfa .jpui.tooltip-module .body-container {
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -27px;
+  z-index: 9999;
+  min-width: 194px;
+  max-width: 388px;
+}
+@media only screen and (min-width: 768px) {
+  .mfa .jpui.tooltip-module .body-container {
+    min-width: 144px;
+    max-width: 288px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mfa .jpui.tooltip-module .body-container {
+    min-width: 175px;
+    max-width: 350px;
+  }
+}
+.mfa .jpui.tooltip-module .body-container .jpui.body.label.pointing {
+  padding: 12px 36px 12px 16px;
+  background: #e6e5de;
+}
+.mfa .jpui.tooltip-module .body-container .jpui.body.label.pointing::before {
+  background: #e6e5de;
+}
+.mfa .jpui.tooltip-module .body-container p {
+  font-size: 1em !important;
+  line-height: 1.5em !important;
+  margin-bottom: 0 !important;
+  color: #414042;
+}
+.mfa .jpui.tooltip-module .body-container a.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #4D4D4D;
+  font-size: 1em;
+  display: block !important;
+}
+.mfa .jpui.tooltip-module .body-container a.close i {
+  display: block !important;
+}
+.mfa .jpui.tooltip-module .body-container.active {
+  display: block;
+}
+.clientSideError:-ms-input-placeholder {
+  color: #666666 !important;
+}
+.mfa .jpui.alert.primary.error.inverted,
+.logon-box .jpui.alert.primary.error.inverted {
+  padding: 0 !important;
+  border: none !important;
+  overflow: hidden;
+}
+.mfa .jpui.alert.primary.error.inverted .icon i,
+.logon-box .jpui.alert.primary.error.inverted .icon i {
+  background-color: #bf2155 !important;
+}
+.mfa .jpui.alert.primary.error.inverted i.jpui.error.icon,
+.logon-box .jpui.alert.primary.error.inverted i.jpui.error.icon {
+  background-color: #bf2155 !important;
+}
+.mfa .jpui.alert.primary.error.inverted .text,
+.logon-box .jpui.alert.primary.error.inverted .text {
+  margin-top: 0;
+}
+.mfa .jpui.alert.primary.error.inverted .text h3,
+.logon-box .jpui.alert.primary.error.inverted .text h3 {
+  color: #bf2155;
+  font-size: 22px;
+  line-height: 1.2em;
+  font-weight: 200;
+  margin: 0 0 10px;
+}
+.mfa .jpui.alert.primary.error.inverted .text p,
+.logon-box .jpui.alert.primary.error.inverted .text p {
+  font-size: 1.14285714em !important;
+  color: #717171 !important;
+  margin: 0;
+}
+.mfa .jpui.alert.primary.error.inverted .content.wrap .title,
+.logon-box .jpui.alert.primary.error.inverted .content.wrap .title {
+  color: #bf2155;
+  line-height: 1.2em;
+  outline: none !important;
+}
+.mfa .jpui.label.error,
+.logon-box .jpui.label.error {
+  color: #bf2155 !important;
+  background: none !important;
+  border-radius: 0 !important;
+  text-transform: none !important;
+  line-height: normal;
+}
+.mfa .jpui.error.pointing,
+.logon-box .jpui.error.pointing {
+  width: 100%;
+  padding: 1em;
+  margin: 0;
+  font-size: 14px;
+  position: absolute;
+  top: 8px;
+  bottom: auto;
+  z-index: 100;
+  border-radius: 2px;
+  color: #fff !important;
+  background: #bf2155 !important;
+}
+.mfa .jpui.error.pointing:before,
+.logon-box .jpui.error.pointing:before {
+  z-index: -10;
+  top: -4px;
+}
+.mfa .jpui.error.pointing.below,
+.logon-box .jpui.error.pointing.below {
+  bottom: 16px;
+  top: auto;
+}
+.mfa .jpui.error.pointing.below:before,
+.logon-box .jpui.error.pointing.below:before {
+  bottom: -4px;
+  top: auto;
+}
+.mfa .jpui.input.clientSideError,
+.logon-box .jpui.input.clientSideError {
+  box-shadow: 2px 2px 0px #bf2155, 2px -2px 0px #bf2155, -2px 2px 0px #bf2155, -2px -2px 0px #bf2155;
+}
+.mfa .label-column .jpui.label.error,
+.logon-box .label-column .jpui.label.error {
+  line-height: 3.42857143em;
+}
+.mfa .jpui.modal,
+#overlay .jpui.modal,
+#serviceErrorModal .jpui.modal {
+  margin: 0 !important;
+  padding-top: 0 !important;
+  overflow: auto !important;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.96);
+}
+.mfa .jpui.modal.improved,
+#overlay .jpui.modal.improved,
+#serviceErrorModal .jpui.modal.improved {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+.mfa .jpui.modal.improved.active,
+#overlay .jpui.modal.improved.active,
+#serviceErrorModal .jpui.modal.improved.active {
+  opacity: 1;
+  visibility: visible;
+  display: block;
+  z-index: 1000;
+}
+.mfa .jpui.modal .modal-body,
+#overlay .jpui.modal .modal-body,
+#serviceErrorModal .jpui.modal .modal-body {
+  position: relative;
+  padding-top: 0;
+}
+@media only screen and (min-width: 768px) {
+  .mfa .jpui.modal .modal-body,
+  #overlay .jpui.modal .modal-body,
+  #serviceErrorModal .jpui.modal .modal-body {
+    padding-top: 15%;
+  }
+}
+.mfa .jpui.modal .modal-body.overflow-content,
+#overlay .jpui.modal .modal-body.overflow-content,
+#serviceErrorModal .jpui.modal .modal-body.overflow-content {
+  top: auto;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.mfa .jpui.modal .modal-body p,
+#overlay .jpui.modal .modal-body p,
+#serviceErrorModal .jpui.modal .modal-body p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  color: #414042;
+}
+.mfa .jpui.modal .modal-body a,
+#overlay .jpui.modal .modal-body a,
+#serviceErrorModal .jpui.modal .modal-body a {
+  color: #126bc5;
+}
+.mfa .jpui.modal .modal-body ul,
+#overlay .jpui.modal .modal-body ul,
+#serviceErrorModal .jpui.modal .modal-body ul {
+  line-height: 1.6em;
+}
+.mfa .jpui.modal .modal-body h1,
+#overlay .jpui.modal .modal-body h1,
+#serviceErrorModal .jpui.modal .modal-body h1 {
+  font-weight: 200;
+  color: #666666;
+  margin-bottom: 0.85714286em;
+  font-size: 1.71428571em;
+}
+@media only screen and (min-width: 768px) {
+  .mfa .jpui.modal .modal-body h1,
+  #overlay .jpui.modal .modal-body h1,
+  #serviceErrorModal .jpui.modal .modal-body h1 {
+    font-size: 1.85714286em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mfa .jpui.modal .modal-body h1,
+  #overlay .jpui.modal .modal-body h1,
+  #serviceErrorModal .jpui.modal .modal-body h1 {
+    font-size: 2.28571429em;
+  }
+}
+.mfa .jpui.modal .single-button,
+#overlay .jpui.modal .single-button,
+#serviceErrorModal .jpui.modal .single-button {
+  text-align: center;
+}
+.mfa .jpui.modal a.close,
+#overlay .jpui.modal a.close,
+#serviceErrorModal .jpui.modal a.close,
+.mfa .jpui.modal button.close,
+#overlay .jpui.modal button.close,
+#serviceErrorModal .jpui.modal button.close {
+  background: transparent;
+  color: #4D4D4D;
+  font-size: 2em;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 800;
+  border: none;
+  padding: .5em;
+}
+.mfa .jpui.modal .jpui.close.icon,
+#overlay .jpui.modal .jpui.close.icon,
+#serviceErrorModal .jpui.modal .jpui.close.icon {
+  text-decoration: none;
+}
+.mfa .jpui.modal .button.primary,
+#overlay .jpui.modal .button.primary,
+#serviceErrorModal .jpui.modal .button.primary {
+  background: #0b6efd !important;
+}
+.mfa .jpui.modal .button.primary:hover,
+#overlay .jpui.modal .button.primary:hover,
+#serviceErrorModal .jpui.modal .button.primary:hover {
+  background: #0092ff !important;
+}
+.mfa .jpui.modal .button.primary:active,
+#overlay .jpui.modal .button.primary:active,
+#serviceErrorModal .jpui.modal .button.primary:active {
+  background: #004c96 !important;
+}
+.mfa .jpui.modal .single-button,
+#overlay .jpui.modal .single-button,
+#serviceErrorModal .jpui.modal .single-button {
+  text-align: center;
+}
+.mfa .jpui.modal .accessible-text,
+#overlay .jpui.modal .accessible-text,
+#serviceErrorModal .jpui.modal .accessible-text {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.mfa .button-container,
+#overlay .button-container,
+#serviceErrorModal .button-container {
+  margin-top: 1.25em;
+  margin-bottom: 1.875em;
+}
+.mfa .button-container.alternate,
+#overlay .button-container.alternate,
+#serviceErrorModal .button-container.alternate {
+  margin-top: 1em;
+}
+@media only screen and (min-width: 768px) {
+  .mfa .button-container.alternate,
+  #overlay .button-container.alternate,
+  #serviceErrorModal .button-container.alternate {
+    text-align: left;
+  }
+}
+.mfa .button-container .button,
+#overlay .button-container .button,
+#serviceErrorModal .button-container .button {
+  min-width: inherit;
+  margin: .25em;
+  width: 100%;
+}
+#inactiveAccountDialog h1 {
+  color: #bf2155 !important;
+  display: inline-block;
+}
+@media only screen and (min-width: 768px) {
+  #inactiveAccountDialog h1 {
+    font-size: 1.71428571em !important;
+  }
+}
+#inactiveAccountDialog .circle.icon {
+  font-size: 20px;
+  margin-right: .3em;
+}
+#inactiveAccountDialog .icon.error {
+  background-color: #bf2155 !important;
+}
+#language-support-disclaimer-overlay .jpui.button.hidden {
+  display: none;
+}
+.mfa .workflow-button-container,
+.logon .workflow-button-container,
+.mfa .button-container,
+.logon .button-container {
+  margin-top: 1.25em;
+  margin-bottom: 1.875em;
+}
+@media only screen and (min-width: 768px) {
+  .mfa .workflow-button-container,
+  .logon .workflow-button-container,
+  .mfa .button-container,
+  .logon .button-container {
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    bottom: 32px;
+    width: 100%;
+  }
+}
+.mfa .workflow-button-container.alternate,
+.logon .workflow-button-container.alternate,
+.mfa .button-container.alternate,
+.logon .button-container.alternate {
+  margin-top: 1em;
+}
+@media only screen and (min-width: 768px) {
+  .mfa .workflow-button-container.alternate,
+  .logon .workflow-button-container.alternate,
+  .mfa .button-container.alternate,
+  .logon .button-container.alternate {
+    text-align: left;
+  }
+}
+.mfa .workflow-button-container .button,
+.logon .workflow-button-container .button,
+.mfa .button-container .button,
+.logon .button-container .button {
+  min-width: inherit;
+  margin: .25em;
+  width: 100%;
+}
+.site-message-wrap {
+  background: #bf2155 !important;
+}
+.site-message-wrap .site-message-brief-block {
+  margin: auto;
+  max-width: 1440px;
+  position: relative;
+  padding-top:0px !important;
+}
+
+.site-message-wrap a#closeLnk {
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+
+.site-message-wrap .jpui.icon {
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+    padding: 0;
+    color: #fff !important;
+    font-size: 1em;
+    font-family: dcefont
+}
+/**
+ * Animations
+ */
+.swipe-container {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.swipe-cover {
+  background: -webkit-linear-gradient(55deg, #ffffff 0%, #ffffff 69%, rgba(255, 255, 255, 0) 90%);
+  background: -moz-linear-gradient(55deg, #ffffff 0%, #ffffff 69%, rgba(255, 255, 255, 0) 90%);
+  background: -o-linear-gradient(55deg, #ffffff 0%, #ffffff 69%, rgba(255, 255, 255, 0) 90%);
+  background: -ms-linear-gradient(55deg, #ffffff 0%, #ffffff 69%, rgba(255, 255, 255, 0) 90%);
+  background: linear-gradient(55deg, #ffffff 0%, #ffffff 69%, rgba(255, 255, 255, 0) 90%);
+  width: 200%;
+  height: 100%;
+  display: block;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.full-page-message {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  display: block;
+  background: #fff;
+  margin: 0;
+  overflow: auto;
+}
+.full-page-message .container {
+  padding-top: 0;
+}
+@media only screen and (min-width: 768px) {
+  .full-page-message .container {
+    padding-top: 15%;
+  }
+}
+.full-page-message h1 {
+  line-height: 1.2em;
+  font-weight: 200;
+  margin-bottom: 0.85714286em;
+  color: #bf2155;
+  display: inline-block;
+  font-size: 1.71428571em;
+}
+@media only screen and (min-width: 768px) {
+  .full-page-message h1 {
+    margin-bottom: 1.14285714em;
+  }
+}
+.full-page-message .circle.icon {
+  font-size: 1.2em;
+  margin-right: .3em;
+}
+.full-page-message .icon.error {
+  background-color: #bf2155 !important;
+}
+.full-page-message p {
+  font-size: 14px;
+  margin-bottom: 1.5em;
+  color: #414042;
+}
+.full-page-message a {
+  color: #126bc5;
+}
+.full-page-message ul {
+  line-height: 1.6em;
+}
+.full-page-message .single-button {
+  text-align: center;
+}
+.full-page-message .button.primary {
+  background: #0b6efd !important;
+}
+.full-page-message .button.primary:hover {
+  background: #0092ff !important;
+}
+.full-page-message .button.primary:active {
+  background: #004c96 !important;
+}
+::-webkit-input-placeholder {
+  color: #666666;
+}
+::-moz-placeholder {
+  color: #666666;
+  opacity: 1;
+}
+:-moz-placeholder {
+  color: #666666;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: #666666;
+}
+.logon ::-webkit-input-placeholder {
+  color: #666666;
+}
+.logon ::-moz-placeholder {
+  color: #666666;
+}
+.logon :-moz-placeholder {
+  color: #666666;
+}
+.logon :-ms-input-placeholder {
+  color: #666666;
+}
+.mfa fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.mfa select {
+  width: 100%;
+}
+/*
+ * Blue UI Fixes
+ * This files contains fixes still pending in the blue-ui framework.
+ * All fixes should be validated or brought into the blue-ui framework.
+ *
+ */
+.jpui.alert.messaging {
+  background: transparent !important;
+  font-size: 14px;
+  margin: 0;
+  border-radius: 0;
+  padding: 1em 1.42857143em;
+}
+@media only screen and (min-width: 768px) {
+  .jpui.alert.messaging {
+    padding: 1em 2.14285714em;
+  }
+}
+.jpui.alert.messaging .title {
+  color: #fff;
+  margin-top: 0;
+  font-size: 1.28571429em;
+  font-weight: 400;
+}
+@media only screen and (min-width: 768px) {
+  .jpui.alert.messaging .title {
+    font-size: 1.42857143em;
+    font-weight: 200;
+  }
+}
+.jpui.alert.messaging .message,
+.jpui.alert.messaging .message p,
+.jpui.alert.messaging .message a,
+.jpui.alert.messaging .message a:hover,
+.jpui.alert.messaging .message ul,
+.jpui.alert.messaging .message div {
+  font-size: 1.14285714em;
+  color: #fff !important;
+}
+.jpui.alert.messaging .jpui.icon.error {
+  background-color: #fff !important;
+  color: #bf2155 !important;
+}
+.jpui.alert.messaging .jpui.close.icon {
+  font-size: 1.42857143em;
+}
+.jpui.alert.messaging .toggleDiv {
+  display: none;
+}
+.jpui.background.image {
+  background-color: #003c69 !important;
+  background-image: -webkit-linear-gradient(top, rgba(0, 60, 105, 0.4), rgba(0, 60, 105, 0.8));
+  background-image: -moz-linear-gradient(top, rgba(0, 60, 105, 0.4), rgba(0, 60, 105, 0.8));
+  background-image: -o-linear-gradient(top, rgba(0, 60, 105, 0.4), rgba(0, 60, 105, 0.8));
+  background-image: linear-gradient(to bottom, rgba(0, 60, 105, 0.4), rgba(0, 60, 105, 0.8));
+}
+.jpui.background.image.blurred {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');
+}
+.mfa .jpui.radiobutton {
+  position: relative;
+  padding: .25em 0;
+}
+.mfa .jpui.radiobutton input[type="radio"] {
+  position: absolute !important;
+}
+.mfa .jpui.radiobutton input[type="radio"] + label {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.mfa .jpui.radiobutton input[type="radio"] + label:before {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #959595;
+  box-shadow: 0 0 2px 0px rgba(102, 102, 102, 0.3);
+  vertical-align: middle;
+}
+.mfa .jpui.radiobutton input[type="radio"] + label:after {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 5px;
+  box-shadow: 0 0 0 1px #959595;
+}
+.mfa .jpui.radiobutton input[type="radio"]:checked + label:after {
+  background: #0b6efd;
+  outline: 1px solid transparent;
+}
+.mfa .jpui.radiobutton input[type="radio"]:focus + label:before {
+  box-shadow: 0px 0px 3pt 2pt rgba(11, 110, 253, 0.5);
+}
+.mfa .jpui.label {
+  background: none;
+  text-transform: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0 .5em;
+  font-size: 14px;
+  color: #414042;
+}
+@media only screen and (min-width: 768px) {
+  .mfa .jpui.label {
+    line-height: 3.42857143em;
+  }
+}
+.mfa .jpui.input {
+  font-size: 1.14285714em;
+  border: 1px solid #959595;
+  border-radius: 0;
+  background: #f9f6f3;
+  margin: 6px 0;
+  padding: 0.5em 1.14285714em;
+  height: auto;
+}
+.mfa .jpui.input:active,
+.mfa .jpui.input:focus {
+  outline: 2px solid #126bc5;
+}
+.mfa .jpui.input:disabled {
+  background: #bcbcbc;
+}
+.mfa .jpui.input:-moz-focusring {
+  outline: 1px dashed;
+}
+.mfa .jpui.tooltip .jpui.body {
+  padding: .5em .8em;
+}
+.mfa .jpui.select {
+  margin-bottom: 1.6em;
+}
+.mfa .jpui.select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  z-index: 1;
+  width: 100%;
+  background: white;
+  border: 1px solid #a6a6a6;
+  border-radius: 0;
+  padding: .7em;
+  padding-right: 2.5em;
+}
+.mfa .jpui.select select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #0D5885;
+}
+.mfa .jpui.select .wrap span {
+  position: absolute;
+  font-size: 1em;
+  width: auto;
+  pointer-events: none;
+}
+.mfa .jpui.select .wrap.right span {
+  right: 1px;
+  top: 1px;
+  height: 38px;
+  background: transparent;
+}
+.mfa .jpui.select .icon {
+  position: relative;
+  top: 3px;
+}
+@media only screen and (min-width: 768px) {
+  .mfa .jpui.select {
+    margin-bottom: 5px;
+  }
+}
+.mfa .jpui.select .wrap.right span {
+  top: 4px;
+}
+.mfa .icon.tooltip {
+  background: #929292;
+  color: #fff;
+}
+.logon .jpui.checkbox input[type="checkbox"] {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.logon .jpui.checkbox input[type="checkbox"] + label {
+  cursor: pointer;
+}
+.logon .jpui.checkbox input[type="checkbox"] + label > div {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  padding: 1px;
+  line-height: 12px;
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+  outline: none;
+}
+.logon .jpui.checkbox input[type="checkbox"] + label > div .icon {
+  position: absolute;
+  display: none;
+  font-size: 17px;
+  bottom: 0;
+  left: 1px;
+  color: white;
+}
+.logon .jpui.checkbox input[type="checkbox"]:active + label > div,
+.logon .jpui.checkbox input[type="checkbox"]:focus + label > div {
+  border: 1px dashed #126bc5;
+}
+.logon .jpui.checkbox input[type="checkbox"]:checked + label > div {
+  background: #0b6efd;
+  border-color: #fff;
+}
+.logon .jpui.checkbox input[type="checkbox"]:checked + label > div .icon {
+  display: inline;
+}
+.logon .jpui.checkbox input[type="checkbox"]:disabled + label > div {
+  border: 1px solid #bfbfbf;
+  background: #bfbfbf;
+}
+#sessionTimeoutModal .jpui.modal,
+#serviceErrorModal .jpui.modal {
+  display: block !important;
+  margin: 0 !important;
+  padding-top: 0 !important;
+  overflow: auto !important;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.96);
+}
+#sessionTimeoutModal .jpui.modal.hidden,
+#serviceErrorModal .jpui.modal.hidden {
+  display: none !important;
+}
+#sessionTimeoutModal .jpui.modal.improved[aria-hidden="true"],
+#serviceErrorModal .jpui.modal.improved[aria-hidden="true"] {
+  opacity: 0;
+  visibility: hidden;
+}
+#sessionTimeoutModal .jpui.modal.improved[aria-hidden="false"],
+#serviceErrorModal .jpui.modal.improved[aria-hidden="false"] {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1000;
+}
+#sessionTimeoutModal .jpui.modal .modal-body,
+#serviceErrorModal .jpui.modal .modal-body {
+  position: relative;
+  padding-top: 0;
+}
+@media only screen and (min-width: 768px) {
+  #sessionTimeoutModal .jpui.modal .modal-body,
+  #serviceErrorModal .jpui.modal .modal-body {
+    padding-top: 15%;
+  }
+}
+#sessionTimeoutModal .jpui.modal .modal-body.overflow-content,
+#serviceErrorModal .jpui.modal .modal-body.overflow-content {
+  top: auto;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+#sessionTimeoutModal .jpui.modal .modal-body p,
+#serviceErrorModal .jpui.modal .modal-body p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  color: #414042;
+}
+#sessionTimeoutModal .jpui.modal .modal-body a,
+#serviceErrorModal .jpui.modal .modal-body a {
+  color: #126BC5;
+}
+#sessionTimeoutModal .jpui.modal .modal-body ul,
+#serviceErrorModal .jpui.modal .modal-body ul {
+  line-height: 1.6em;
+}
+#sessionTimeoutModal .jpui.modal .modal-body h1,
+#serviceErrorModal .jpui.modal .modal-body h1 {
+  font-weight: 200;
+  color: #666666;
+  margin-bottom: 0.57142857em;
+  font-size: 1.71428571em;
+}
+@media only screen and (min-width: 768px) {
+  #sessionTimeoutModal .jpui.modal .modal-body h1,
+  #serviceErrorModal .jpui.modal .modal-body h1 {
+    font-size: 1.85714286em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #sessionTimeoutModal .jpui.modal .modal-body h1,
+  #serviceErrorModal .jpui.modal .modal-body h1 {
+    font-size: 2.28571429em;
+  }
+}
+#sessionTimeoutModal .jpui.modal .single-button,
+#serviceErrorModal .jpui.modal .single-button {
+  text-align: center;
+}
+#sessionTimeoutModal .jpui.modal a.close,
+#serviceErrorModal .jpui.modal a.close,
+#sessionTimeoutModal .jpui.modal button.close,
+#serviceErrorModal .jpui.modal button.close {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 800;
+  border: none;
+}
+#sessionTimeoutModal .jpui.modal .jpui.close.icon,
+#serviceErrorModal .jpui.modal .jpui.close.icon {
+  text-decoration: none;
+}
+#sessionTimeoutModal .jpui.modal .info.button,
+#serviceErrorModal .jpui.modal .info.button {
+  background: #0b6efd !important;
+}
+#sessionTimeoutModal .jpui.modal .info.button:hover,
+#serviceErrorModal .jpui.modal .info.button:hover {
+  background: #004c96 !important;
+}
+#sessionTimeoutModal .jpui.modal .single-button,
+#serviceErrorModal .jpui.modal .single-button {
+  text-align: center;
+}
+#sessionTimeoutModal .jpui.modal .accessible-text,
+#serviceErrorModal .jpui.modal .accessible-text {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  _:-ms-fullscreen .jpui.select select,
+  :root .jpui.select select {
+    padding-right: .7em;
+  }
+  _:-ms-fullscreen .jpui.select .wrap.right span,
+  :root .jpui.select .wrap.right span {
+    display: none;
+  }
+}
+.ie-8-9 .mfa .container {
+  max-width: 956px;
+}
+.ie-8-9 .mfa .col-xs-12.col-sm-3 {
+  width: 25%;
+}
+.ie-8-9 .mfa .col-xs-12.col-sm-3.col-sm-push-3 {
+  left: 25%;
+}
+.ie-8-9 .mfa .col-xs-12.col-sm-3.col-sm-push-9 {
+  left: 75%;
+}
+.ie-8-9 .mfa .col-xs-12.col-sm-4 {
+  width: 33.33333333%;
+  margin-left: 8.33333333%;
+}
+.ie-8-9 .mfa .col-xs-12.col-sm-5,
+.ie-8-9 .mfa .col-xs-12.col-md-5 {
+  width: 41.66666667%;
+}
+.ie-8-9 .mfa .col-xs-12.col-sm-6 {
+  width: 50%;
+}
+.ie-8-9 .mfa .col-xs-12.col-md-8 {
+  width: 66.66666667%;
+  margin-left: 33.33333333%;
+}
+.ie-8-9 .mfa .col-xs-12.col-md-10 {
+  width: 83.33333333%;
+  margin-left: 8.33333333%;
+}
+.ie-8-9 .col-xs-6.col-md-3 {
+  width: 25%;
+}
+.ie-8-9 .hide-xs.show-ie {
+  display: block;
+}
+.ie-8-9 .hide-sm {
+  display: none;
+}
+.ie-8-9 .hide-xs.show-sm {
+  display: block !important;
+}
+.ie-8-9 .high-contrast {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.ie-8-9 .jpui.checkbox input[type="checkbox"] {
+  position: relative !important;
+  clip: auto !important;
+  width: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+  font-size: medium !important;
+  z-index: auto !important;
+  position: absolute !important;
+  top: 3px !important;
+  right: 0 !important;
+  left: auto !important;
+  z-index: 0 !important;
+  cursor: pointer;
+}
+.ie-8-9 .jpui.checkbox input[type="checkbox"] + label > div {
+  display: none !important;
+}
+.ie-8-9 .jpui.radiobutton input[type="radio"] {
+  position: relative !important;
+  clip: auto !important;
+  width: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+  font-size: medium !important;
+  left: auto !important;
+  z-index: auto !important;
+  position: absolute !important;
+  display: inline-block;
+  top: 4px !important;
+}
+.ie-8-9 .jpui.radiobutton input[type="radio"] + label {
+  display: inline-block;
+  padding: 0;
+  margin-right: 35px;
+  padding-left: 20px;
+}
+.ie-8-9 .jpui.radiobutton input[type="radio"] + label:before,
+.ie-8-9 .jpui.radiobutton input[type="radio"] + label:after {
+  display: none;
+}
+.ie-8-9 .jpui.select select {
+  padding-right: .7em;
+}
+.ie-8-9 .jpui.select .jpui.iconwrap {
+  display: none;
+}
+.ie-8-9 .jpui.modal .dialog.col-xs-12.col-sm-7.col-sm-offset-3 {
+  width: 58.33333333%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ie-8-9 .jpui.modal.ie-visible {
+  display: block !important;
+}
+.ie-8-9 .jpui.modal .modal-body {
+  top: auto !important;
+  -webkit-transform: translateY(0) !important;
+  -ms-transform: translateY(0) !important;
+  transform: translateY(0) !important;
+}
+.ie-8-9 .jpui.modal .modal-body h1 {
+  font-size: 1.85714286em;
+}
+.ie-8-9 .mfa .legend.wrap,
+.ie-8-9 .mfa .jpui.tooltip {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.ie-8-9 .mfa .placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.14285714em;
+  border: 1px solid #959595;
+  margin: 0.4em 0;
+  padding: 0.5em 1.14285714em;
+  color: #666666;
+  width: 100% !important;
+  height: auto !important;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ie-8-9 .mfa label[disabled="disabled"],
+.ie-8-9 .mfa input[disabled="disabled"] {
+  color: #717171;
+}
+.ie-8-9 .mfa .progress li.bars {
+  margin: 0 1%;
+}
+.ie-8-9 .mfa .progress.steps-2 li.bars {
+  width: 48.5%;
+}
+.ie-8-9 .mfa .progress.steps-3 li.bars {
+  width: 31.3%;
+}
+.ie-8-9 .mfa .progress.steps-4 li.bars {
+  width: 23%;
+}
+.ie-8-9 * {
+  box-sizing: border-box;
+}
+.ie-8-9 .logon.header {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E6000000,endColorstr=#00000000);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E6000000,endColorstr=#00000000);
+  zoom: 1;
+}
+.ie-8-9 .logon .logon-box {
+  margin-top: 72px !important;
+}
+.ie-8-9 .logon .placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.28571429em;
+  border: none;
+  background: transparent;
+  color: #666666;
+  border-bottom: 1px solid #cccccc;
+  padding: 5px !important;
+  margin: 10px 0 !important;
+  width: 100% !important;
+  height: 2.5em !important;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ie-8-9 .logon .jpui.raised.segment {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F2FFFFFF,endColorstr=#F2FFFFFF);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F2FFFFFF,endColorstr=#F2FFFFFF);
+  zoom: 1;
+}
+.ie-8-9 .logon .hide-xs.show-sm {
+  display: block !important;
+}
+.ie-8-9 .mfa .jpui.panel.primary h1.header {
+  font-size: 1.85714286em;
+}
+.ie-8-9 .mfa .jpui.panel.primary .body h2 {
+  font-size: 1.85714286em;
+}
+.ie-8-9 .mfa .workflow-button-container,
+.ie-8-9 .mfa .button-container {
+  margin-top: 10em;
+  margin-bottom: 3.9em;
+  text-align: right;
+}
+.ie-8-9 .password-reset .label-column {
+  text-align: right;
+}
+.ie-8-9 .password-reset .label-column .label {
+  margin: .4em .5em;
+  line-height: 3em;
+}
+.ie-8-9 .password-reset .language-link {
+  display: none;
+}
+.ie-8-9 .password-reset .language-link.sm {
+  display: block;
+}
+.ie-8-9 .password-reset .customer-question {
+  text-align: right;
+  margin-top: -28px;
+}

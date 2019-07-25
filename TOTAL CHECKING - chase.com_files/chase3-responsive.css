@@ -1,0 +1,4126 @@
+table.chaseutil-width-auto {
+    width: 100% !important;
+    border-collapse: separate
+}
+table.chaseutil-width-auto td {
+    padding: 10px
+}
+body.chaseui-designfamilypart-omnicol #chaseui-pagebody {
+    width: 100%
+}
+body.chasejs-designfamily-lcol.chaseui-site-col .formtable3col,
+.chaseui-contentpanel-plain,
+.chasecms-contentpanel-plain,
+body.chasejs-designfamily-lcol.chaseui-segment-ccs.chaseui-site-col .titletable {
+    width: 100%;
+    margin: 0
+}
+.chasejs-designfamily-mm.chaseui-designfamilypart-omnicol .chaseui-pagecontent .chaseui-innerpagecontent {
+    margin: 0 auto
+}
+.chasejs-designfamily-lcol .chaseui-contentbody {
+    padding-left: 0
+}
+#PageContentColumnMain {
+    width: 100%;
+    padding: 20px 0
+}
+.chaseui-tabs-vertical .chaseui-tabs-body {
+    width: 75%;
+    left: -3px;
+    border: 1px solid #ccc
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment #chaseui-pagebody {
+    width: 95% !important;
+    padding: 23px 5px 0 !important
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-hangingpanel.chaseui-hangingpanel-right.chaseui-getquote {
+    width: auto !important;
+    margin: 0
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment .chasejs-gridcontainer {
+    padding: 5px 0 0
+}
+body.chaseui-designfamilypart-mol .chaseanalytics-track-element:not(input) {
+    width: auto;
+    padding: 5px 35px 5px 10px;
+    border: none;
+    background: none
+}
+span.chaseui-treeselect {
+    font-size: 85%;
+    padding: 5px 0 5px 10px !important;
+    margin: -1px 0 0;
+    height: 20px;
+    background: url("../images/select-dropdown.png") no-repeat scroll 95% center/12px auto #ededed;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid #ededed;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+    text-transform: none
+}
+span.chaseui-treeselect:hover,
+body.chasejs-designfamily-lcol .chaseui-name select:hover,
+body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseutil-filters-panel span.chaseui-treeselect:hover,
+.chaseui-grid .chaseui-flyoutnav.chaseui-flyout-button div.chaseui-flyoutnavheader>a:hover {
+    border: solid 1px #126BC5
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-treeselect a.chaseui-treeselect-trigger,
+body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-treeselect a.chaseui-treeselect-trigger:hover,
+body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseutil-filters-panel .chaseui-treeselect a.chaseui-treeselect-trigger {
+    font-size: 13px !important;
+    padding: 6px 20px 6px 0px;
+    margin: -6px 0 0 -10px
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseutil-filters-panel span.chaseui-treeselect {
+    border: 1px solid #ededed;
+    padding: 9px 0 0 10px !important;
+    background-color: #ededed
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseutil-filters-panel span.chaseui-treeselect-triggertext {
+    margin-right: 15px;
+    padding: 0 0 1px 10px;
+    line-height: 8px
+}
+span.chaseui-treeselect-triggertext {
+    padding: 0 15px
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid thead th,
+body.chasejs-designfamily-blueprint table.chaseui-grid thead th,
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th {
+    background: transparent;
+    font-weight: 600;
+    padding: 10px 5px;
+    border-bottom: none !important;
+    text-align: left
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid-multiple tr.chaseui-grid-thead.chaseui-grid-caption.chaseui-grid-lastrow th a {
+    font-size: 1em;
+    padding-left: 15px
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid td {
+    text-align: left;
+    padding: 10px 4px 10px 10px;
+    font-family: 'Open Sans';
+    border-bottom: none;
+    padding-top: 16px;
+    font-size: 12px;
+    color: #414042;
+    line-height: 1.5em;
+    border-top: none
+}
+.chase3ui-auto-loan-payoff-quotes .chaseui-checkillustration-image {
+    margin: 0 10px;
+    top: -8px
+}
+div.chaseutil-filters-panel {
+    padding: 13px 0 14px 0;
+    border-top: none;
+    border-bottom: 1px solid #999 !important;
+    background: none;
+    display: block;
+    clear: both;
+    min-height: 33px
+}
+.chaseui-flyoutnav-expanded div.chaseui-flyoutnavbody {
+    padding-bottom: 0;
+    max-width: 300px;
+    text-align: left;
+    font-size: 9px;
+    padding-top: 0
+}
+.chasejs-designfamily-blueprint .chaseui-flyoutnav-expanded div.chaseui-flyoutnavbody {
+    padding-bottom: 0;
+    max-width: 300px;
+    text-align: left;
+    font-size: 9px;
+    padding-top: 0;
+    right: 0;
+    margin-top: 4px !important
+}
+.chasejs-validation-container div.chaseui-formnav {
+    padding: 15px 0 10px
+}
+.chasejs-validation-container div.chaseui-formnav span {
+    float: right !important;
+    margin-left: 5px
+}
+body.chase3ui-investment #SecurityIdSearchForm input#SecurityId {
+    height: 17px
+}
+.chaseui-designfamilypart-omnicol.chaseui-designfamilypart-mol .predtextcontainer {
+    padding: 0
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-flyoutnavheader a.chaseutil-textbold,
+#SecurityTypeFlyoutNavigation .chaseui-flyoutnavheader a {
+    margin-left: 0px;
+    font-size: 12px !important;
+    font-weight: 600;
+    color: #414042
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-button input,
+body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-submit-large input,
+body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-buttongetquote input,
+body.chase3ui-investment span.chaseui-button.chaseui-submit-large input[disabled] {
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px 2px 10px;
+    background: none;
+    font-size: 11px !important;
+    font-family: "opensans-semibold" !important
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-button,
+body.chaseui-designfamilypart-omnicol.chase3ui-investment a.chaseui-button,
+body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-submit-large,
+body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-buttongetquote {
+    background: none;
+    margin: 0 0 0 5px !important;
+    padding: 0;
+    height: auto
+}
+body.chase3ui-investment #SecurityIdSearchForm input#SecurityId,
+body.chase3ui-investment .predtextcontainer input[type="text"] {
+    font-size: 85% !important;
+    padding: 5px !important;
+    vertical-align: top;
+    color: #555555;
+    font-size: 11px !important;
+    font-family: "Open Sans";
+    border: 1px solid #CCCCCC;
+    float: left;
+    line-height: 16px
+}
+.chaseui-flyoutnavheader a.chaseutil-textbold,
+#SecurityTypeFlyoutNavigation .chaseui-flyoutnavheader a {
+    margin-left: 0px;
+    font-size: 12px !important
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment #FlyoutNavigationQuickLinksCol .chaseui-flyoutnavheader a {
+    font-size: 12px !important;
+    height: 20px;
+    background: url("../images/select-dropdown.png") no-repeat scroll 90% center/12px auto #ededed;
+    border-radius: 0;
+    border: 1px solid #ededed;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    border: 1px solid #ededed !important;
+    padding: 7px 30px 7px 15px !important;
+    color: #414042
+}
+body.chaseui-site-amui.chase3ui-amui #Chase3NavigationLinks .chaseui-flyoutnavheader a {
+    font-size: 12px !important;
+    height: 17px;
+    background: url("../images/select-dropdown.png") no-repeat scroll 96% center/12px auto #fff;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    padding: 3px 28px 3px 13px !important;
+    color: #717171;
+    display: inline-block;
+    line-height: normal;
+    width: 75%
+}
+body.chaseui-site-amui.chase3ui-amui #Chase3NavigationLinks .chaseui-flyoutnavheader {
+    padding: 2px;
+    border-radius: 6px;
+    display: inline-block !important;
+    border: 2px solid #0b6efd !important;
+    width: 100%
+}
+body.chaseui-site-amui.chase3ui-amui #UserContextMenu .chaseui-flyoutnavheader a {
+    font-size: 12px !important;
+    background: url("../images/select-dropdown.png") no-repeat scroll 90% center/12px auto #fff;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    padding: 6px 45px 5px 7px !important;
+    color: #414042;
+    display: inline-block
+}
+body.chaseui-site-amui.chase3ui-amui #UserContextMenu .chaseui-flyoutnavheader {
+    padding: 0 2px;
+    border-radius: 6px;
+    display: inline-block !important;
+    max-width: 260px;
+    border: 2px solid #a9a9a9 !important;
+    word-wrap: break-word
+}
+span.chaseanalytics-track-element.chaseanalytics-track-link.chaseui-button.chasejs-button.chaseui-buttondefault {
+    padding: 0;
+    border: none;
+    margin: 0 0 0 5px
+}
+.chaseui-designfamilypart-omnicol.chaseui-designfamilypart-mol .predtextcontainer {
+    padding: 0
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-flyoutnavheader a.chaseutil-textbold,
+#SecurityTypeFlyoutNavigation .chaseui-flyoutnavheader a {
+    margin-left: 0px;
+    font-size: 1em !important;
+    font-weight: 600;
+    font-size: 12px !important
+}
+body.chaseui-designfamilypart-mol input#AsofdateRefreshButton {
+    margin: 0;
+    height: 16px !important;
+    line-height: 20px;
+    background: url("../images/refresh.png") no-repeat scroll left top transparent;
+    background-color: #fff !important;
+    background-size: 100%;
+    width: 16px;
+    margin-top: -8px;
+    min-width: 16px !important;
+    padding: 0 !important
+}
+span.chaseanalytics-track-element.chaseanalytics-track-link.chaseui-button.chasejs-button.chaseui-buttondefault {
+    padding: 0;
+    border: none;
+    margin: 0 0 0 5px
+}
+#AssetClassDropdownContainer .chaseui-treeselect ul.chaseui-treeselect-show {
+    min-width: 158px
+}
+.chaseui-treeselect ul.chaseui-treeselect-show,
+.chaseutil-filters-panel .chaseui-treeselect ul.chaseui-treeselect-show {
+    top: 35px;
+    left: -1px;
+    box-shadow: 1px 2px 3px #c6c6c6
+}
+.chaseutil-filters-panel .chaseui-treeselect ul.chaseui-treeselect-show {
+    min-width: 120px
+}
+span.chaseutil-floatleft.chaseanalytics-track-element.chaseanalytics-track-link.chaseui-button.chasejs-button.chaseui-buttonemphasized {
+    padding: 0
+}
+table {
+    border-collapse: inherit !important
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid-multiple tr.chaseui-grid-firstrow.chaseui-grid-caption th {
+    border: none;
+    padding: 0 10px 0 0;
+    background: transparent
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid-summary {
+    border-collapse: initial;
+    width: 98%
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid-summary td,
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid td {
+    padding: 3px 5px 0;
+    line-height: inherit;
+    vertical-align: middle
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid-summary tr td.chaseui-grid-lastcell,
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr td.chaseui-grid-lastcell {
+    border-right-width: 0px;
+    padding-right: 0
+}
+form#transactionsForm {
+    padding: 0;
+    width: 100%;
+    border: none
+}
+body.chasejs-designfamily-lcol table td.lblueheader {
+    padding: 0 10px
+}
+#FlyoutLinks .chaseui-flyoutnavheader a span.chaseui-icons,
+#SecurityTypeFlyoutNavigation .chaseui-flyoutnavheader a span.chaseui-icons {
+    margin: 2px 0 0 5px;
+    font-size: 12px;
+    background: url("../images/select-dropdown.png") no-repeat scroll 100% center/12px auto
+}
+#FlyoutLinks .chaseui-flyoutnavheader a span.chaseui-icons img,
+#SecurityTypeFlyoutNavigation .chaseui-flyoutnavheader a span.chaseui-icons img {
+    display: none
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid td.chaseui-amount-down {
+    background-position: right -3953px
+}
+body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid-multiple.chaseui-grid-nested .chaseui-grid-thead.chaseui-grid-lastrow th.chaseui-grid-firstcell {
+    padding-left: 14px
+}
+.browser-firefox span.chaseui-submit-large input,
+.browser-firefox span.chaseui-submit-inactive-large input,
+.browser-firefox span.chaseui-cancel-large input {
+    padding: 0px 10px 2px
+}
+body.chase3ui-investment #chaseui-pagefooter,
+body.chaseui-private #chaseui-pagefooter {
+    padding-bottom: 10px !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    font-size: 11px
+}
+.chaseutil-filters-panel .chaseutil-floatright {
+    vertical-align: top
+}
+.chaseui-hangingpanel input[type="text"] {
+    height: 16px
+}
+body.chasejs-designfamily-lcol #chaseui-pagebody table.formTable3col {
+    width: 100%;
+    margin: 0
+}
+select#SelectedAccountGroup {
+    padding-right: 20px !important
+}
+select#SelectedAccountGroup.selectList {
+    padding: 5px 10px !important;
+    height: 30px;
+    font-size: 90%
+}
+#frmSelectAccount .chaseui-name {
+    width: 35%;
+    padding: 5px 10px 5px 0 !important;
+    font-weight: normal
+}
+.chaseui-requiredmarker {
+    top: 0;
+    font-size: 1em
+}
+a.chaseui-button>span.chaseui-buttoncontents {
+    margin-top: 0;
+    background: none;
+    height: 26px;
+    background: none;
+    font-size: 11px;
+    font-weight: 600
+}
+body.chase3ui-investment .chaseui-hangingpanel a.chaseui-button>span.chaseui-buttoncontents {
+    line-height: 28px;
+    min-width: 70px;
+    min-height: 28px
+}
+body.chase3ui-investment .chaseui-hangingpanel span.chaseui-buttongetquote input,
+body.chase3ui-investment span.chaseui-buttongetquote input {
+    min-width: 70px;
+    font: normal 14px/20px 'Open Sans', sans-serif
+}
+.layout-component-wrapper,
+body.chasejs-designfamily-lcol .chaseui-site-col .chasecms-contentpanel-plain,
+#masterContentBodyContent {
+    width: 100% !important
+}
+.chaseui-mixedlinklist {
+    margin-top: 10px
+}
+.chaseui-background-gradient {
+    background: transparent !important
+}
+.chaseui-contentbody .chaseui-contentheader {
+    padding-left: 0px
+}
+.chaseui-formlayout .chaseui-dataitem .chaseui-name {
+    text-align: right;
+    font-size: 16px;
+    color: #717171
+}
+.invlabels div {
+    vertical-align: top;
+    margin-left: 5px;
+    font-size: 12px
+}
+a.chaseui-asset-trade {
+    margin: -3px 0px 0px 2px !important
+}
+table.chaseui-grid-summary tr.chaseui-grid-lastrow td {
+    padding-bottom: 0
+}
+.chaseui-grid .chaseui-flyoutnav.chaseui-flyout-button div.chaseui-flyoutnavheader>a {
+    background: url("../images/select-dropdown.png") no-repeat scroll 90% center/10px auto #ededed !important;
+    font-weight: 100;
+    font-size: 11px !important;
+    border: solid 1px transparent;
+    padding: 5px 10px !important;
+    color: #414042
+}
+div.chaseui-styled-noselect {
+    color: #414042;
+    font-size: 12px;
+    margin-top: 6px
+}
+body.chase3ui-investment .chasevalidation-daterange input[type="text"] {
+    height: 24px;
+    border: 1px solid #e8e8e8;
+    line-height: 24px;
+    padding: 0px 5px
+}
+.chaseui-site-clp .chaseui-contentpanel-plain.chaseui-contentpanel-twocolumns table.chaseui-grid th {
+    padding: 8px 0
+}
+body.chase3ui-investment.chaseui-private #InnerPageContentColumnLeft {
+    width: 100%
+}
+body.chase3ui-investment.chaseui-private .chaseui-formnav-border .chaseui-formnav-borderright {
+    margin: 0
+}
+body.chase3ui-investment.chaseui-private .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+    margin: 0.5% 0 0.5% 1%;
+    font-size: 100%;
+    padding: 0px
+}
+body.chase3ui-investment.chaseui-private .chaseui-formlayout .chaseui-dataitem .chaseui-value input {
+    padding: 5px;
+    font-size: 100%;
+    position: relative;
+    top: -6px
+}
+body.chase3ui-investment.chaseui-private .chaseui-formlayout .chaseui-dataitem .chaseui-value select {
+    top: -6px
+}
+body.chase3ui-investment.chaseui-private .chaseui-formlayout .chaseui-dataitem .chaseui-name {
+    padding: 0;
+    margin: 5px 0;
+    font-size: 120%;
+    font-weight: normal;
+    vertical-align: middle
+}
+.chaseui-column-reducedwidth {
+    width: 100% !important
+}
+.chaseui-designfamilypart-omnicol.chaseui-designfamilypart-mol #chaseui-pagecontent {
+    padding: 0 0 24px
+}
+.chaseui-flyoutnav-expanded div.chaseui-flyoutnavbody #CancelButton {
+    height: 28px;
+    line-height: 28px
+}
+.chaseui-designfamilypart-mol button#buttonYes.chaseui-buttonemphasized {
+    margin-left: 10px
+}
+.chaseui-formerrormessage-container {
+    padding: 5px
+}
+body.chase3ui-investment.chaseui-private .chaseui-formlayout .chaseui-dataitem {
+    padding: 0
+}
+.chaseui-columns.chaseui-workflow-conf-util-container ul.chaseui-linklist li {
+    padding-left: 29px;
+    background: none
+}
+#FromAccountId,
+select#ToAccountId,
+select#AccountIndex,
+select#LinkedAccountType {
+    font-size: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif
+}
+select#LinkedAccountType {
+    width: 200px;
+    font-size: 14px
+}
+.marginL135 {
+    margin-left: 40%;
+    text-align: left
+}
+a.chaseui-utiledit,
+a.chaseui-utiledit:hover {
+    background-position: 0px -2184px
+}
+.chaseui-designfamilypart-mol .chaseui-footerutility a {
+    padding-left: 0;
+    padding-right: 0
+}
+.chaseui-designfamilypart-mol .chaseutil-delete .chaseui-flyoutnavheader a,
+.chaseui-designfamilypart-mol .chaseutil-delete .chaseui-flyoutnavheader a:hover {
+    background-position: 0px -2116px;
+    padding-bottom: 2px
+}
+a.chaseui-utilprint {
+    padding-left: 0
+}
+.chaseui-icons.chaseui-icon-small-checkmark,
+.chaseui-icons.chaseui-smallsuccess-icon {
+    height: 20px
+}
+body.chaseui-private span.chaseui-contexthelpcontainer a.chaseui-utilhelp span {
+    padding: 2px 0 5px 0
+}
+body.chasejs-designfamily-mm.oo_bar .chaseui-formsteps .chaseui-formsteps-container.chaseui-formsteps-2steps,
+body.chaseui-private.chase3ui-brokerage .chaseui-formsteps .chaseui-formsteps-container.chaseui-formsteps-3steps {
+    width: auto
+}
+body.chaseui-private .chaseui-formsteplabel {
+    padding-left: 15px;
+    padding-right: 15px
+}
+body.chaseui-private .chaseui-formsteps {
+    overflow: inherit
+}
+body.chaseui-private .chaseui-formstep-selected .chaseui-formstepindicator {
+    width: auto
+}
+.chaseui-designfamilypart-omnicol.chaseui-designfamilypart-mol.chase3ui-investment.chaseui-private .chaseui-important-note.chaseui-terms {
+    background: none;
+    padding: 0
+}
+body.chasejs-designfamily-blueprint .chaseui-instructiontext {
+    width: 96%;
+    border-width: 0
+}
+body.chasejs-designfamily-blueprint #chaseui-innerpagecontent {
+    padding: 0
+}
+body.chasejs-designfamily-blueprint .chaseui-flyoutnavheader a {
+    padding: 5px 25px 5px 10px;
+    background: url("../images/select-dropdown.png") no-repeat scroll 95% 12px/10px auto transparent;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000 !important
+}
+.chaseui-buttonblueprint input {
+    width: auto
+}
+.browser-chrome table.chaseui-grid-scrollingtable.chaseui-track3column-grid thead tr th {
+    width: 85% !important
+}
+table.chaseui-grid-scrollingtable thead tr {
+    position: relative !important
+}
+body.chasejs-designfamily-blueprint a span.chaseui-icons {
+    background: url("../images/bp/sprite_bp.gif") right -1391px no-repeat
+}
+body.chasejs-designfamily-blueprint .chaseui-flyoutnav .chaseui-linklist li {
+    background-position: -225px -1483px
+}
+body.chasejs-designfamily-blueprint .chaseui-flyoutnav .chaseui-linklist li:hover {
+    background-color: #f4f1ea;
+    color: #000
+}
+body.chasejs-designfamily-blueprint .chaseui-quad {
+    width: 49%;
+    margin-bottom: 13px
+}
+body.chasejs-designfamily-blueprint .chaseui-quadimage {
+    right: 0
+}
+body.chasejs-designfamily-blueprint .chaseui-bp-summarypanel {
+    background: none;
+    width: 100%;
+    height: 106px;
+    margin: 25px 0
+}
+a#dtPaymentDate_Value_calendar,
+a#FromDate_Value_calendar,
+a#ToDate_Value_calendar,
+a#FromDate_Value_calendar_disable,
+a#ToDate_Value_calendar_disable {
+    position: absolute;
+    top: 0;
+    right: 9px
+}
+body.chasejs-designfamily-blueprint .chaseui-bp-summarypanelposition {
+    width: 40%
+}
+body.chasejs-designfamily-blueprint .chaseui-bp-summarypanelcolumn,
+body.chasejs-designfamily-blueprint .chaseui-bp-summarypanelcolumn2,
+.chaseui-bp-summarypanelcolumn3 {
+    width: 30%;
+    text-align: left
+}
+body.chasejs-designfamily-blueprint .chaseui-bp-summarypayment {
+    width: 50%;
+    padding-left: 0;
+    bottom: -10px;
+    right: -10px
+}
+body.chasejs-designfamily-blueprint .chaseui-bp-summarypayment p {
+    width: auto
+}
+.chaseui-bpsummarydetail-footer {
+    background: none;
+    top: 0;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%
+}
+.chaseui-bpsummarydetail-container,
+.chaseui-bpsummarydetail-header,
+.chaseui-bpsummarydetail-body {
+    width: 99%
+}
+body.chaseui-private .chaseui-instructiontext p {
+    padding-left: 0
+}
+.chaseui-featuremanage-summary {
+    background: none;
+    border: solid 1px #999999 !important;
+    width: 100%;
+    height: auto
+}
+.chasejs-designfamily-blueprint .chaseui-featuremanage-tdleft {
+    width: 30%;
+    padding: 0 15px 0 0
+}
+.chaseui-featuremanage-tdmiddle,
+.chaseui-featuremanage-tdright {
+    width: 30%
+}
+.chasejs-designfamily-blueprint .chaseui-contentpanel {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #c0c0c0;
+    margin-bottom: 10px
+}
+.chaseui-bpsummarydetail-layouttable-single {
+    width: 93%
+}
+.chaseui-testimonial-header,
+.chaseui-carousel-contentcontainer {
+    position: relative
+}
+.chaseui-site-clp table.chaseui-grid td {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+h4.chaseutil-ada-header {
+    color: #414042;
+    font-weight: normal;
+    margin-bottom: .5em;
+    font-size: 24px
+}
+input#FilterList_Show {
+    padding: 7px 10px;
+    vertical-align: middle;
+    margin-top: 2px
+}
+.dblueheader {
+    background-color: #4879ad !important;
+    vertical-align: bottom !important;
+    border-bottom: 1px solid #fff !important
+}
+.dblueheader h3 {
+    background: none !important;
+    line-height: 30px;
+    color: #fff !important;
+    font-size: 50% !important;
+    padding: 5px 0 !important
+}
+.chaseui-linkimage-container {
+    bottom: 40px;
+    font-size: 13px
+}
+.chaseui-linkimage-right {
+    background-position: -654px -316px
+}
+.chaseui-linkimage-left {
+    background-position: -724px -147px
+}
+body.chasejs-designfamily-blueprint .chaseui-flyoutnavheader {
+    padding-left: 0px !important
+}
+body.popup-calendar-width {
+    width: 100% !important;
+    padding: 0 !important;
+    overflow: hidden
+}
+.chaseui-modal-heightsmall .chaseui-modalforeground {
+    width: 100% !important
+}
+.chaseui-designfamilypart-mol:not(.chase3ui-payments) .chaseui-modal-widthlarge {
+    width: 80%;
+    left: 10% !important
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .chaseui-hangingpanel a.chaseui-button {
+        margin-left: 2px
+    }
+    a#TradeButton {
+        margin-top: 0px
+    }
+    .chaseui-icons.chaseui-icon-small-checkmark,
+    .chaseui-icons.chaseui-smallsuccess-icon {
+        margin: 5px 0
+    }
+    .chase3ui-clioffer-entry #chaseui-pagebody.chaseui-segment-ccs.chaseui-site-col {
+        width: 100% !important;
+        margin: 0 !important
+    }
+}
+_::-webkit-full-page-media,
+_:future,
+:root span.chaseui-buttongetquote {
+    margin-top: -2px
+}
+@media (max-width: 1024px) {
+    div.lmc-tabs ul.chaseui-tabs-list {
+        display: none
+    }
+    #stepDetailsDiv div select {
+        display: inline-block !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanelbody .chaseui-column .chaseui-formerrormessage {
+        padding: 1px 0 0 21px !important
+    }
+    .chase3ui-help-icon-container a.helplinks {
+        right: 20px !important
+    }
+    div#chaseui-pagebody.chaseui-segment-ccs.chaseui-site-col.chase3ui-blueprint-fullpay,
+    div#chaseui-pagebody.chaseui-segment-ccs.chaseui-site-col.chase3ui-blueprint-split,
+    div#chaseui-pagebody.chaseui-segment-ccs.chaseui-site-col.chase3ui-blueprint-finishit.chase3ui-blueprint-landing,
+    div#chaseui-pagebody.chaseui-segment-ccs.chaseui-site-col.chase3ui-blueprint-finishit,
+    div#chaseui-pagebody.chaseui-segment-ccs.chaseui-site-col.chase3ui-blueprint-trackit {
+        margin: 0 !important;
+        padding: 22px 10px 0 !important;
+        width: 96% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-body {
+        padding-bottom: 50px !important;
+        min-height: 250px !important
+    }
+    .chase3ui-mortgage-payoff-quote button.ui-datepicker-trigger {
+        right: -10px
+    }
+    .chase3ui-clioffer-entry #chaseui-pagebody.chaseui-segment-ccs.chaseui-site-col {
+        width: 98% !important;
+        margin: 0 !important
+    }
+    .chase3ui-application-citizenship a.helplinks.helpLinks.chase3ui-faq-icon,
+    .chase3ui-application-information a.helplinks.helpLinks.chase3ui-faq-icon {
+        right: 40px !important
+    }
+}
+@media (max-width: 970px) {
+    .chaseui-rightcolumn {
+        clear: both;
+        margin: 10px 0px 40px 35px
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .fullwidth,
+    .instrtexttable,
+    .spacerw550,
+    .formtable3col,
+    .chaseui-instructiontext,
+    .chasecms-instructiontext,
+    .chaseui-pageheadermiddle,
+    .chaseui-interactive-formsteps,
+    .confirm_pref_form_td_width {
+        width: 100%
+    }
+    .constraint-container {
+        padding: 0 10px !important
+    }
+    .chase3ui-auto-landing .constraint-container,
+    .chase3ui-auto-personalinfo .constraint-container,
+    .chase3ui-personalinfo-joint .constraint-container,
+    .chase3ui-auto-empinfo .constraint-container,
+    .chase3ui-coappinfo .constraint-container,
+    .chase3ui-auto-vehicleinfo .constraint-container,
+    .chase3ui-auto-verifyinfo .constraint-container,
+    .chase3ui-auto-agreement .constraint-container,
+    .chase3ui-auto-processing .constraint-container,
+    .chase3ui-auto-thankyou .constraint-container {
+        padding: 0 5px !important
+    }
+    .formtable3col {
+        margin-left: 0
+    }
+    .chaseui-contentbody,
+    .chaseui-twocolumns .chaseui-centercolumn,
+    #chaseui-pagebody,
+    #chaseui-pagecontent {
+        width: auto;
+        padding: 10px 1%
+    }
+    .chaseui-footerdisclaimer,
+    .chasecms-footerdisclaimer,
+    #chaseui-pagefooter .chaseui-footerdisclaimer.chaseutil-floatleft {
+        width: 90%;
+        margin: 1em 0 0 0;
+        text-align: left
+    }
+    .chaseui-centercolumn .chaseui-innercolumn,
+    .chaseui-pagecontent .chaseui-innerpagecontent {
+        width: 100%
+    }
+    .chaseui-site-clp .chaseui-formlayout .chaseui-dataitem .chaseui-name {
+        min-width: 35%
+    }
+    .chaseui-contentpanel-plain,
+    .chasecms-contentpanel-plain {
+        margin: 0
+    }
+    .chaseui-twocolumns .chaseui-centercolumn {
+        padding: 8px 0
+    }
+    .chaseui-pageheadermiddle {
+        margin: 0
+    }
+    .chaseui-contentheader.chaseui-hangingpanel-tall .chaseui-welcomemessage {
+        width: 65%;
+        float: left
+    }
+    .chaseui-contentbody {
+        margin: 0 !important;
+        width: 97% !important
+    }
+    .chaseui-contentheader .chaseui-hangingpanel-tall .chaseui-welcomemessage {
+        width: 97%
+    }
+    .chaseui-hangingpanel {
+        width: 30%;
+        right: 0
+    }
+    .chaseui-interactive-formsteps .chaseui-interactive-formstep-first .chaseui-interactive-formstep-selected span a {
+        width: 40%
+    }
+    .chaseui-interactive-formsteps .chaseui-interactive-formstep-current {
+        width: 19%
+    }
+    .chaseui-tabs-vertical .chaseui-tabs-body {
+        width: 99%;
+        background: #fff;
+        clear: both;
+        position: relative;
+        top: 10px
+    }
+    .chaseui-statusmessage {
+        width: 98.3%
+    }
+    .chaseui-designfamilypart-mol .chaseui-contentbody,
+    .chasejs-designfamily-mm.chaseui-designfamilypart-omnicol .chaseui-contentbody {
+        margin: 0;
+        padding: 0;
+        width: 100% !important
+    }
+    body.chaseui-designfamilypart-omnicol #chaseui-pagebody {
+        min-width: 0;
+        width: 98%
+    }
+    #chaseui-pagebody.chaseui-site-col {
+        width: 96% !important
+    }
+    table.chaseui-grid th.header {
+        padding-left: 0
+    }
+    table.floatHeader {
+        width: 695px !important
+    }
+    #GridContainer1.chasejs-gridcontainer table th,
+    #GridContainer1.chasejs-gridcontainer table td,
+    #GridContainerSubLevel1.chasejs-gridcontainer table th,
+    #GridContainerSubLevel1.chasejs-gridcontainer table td {
+        margin: 0;
+        padding: 5px;
+        font-size: 10px
+    }
+    #GridContainer1.chasejs-gridcontainer table td,
+    #GridContainerSubLevel1.chasejs-gridcontainer table td {
+        padding: 10px 5px
+    }
+    #GridContainer1.chasejs-gridcontainer table td a,
+    #GridContainerSubLevel1.chasejs-gridcontainer table td a {
+        font-size: 10px
+    }
+    #GridContainer1.chasejs-gridcontainer table td.chaseui-grid-firstcell,
+    #GridContainerSubLevel1.chasejs-gridcontainer table td.chaseui-grid-firstcell {
+        padding-right: 10px
+    }
+    #GridContainer1.chasejs-gridcontainer table tr.chaseui-grid-tfoot.chaseui-grid-lastrow.even td,
+    sup.chaseui-textindicator {
+        padding-left: 2px;
+        font-size: 9px
+    }
+    .chasecms-forms-investment .chaseui-contentbody {
+        width: 97%
+    }
+    .chasecms-forms-investment .chaseui-contentbody .chaseui-contentheader {
+        padding: 0
+    }
+    .chasecms-forms-investment .chaseui-instructiontext,
+    .chasecms-forms-investment .chasecms-instructiontext {
+        margin-left: 0
+    }
+    .chasecms-forms-investment .chaseui-footerdisclaimer,
+    .chasecms-forms-investment .chasecms-footerdisclaimer {
+        margin: 0;
+        width: 100%
+    }
+    .chasecms-forms-investment .chasecms-contentpanel-plain,
+    .chasecms-forms-investment .chaseui-contentpanel-plain {
+        margin: 0
+    }
+    .chaseui-site-clp .chaseui-formlayout .chaseui-dataitem .chaseui-name {
+        width: 25%;
+        min-width: 15%
+    }
+    body {
+        background-color: #fff;
+        width: 99% !important
+    }
+    body.chaseui-site-col,
+    .chaseui-site-c30 {
+        padding: 35px 0 !important
+    }
+    .bottom-bg-color {
+        width: 100%
+    }
+    .chaseui-pagefooter .body-border-top {
+        width: 100%
+    }
+    center .body-border-top {
+        border-top: 1px solid #ccc;
+        width: 98%
+    }
+    .chaseui-value {
+        width: 65%
+    }
+    .inputfield1 {
+        width: 35%
+    }
+    .chaseui-site-col {
+        background-color: #fff;
+        padding: 20px 10px !important
+    }
+    body.chase3ui-investment table.chaseui-grid-multiple tr.chaseui-grid-thead.chaseui-grid-caption.chaseui-grid-lastrow th a {
+        font-size: 13px
+    }
+    .bottom-bg-color {
+        width: 100%
+    }
+    .chaseui-rightcolumn {
+        right: 10px
+    }
+    body.chase3ui-investment.chasejs-gridcontainer table td,
+    body.chase3ui-investment .chasejs-gridcontainer table.chaseui-grid td,
+    body.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th a,
+    body.chase3ui-investment a.chaseui-grid-innercell,
+    body.chase3ui-investment table.chaseui-grid td span.chaseutil-deemphasize,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chasejs-gridcontainer table.chaseui-grid td a {
+        font-size: 10px !important
+    }
+    body.chase3ui-investment span.chaseui-treeselect {
+        font-size: 12px
+    }
+    body.chase3ui-investment table.chaseui-grid-multiple tr.chaseui-grid-firstrow.chaseui-grid-caption th {
+        padding: 0 10px 0 0;
+        height: 25px !important;
+        line-height: 25px !important
+    }
+    .TabAndQuicklinksContainer {
+        padding: 8px 15px 0
+    }
+    table.chaseui-grid th>a {
+        margin-left: 0px;
+        padding-left: 0
+    }
+    .chaseui-formlayout .chaseui-dataitem .chaseui-name {
+        width: 30%;
+        min-width: 30%
+    }
+    .divw97 {
+        width: 99% !important
+    }
+    body.chase3ui-investment #chaseui-pagebody {
+        width: 96% !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid td {
+        line-height: 1.5em
+    }
+    body.chase3ui-investment th.grid-header span.chaseui-togglevisual.chaseutil-nowrap {
+        padding-left: 0px;
+        font-size: 9px !important;
+        display: inline-block
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th a,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment a.chaseui-grid-innercel {
+        font-size: 10px !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment a.chaseui-grid-innercell {
+        font-size: 11px !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid thead th,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th {
+        padding: 10px 5px;
+        font-size: 10px !important
+    }
+    .chaseui-grid th a.chaseui-togglevisual-headerOff,
+    .chaseui-grid th a.chaseui-togglevisual-headerOff:visited,
+    .chaseui-grid th a.chaseui-togglevisual-headerOff:hover,
+    .chaseui-grid th a.chaseui-togglevisual-headerOn,
+    .chaseui-grid th a.chaseui-togglevisual-headerOn:visited,
+    .chaseui-grid th a.chaseui-togglevisual-headerOn:hover {
+        font-weight: 600;
+        font-size: 10px !important
+    }
+    .chaseui-twocolumns .chaseui-centercolumn {
+        width: 100%
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid-multiple tr.chaseui-grid-thead.chaseui-grid-caption.chaseui-grid-lastrow th a {
+        margin-left: 0px
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid th.chaseutil-sup-padding sup,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-lastrow th.chaseui-amount {
+        font-size: 10px !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-hangingpanel.chaseui-hangingpanel-right.chaseui-getquote {
+        width: auto !important;
+        margin: 0
+    }
+    .chaseui-centercolumn .chaseui-columns-allequal.chaseui-workflow-conf-util-container .chaseui-rightcolumn {
+        clear: none
+    }
+    .chaseui-designfamilypart-omnicol.chaseui-designfamilypart-mol.chase3ui-investment.chaseui-private #chaseui-pagecontent,
+    .chaseui-designfamilypart-omnicol.chaseui-designfamilypart-mol.chase3ui-investment.chaseui-private .chasecms-footerdisclaimer {
+        width: 100%
+    }
+    table.chaseui-grid-scrollingtable.chaseui-track3column-grid thead tr th {
+        font-size: 13px !important
+    }
+    body.chasejs-designfamily-blueprint .chaseui-bp-summarypayment {
+        bottom: 5px
+    }
+    body.chasejs-designfamily-blueprint .chaseui-bp-summarypanel {
+        height: 120px
+    }
+    .chaseui-quadbody {
+        height: 185px
+    }
+    body.chasejs-designfamily-blueprint .chaseui-bp-summarypayment p,
+    body.chasejs-designfamily-blueprint a.chaseui-grid-innercell {
+        font-size: 12px !important
+    }
+    .chaseui-contentpanelnotice {
+        left: 175px
+    }
+    .chaseutil-heading1text {
+        font-size: 16px
+    }
+    .chaseui-designfamilypart-mol .chaseui-modal-widthlarge {
+        width: 90%;
+        margin: 0 auto;
+        left: 50px !important
+    }
+    body.chasejs-designfamily-psr .chaseui-hangingpanel {
+        width: 26%;
+        float: right
+    }
+    body.chasejs-designfamily-psr .chaseui-pageheadermiddle,
+    body.chasejs-designfamily-psr .chaseui-pageheadermiddle,
+    body.chasejs-designfamily-psr .chaseui-contentbody {
+        width: auto !important
+    }
+    body.chasejs-designfamily-psr .chaseui-tabs-vertical .chaseui-tabs-list {
+        width: auto;
+        overflow: visible
+    }
+    body.chasejs-designfamily-psr .chaseui-tabs-vertical .chaseui-tabs-list li.chaseui-tabs-selected {
+        width: 230px !important;
+        background: url("../images/select-dropdown.png") no-repeat scroll 95% 16px/14px auto transparent;
+        display: block
+    }
+    .chaseui-statusmessage {
+        width: 100%;
+        padding-bottom: 0
+    }
+    .chaseutil-textbold {
+        font-size: 110%
+    }
+    #ctl00_PageContentBody.chaseui-contentbody {
+        width: 100% !important
+    }
+    .chaseui-modal-heightsmall .chaseui-modalforeground {
+        width: 100% !important
+    }
+    .chaseui-leftcolumn,
+    .chaseui-rightcolumn {
+        width: 100%
+    }
+    table.chaseui-grid span.chaseui-price-down,
+    table.chaseui-grid td.chaseui-amount-positive,
+    span.chaseui-price-nochange {
+        font-size: inherit !important
+    }
+    .chaseui-mixedlinklist {
+        margin-bottom: 10px
+    }
+    #PortfolioSummaryChart.chaseui-leftcolumn {
+        width: 20% !important
+    }
+    #HistoryList td,
+    #HistoryList th {
+        font-size: 12px !important
+    }
+    #chaseui-pagefooter .chaseui-footerdisclaimer.chaseutil-floatleft {
+        font-size: 11px !important;
+        margin: 25px 0 20px !important
+    }
+    .chaseui-rightcolumn {
+        clear: none
+    }
+    .sec-navigation {
+        padding: 10px 0 5px 0px
+    }
+    .chaseui-twocolumns #ContentColumnRight.chaseui-rightcolumn {
+        width: 18%;
+        margin: 0px
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-clp.chase3ui-investment #chaseui-pagebody #ContentColumnContainer1.chaseui-twocolumns #ContentColumnLeft.chaseui-centercolumn {
+        width: 78% !important
+    }
+    body.chasejs-designfamily-psr .chaseui-tabs-vertical .chaseui-tabs-list a {
+        padding: 10px 10px 10px 15px
+    }
+    body.chasejs-designfamily-psr .chaseui-tabs .chaseui-tabs-list li .chaseui-tabstitle {
+        border: none
+    }
+    body.chasejs-designfamily-psr .chaseui-tabs-vertical .chaseui-tabs-list li {
+        border-right: solid 1px #ccc;
+        padding-right: 20px;
+        width: 230px;
+        display: none
+    }
+    .chaseui-interactive-formsteps .chaseui-interactive-formstep span a {
+        font-size: 11px !important;
+        padding: 20px 0px 30px !important
+    }
+    .chaseui-contentheader.chaseui-hangingpanel-tall .chaseui-hangingpanel .chaseui-contact-info .chaseui-content-list li.chaseui-content-item .chaseui-contact-phone {
+        font-size: 14px
+    }
+    .chaseui-contentheader .chaseui-welcomemessage h3 {
+        font-size: 18px
+    }
+    #costTable td *:not(img):not(button):not(a) {
+        padding: 5px
+    }
+    #costTable td i {
+        padding: 2px !important;
+        top: 2px !important
+    }
+    .chaseui-interactive-formsteps .chaseui-interactive-formstep span {
+        height: 52px
+    }
+    .chaseui-calloutlinks .chaseui-linklist {
+        display: none
+    }
+    select.chaseui-tabs-list {
+        display: block
+    }
+    body div#chaseui-pagebody.chaseui-segment-ppp.chaseui-site-col {
+        margin: 0px auto !important;
+        padding: 23px 0px 0 !important;
+        width: 98% !important;
+        display: block
+    }
+    .linesymbol a {
+        height: 0px
+    }
+    #EASummary #GridContainerEAPeriodDetails table.chaseui-grid td {
+        padding: 14px 8px 10px 0
+    }
+    #EASummary #GridContainerEAPeriodDetails table.chaseui-grid th.chaseui-grid-lastcell {
+        width: 20%
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment #chaseui-pagebody {
+        width: 97% !important;
+        min-width: 98%
+    }
+    body.chasejs-designfamily-mm form#MortgagePayoffQuoteForm div#divMortAccountDates3145855 div div.chaseui-requiredlabel {
+        width: auto !important
+    }
+    body.chasejs-designfamily-mm div#divPayoffQuoteDetails ~ div#ActionModalContainer div.chaseui-modalbackground div.chaseui-modalforeground {
+        width: 90% !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid-multiple tr.chaseui-grid-firstrow.chaseui-grid-caption th a.chaseui-utilexpand {
+        background-position: 0 -4778px !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid-multiple tr.chaseui-grid-firstrow.chaseui-grid-caption th a.chaseui-utilcollapse {
+        background-position: 0 -4736px !important
+    }
+    #AccountPanel #PortfolioSummaryTable {
+        width: 80% !important
+    }
+    div.lmc-tabs ul.chaseui-tabs-list {
+        display: none
+    }
+    #stepDetailsDiv div select {
+        display: inline-block !important
+    }
+    .chaseui-designfamilypart-mol .chaseui-modalbody .chaseui-twocolumns .chaseui-rightcolumn .chaseui-name {
+        width: 53% !important;
+        text-align: right
+    }
+    .chaseui-modalbody #DescriptionColumn.chaseui-centercolumn {
+        width: 60%
+    }
+    .chaseui-modalbody #ContentColumn5.chaseui-rightcolumn {
+        width: 30%
+    }
+    .chaseui-interactive-formsteps .chaseui-interactive-formstep {
+        margin-right: 50px !important
+    }
+    body.chasejs-designfamily-blueprint.chasejs-designfamily-mm.chaseui-designfamilypart-mol.chaseui-designfamilypart-omnicol.chase3ui-investment {
+        width: 98% !important;
+        margin: auto
+    }
+    body.chasejs-designfamily-blueprint.chasejs-designfamily-mm.chaseui-designfamilypart-mol.chaseui-designfamilypart-omnicol.chase3ui-investment #chaseui-pagebody {
+        width: inherit !important;
+        min-width: inherit !important;
+        padding-left: 0px !important
+    }
+    .chaseui-modalheadernav h1 {
+        font-size: 18px !important
+    }
+    .chaseui-modalbody .chaseui-statusmessage {
+        width: 85%
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid-multiple tr.chaseui-grid-firstrow.chaseui-grid-caption th a {
+        font-size: 1.1em
+    }
+    ul.chaseui-mixedlinklist.chaseui-list-separated>li.chaseui-mixedlinkitem-enter>a,
+    .chaseui-menus li.chaseui-main-menu-item a,
+    body.chase3ui-investment #chaseui-pagefooter a,
+    body.chaseui-private #chaseui-pagefooter a,
+    #chaseui-pagefooter p,
+    body.chase3ui-investment #chaseui-pagefooter .bodytextsm strong,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-treeselect a.chaseui-treeselect-trigger,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-treeselect a.chaseui-treeselect-trigger:hover,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseutil-filters-panel .chaseui-treeselect a.chaseui-treeselect-trigger,
+    .chaseui-footnote table tbody tr td div span,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-button input,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-submit-large input,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-buttongetquote input,
+    a.chaseui-button>span.chaseui-buttoncontents,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment #FlyoutNavigationQuickLinksCol .chaseui-flyoutnavheader a,
+    body.chase3ui-investment #SecurityIdSearchForm input#SecurityId,
+    body.chase3ui-investment .predtextcontainer input[type="text"] {
+        font-size: 11px !important
+    }
+    body.chasejs-designfamily-psr .chaseui-interactive-formsteps .chaseui-interactive-formstep span a {
+        font-size: 13px !important
+    }
+    table.chaseui-grid span.chaseui-price-nochange,
+    table.chaseui-grid span.chaseui-price-up,
+    table.chaseui-grid span.chaseui-price-down {
+        position: relative;
+        right: 0
+    }
+    div.chaseui-modalbackground table td {
+        line-height: 15px !important
+    }
+    body.chasejs-designfamily-mm div#ActionDiv #RequestMortgagePayoffStatementForm td.chaseui-buttonset-cell.chaseui-buttonset-label {
+        line-height: initial !important
+    }
+    body.chasejs-designfamily-mm div#divPayoffQuoteDetails a#BtnRequestPayoffStatement.chaseui-submit-large span.chaseui-buttoncontents {
+        font-size: 1rem !important
+    }
+    body.chasejs-designfamily-mm #RequestMortgagePayoffStatementForm div.chaseui-modalheadernav h1 {
+        font-size: 14px !important
+    }
+    body.chasejs-designfamily-mm div.ui-datepicker.chase3-ui-datepicker-768px {
+        top: 298px !important
+    }
+    p.escrow-fnote {
+        font-size: 11px
+    }
+    #HomeownersInsuranceGridContainer table.chaseui-grid th.header {
+        padding: 7px 10px !important;
+        font-size: 12px !important;
+        line-height: initial !important
+    }
+    .escrow-proptax table.chaseui-grid th.header {
+        font-size: 12px !important
+    }
+    .chaseui-contentbody.escrow-fullwidth {
+        width: 100% !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col .formtable3col.chase3formtable-padding {
+        width: 97%
+    }
+    body.chasejs-designfamily-blueprint #chaseui-pagecontenttoputil,
+    .chasejs-designfamily-blueprint #chaseui-pagecontent {
+        width: 100%;
+        margin: 0 auto
+    }
+    body.chasejs-designfamily-blueprint .chaseui-pagecontentsectionbody {
+        min-height: 182px !important
+    }
+    body.chasejs-designfamily-blueprint .chaseui-fullpayenroll-entrypanel {
+        width: 95% !important
+    }
+    body.chasejs-designfamily-blueprint .chaseutil-notetext {
+        display: inherit
+    }
+    body.chasejs-designfamily-blueprint #chaseui-pagefooter .chaseui-footerutility {
+        text-align: center !important
+    }
+    body.chasejs-designfamily-blueprint span#DurationRange.chaseutil-notetext {
+        display: block
+    }
+    #WireRecipientForm1_Label1,
+    table.chase3ui-wire-Details .bodyTextSm {
+        display: block
+    }
+    .chase3ui-wires-change table.chase3ui-wire-Details .bodyTextSm {
+        display: inline !important
+    }
+    #WireRecipientForm2_Label2,
+    #WireRecipientForm2_Label1 {
+        display: block !important
+    }
+    body.chase3ui-update-cost-basis div#chaseui-pagebody.chaseui-segment-ppp.chaseui-site-col,
+    body.chase3ui-verify-update-cost-basis div#chaseui-pagebody.chaseui-segment-ppp.chaseui-site-col,
+    body.chase3ui-update-cost-basis-error div#chaseui-pagebody.chaseui-segment-ppp.chaseui-site-col {
+        width: 96% !important
+    }
+    body.chaseui-wires #chaseui-pagebody {
+        width: auto
+    }
+    body.chasejs-designfamily-blueprint #iWantToLinks.chaseui-flyoutnav-expanded div.chaseui-flyoutnavbody {
+        right: 18px
+    }
+    #HomePmtActivityGridContainer table.chaseui-grid th.header {
+        padding: 7px 10px !important
+    }
+    body.chasejs-designfamily-blueprint .chaseui-bp-summarypayment .chaseui-bp-summarypaymentmain {
+        height: auto
+    }
+    body.chasejs-designfamily-blueprint .chaseui-bp-summarypayment .chaseui-bp-summarypaymentmain>span:nth-child(odd) {
+        float: left;
+        clear: both
+    }
+    body.chasejs-designfamily-blueprint .chaseui-bp-summarypayment .chaseui-bp-summarypaymentmain>span {
+        display: block
+    }
+    body.chasejs-designfamily-blueprint .chaseui-bp-summarypayment .chaseui-bp-summarypaymentmain>span:nth-child(3) {
+        padding-left: 0px;
+        padding-right: 5px
+    }
+    #EASummary #GridContainerEAPeriodDetails table.chaseui-grid th {
+        vertical-align: top !important
+    }
+    .card-errortxt {
+        margin: 5px 0 0 410px !important
+    }
+    .chase3ui-update-cost-basis #chaseui-pagefooter .chasecms-footerdisclaimer,
+    .chase3ui-verify-update-cost-basis #chaseui-pagefooter .chasecms-footerdisclaimer {
+        width: 100% !important
+    }
+    .chase3ui-verify-update-cost-basis table.chaseui-grid .chaseui-grid-innercell {
+        font-size: 12px !important
+    }
+    #CostBasisGrid table.chaseui-grid td {
+        font-size: 13px !important
+    }
+    #frmCostBasisInformation #ctl00_BodyCenterContent_FormLayout1 .header:not(:nth-child(1)) {
+        padding-left: 5px !important
+    }
+    body.chase3ui-update-cost-basis .ui-datepicker {
+        padding-top: 5.3em
+    }
+    body.chasejs-designfamily-blueprint #iWantToLinks.chaseui-flyoutnav-expanded div.chaseui-flyoutnavbody {
+        right: 18px !important
+    }
+    body.chaseui-site-col.chase3ui-change-card-design {
+        padding: 45px 0 20px !important
+    }
+    body.chaseui-site-col.chase3ui-change-card-design-confirmation {
+        padding: 40px 0 20px !important
+    }
+    .chase3ui-home-finance .chaseui-twocolumns .chaseui-centercolumn {
+        padding: 0px !important
+    }
+    .footer_td_col1 .disclaimer {
+        padding: 25px 0 !important
+    }
+    form#frmCostBasisInformation table#costTable td span.date-picker-container button {
+        top: 2px !important;
+        right: 6px !important
+    }
+    .chase3ui-update-cost-basis .chase3ui-help-icon-container a#page_help,
+    .chase3ui-verify-update-cost-basis .chase3ui-help-icon-container a#page_help,
+    .chase3ui-confirm-update-cost-basis .chase3ui-help-icon-container a#page_help {
+        right: -10px !important
+    }
+    .chase3ui-confirm-update-cost-basis .chase3ui-help-icon-container a.helplinks.print-icon {
+        right: 40px !important
+    }
+    .chase3ui-update-cost-basis .chaseui-twocolumns .chaseui-centercolumn,
+    .chase3ui-verify-update-cost-basis .chaseui-twocolumns .chaseui-centercolumn,
+    .chase3ui-confirm-update-cost-basis .chaseui-twocolumns .chaseui-centercolumn,
+    .chase3ui-auto-loan-payoff-quotes .chaseui-twocolumns .chaseui-centercolumn {
+        padding: 0px !important
+    }
+    .chase3ui-mortgage-cash-back-summary #chaseui-pagefooter,
+    .chase3ui-mortgage-cash-back-information #chaseui-pagefooter,
+    .chase3ui-mortgage-cash-back-confirmation #chaseui-pagefooter {
+        width: 97%
+    }
+    .chase3ui-amortization-estimator #chaseui-pagefooter {
+        width: 100%
+    }
+    .chase3ui-mortgage-cash-back-summary div#chaseui-pagefooter .chaseui-footerdisclaimer,
+    .chase3ui-mortgage-cash-back-information div#chaseui-pagefooter .chaseui-footerdisclaimer,
+    .chase3ui-mortgage-cash-back-confirmation div#chaseui-pagefooter .chaseui-footerdisclaimer,
+    .chase3ui-amortization-estimator div#chaseui-pagefooter .chaseui-footerdisclaimer {
+        padding-right: 1% !important
+    }
+    .chase3ui-wires-scheduling div.chase3ui-datefieldcontainer>a>i.icon.calendar {
+        right: 8px !important
+    }
+    body.chaseui-site-col.chase3ui-travel-notification {
+        padding-top: 43px !important
+    }
+    .chase3ui-travel-notification .spacerw155 table.column4 {
+        width: 118px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-column .chaseui-formerrormessage {
+        padding: 1px 0 0 0 !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-numbereditemcontent {
+        margin-top: 5px
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-column span {
+        vertical-align: baseline !important
+    }
+    .chase3ui-home-equity-lock-rate .chasejs-grid-simplified .chaseui-formerrormessage {
+        margin-top: 7px
+    }
+    .chase3ui-international-travel-notification a.chaseui-button>span.chaseui-buttoncontents,
+    .chase3ui-travel-notification-debit a.chaseui-button>span.chaseui-buttoncontents {
+        font-size: 16px !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(3) {
+        width: 8%
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(4) {
+        width: 5% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(3) {
+        width: 8% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(4) {
+        width: 6% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(2) {
+        width: 6% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(5) {
+        width: 30% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(7) {
+        width: 30% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(6) {
+        width: 5% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#GroupBalanceSummaryGridContainer th:nth-child(2) {
+        width: 10%
+    }
+    .chase3ui-brokerage #InnerPageContentColumnContainer #FormContainer .chaseui-important-note.chaseui-terms {
+        left: 0 !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td {
+        font-size: 11px !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:first-child {
+        width: 10% !important;
+        padding-right: 5px !important
+    }
+    .investment-planning-retirement .chaseui-columns-smallright .chaseui-rightcolumn,
+    .our-expertise .chaseui-columns-smallright .chaseui-rightcolumn {
+        margin: auto !important;
+        padding-right: 0 !important
+    }
+    .chase3ui-wire-recipient-activation-code form#frmValidateOTP #chase3DctmErrortr span.errortext {
+        width: 93%
+    }
+    .chase3ui-international-travel-notification-entry .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+        width: 54% !important
+    }
+    .chase3ui-international-travel-notification-entry .chaseui-formlayout .chaseui-dataitem .chaseui-name {
+        width: 45% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-header {
+        background: url(../images/bp/sprite_bp_2.gif) -376px -18px no-repeat transparent !important;
+        width: 38.9% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-numbereditemcontent-continued .chaseutil-notetext {
+        padding-left: 36px
+    }
+    .chase3ui-help-icon-container a.helplinks {
+        right: 0px !important
+    }
+    .chase3ui-retail-discontinue .chase3ui-help-icon-container a.helplinks.chase3ui-faq-icon {
+        right: 39px !important;
+        top: 18px !important
+    }
+    .chase3ui-transfer-balance-history .chase3ui-help-icon-container a.helplinks.chase3ui-print-icon {
+        top: 13px;
+        right: 40px !important
+    }
+    .chase3ui-wires-change table.chase3ui-wire-details td.inputfield1 ~ td>span:not(#WireInformationModifyForm1_NumberofTransactionsLbl).bodyTextSm {
+        display: block !important
+    }
+    .chase3ui-wires-scheduling.chase3ui-wires-dst-info .chase3ui-wire-details strong.bodyTextSm,
+    .chase3ui-wires-scheduling.chase3ui-wires-dst-info span#WireInformationForm1_NumberofTransactionsLbl {
+        display: inline
+    }
+    .chasejs-designfamily-blueprint span.chaseui-contexthelpcontainer a.chaseui-utilhelp span.icon-infoicon {
+        position: absolute
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-header p {
+        height: auto !important
+    }
+    .chase3ui-direct-deposit-liquid-account a.helplinks.chase3ui-print-icon {
+        right: 0 !important
+    }
+    .chase3ui-interest-paid-letter .chase3ui-help-icon-container a.helplinks {
+        right: 10px !important
+    }
+    .chase3ui-amortization-estimator .chaseui-contentbody {
+        width: 100% !important
+    }
+    .chase3ui-amortization-estimator #PrintPage {
+        right: 10px !important
+    }
+    .chase3ui-cma-request-multiple table.titleTable #cverror.errortextsm.card-errortxt {
+        padding-left: 0 !important
+    }
+    .chase3ui-cma-request-confirmation .chase3ui-help-icon-container a.helplinks {
+        right: 10px !important
+    }
+    .chase3ui-stmts-trade-confirms #chaseui-pagecontent {
+        width: 97% !important;
+        min-width: 97% !important
+    }
+    .chase3ui-investment.chase3ui-stmts-shareholder-materials #chaseui-pagecontent {
+        width: 100% !important;
+        min-width: 100% !important
+    }
+    .chase3ui-investment.chase3ui-stmts-tax-forms #chaseui-pagebody,
+    .chase3ui-investment.chase3ui-stmts-trade-confirms #chaseui-pagebody,
+    .chase3ui-investment.chase3ui-stmts-tax-forms #chaseui-pagecontent {
+        width: 100% !important;
+        min-width: 100% !important
+    }
+    .chase3ui-investment.chase3ui-stmts-trade-confirms .chaseui-centercolumn {
+        padding: 0 !important
+    }
+    .chase3ui-investment.chase3ui-stmts-inv-docs .chasejs-gridcontainer table.chaseui-grid td,
+    .chaseui-designfamilypart-omnicol.chase3ui-investment.chase3ui-stmts-inv-docs a.chaseui-grid-innercell,
+    .chaseui-designfamilypart-omnicol.chase3ui-investment.chase3ui-stmts-inv-docs .chasejs-gridcontainer table.chaseui-grid td a {
+        font-size: 13px !important
+    }
+    .chase3ui-investment-stmt-list .chaseui-twocolumns .chaseui-rightcolumn {
+        display: none
+    }
+    .chase3ui-investment-stmt-list .jpui.icon.error {
+        float: left
+    }
+    .chaseui-designfamilypart-omnicol.chase3ui-investment.chase3ui-investment-stmt-list table.chaseui-grid tr.chaseui-grid-lastrow th {
+        font-size: 13px !important
+    }
+    .chaseui-designfamilypart-omnicol.chase3ui-stmts-tax-forms table.chaseui-grid tr.chaseui-grid-lastrow th {
+        font-size: 13px !important
+    }
+    .chase3ui-rewards-detail .chase3ui-help-icon-container a.helplinks.chase3ui-print-icon {
+        right: 0 !important
+    }
+    .chase3ui-stmts-inv-docs.chaseui-designfamilypart-mol .chaseui-flyoutnavbody .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+        width: 40% !important
+    }
+    .chase3ui-stmts-inv-docs.chaseui-designfamilypart-mol .chaseui-flyoutnav-expanded .chaseui-flyoutnavbody {
+        right: 12px !important;
+        max-width: inherit
+    }
+    .chase3ui-stmts-inv-docs.chaseui-designfamilypart-mol #chaseui-pagecontent {
+        width: 97% !important
+    }
+    .chase3ui-investment.chase3ui-stmts-inv-docs table.chaseui-grid th>a {
+        font-size: 14px !important
+    }
+    .chase3ui-investment.chase3ui-stmts-inv-docs .chaseui-statusmessagepanel-information {
+        width: 90% !important
+    }
+    .chase3ui-replace-creditcard-confirm .conftext .conftext {
+        margin-top: -6px !important;
+        padding-left: 30px !important
+    }
+    .chase3ui-replace-creditcard .titleTable {
+        margin-top: -18px
+    }
+    .chase3ui-history .chase3ui-help-icon-container a.helplinks.print-icon {
+        right: 40px !important
+    }
+    .chase3ui-history .chase3ui-help-icon-container a.helplinks {
+        right: 0 !important
+    }
+    .chase3ui-credit-dashboard #csm-main #creditPictureAccordionGroup.accordionsGroup ul li.accordion .accordion-toggle {
+        position: relative;
+        right: -18px !important
+    }
+    .chase3ui-sms-mobilenumber .chase3ui-help-icon-container a.helplinks {
+        margin-right: 10px
+    }
+    .chase3ui-sms-activationconfirm .chase3ui-help-icon-container a.helplinks {
+        margin-right: 10px
+    }
+    .chasejs-designfamily-lcol.chase3ui-sms-activationconfirm table td.lblueheader {
+        vertical-align: top !important
+    }
+    .chasejs-designfamily-lcol.chase3ui-sms-activationconfirm table td.lblueheader a {
+        line-height: 32px !important
+    }
+    .chase3ui-credit-dashboard.chase3ui-credit-dashboard-index #csm-main .accordionsGroup ul li.accordion .awrapper {
+        width: 87% !important
+    }
+    .chase3ui-credit-dashboard.chase3ui-credit-dashboard-index #csm-main #creditBasicsAccordionGroup ul li.accordion .awrapper,
+    .chase3ui-credit-dashboard.chase3ui-credit-dashboard-index #csm-main #faqAccordionGroup ul li.accordion .awrapper {
+        width: 100% !important
+    }
+    .chase3ui-odc-notifications input.chase3ui-bal-amt {
+        margin-left: 30px !important
+    }
+    .ui-datepicker table tr td a {
+        font-size: 12px !important
+    }
+    .chaseui-dual-datepicker .ui-datepicker-unselectable,
+    .chaseui-dual-datepicker .ui-datepicker-unselectable span,
+    .ui-datepicker-unselectable.chaseui-dual-calendar-range-date,
+    .ui-datepicker-calendar .ui-datepicker-unselectable,
+    .ui-datepicker-calendar .ui-datepicker-unselectable span,
+    .ui-datepicker-calendar.chaseui-dual-calendar-range-date,
+    .ui-datepicker-unselectable.ui-state-disabled {
+        font-size: 12px !important
+    }
+    .ui-datepicker table tr td a.ui-state-active {
+        height: 16px !important;
+        width: 16px !important;
+        line-height: 16px !important
+    }
+    .ui-datepicker .ui-datepicker-title span {
+        font-size: 20px !important
+    }
+    div.chaseui-year-container .ui-datepicker-header {
+        font-size: 12px !important
+    }
+    .chase3ui-investment>div#chaseui-pagebody.chase3ui-custom-group .chase3ui-help-icon-container .chaseui-utilprint,
+    .chase3ui-auto-loan-payoff-quotes .chase3ui-help-icon-container span.chaseui-icon-container>a.chaseui-utilprint {
+        right: 10px !important
+    }
+    .ui-datepicker table tr td a.ui-state-highlight {
+        height: 16px !important;
+        width: 16px !important
+    }
+    .chaseui-designfamilypart-omnicol.chase3ui-established-fund-transfer-verify .chaseui-contentheader {
+        height: auto !important;
+        padding: 10px 0px 0px 0px !important
+    }
+    .chaseui-designfamilypart-omnicol.chase3ui-established-fund-transfer-verify .chaseui-buttonbackcompatible-emphasized input {
+        margin-right: 0px !important
+    }
+    .chase3ui-brokerage-confirm .chaseui-icon-container #PrintPage {
+        right: 1px !important
+    }
+    .chase3ui-sms-management .chase3ui-help-icon-container a.helplinks {
+        top: 3px;
+        right: 10px !important
+    }
+    .chase3ui-wires-schedule-add-conf table.payment-confirmation th:nth-child(4) {
+        width: 12% !important
+    }
+    .chase3ui-confirmreceipt-confirm .chase3ui-help-icon-container .chaseui-utilprint {
+        right: 10px !important
+    }
+    .chase3ui-confirmreceipt-confirm .chaseui-contentbody {
+        width: 100% !important
+    }
+    .chasejs-designfamily-blueprint .ui-datepicker .ui-datepicker-title {
+        width: 75% !important
+    }
+    .chase3ui-privacy-select .chaseui-modal.chase3ui-modal {
+        top: 25% !important
+    }
+    .chase3ui-investment #chaseui-pagecontent {
+        width: 100% !important
+    }
+    .chase3ui-ordercheck-select.chaseui-site-clp .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+        width: 56% !important
+    }
+    .chaseui-designfamilypart-omnicol.chase3ui-investment .chase3ui-position-grid tr.chaseui-grid-caption.chaseui-grid-thead.chaseui-grid-firstrow.chaseui-grid-lastrow.even th a {
+        margin-left: 0 !important;
+        background-position: 0 -4774px !important
+    }
+    .chaseui-designfamilypart-omnicol.chase3ui-investment .chase3ui-position-grid th.chaseui-grid-caption.chaseui-grid-thead.chaseui-grid-firstrow.chaseui-grid-lastrow.even th {
+        margin-left: 0px;
+        padding-left: 0px !important
+    }
+    div.stmtsui-year {
+        margin: 0 !important
+    }
+    .chase3ui-update-cost-basis .ui-datepicker {
+        margin-top: 3px !important
+    }
+    .chase3ui-update-cost-basis .chase3ui-caldr-up-arrow {
+        left: 80% !important;
+        top: 27px !important;
+        width: 5px !important;
+        height: 6px !important
+    }
+    .chase3ui-investment-stmt-list #chaseui-pagebody.chaseui-site-col .chaseui-contentbody,
+    .chase3ui-investment-stmt-list div#chaseui-pagebody.chaseui-site-col .chaseui-contentbody {
+        width: 100% !important
+    }
+    .pwc-container .pwc-content {
+        width: 98% !important;
+        margin-left: 1% !important
+    }
+    .chase3ui-enrol-select .modal-container.modal-enrollment-margin {
+        margin-left: 6% !important
+    }
+    .chase3ui-unenroll .modal-container.jputil-lg-push-1 {
+        margin-left: 0px !important
+    }
+    .chase3ui-unenroll .modal-container .modal-content {
+        margin-left: 6% !important
+    }
+    #chasepay-terms-container.modal-enrollment-margin,
+    #chasepay-faq-container.modal-enrollment-margin {
+        margin-left: 0 !important
+    }
+    #chasepay-faq-Modal.modal-content,
+    #chasepay-terms-Modal.modal-content {
+        margin-left: 6% !important
+    }
+    .ui-datepicker.ui-datepicker-multi-2.ui-datepicker-multi {
+        margin-left: -15px !important
+    }
+    .chase3ui-investment.chaseui-private.chase3ui-stmts-trade-confirms #CustomDateRangeFlyout input.chaseui-fielddate {
+        width: 80% !important
+    }
+    .chase3ui-dispute-select-transaction table.chase3ui-form-table td:nth-child {
+        width: 98%
+    }
+    body.chasejs-designfamily-lcol.chaseui-segment-ppl.chaseui-site-col.chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec {
+        margin: 0 !important;
+        width: 998px !important
+    }
+    .chase3ui-wires-scheduling table.chase3ui-wire-details div.chase3ui-datefieldcontainer {
+        width: 140px !important
+    }
+    .chase3ui-wires-scheduling table.chase3ui-wire-details input#WireInformationForm1_WireSendDate_Value.inputtextbox {
+        width: 135px !important
+    }
+    .chaseui-modalheadernav h1 {
+        width: 85% !important;
+        display: inline-block !important
+    }
+    .chaseui-modal div.chaseui-modalheadernav {
+        height: auto !important
+    }
+    .chaseui-designfamilypart-mol .chaseui-modalbody .chaseui-twocolumns .chaseui-value {
+        width: 70% !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-transfer-balance-confirm {
+        width: 97% !important;
+        margin: 0 !important
+    }
+    .chasejs-designfamily-blueprint .chaseui-bp-summarypayment .chaseui-bp-summary-duedate,
+    .chaseui-bp-summarypanelposition .chaseui-bp-summarypanel-datavalue,
+    .chaseui-bp-summarypaymentmain .chaseui-bp-summarypanel-datavalue,
+    body.chasejs-designfamily-blueprint .chaseui-bp-summarypayment {
+        font-size: 12px !important
+    }
+    .chasejs-designfamily-blueprint .chaseui-bp-summarypayment .chaseui-bp-summarypanel-datavalue {
+        font-size: 12px !important
+    }
+    input#FromDate_Value.inputtextbox,
+    input#ToDate_Value.inputtextbox {
+        width: 120px !important
+    }
+    .chase3ui-lock-rate ul {
+        -webkit-padding-start: 18px !important;
+        padding-left: 18px !important
+    }
+    .chase3ui-auto-lease-quote .chase3ui-zipcode-field .chaseui-formerrormessage {
+        color: #bf2155 !important
+    }
+    input#ZipCode.chaseui-formerror.chaseui-hover {
+        width: 60px !important
+    }
+    .chase3ui-auto-lease-quote .chasecms-instructiontext {
+        font-size: 14px !important;
+        color: #414042 !important
+    }
+    .chaseui-formlayout .chaseui-dataitem input.chaseui-formerror:focus {
+        outline: none !important
+    }
+    .chase3ui-auto-lease-quote .chaseui-dataitem input {
+        vertical-align: middle !important
+    }
+    .chase3ui-blueprint-trackit table.chaseui-grid.chaseui-grid-nocaption tr.chaseui-grid-lastrow th:nth-child(1) {
+        padding-left: 10px !important
+    }
+    input#ReturnDate_Value.inputtextbox,
+    input#DepartureDate_Value.inputtextbox {
+        width: 130px !important
+    }
+    .chase3ui-stmts-tax-forms .chaseui-contexthelpcontainer {
+        vertical-align: top !important
+    }
+    .chase3ui-stmts-inv-docs #chaseui-pagefooter {
+        width: 96% !important
+    }
+    .chasejs-designfamily-mol.chaseui-designfamilypart-mol.chaseui-designfamilypart-omnicol.chase3ui-investment.chase3ui-stmts-inv-docs a.chaseui-button>span.chaseui-buttoncontents span {
+        line-height: 40px !important
+    }
+    a#SearchButton.chaseui-button.chaseui-buttonemphasized.chasejs-buttonsubmit.chasejs-buttonvalidation.chaseanalytics-track-element.chaseanalytics-track-link span {
+        color: #fff !important
+    }
+    input#txtMobileNumberArea.inputtextbox,
+    input#txtMobileNumberPrefix.inputtextbox,
+    input#txtMobileNumberConfirmArea.inputtextbox,
+    input#txtMobileNumberConfirmPrefix.inputtextbox {
+        width: 55px !important
+    }
+    input#txtMobileNumberLine.inputtextbox,
+    input#txtMobileNumberConfirmLine.inputtextbox {
+        width: 65px !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-segment-ppl.chaseui-site-col.chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec {
+        width: 1000px !important;
+        margin: 0 !important
+    }
+    input#WireInformationForm1_WireSendDate_Value.inputtextbox {
+        width: 140px !important
+    }
+    input#WireInformationModifyForm1_WireSendDate_Value.inputtextbox {
+        width: 130px !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-segment-ccs.chaseui-site-col.chase3ui-cma-request-confirmation {
+        width: 98% !important;
+        margin: 0 !important
+    }
+    td.error-summary-cell table {
+        width: 90% !important
+    }
+    .chase3ui-mortgage-payoff-quote .chaseui-datefieldcontainer {
+        z-index: 2002 !important
+    }
+    body.chasejs-designfamily-mm div#divPayoffQuoteDetails a.chaseui-submit-large>span {
+        padding: 0px 25px !important
+    }
+    .chaseui-buttonbackcompatible-emphasized input[disabled] {
+        opacity: 1 !important
+    }
+    .chase3ui-sms-delete .modal.jpui .dialog {
+        width: 98% !important
+    }
+    .chase3ui-blueprint-finishit h4.chaseui-pageheadertext,
+    .chase3ui-blueprint-trackit h4.chaseui-pageheadertext,
+    .chase3ui-blueprint-fullpay h4.chaseutil-heading2text,
+    .chase3ui-blueprint-split h4.chaseui-pageheadertext {
+        position: relative !important
+    }
+    .chasejs-designfamily-blueprint table tbody tr:first-child td.chaseui-fullpayenroll-column div.chaseui-numbereditem ~ span.chaseutil-notetext {
+        padding-left: 0px !important
+    }
+    .chase3ui-blueprint-finishit .chaseui-summarydetail-cell input {
+        vertical-align: middle !important
+    }
+    .chasejs-designfamily-blueprint div.chaseui-layoutgrid.chaseui-layoutgrid-horizontalcalculator table.chaseui-layoutgrid-table>tbody>tr>td span {
+        font-size: 12px !important
+    }
+    .browser-firefox .chase3ui-stmts-tax-forms a.chaseui-utildownload span {
+        padding-left: 15px !important
+    }
+    .chase3ui-dispute-select-transaction table.fullwidth {
+        width: 98% !important
+    }
+    .chase3ui-rewards-program-detail .chase3ui-rpd-button-cell {
+        padding-right: 20px !important
+    }
+    .chase3ui-rewards-program-detail .fullwidth {
+        width: 98% !important
+    }
+    .chase3ui-error-summary-cell table,
+    .chase3ui-redeem-coupon-code #chase3ErrorMsgCell table {
+        width: 90% !important
+    }
+    .chase3ui-auto-saveexit #AutoHeaderControl_PrintLink .jpui.icon.printer,
+    .chase3ui-auto-loanstatus #AutoHeaderControl_PrintLink .jpui.icon.printer {
+        margin-right: 40px !important
+    }
+    .chase3ui-redeem-coupon-code .errorText ~ .bodyText {
+        display: block;
+        margin-bottom: -50px
+    }
+    .chase3ui-wires-schedule-select-rec center {
+        width: 768px
+    }
+    .chase3ui-checksearch-result #CreatePDFBtnTable .modalPopup {
+        left: 10% !important;
+        top: 30% !important
+    }
+    .chase3ui-searchforchecks .inputField1 {
+        width: 35% !important
+    }
+    .chase3ui-application-status table.chase3ui-app-table td:nth-child(1) {
+        width: 270px !important
+    }
+    .chase-escrow-information #BtnMakeEscrowPayment .chaseui-buttoncontents span {
+        font-size: 16px
+    }
+    .chase3ui-retail-discontinue .chase3ui-faq-icon {
+        right: 39px !important;
+        top: 18px
+    }
+    .chase3ui-update-cost-basis select#AccountIndex {
+        width: auto
+    }
+    form#Confirmation.chase3ui-ReportingtimeframeConf {
+        width: 99%
+    }
+    .chase3ui-stmts-tax-forms .chaseui-contexthelpcontainer {
+        vertical-align: top
+    }
+    .pwc-button.cancel,
+    .buttonback:not(.chase3ui-primary-button),
+    #CancelButton:not(.chase3ui-primary-button) {
+        min-width: 185px !important
+    }
+    input#CancelButton.buttonback {
+        margin: 0 !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-transfer-balance-details,
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-relative-position.chase3ui-transfer-balance-offer {
+        width: 97% !important;
+        margin: 0 !important;
+        padding: 0 !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-relative-position.chase3ui-transfer-balance-offer input#AIbutton {
+        margin-left: 0 !important
+    }
+    .chase3ui-clioffer-entry div#chasejs-contexthelpfloater.chaseui-contexthelpfloater.chaseui-chasefloater.chaseui-contexthelpfloater-arrowright {
+        right: 0 !important
+    }
+    .chase3ui-home-equity-lock-rate.chase3ui-lockinfo input#AmountForLock {
+        height: 20px
+    }
+    .chase3ui-home-equity-lock-rate.chase3ui-lockinfo span.chase3ui-dropdown-container.wrap.right {
+        margin-top: -2px !important
+    }
+    .chase3ui-home-equity-lock-rate.chase3ui-lockinfo span.chase3ui-dollar-char-textfield {
+        top: 2px !important
+    }
+    .chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec table#WireAddRecipientList_RecipientDataList {
+        margin: 0 auto !important;
+        text-align: center;
+        width: 600px !important
+    }
+    .chase3ui-wires-schedule-select-rec center {
+        width: 100%
+    }
+    table#WireAddRecipientList_RecipientDataList.chase3ui-wires-select-recipient-data {
+        width: auto !important
+    }
+    .chaseui-designfamilypart-mol .chaseui-modalbody .chaseui-twocolumns .chaseui-rightcolumn .chaseui-name,
+    .chaseui-designfamilypart-mol .chaseui-modalbody .chaseui-twocolumns .chaseui-value {
+        width: 40% !important
+    }
+    .chase3ui-transfer-balance-terms .chase3ui-help-icon-container a.helplinks.chase3ui-print-icon {
+        right: 40px !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-transfer-balance-confirm {
+        width: 97% !important;
+        margin: 0 !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-wire-recipient-activation-code.chase3ui-wire-select {
+        width: 96%;
+        margin: 0 !important
+    }
+    .chase3ui-clioffer-entry #chaseui-pagebody.chaseui-site-col {
+        width: 98% !important;
+        margin: 0 !important
+    }
+    body.chaseui-designfamilypart-mol .chaseanalytics-track-element:not(input) {
+        padding-right: 0px !important
+    }
+    .chase3ui-investment .chase3ui-EstAnnIncomeNav {
+        margin-left: 0px !important
+    }
+    .chase3ui-investment .chase3ui-EstAnnIncomeNav a.chaseanalytics-track-link,
+    .chase3ui-investment .chase3ui-EstAnnIncomeNav .chaseui-value .chaseui-buttonset-table {
+        font-size: 10px !important
+    }
+    .chase3ui-investment .chase3ui-EstAnnIncomeNav .chaseui-flyoutnavheader .chaseui-icons {
+        margin-top: 0px !important
+    }
+    .chase3ui-investment>div#chaseui-pagebody.chase3ui-custom-group table#grid tr td,
+    .chase3ui-investment>div#chaseui-pagebody.chase3ui-custom-group table#grid td a,
+    .chase3ui-investment>div#chaseui-pagebody.chase3ui-custom-group table#grid th a,
+    .chase3ui-investment>div#chaseui-pagebody.chase3ui-custom-group table.chaseui-grid.chaseui-grid-nocaption tfoot td.chaseui-grid-footerfirstcell span.chaseutil-deemphasize {
+        font-size: 14px !important
+    }
+    .chase3ui-wire-recipient-activation-code table.fullwidth {
+        width: 99%
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-personalinfo-joint,
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-auto-empinfo {
+        width: 98% !important;
+        margin: 0 !important
+    }
+    body.chasejs-designfamily-mol.chaseui-segment-paf.chaseui-site-col.chase3ui-auto-landing .constraint-container,
+    body.chasejs-designfamily-mol.chaseui-segment-paf.chaseui-site-col.chase3ui-auto-personalinfo .constraint-container,
+    .chase3ui-personalinfo-joint .constraint-container,
+    .chase3ui-auto-empinfo .constraint-container,
+    .chase3ui-coappinfo .constraint-container,
+    .chase3ui-auto-vehicleinfo .constraint-container,
+    .chase3ui-auto-verifyinfo .constraint-container,
+    .chase3ui-auto-agreement .constraint-container,
+    .chase3ui-auto-processing .constraint-container,
+    .chase3ui-auto-thankyou .constraint-container {
+        padding: 0 5px !important
+    }
+    .chase3ui-auto-personal-info-lastname-error {
+        padding-left: 0 !important
+    }
+    .chase3ui-auto-personal-info-lastname-error {
+        display: block !important
+    }
+    .chase3ui-error-tr td#oemherror.errorRow table {
+        width: 90% !important
+    }
+    .chase3ui-auto-empinfo .chase3ui-error-tr #ctl00_chase3ErrorMessageHeaderCell .errortext ~ .bodyText {
+        display: block;
+        padding-bottom: 0
+    }
+    .chase3ui-auto-verifyinfo .chase3ui-help-icon-container a.helplinks.chase3ui-print-icon {
+        right: 40px !important
+    }
+    .chase3ui-overdraft-services #PaperlessFaq,
+    .chase3ui-overdraft-confirmation .chase3ui-help-icon-container a.helplinks.chase3ui-print-icon {
+        margin-right: 40px !important
+    }
+    .chase3ui-overdraft-services table#usrCtrlPaperless_grdViewPerPaperless td,
+    .chase3ui-overdraft-services .bodytextverticalalign,
+    .chase3ui-overdraft-services .bodyText5Sm {
+        font-size: 12px !important
+    }
+    .chasejs-designfamily-blueprint #chaseui-pagebody {
+        width: 98%
+    }
+    .chase3ui-mortgage-payoff-quote .chaseui-contentbody {
+        margin: 20px auto !important;
+        width: 97% !important;
+        float: none
+    }
+    .chase3ui-wires-lagreement>form {
+        width: 99%;
+        height: 100%;
+        overflow-y: auto
+    }
+    .chase3ui-amui .chaseui-pagecontent .chaseui-innerpagecontent {
+        width: 962px !important
+    }
+    .chase3ui-amui #chaseui-pagebody {
+        width: 990px !important
+    }
+    .chase3ui-amui #PageContentColumnMain {
+        width: 702px !important
+    }
+    .chase3ui-amui .fullwidth,
+    .chase3ui-amui .chaseui-pagecontent .chaseui-innerpagecontent,
+    .chase3ui-amui #chaseui-pagebody {
+        width: 994px !important
+    }
+    .chase3ui-amui .chaseui-contentbody {
+        width: 100% !important
+    }
+    .chase3ui-wire-add-recipient-confirmation #header-things-you-can-do,
+    .chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec #header-things-you-can-do {
+        width: 150px;
+        position: relative;
+        float: right
+    }
+    .chase3ui-wireactivity-table table#HistoryList th:nth-child(9),
+    .chase3ui-wireactivity-table table#HistoryList td:nth-child(9) {
+        width: 11% !important
+    }
+    .chase3ui-wireactivity-table table#HistoryList th:nth-child(3),
+    .chase3ui-wireactivity-table table#HistoryList td:nth-child(3) {
+        width: 9% !important
+    }
+    .chase3ui-wireactivity-table table#HistoryList th:nth-child(4),
+    .chase3ui-wireactivity-table table#HistoryList td:nth-child(4) {
+        width: 6% !important;
+        padding-right: 2px !important
+    }
+    .chase3ui-wireactivity-table table#HistoryList td table td:nth-child(6).bodyText5Sm,
+    .chase3ui-wireactivity-table table#HistoryList th:nth-child(6),
+    .chase3ui-wireactivity-table table#HistoryList td:nth-child(6) {
+        padding-left: 10px !important;
+        width: 11% !important
+    }
+    .chase3ui-searchforchecks span.chase3ui-amountTo.chase3ui-dollar-char-textfield {
+        left: 390px !important
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th a,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment a.chaseui-grid-innercel,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment a.chaseui-grid-innercell,
+    .chaseui-grid th a.chaseui-togglevisual-headerOff,
+    .chaseui-grid th a.chaseui-togglevisual-headerOff:visited,
+    .chaseui-grid th a.chaseui-togglevisual-headerOff:hover,
+    .chaseui-grid th a.chaseui-togglevisual-headerOn,
+    .chaseui-grid th a.chaseui-togglevisual-headerOn:visited,
+    .chaseui-grid th a.chaseui-togglevisual-headerOn:hover {
+        font-size: 10px !important
+    }
+    body.chase3ui-investment th.grid-header span.chaseui-togglevisual.chaseutil-nowrap {
+        font-size: 12px !important
+    }
+    .sec-navigation {
+        padding: 10px 0 5px 0px !important
+    }
+    div.lmc-tabs ul.chaseui-tabs-list {
+        display: none
+    }
+    .footer_td_col1 .disclaimer {
+        padding: 5px 0 !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-column .chaseui-formerrormessage {
+        padding: 1px 0 0 11px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanelbody .chaseui-column .chaseui-formerrormessage {
+        padding: 1px 0 0 21px !important
+    }
+    .chase3ui-wires-activity-inquiry .chase3ui-help-icon-container a.helplinks {
+        right: 0 !important
+    }
+    .chase3ui-investment.chase3ui-stmts-tax-forms #chaseui-pagebody,
+    .chase3ui-investment.chase3ui-stmts-trade-confirms #chaseui-pagebody,
+    .chase3ui-investment.chase3ui-stmts-tax-forms #chaseui-pagecontent {
+        width: 100% !important;
+        min-width: 100% !important
+    }
+    .chase3ui-investment-stmt-list .chaseui-twocolumns .chaseui-rightcolumn {
+        display: none
+    }
+    .chase3ui-investment-stmt-list .jpui.icon.error {
+        float: left
+    }
+    .chase3ui-investment-stmt-list .chase3ui-stmt-grp-yr-detail .jpui.error.icon {
+        margin-top: 0 !important
+    }
+    .chase3ui-credit-score-enrollment.chase3ui-credit-dashboard .jpui-col-lg-3.jputil-lg-push-6 {
+        margin-left: 56% !important
+    }
+    .chase3ui-replace-creditcard .titleTable {
+        margin-top: -18px
+    }
+    .chase3ui-credit-dashboard.chase3ui-credit-dashboard-index #csm-main .accordionsGroup ul li.accordion .awrapper {
+        width: 87% !important
+    }
+    .chase3ui-credit-dashboard.chase3ui-credit-dashboard-index #csm-main #creditBasicsAccordionGroup ul li.accordion .awrapper,
+    .chase3ui-credit-dashboard.chase3ui-credit-dashboard-index #csm-main #faqAccordionGroup ul li.accordion .awrapper {
+        width: 100% !important
+    }
+    .chase3ui-sms-mobilenumber .chase3ui-help-icon-container a.helplinks {
+        margin-right: 10px
+    }
+    .chase3ui-credit-dashboard.chase3ui-credit-dashboard-index #csm-main .accordionsGroup ul li.accordion .awrapper {
+        width: 87% !important
+    }
+    .chase3ui-wires-cancel .chase3ui-wires-cancel-confirm.chase3ui-wires-confirm .confText {
+        padding-left: 30px !important;
+        padding-top: 32px
+    }
+    .chase3ui-enrol-select .modal-container.modal-enrollment-margin {
+        margin-left: 17% !important
+    }
+    .chase3ui-unenroll .modal-container .modal-content {
+        margin-left: 15% !important
+    }
+    #chasepay-faq-Modal.modal-content,
+    #chasepay-terms-Modal.modal-content {
+        margin-left: 17% !important
+    }
+    .chase3ui-checksearch-result #CreatePDFBtnTable .modalPopup {
+        left: 20% !important;
+        top: 40% !important
+    }
+    form#Confirmation.chase3ui-ReportingtimeframeConf {
+        width: 98%
+    }
+    .chase3ui-stmts-tax-forms .chaseui-contexthelpcontainer {
+        vertical-align: top !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-transfer-balance-confirm {
+        width: 97% !important
+    }
+    .chase3ui-investment .chase3ui-EstAnnIncomeNav {
+        margin-left: 5px !important
+    }
+    .chase3ui-investment .chase3ui-EstAnnIncomeNav a.chaseanalytics-track-link {
+        font-size: 12px !important
+    }
+    .chase3ui-investment .chase3ui-EstAnnIncomeNav .chaseui-flyoutnavheader .chaseui-icons {
+        margin-top: 2px !important
+    }
+    .chase3ui-auto-verifyinfo .chase3ui-help-icon-container a.helplinks.chase3ui-print-icon {
+        right: 40px !important
+    }
+}
+@media (min-width: 767px) and (max-width: 786px) {
+    .chaseui-contentheader.chaseui-hangingpanel-tall .chaseui-welcomemessage {
+        width: 69% !important
+    }
+    #ui-datepicker-div.ui-datepicker-multi-2 {
+        left: 15% !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chase3ui-position-grid tr.chaseui-grid-caption.chaseui-grid-thead.chaseui-grid-firstrow.chaseui-grid-lastrow.even th {
+        margin-left: 0px;
+        padding-left: 0px !important
+    }
+    #frmCostBasisInformation #ctl00_BodyCenterContent_FormLayout1 .header.chasejs-grid-columnnosort.TH-1 {
+        width: 16% !important
+    }
+    #frmCostBasisInformation #ctl00_BodyCenterContent_FormLayout1 .header.chasejs-grid-columnnosort.TH-2 {
+        padding-left: 4% !important;
+        width: 20% !important
+    }
+    .chase3ui-update-cost-basis select#AccountIndex {
+        width: auto
+    }
+    div#chaseui-pagebody.chaseui-segment-ccs.chaseui-site-col.chase3ui-blueprint-landing {
+        width: 95% !important;
+        margin: 0 !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-landing .chaseui-testimonial-header p {
+        width: 45% !important;
+        line-height: 20px !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-landing .chaseui-testimonial-contentleft {
+        width: 50% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-landing .chaseui-testimonial-header h3 {
+        left: 70px !important
+    }
+    .chasejs-designfamily-blueprint .chaseui-testimonial-contentleft ol li {
+        padding-bottom: 5px !important;
+        font-size: 13px !important
+    }
+    .chase3ui-home-equity-lock-rate.chase3ui-lockinfo input#AmountForLock {
+        height: 20px
+    }
+    .chase3ui-home-equity-lock-rate.chase3ui-lockinfo span.chase3ui-dropdown-container.wrap.right {
+        margin-top: -2px !important
+    }
+    .chase3ui-home-equity-lock-rate.chase3ui-lockinfo span.chase3ui-dollar-char-textfield {
+        top: 2px
+    }
+    .chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec table#WireAddRecipientList_RecipientDataList td {
+        padding: 10px 0 4px 286px !important
+    }
+    .chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec table#WireAddRecipientList_RecipientDataList {
+        margin-left: 0px !important;
+        width: auto !important
+    }
+    #csm-main #creditPictureAccordionGroup .whereYouStandData {
+        margin-left: 0 !important
+    }
+    .chase3ui-searchforchecks span.chase3ui-amountTo.chase3ui-dollar-char-textfield {
+        left: 337px !important
+    }
+}
+@media (max-width: 768px) {
+    body.chasejs-designfamily-lcol.chaseui-segment-ppl.chaseui-site-col.chase3ui-wire-recipient-activation-code.chase3ui-wire-select {
+        width: 96%;
+        margin: 0 !important
+    }
+    .chaseui-designfamilypart-omnicol.chaseui-designfamilypart-mol .chaseui-contentheader {
+        padding: 20px 0 0;
+        height: 80px
+    }
+    .chaseui-designfamilypart-mol .chaseui-footerutility {
+        padding: 0px
+    }
+    .chaseui-tabs-vertical .chaseui-tabs-body {
+        width: 99%;
+        background: #fff;
+        clear: both;
+        position: relative;
+        top: 10px
+    }
+    .chaseui-designfamilypart-mol .chaseui-modal-widthlarge,
+    .chaseui-designfamilypart-mol .chaseui-modal-widthmedium {
+        width: 700px;
+        margin: 0 auto;
+        left: 4% !important
+    }
+    .chaseui-contentheader.chaseui-hangingpanel-tall .chaseui-welcomemessage {
+        width: 69% !important
+    }
+    body.chasejs-designfamily-psr .chaseui-calloutlinks {
+        width: 19% !important
+    }
+    #chaseui-pagefooter .chaseui-footerdisclaimer.chaseutil-floatleft {
+        font-size: 11px !important;
+        margin: 25px 0 20px !important
+    }
+    .chaseui-twocolumns #ContentColumnRight.chaseui-rightcolumn {
+        width: 18%;
+        margin: 0px
+    }
+    #frmCostBasisInformation #ctl00_BodyCenterContent_FormLayout1 .header>a,
+    #costTable td {
+        padding: 5px 0px 7px 5px !important
+    }
+    th.linesymbol a.chaseui-grid-innercell {
+        margin-left: 9px !important
+    }
+    .tab-select {
+        display: block;
+        height: 35px
+    }
+    .chaseui-menus li.chaseui-main-menu-item a,
+    .chaseui-menus li.chaseui-main-menu-item a:hover,
+    .chaseui-menus li.chaseui-main-menu-item.selected a,
+    .chaseui-menus li.chaseui-main-menu-item.selected:hover a,
+    ul.chaseui-mixedlinklist li.chaseui-mixedlinkitem-enter,
+    ul.chaseui-mixedlinklist li.chaseui-mixedlinkitem-enter a.selected,
+    ul.chaseui-mixedlinklist li.chaseui-mixedlinkitem-enter a.selected:hover {
+        padding: 7px 0 9px
+    }
+    #GridContainer1.chasejs-gridcontainer table th,
+    #GridContainer1.chasejs-gridcontainer table td,
+    #GridContainerSubLevel1.chasejs-gridcontainer table th,
+    #GridContainerSubLevel1.chasejs-gridcontainer table td {
+        padding: 5px 3px
+    }
+    #GridContainer1.chasejs-gridcontainer table td,
+    #GridContainerSubLevel1.chasejs-gridcontainer table td {
+        padding: 10px 3px
+    }
+    #GridContainerSubLevel1.chasejs-gridcontainer.asset-table-container table td {
+        padding: 10px 3px
+    }
+    ul.chaseui-mixedlinklist li.chaseui-mixedlinkitem-enter {
+        padding-right: 9px !important
+    }
+    #AccountPanel #PortfolioSummaryTable {
+        width: 80% !important
+    }
+    .chaseui-designfamilypart-mol .chaseui-modalbody .chaseui-twocolumns .chaseui-value {
+        width: 55%
+    }
+    #EASummary #GridContainerEAPeriodDetails table.chaseui-grid th.chaseui-grid-lastcell {
+        width: 20%
+    }
+    #EASummary #GridContainerEAPeriodDetails table.chaseui-grid th.TH-7 {
+        width: 12%
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-flyoutnavheader a.chaseutil-textbold,
+    #SecurityTypeFlyoutNavigation .chaseui-flyoutnavheader a,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment #FlyoutNavigationQuickLinksCol .chaseui-flyoutnavheader a,
+    input[type="checkbox"].chaseanalytics-track-element ~ label[for="TaxlotsCheckBox"] {
+        font-size: 10px !important
+    }
+    body.chasejs-designfamily-psr .chaseui-interactive-formsteps .chaseui-interactive-formstep span a {
+        font-size: 12px !important
+    }
+    table.chaseui-grid span.chaseui-price-nochange,
+    table.chaseui-grid span.chaseui-price-up,
+    table.chaseui-grid span.chaseui-price-down {
+        position: relative;
+        right: 0
+    }
+    div.chaseui-modalbackground table td {
+        line-height: 15px !important
+    }
+    #RealizedGainLossPage #DetailsGrid {
+        overflow: auto
+    }
+    body.chasejs-designfamily-psr .chaseui-interactive-formsteps .chaseui-interactive-formstep span a {
+        font-size: 12px !important
+    }
+    #HomeownersInsuranceGridContainer p {
+        font-size: 10px
+    }
+    form#formnav .chaseui-dataitem .chaseui-value .chaseui-checkillustration-image {
+        zoom: 75%;
+        margin: 0
+    }
+    .chaseui-contentbody.escrow-fullwidth {
+        width: 100% !important
+    }
+    body.chasejs-designfamily-blueprint .chaseutil-notetext {
+        display: inherit
+    }
+    body.chasejs-designfamily-blueprint .chaseui-pagecontentsectionbody {
+        zoom: 95%
+    }
+    body.chasejs-designfamily-blueprint span.chaseui-button input {
+        min-width: 165px !important
+    }
+    body.chasejs-designfamily-blueprint .chaseui-pagecontentsectionbody {
+        min-height: 210px !important
+    }
+    body.chase3ui-investment>div#chaseui-pagebody.chase-custom-group .chaseui-contentheader {
+        height: 0px
+    }
+    a#WireInformationForm1_WireSendDate_Value_calendar {
+        right: -20px !important
+    }
+    .chase3ui-wires-scheduling a#WireInformationForm1_WireSendDate_Value_calendar {
+        right: 4px !important
+    }
+    .chase3ui-blueprint-finishit .chaseui-layoutgrid-horizontalcalculator .chaseui-layoutgrid-cell {
+        padding: 12px 6px 6px !important
+    }
+    .escrow-proptax table.chaseui-grid tr.chaseui-grid-lastrow th {
+        line-height: normal !important
+    }
+    .card-errortxt {
+        margin: 5px 0 0 307px !important
+    }
+    #costTable td input {
+        width: 73% !important;
+        font-size: 14px !important
+    }
+    .chase3ui-update-cost-basis #chaseui-pagefooter .chasecms-footerdisclaimer,
+    .chase3ui-verify-update-cost-basis #chaseui-pagefooter .chasecms-footerdisclaimer,
+    .chasecms-footerdisclaimer {
+        width: 98% !important
+    }
+    .chase3ui-verify-update-cost-basis table.chaseui-grid .chaseui-grid-innercell {
+        font-size: 12px !important
+    }
+    .chase3ui-blueprint-split div.chaseui-layoutgrid.chaseui-layoutgrid-horizontalcalculator table.chaseui-layoutgrid-table>tbody>tr>td:first-child,
+    .chase3ui-blueprint-split div.chaseui-layoutgrid.chaseui-layoutgrid-horizontalcalculator table.chaseui-layoutgrid-table>tbody>tr>td:nth-child(3) {
+        padding-top: 0px !important;
+        padding-bottom: 0 !important
+    }
+    form#frmCostBasisInformation table.chaseui-grid thead th b {
+        font-size: 11px !important
+    }
+    body.chase3ui-brokerage #InnerPageContentColumnContainer #PhoneNumberContainer .chaseui-value {
+        width: 55%
+    }
+    .chaseui-modal.chaseui-bp-modal.chaseutil-show {
+        left: 10% !important
+    }
+    .chase3ui-wireactivity-table table#HistoryList th:nth-child(2) {
+        width: 9% !important
+    }
+    .chase3ui-wireactivity-table table#HistoryList th:nth-child(9) {
+        width: 12% !important
+    }
+    .chase3ui-w75percent {
+        width: 90% !important
+    }
+    .footer_td_col1 .disclaimer {
+        padding: 25px 0 !important
+    }
+    .homefinance-hmg .chaseui-contentpanel.chaseui-contentpanel-plain {
+        min-height: 450px !important
+    }
+    .chaseui-site-clp .auto-lease-quote div.chaseui-statusmessage-alerthigh {
+        width: 95% !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-column:nth-child(3) {
+        clear: both;
+        padding-left: 0
+    }
+    #RecWorkFlowCntl .tanButtonRow input {
+        font-size: 15px !important
+    }
+    .chase3ui-wireactivity-table .summaryHeaderLgW input#FilterList_Show {
+        min-width: 165px !important
+    }
+    .chase3ui-wires table.payment-confirmation td:not(:nth-child(2)):not(:last-child) {
+        padding: 0 10px
+    }
+    .chase3ui-wires table.payment-confirmation tr:first-child td {
+        vertical-align: bottom
+    }
+    .chase3ui-wires table.payment-confirmation tr:first-child td:nth-child(2) {
+        width: 10%
+    }
+    .chase3ui-wires table.payment-confirmation tr:first-child td:nth-child(3) {
+        width: 10%
+    }
+    .chase3ui-wires table.payment-confirmation tr:first-child td:nth-child(4) {
+        width: 10%
+    }
+    .chase3ui-wires table.payment-confirmation tr:first-child td:nth-child(5) {
+        width: 10%
+    }
+    .chase3ui-wires table.payment-confirmation tr:first-child td:nth-child(6) {
+        width: 5%
+    }
+    .chase3ui-wires table.payment-confirmation tr:first-child td:nth-child(7) {
+        width: 10%
+    }
+    .chase3ui-wires table.payment-confirmation td p {
+        white-space: normal;
+        vertical-align: bottom;
+        padding: 0
+    }
+    .chase3ui-wires-bank-information .constraint-container>table>tbody>tr>td div.Printable>table>tbody>tr>td>table.formtable3col>tbody>tr>td.inputField1 ~ td .bodyTextSm ~ #cverror {
+        margin-top: 9px
+    }
+    .chase3ui-wires-activity .chase3ui-wireactivity-table select.selectList {
+        margin-left: 0
+    }
+    .chase3ui-wires-activity .chase3ui-wireactivity-table select.selectList ~ input.button {
+        margin: 0
+    }
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation th:last-child,
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation td[role="gridcell"] {
+        padding: 0
+    }
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation th:not(:nth-child(8)):not(:last-child),
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation td[role="gridcell"]:not(:nth-child(8)):not(:last-child) {
+        padding-right: 8px
+    }
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation th:last-child,
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation td:last-child {
+        display: none
+    }
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation th:nth-child(2) {
+        width: 8%
+    }
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation th:nth-child(3) {
+        width: 8%
+    }
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation th:nth-child(4) {
+        width: 8%
+    }
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation th:nth-child(5) {
+        width: 8%
+    }
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation th:nth-child(6) {
+        width: 14%
+    }
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation th:nth-child(7) {
+        width: 13%
+    }
+    .chase3ui-wires-scheduling form.chase3ui-wires table.payment-confirmation th:nth-child(8) {
+        width: 8%
+    }
+    .invlabels div {
+        font-size: 10px !important
+    }
+    #ctl00_ctl00_MainContent_InnerLeftContent_DataItemAccountName .chaseui-value {
+        width: 58% !important
+    }
+    .chaseui-designfamilypart-omnicol.chaseui-designfamilypart-mol.turbo-tax .chaseui-contentheader,
+    .chasejs-designfamily-lcol.turbo-tax .chaseui-contentheader {
+        padding: 20px 0;
+        height: auto
+    }
+    .chase3ui-wires-scheduling .chase3ui-wire-details-international .chase3ui-wires-amounts-label.inputField1 {
+        padding-top: 7px !important
+    }
+    form#frmCostBasisInformation table#costTable td span.date-picker-container input {
+        font-size: 13px !important
+    }
+    .our-expertise ul li.chasejs-item.chaseui-main-menu-item:last-child,
+    .investment-planning-retirement ul li.chasejs-item.chaseui-main-menu-item:last-child {
+        margin-right: 0 !important
+    }
+    .our-expertise ul li.chasejs-item.chaseui-main-menu-item a,
+    .investment-planning-retirement ul li.chasejs-item.chaseui-main-menu-item a {
+        margin-left: 14px
+    }
+    body.investment-planning-retirement .TabAndQuicklinksContainer,
+    body.our-expertise .TabAndQuicklinksContainer {
+        padding: 0 !important
+    }
+    .sec-navigation {
+        padding: 10px 0 5px 0px !important
+    }
+    .chase3ui-home-equity-lock-rate {
+        text-align: left !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanel .chaseui-columns .chaseui-column-wide {
+        padding-right: 0px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-column.chaseui-column-last b {
+        font-size: 13px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanel .chaseui-columns .chaseui-column-wide {
+        width: 465px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-numbereditem {
+        margin-bottom: 20px
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanel .chaseui-columns .chaseui-column-wide {
+        padding: 0px 20px 0 0 !important;
+        margin-bottom: 15px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-numbereditem .chaseui-numbereditemnumeral .chaseui-numbereditemnumeral2 {
+        padding-top: 18px !important;
+        padding-left: 14px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-numbereditem .chaseui-numbereditemnumeral.chaseui-numbereditemnumeral2 {
+        margin-top: 18px
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-numbereditem .chaseui-numbereditemnumeral.chaseui-numbereditemnumeral3 {
+        margin-top: 0px
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanelbody .chaseui-column .chaseui-formerrormessage {
+        padding-left: 21px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-column .chaseui-formerrormessage {
+        padding: 1px 0 0 0 !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-numbereditemcontent {
+        margin-top: 5px
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-column span {
+        vertical-align: baseline !important
+    }
+    .chase3ui-home-equity-lock-rate .chasejs-grid-simplified .chaseui-formerrormessage {
+        margin-top: 7px
+    }
+    .chase3ui-international-travel-notification a.chaseui-button>span.chaseui-buttoncontents,
+    .chase3ui-travel-notification-debit a.chaseui-button>span.chaseui-buttoncontents {
+        font-size: 16px !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid thead th,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th {
+        padding: 10px 5px;
+        font-size: 10px !important
+    }
+    .chaseui-designfamilypart-mol:not(.chase3ui-payments) .chaseui-modal-widthlarge {
+        width: 90% !important;
+        left: 5% !important
+    }
+    .chase3ui-investment #ctl00_PageContentBody .chaseui-centercolumn {
+        width: 65% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(3) {
+        width: 8% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(4) {
+        width: 6% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(2) {
+        width: 6% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(5) {
+        width: 18% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(7) {
+        width: 19% !important;
+        padding-left: 0 !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(6) {
+        width: 5% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#GroupBalanceSummaryGridContainer th:nth-child(2) {
+        width: 11%
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#GroupBalanceSummaryGridContainer th:nth-child(4) {
+        width: 10% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:first-child {
+        width: 11% !important;
+        padding-right: 10px !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td {
+        font-size: 11px !important
+    }
+    .chaseui-designfamilypart-omnicol.chase3ui-investment #GroupBalanceSummaryGridContainer table.chaseui-grid tr td {
+        font-size: 11px !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(8) {
+        width: 4% !important
+    }
+    .investment-planning-retirement .chaseui-columns-smallright .chaseui-rightcolumn,
+    .our-expertise .chaseui-columns-smallright .chaseui-rightcolumn {
+        margin: auto !important;
+        padding-right: 0 !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanelbody .chaseui-column .chaseui-formerrormessage {
+        padding-left: 15px !important
+    }
+    .chase3ui-wire-recipient-activation-code form#frmValidateOTP #chase3DctmErrortr span.errortext {
+        width: 93%
+    }
+    .chase3ui-international-travel-notification-entry .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+        width: 53.8% !important
+    }
+    .chase3ui-international-travel-notification-entry .chaseui-formlayout .chaseui-dataitem .chaseui-name {
+        width: 45% !important
+    }
+    .chase3ui-wires-schedule-add-conf .icon-infoicon,
+    .chase3ui-wires-activity .icon-infoicon {
+        line-height: 1px !important
+    }
+    .chase3ui-wires-schedule-add-conf table.payment-confirmation th.tanrow p,
+    .chase3ui-wires-schedule-add-conf table.payment-confirmation .bodytextsm {
+        font-size: 13px !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-contentleft {
+        width: 50% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-header {
+        width: 49.3% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-fullpayenroll-resultpanel {
+        width: 90% !important
+    }
+    .chasejs-designfamily-blueprint table tbody tr:first-child td.chaseui-fullpayenroll-column div.chaseui-numbereditem ~ span.chaseutil-notetext {
+        padding-left: 6px
+    }
+    .chasejs-designfamily-blueprint .chaseui-numbereditemnumeral.chaseui-numbereditemnumeral2 {
+        margin-right: 10px
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-numbereditemcontent-continued .chaseutil-heading4text {
+        padding-left: 0px !important
+    }
+    .chase3ui-help-icon-container a.helplinks {
+        right: 0px !important
+    }
+    .chase3ui-transfer-balance-history .chase3ui-help-icon-container a.helplinks.chase3ui-print-icon {
+        top: 13px;
+        right: 40px !important
+    }
+    .chasejs-designfamily-blueprint .chaseui-featuremanage-summary {
+        width: 97% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-header p {
+        height: auto !important;
+        width: 46% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-contentleft {
+        top: 100px !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-header p {
+        font-size: 17px !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-footer {
+        margin-top: 50px !important
+    }
+    .chase3ui-direct-deposit-liquid-account a.helplinks.chase3ui-print-icon {
+        right: 0 !important
+    }
+    .chase3ui-interest-paid-letter .chase3ui-help-icon-container a.helplinks {
+        right: 10px !important
+    }
+    .chase3ui-amortization-estimator .chaseui-contentbody {
+        width: 100% !important
+    }
+    .chase3ui-amortization-estimator #PrintPage {
+        right: 10px !important
+    }
+    #frmCostBasisInformation #ctl00_BodyCenterContent_FormLayout1 .header:nth-child(1) {
+        width: 19% !important
+    }
+    #frmCostBasisInformation #ctl00_BodyCenterContent_FormLayout1 .header:nth-child(2) {
+        width: 15% !important
+    }
+    .chase3ui-cma-request-confirmation .chase3ui-help-icon-container a.helplinks {
+        right: 10px !important
+    }
+    .chase3ui-investment.chase3ui-stmts-shareholder-materials #chaseui-pagecontent {
+        width: 100% !important;
+        min-width: 100% !important
+    }
+    .chase3ui-investment.chase3ui-stmts-tax-forms #chaseui-pagebody,
+    .chase3ui-investment.chase3ui-stmts-trade-confirms #chaseui-pagebody,
+    .chase3ui-investment.chase3ui-stmts-tax-forms #chaseui-pagecontent {
+        width: 100% !important;
+        min-width: 100% !important
+    }
+    .chase3ui-investment.chase3ui-stmts-trade-confirms .chaseui-centercolumn {
+        padding: 0 !important
+    }
+    .chase3ui-investment-stmt-list .chaseui-twocolumns .chaseui-rightcolumn {
+        display: none
+    }
+    .chase3ui-investment-stmt-list .jpui.icon.error {
+        float: left
+    }
+    .chaseui-designfamilypart-omnicol.chase3ui-investment.chase3ui-investment-stmt-list table.chaseui-grid tr.chaseui-grid-lastrow th {
+        font-size: 13px !important
+    }
+    .chase3ui-rewards-detail .chase3ui-help-icon-container a.helplinks.chase3ui-print-icon {
+        right: 0 !important
+    }
+    .chaseui-designfamilypart-omnicol.chase3ui-stmts-tax-forms table.chaseui-grid tr.chaseui-grid-lastrow th {
+        font-size: 13px !important
+    }
+    .chaseui-contentpanelcontent .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+        width: 55% !important
+    }
+    .chase3ui-stmts-inv-docs.chaseui-designfamilypart-mol .chaseui-flyoutnavbody .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+        width: 40% !important
+    }
+    .chase3ui-stmts-inv-docs.chaseui-designfamilypart-mol .chaseui-flyoutnav-expanded .chaseui-flyoutnavbody {
+        right: 12px !important;
+        max-width: inherit
+    }
+    .chase3ui-stmts-inv-docs.chaseui-designfamilypart-mol #chaseui-pagecontent {
+        width: 97% !important
+    }
+    .chase3ui-investment.chase3ui-stmts-inv-docs table.chaseui-grid th>a {
+        font-size: 14px !important
+    }
+    .chase3ui-investment.chase3ui-stmts-inv-docs .chaseui-statusmessagepanel-information {
+        width: 90% !important
+    }
+    .chase3ui-rewards-detail .rewards-detail-table tr:nth-child(odd) td:first-child {
+        width: 50% !important
+    }
+    .chase3ui-update-cost-basis span.chase3ui-dollar-char-textfield {
+        top: 6px !important;
+        font-size: 14px !important
+    }
+    .chase3ui-replace-creditcard-confirm .titleTable .alerttext.fa-check-circle {
+        float: left;
+        height: 40px;
+        margin-top: 8px !important
+    }
+    .chase3ui-replace-creditcard-confirm .conftext .conftext {
+        margin-top: -6px !important;
+        padding-left: 24px !important
+    }
+    .chase3ui-history .chase3ui-help-icon-container a.helplinks.print-icon {
+        right: 40px !important
+    }
+    .chase3ui-history .chase3ui-help-icon-container a.helplinks {
+        right: 0 !important
+    }
+    .chase3ui-credit-score-enrollment.chase3ui-credit-dashboard .jpui-col-lg-3.jputil-lg-push-6 {
+        margin-left: 42% !important
+    }
+    .chase3ui-credit-dashboard.chase3ui-credit-enroll .jpui-col-lg-6 {
+        width: 38% !important
+    }
+    .chase3ui-credit-score-enrollment #csm-main .chase3ui-enrollment-erroricon {
+        margin-bottom: 60px !important
+    }
+    .chase3ui-credit-dashboard #csm-main #creditPictureAccordionGroup.accordionsGroup ul li.accordion .accordion-toggle {
+        position: relative;
+        right: -18px !important
+    }
+    .chase3ui-credit-dashboard.chase3ui-credit-enroll-confirm #csm-main .confirmLogo {
+        width: auto !important
+    }
+    .chase3ui-credit-dashboard.chase3ui-credit-dashboard-index #csm-main #creditBasicsAccordionGroup ul li.accordion .awrapper,
+    .chase3ui-credit-dashboard.chase3ui-credit-dashboard-index #csm-main #faqAccordionGroup ul li.accordion .awrapper {
+        width: 100% !important
+    }
+    .chase3ui-rewards-detail #UpdatePanelOne table td:first-child {
+        width: 45% !important
+    }
+    .chase3ui-rewards-detail .summaryHeaderW,
+    .chase3ui-rewards-detail .summaryHeader {
+        font-size: 23px !important
+    }
+    .chase3ui-wires-cancel .chase3ui-wires-cancel-confirm.chase3ui-wires-confirm table {
+        top: 0 !important;
+        left: -3px !important
+    }
+    .chase3ui-bp .chaseui-formlayout .chaseui-dataitem.chaseui-city-zip.chaseutil-clearfix .chaseui-value {
+        width: auto !important
+    }
+    .chase3ui-credit-dashboard.chase3ui-credit-dashboard-index #csm-main .accordionsGroup ul li.accordion .awrapper {
+        width: 82% !important
+    }
+    .chase3ui-order-checks-deposit-slips #ErrorMessage .bodyText {
+        display: block;
+        padding-bottom: 0 !important
+    }
+    .chase3ui-sms-activationconfirm .lblueHeader .summaryheader {
+        width: 235px !important
+    }
+    .chasejs-designfamily-lcol.chase3ui-sms-activationconfirm table td.lblueheader a {
+        line-height: inherit !important
+    }
+    .chase3ui-cma-request-confirmation .alerttext.fa-check-circle {
+        float: left;
+        margin: 8px 10px 22px 0
+    }
+    .ui-datepicker table tr td a {
+        font-size: 10px !important
+    }
+    .chaseui-dual-datepicker .ui-datepicker-unselectable,
+    .chaseui-dual-datepicker .ui-datepicker-unselectable span,
+    .ui-datepicker-unselectable.chaseui-dual-calendar-range-date,
+    .ui-datepicker-calendar .ui-datepicker-unselectable,
+    .ui-datepicker-calendar .ui-datepicker-unselectable span,
+    .ui-datepicker-calendar.chaseui-dual-calendar-range-date,
+    .ui-datepicker-unselectable.ui-state-disabled {
+        font-size: 10px !important
+    }
+    .ui-datepicker .ui-datepicker-title span {
+        font-size: 20px !important
+    }
+    div.chaseui-year-container .ui-datepicker-header {
+        font-size: 12px !important
+    }
+    .chase3ui-rewards-detail #Form1 td.chase3ui-rewardslogo-align {
+        width: 65% !important
+    }
+    .chase3ui-rewards-summary .formTable3col tr:nth-child(2) td tr:first-child td.chase3ui-rewardslogo-align {
+        width: 65% !important
+    }
+    #ui-datepicker-div.ui-datepicker-multi-2 {
+        left: 15% !important
+    }
+    .chase3ui-established-fund-transfer-entry .chaseui-contentpanelcontent .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+        width: 55% !important
+    }
+    .chase3ui-wires-cancel .chase3ui-wires-cancel-confirm.chase3ui-wires-confirm .confText {
+        padding-left: 33px !important;
+        padding-top: 6px
+    }
+    .chase3ui-wires-cancel .spacerw550 {
+        padding-right: 12px
+    }
+    #csm-main .currentScoreInfo {
+        right: 0 !important
+    }
+    #csm-main #graphHolder {
+        left: 0 !important
+    }
+    .chase3ui-credit-dashboard .jpui-col-lg-3 {
+        width: auto !important
+    }
+    .chase3ui-privacy-select .chaseui-modal.chase3ui-modal {
+        left: 20% !important;
+        width: 460px !important;
+        top: 25% !important
+    }
+    .chase3ui-ordercheck-confirm .chaseui-contentpanelcontent .chaseui-formlayout .chaseui-dataitem .chaseui-value,
+    .chase3ui-ordercheck-request .chaseui-contentpanelcontent .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+        width: 56% !important
+    }
+    .chaseui-designfamilypart-omnicol.chase3ui-investment .chase3ui-position-grid tr.chaseui-grid-caption.chaseui-grid-thead.chaseui-grid-firstrow.chaseui-grid-lastrow.even th a {
+        margin-left: 0 !important;
+        background-position: 0 -4774px !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chase3ui-position-grid tr.chaseui-grid-caption.chaseui-grid-thead.chaseui-grid-firstrow.chaseui-grid-lastrow.even th {
+        margin-left: 0px;
+        padding-left: 0px !important
+    }
+    .jpui-col-lg-6.jputil-topmargin.jpui-col-last.jputil-padding.chase3ui-cp-enroll-buttons {
+        width: 100%;
+        padding-top: 0 !important
+    }
+    .ui-datepicker.ui-datepicker-multi-2.ui-datepicker-multi {
+        margin-left: 0 !important
+    }
+    .chase3ui-travel-notification-debit.chase3ui-international-travel-notification.chase3ui-international-travel-notification-entry .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+        width: 50% !important
+    }
+    .chase3ui-travel-notification-debit.chase3ui-international-travel-notification.chase3ui-international-travel-notification-entry .chaseui-datefieldcontainer.chaseui-singledatecontainer {
+        width: 145px !important
+    }
+    .chase3ui-travel-notification-debit.chase3ui-international-travel-notification.chase3ui-international-travel-notification-entry .chaseui-formlayout .chaseui-dataitem .chaseui-value.chaseutil-floatright {
+        width: 54% !important
+    }
+    .chase3ui-dispute-select-transaction table.chase3ui-form-table td.summaryHeaderW {
+        width: 155px;
+        font-size: 14px
+    }
+    .chase3ui-dispute-select-transaction table.chase3ui-form-table td:nth-child {
+        width: 80%
+    }
+    .chase3ui-dispute-select-transaction #chase3Cancel,
+    .chase3ui-dispute-select-transaction #TimePeriodConfirmButton {
+        width: 165px !important
+    }
+    .chase3ui-wires-scheduling table.chase3ui-wire-details input#WireInformationForm1_WireSendDate_Value.inputtextbox {
+        width: 135px !important
+    }
+    body.investment-planning-retirement .layout-component-wrapper.border-thin,
+    body.investment-planning-retirement .investment-planning-retirement-content {
+        width: 100% !important
+    }
+    body.chaseui-designfamilypart-omnicol.our-expertise #chaseui-pagebody,
+    body.chaseui-designfamilypart-omnicol.investment-planning-retirement #chaseui-pagebody {
+        zoom: 0.8
+    }
+    div#chasejs-contexthelpfloater.chaseui-contexthelpfloater.chaseui-chasefloater.chaseui-dynamic-modal.chaseui-modalbackground.modal-height-592.chaseui-chasefloater-border {
+        width: 600px !important
+    }
+    div.parsys.videoplayer.section video {
+        width: 600px !important
+    }
+    .chase3ui-investment .chaseui-styled-noselect {
+        font-size: 10px !important
+    }
+    div#chasejs-contexthelpfloater.chaseui-contexthelpfloater.chaseui-chasefloater.chaseui-contexthelpfloater-arrowtop.chaseui-contexthelpfloater-arrowbottom {
+        left: 600px !important
+    }
+    #GridContainerSubLevel1.chasejs-gridcontainer table td {
+        padding: 10px 0 !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment #chaseui-pagebody {
+        min-width: 98% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:first-child {
+        width: 12% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(2) {
+        width: 5% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(3) {
+        width: 9% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(4) {
+        width: 5% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(5) {
+        width: 18% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(6) {
+        width: 5% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(7) {
+        width: 21% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#GroupBalanceSummaryGridContainer th:nth-child(11),
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(8) {
+        width: 5% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#GroupBalanceSummaryGridContainer th:nth-child(4) {
+        width: 9% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#GroupBalanceSummaryGridContainer th:nth-child(2) {
+        width: 12% !important
+    }
+    form#Confirmation.chase3ui-ReportingtimeframeConf .constraint-container table.fullwidth {
+        width: 98% !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-transfer-balance-terms {
+        width: 96% !important;
+        margin: 0 !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-transfer-balance-confirm {
+        width: 97% !important;
+        margin: 0 !important
+    }
+    .chasejs-designfamily-blueprint .chaseui-bp-summarypayment .chaseui-bp-summary-duedate,
+    .chaseui-bp-summarypanelposition .chaseui-bp-summarypanel-datavalue,
+    .chaseui-bp-summarypaymentmain .chaseui-bp-summarypanel-datavalue,
+    body.chasejs-designfamily-blueprint .chaseui-bp-summarypayment {
+        font-size: 12px !important
+    }
+    .chasejs-designfamily-blueprint .chaseui-bp-summarypayment .chaseui-bp-summarypanel-datavalue {
+        font-size: 12px !important
+    }
+    body.chasejs-designfamily-blueprint .chaseui-pagecontentsectionbody {
+        min-height: 200px !important
+    }
+    .chasejs-designfamily-blueprint #chaseui-pagebody.chaseui-site-col {
+        padding: 22px 0px 0px !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-contentleft {
+        width: 50% !important
+    }
+    .chaseui-designfamilypart-cwm {
+        width: 730px !important
+    }
+    body.chaseui-designfamilypart-omnicol #chaseui-pagebody {
+        min-width: 730px !important;
+        max-width: 730px !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-segment-ppl.chaseui-site-col.chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec {
+        width: 763px !important;
+        margin: 0 !important
+    }
+    .chase3ui-wires-scheduling table td.inputField1 label {
+        width: 90% !important
+    }
+    .chase3ui-wires-scheduling.chase3ui-wires-dst-info div.chase3ui-wires-scheduling-error {
+        width: 98% !important
+    }
+    .chase3ui-wires-dst-info .chase3ui-wires-scheduling-error .bodytext {
+        display: block !important;
+        padding: 0 !important
+    }
+    .chase3ui-wires-scheduling table.chase3ui-wire-details.chase3ui-wire-details-international tbody#FullView table#SWFC tr td.bodyTextSm,
+    .chase3ui-wires-scheduling table.chase3ui-wire-details.chase3ui-wire-details-international tbody#FullView table#SWUD tr td.bodyTextSm {
+        padding-right: 10px !important
+    }
+    #RecipientList tbody tr.bodyText5Sm th:nth-child(5).tanrow {
+        width: 20% !important
+    }
+    .chase3ui-wire-recipient-activation-code span.errortext {
+        width: 90% !important
+    }
+    i#confirmIcon.fa.fa-check-circle.fa-2x.alerttext.chase3ui-pr14 {
+        margin-bottom: 20px !important;
+        display: block !important;
+        float: left !important;
+        margin-top: 7px !important
+    }
+    .chase3ui-change-card-design-confirmation i.chase3ui-pr14 {
+        margin-right: 10px !important;
+        margin-bottom: 20px !important;
+        display: block !important;
+        float: left !important;
+        margin-top: 7px !important
+    }
+    .chase3ui-change-card-design-confirmation table.titletable {
+        width: 98% !important
+    }
+    .chaseui-site-clp .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+        width: 56% !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-contentpanelcontent .chase3ui-Verticalalignment {
+        margin-top: 0 !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanel .chaseui-columns .chaseui-column-wide span.chase3ui-dollar-char-textfield {
+        top: 2px !important
+    }
+    .chase3ui-blueprint-finishit h4.chaseui-pageheadertext,
+    .chase3ui-blueprint-trackit h4.chaseui-pageheadertext,
+    .chase3ui-blueprint-fullpay h4.chaseutil-heading2text,
+    .chase3ui-blueprint-split h4.chaseui-pageheadertext {
+        position: relative !important
+    }
+    .chasejs-designfamily-blueprint table tbody tr:first-child td.chaseui-fullpayenroll-column div.chaseui-numbereditem ~ span.chaseutil-notetext {
+        padding-left: 0px !important
+    }
+    .chase3ui-blueprint-finishit .chaseui-summarydetail-cell input {
+        vertical-align: middle !important
+    }
+    .chasejs-designfamily-blueprint div.chaseui-layoutgrid.chaseui-layoutgrid-horizontalcalculator table.chaseui-layoutgrid-table>tbody>tr>td span {
+        font-size: 12px !important
+    }
+    .browser-firefox .chase3ui-stmts-tax-forms a.chaseui-utildownload span {
+        padding-left: 15px !important
+    }
+    .chase3ui-investment #AdvisorContainer span.icon-infoicon,
+    .chase3ui-investment .chase3ui-Advisory span.icon-infoicon {
+        font-size: 22px !important
+    }
+    .chase3ui-investment div#chasejs-contexthelpfloater.chaseui-contexthelpfloater.chaseui-chasefloater.chaseui-contexthelpfloater-arrowtop {
+        margin-left: -40px !important
+    }
+    div#chasejs-contexthelpfloater.chaseui-contexthelpfloater.chaseui-chasefloater.chaseui-contexthelpfloater-arrowtop .chaseui-contexthelpfloaterarrow {
+        left: 25px !important
+    }
+    .chase3ui-dispute-select-transaction table.fullwidth {
+        width: 98% !important
+    }
+    input#TimePeriodConfirmButton.buttonFwd {
+        margin: 0 10px !important
+    }
+    input#chase3Cancel.buttonBack {
+        margin-left: 10px !important
+    }
+    .chase3ui-dispute-select-transaction td.summaryHeaderW {
+        font-size: 14px !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-footer {
+        margin-top: 0px !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-contentleft {
+        position: initial !important
+    }
+    .chasejs-designfamily-blueprint .chaseui-tabs .chaseui-tabs-list li a,
+    .chasejs-designfamily-blueprint .chaseui-tabs .chaseui-tabs-list li.chaseui-tabs-selected a {
+        margin-top: 0 !important
+    }
+    .chase3ui-markets #ctl00_PageContentBody.chaseui-contentbody {
+        width: 750px !important
+    }
+    .chase3ui-markets .chaseutil-clear.TabAndQuicklinksContainer {
+        width: 730px !important
+    }
+    .chase3ui-clioffer-verify .chaseui-centercolumn .chaseui-columns .chaseui-leftcolumn,
+    .chase3ui-clioffer-entry .chaseui-centercolumn .chaseui-columns .chaseui-leftcolumn {
+        width: 70% !important
+    }
+    .chase3ui-clioffer-entry .chase3ui-entry-modifytext {
+        padding-left: 42.5% !important
+    }
+    .chase3ui-clioffer-entry .chase3ui-entry-modifytext {
+        width: 300px !important
+    }
+    .chase3ui-rewards-program-detail .chase3ui-rpd-button-cell {
+        padding-right: 20px !important
+    }
+    .chase3ui-rewards-program-detail .fullwidth {
+        width: 98% !important
+    }
+    .chase3ui-error-summary-cell table,
+    .chase3ui-redeem-coupon-code #chase3ErrorMsgCell table {
+        width: 90% !important
+    }
+    .chase3ui-clioffer-verify #PageFlowButtons {
+        margin-top: 138px !important;
+        margin-right: -200px !important
+    }
+    .chase3ui-clioffer-confirm .chaseui-centercolumn .chaseui-columns .chaseui-leftcolumn {
+        width: 78% !important
+    }
+    .chase3ui-clioffer-confirm .chaseui-centercolumn .chaseui-columns .chaseui-rightcolumn {
+        width: 139px !important
+    }
+    .chase3ui-dispute-select-transaction select#TimePeriod {
+        width: 180px !important
+    }
+    .chase3ui-dispute-select-transaction .inputTextBox {
+        margin-top: -2px !important
+    }
+    .chasejs-designfamily-blueprint.chase3ui-blueprint-home {
+        width: 97% !important
+    }
+    .chasejs-designfamily-blueprint .chaseui-quadbody .chaseui-formnav {
+        padding-top: 0px !important
+    }
+    .chasejs-designfamily-blueprint {
+        width: 96% !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-segment-ppl.chaseui-site-col.chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec {
+        width: 82% !important
+    }
+    .chaseui-modalheadernav h1 {
+        width: 85% !important
+    }
+    .chaseui-designfamilypart-mol .chaseui-modalbody .chaseui-twocolumns .chaseui-rightcolumn .chaseui-value {
+        width: 30% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(5) {
+        width: 20% !important
+    }
+    .chase3ui-update-cost-basis select#AccountIndex {
+        width: auto
+    }
+    .chasejs-designfamily-lcol.chaseui-segment-ppl.chaseui-site-col.chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec {
+        width: 100% !important
+    }
+    .chaseui-designfamilypart-mol .chaseui-modalbody .chaseui-twocolumns .chaseui-rightcolumn .chaseui-name,
+    .chaseui-designfamilypart-mol .chaseui-modalbody .chaseui-twocolumns .chaseui-value {
+        width: 45% !important
+    }
+    .chase3ui-stmts-tax-forms .chaseui-contexthelpcontainer {
+        vertical-align: top !important
+    }
+    .chase3ui-transfer-balance-terms .chase3ui-help-icon-container a.helplinks.chase3ui-print-icon {
+        right: 0px !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-transfer-balance-confirm {
+        width: 97% !important;
+        margin: 0 !important
+    }
+    .chase3ui-rewards-summary #UpdatePanelOne .chase3ui-rewardhistorytable,
+    .chase3ui-rewards-detail #UpdatePanelOne .chase3ui-rewardhistorytable {
+        width: 65% !important
+    }
+    .chase3ui-clioffer-entry div#chasejs-contexthelpfloater.chaseui-contexthelpfloater.chaseui-chasefloater.chaseui-contexthelpfloater-arrowtop .chaseui-contexthelpfloaterarrow,
+    .chase3ui-clioffer-verify div#chasejs-contexthelpfloater.chaseui-contexthelpfloater.chaseui-chasefloater.chaseui-contexthelpfloater-arrowtop .chaseui-contexthelpfloaterarrow,
+    .chase3ui-clioffer-confirm div#chasejs-contexthelpfloater.chaseui-contexthelpfloater.chaseui-chasefloater.chaseui-contexthelpfloater-arrowtop .chaseui-contexthelpfloaterarrow {
+        left: initial !important;
+        right: 14px !important
+    }
+    div#GridContainerSubLevel1.chasejs-gridcontainer.asset-table-container {
+        zoom: .9
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-transfer-balance-details,
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-relative-position.chase3ui-transfer-balance-offer {
+        width: 97% !important;
+        margin: 0 !important;
+        padding: 0 !important
+    }
+    .chase3ui-investment>div#chaseui-pagebody.chase3ui-custom-group table#grid tr td,
+    .chase3ui-investment>div#chaseui-pagebody.chase3ui-custom-group table#grid td a,
+    .chase3ui-investment>div#chaseui-pagebody.chase3ui-custom-group table#grid th a,
+    .chase3ui-investment>div#chaseui-pagebody.chase3ui-custom-group table.chaseui-grid.chaseui-grid-nocaption tfoot td.chaseui-grid-footerfirstcell span.chaseutil-deemphasize {
+        font-size: 14px !important
+    }
+    .chase3ui-custom-group #chaseui-pagecontent #CustomGroupsTitle {
+        padding-top: 0 !important;
+        height: auto
+    }
+    .product-ipad .fullwidth {
+        width: 100%
+    }
+    .chase3ui-ena-updatecontact-details .chaseui-dataitem .chaseui-postalcode,
+    .chase3ui-ena-updatecontact-details #ZipCode,
+    .chase3ui-ena-updatecontact-details #ZipCode4 {
+        margin-top: 10px !important
+    }
+    .chase3ui-stmts-inv-docs.chaseui-designfamilypart-mol .chaseui-flyoutnav-expanded .chaseui-flyoutnavbody {
+        left: 280px !important
+    }
+    .chase3ui-investment #SecurityIdSearchForm input#SecurityId {
+        width: 70px
+    }
+    .chase3ui-investment .accTypeForm {
+        font-size: 10px !important
+    }
+    .chase3ui-wires-lagreement>form {
+        overflow-x: initial !important;
+        width: 99%;
+        height: 100%;
+        overflow-y: auto
+    }
+    .investment-planning-retirement .chaseui-columns-smallright .chaseui-rightcolumn,
+    .our-expertise .chaseui-columns-smallright .chaseui-rightcolumn {
+        float: left !important;
+        width: 100%
+    }
+    body.investment-planning-retirement .chaseui-columns-smallright .chaseui-rightcolumn div,
+    body.our-expertise .chaseui-columns-smallright .chaseui-rightcolumn div {
+        float: left;
+        margin-right: 10px
+    }
+    #divCpfaSeeMyAnalysis .layout-component-wrapper .layout-column2.float-left {
+        width: auto !important
+    }
+    #csm-main #creditPictureAccordionGroup .whereYouStandData {
+        margin-left: 0 !important
+    }
+    .chase3ui-wire-add-recipient-confirmation .chase3ui-help-icon-container a.helplinks.chase3ui-print-icon {
+        margin-right: 0 !important
+    }
+    .chase3ui-wire-add-recipient-confirmation #header-things-you-can-do,
+    .chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec #header-things-you-can-do {
+        width: 150px;
+        position: relative;
+        float: right
+    }
+}
+@media (max-width: 767px) {
+    html,
+    body {
+        min-height: 480px !important
+    }
+    .fullwidth,
+    .chaseui-pagecontent .chaseui-innerpagecontent,
+    #chaseui-pagebody {
+        width: 738px !important
+    }
+    .chaseui-twocolumns .chaseui-centercolumn {
+        width: 100% !important
+    }
+    .chaseui-pagecontent .chaseui-innerpagecontent {
+        border: none;
+        float: left
+    }
+    .formtable3col {
+        width: 768px;
+        margin: 20px 0
+    }
+    .chaseui-site-clp .chaseui-formlayout .chaseui-dataitem .chaseui-name {
+        width: 30%;
+        min-width: 15%
+    }
+    .chaseui-contentbody {
+        padding-left: 0
+    }
+    .instrtexttable {
+        width: 768px;
+        margin-left: 0
+    }
+    .chaseui-important-note .chaseui-note-description.chaseui-note-biggerwidth {
+        width: 768px
+    }
+    .chaseui-centercolumn {
+        padding: 20px 0
+    }
+    .chaseui-important-note {
+        padding: 12px 0
+    }
+    .chaseui-tips-content .chaseui-tips-footer {
+        width: 100%
+    }
+    body {
+        background-color: #fff;
+        width: 95% !important;
+        overflow-x: scroll
+    }
+    center,
+    .chaseui-site-col {
+        padding: 20px 0
+    }
+    .bottom-bg-color {
+        width: 100%
+    }
+    .body-border-top {
+        border-top: 1px solid #ccc;
+        width: 98%
+    }
+    .chasejs-designfamily-mm.chaseui-designfamilypart-omnicol .chaseui-contentbody {
+        margin: 0;
+        padding: 0;
+        width: 100%
+    }
+    body.chaseui-designfamilypart-omnicol #chaseui-pagebody.chaseui-segment-paf {
+        width: 768px;
+        min-width: 768px
+    }
+    body.chase3ui-investment #GridContainer1.chasejs-gridcontainer table th,
+    body.chase3ui-investment #GridContainerSubLevel1.chasejs-gridcontainer table th {
+        margin: 0;
+        padding: 5px;
+        font-size: 10px
+    }
+    body.chase3ui-investment #GridContainerSubLevel1.chasejs-gridcontainer table td {
+        font-size: 10px;
+        margin: 0
+    }
+    body.chase3ui-investment #GridContainer1.chasejs-gridcontainer table td a,
+    body.chase3ui-investment #GridContainerSubLevel1.chasejs-gridcontainer table td a {
+        font-size: 10px
+    }
+    body.chase3ui-investment #GridContainer1.chasejs-gridcontainer table td.chaseui-grid-firstcell,
+    body.chase3ui-investment #GridContainerSubLevel1.chasejs-gridcontainer table td.chaseui-grid-firstcell {
+        padding-left: 10px
+    }
+    body.chase3ui-investment #GridContainer1.chasejs-gridcontainer table tr.chaseui-grid-tfoot.chaseui-grid-lastrow.even td,
+    .chaseui-rightcolumn {
+        margin: 10px 0px 40px 20px
+    }
+    body.chase3ui-investment .chasejs-gridcontainer table td,
+    body.chase3ui-investment.chasejs-gridcontainer table.chaseui-grid td,
+    body.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th a,
+    body.chase3ui-investment a.chaseui-grid-innercell,
+    body.chase3ui-investment table.chaseui-grid td span.chaseutil-deemphasize,
+    .chaseui-designfamilypart-omnicol .chaseui-pagecontent a {
+        font-size: 10px !important
+    }
+    .chaseui-flyoutnavheader a.chaseutil-textbold {
+        font-size: 10px
+    }
+    .TabAndQuicklinksContainer {
+        padding: 8px 15px 0
+    }
+    body.chase3ui-investment table.chaseui-grid-multiple tr.chaseui-grid-firstrow.chaseui-grid-caption th {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+    body.chase3ui-investment table.chaseui-grid th>a {
+        margin-left: 0px;
+        padding-left: 0
+    }
+    body.chase3ui-investment span.chaseui-treeselect {
+        font-size: 12px
+    }
+    body.chase3ui-investment #GridContainer1.chasejs-gridcontainer table td,
+    body.chase3ui-investment #GridContainerSubLevel1.chasejs-gridcontainer table td {
+        padding: 4px 5px 3px;
+        font-size: 10px;
+        margin: 0
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th a,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment a.chaseui-grid-innercel {
+        font-size: 9px !important
+    }
+    body.chase3ui-investment th.grid-header span.chaseui-togglevisual.chaseutil-nowrap {
+        padding-left: 10px
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th a,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment a.chaseui-grid-innercel,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment a.chaseui-grid-innercell,
+    .chaseui-grid th a.chaseui-togglevisual-headerOff,
+    .chaseui-grid th a.chaseui-togglevisual-headerOff:visited,
+    .chaseui-grid th a.chaseui-togglevisual-headerOff:hover,
+    .chaseui-grid th a.chaseui-togglevisual-headerOn,
+    .chaseui-grid th a.chaseui-togglevisual-headerOn:visited,
+    .chaseui-grid th a.chaseui-togglevisual-headerOn:hover {
+        font-size: 9px !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid th.chaseutil-sup-padding sup,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-lastrow th.chaseui-amount {
+        font-size: 10px !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-hangingpanel.chaseui-hangingpanel-right.chaseui-getquote {
+        width: auto !important;
+        margin: 0
+    }
+    .chaseui-centercolumn .chaseui-columns-allequal.chaseui-workflow-conf-util-container .chaseui-rightcolumn {
+        clear: none
+    }
+    body.chasejs-designfamily-psr .chaseui-hangingpanel {
+        width: 26%;
+        float: right
+    }
+    body.chasejs-designfamily-psr .chaseui-pageheadermiddle,
+    body.chasejs-designfamily-psr .chaseui-pageheadermiddle,
+    body.chasejs-designfamily-psr .chaseui-contentbody {
+        width: auto !important
+    }
+    body.chasejs-designfamily-psr .chaseui-tabs-vertical .chaseui-tabs-list {
+        width: auto;
+        overflow: visible
+    }
+    body.chasejs-designfamily-psr .chaseui-tabs-vertical .chaseui-tabs-list li {
+        width: 95%
+    }
+    body.chasejs-designfamily-psr .chaseui-calloutlinks {
+        width: 19.5% !important
+    }
+    body.chasejs-designfamily-psr .chaseui-tabs-vertical .chaseui-tabs-list li.chaseui-tabs-selected {
+        width: 230px !important;
+        background: url("../images/select-dropdown.png") no-repeat scroll 95% 16px/14px auto transparent;
+        display: block
+    }
+    #chaseui-pagefooter .chaseui-footerdisclaimer.chaseutil-floatleft {
+        font-size: 11px !important;
+        margin: 25px 0 20px !important
+    }
+    .chaseui-rightcolumn {
+        clear: none
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th.headerSortDown a,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th.headerSortUp a {
+        padding-left: 10px
+    }
+    .sec-navigation {
+        padding: 10px 0 5px 0px
+    }
+    body.chasejs-designfamily-psr .chaseui-tabs-vertical .chaseui-tabs-list a {
+        padding: 10px 10px 10px 15px
+    }
+    body.chasejs-designfamily-psr .chaseui-tabs .chaseui-tabs-list li .chaseui-tabstitle {
+        border: none
+    }
+    body.chasejs-designfamily-psr .chaseui-tabs-vertical .chaseui-tabs-list li {
+        border-right: solid 1px #ccc;
+        padding-right: 20px;
+        width: 230px;
+        display: none
+    }
+    .chaseui-interactive-formsteps .chaseui-interactive-formstep span a {
+        font-size: 11px !important;
+        padding: 20px 0px 30px !important
+    }
+    .chaseui-calloutlinks .chaseui-linklist {
+        display: none
+    }
+    .chaseui-interactive-formsteps .chaseui-interactive-formstep span {
+        height: 52px
+    }
+    .chaseui-statusmessage {
+        width: 100%;
+        padding-bottom: 0
+    }
+    select.tab-select {
+        padding: 9px 25px 5px 10px !important
+    }
+    body.chaseui-site-col {
+        padding: 20px 0 !important;
+        width: 100% !important
+    }
+    body.chaseui-site-col>form {
+        overflow-x: scroll
+    }
+    .chase3ui-wires-lagreement>form {
+        overflow-x: initial !important;
+        width: 99%;
+        height: 100%;
+        overflow-y: auto
+    }
+    .constraint-container {
+        padding: 0 10px !important;
+        overflow-x: scroll
+    }
+    #AccountPanel #PortfolioSummaryTable {
+        width: 80% !important
+    }
+    div.lmc-tabs ul.chaseui-tabs-list {
+        display: none
+    }
+    #stepDetailsDiv div select {
+        display: inline-block !important
+    }
+    .chaseui-designfamilypart-mol .chaseui-modalbody .chaseui-twocolumns .chaseui-rightcolumn .chaseui-name {
+        width: 53% !important;
+        text-align: right
+    }
+    .chaseui-interactive-formsteps .chaseui-interactive-formstep {
+        margin-right: 50px !important
+    }
+    .chaseui-modalbody #DescriptionColumn.chaseui-centercolumn {
+        width: 60%
+    }
+    .chaseui-modalbody #ContentColumn5.chaseui-rightcolumn {
+        width: 30%
+    }
+    .chaseui-designfamilypart-mol .chaseui-modal-heightsmall .chaseui-modalforeground {
+        width: 100%
+    }
+    .chaseui-modalheadernav h1 {
+        font-size: 18px !important
+    }
+    ul.chaseui-mixedlinklist.chaseui-list-separated>li.chaseui-mixedlinkitem-enter>a,
+    .chaseui-menus li.chaseui-main-menu-item a {
+        font-size: 10px !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment #chaseui-pagebody {
+        padding: 28px 0 0 !important;
+        margin: 0
+    }
+    body.chase3ui-investment .chasejs-gridcontainer table td,
+    body.chase3ui-investment.chasejs-gridcontainer table.chaseui-grid td,
+    body.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th a,
+    body.chase3ui-investment a.chaseui-grid-innercell,
+    body.chase3ui-investment table.chaseui-grid td span.chaseutil-deemphasize,
+    .chaseui-designfamilypart-omnicol .chaseui-pagecontent a {
+        font-size: 10px !important
+    }
+    body.chasejs-designfamily-mm.chaseui-designfamilypart-mol.chaseui-designfamilypart-omnicol.chase3ui-investment {
+        width: 99%
+    }
+    table.chaseui-grid span.chaseui-price-nochange,
+    table.chaseui-grid span.chaseui-price-up,
+    table.chaseui-grid span.chaseui-price-down {
+        position: relative;
+        right: 0
+    }
+    div.chaseui-modalbackground table td {
+        line-height: 15px !important
+    }
+    body.chaseui-private #chaseui-pagefooter a,
+    #chaseui-pagefooter p,
+    body.chase3ui-investment #chaseui-pagefooter .bodytextsm strong,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-treeselect a.chaseui-treeselect-trigger,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseui-treeselect a.chaseui-treeselect-trigger:hover,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment .chaseutil-filters-panel .chaseui-treeselect a.chaseui-treeselect-trigger,
+    .chaseui-footnote table tbody tr td div span,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-button input,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-submit-large input,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment span.chaseui-buttongetquote input,
+    a.chaseui-button>span.chaseui-buttoncontents,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment #FlyoutNavigationQuickLinksCol .chaseui-flyoutnavheader a,
+    body.chase3ui-investment #SecurityIdSearchForm input#SecurityId,
+    body.chase3ui-investment .predtextcontainer input[type="text"] {
+        font-size: 11px !important
+    }
+    body.chasejs-designfamily-mm div.ui-datepicker.chase3-ui-datepicker-768px {
+        top: 298px !important
+    }
+    p.escrow-fnote {
+        font-size: 11px
+    }
+    #HomeownersInsuranceGridContainer table.chaseui-grid th.header {
+        padding: 7px 10px !important;
+        font-size: 12px !important;
+        line-height: initial !important
+    }
+    .escrow-proptax table.chaseui-grid th.header {
+        font-size: 12px !important
+    }
+    .chaseui-contentbody.escrow-fullwidth {
+        width: 100% !important
+    }
+    body.chasejs-designfamily-blueprint.chasejs-designfamily-mm.chaseui-designfamilypart-mol.chaseui-designfamilypart-omnicol.chase3ui-investment #chaseui-pagebody {
+        width: inherit !important;
+        min-width: inherit !important;
+        padding-left: 0px !important
+    }
+    body.chasejs-designfamily-blueprint .chaseui-fullpayenroll-entrypanel {
+        width: 95% !important
+    }
+    body.chasejs-designfamily-blueprint #chaseui-pagefooter .chaseui-footerutility {
+        text-align: center !important
+    }
+    #WireRecipientForm1_Label1,
+    #WireRecipientForm2_Label2,
+    #WireRecipientForm2_Label1,
+    table.chase3ui-wire-Details .bodyTextSm {
+        display: inline-block
+    }
+    body.chasejs-designfamily-blueprint span.chaseui-button input {
+        min-width: 165px !important
+    }
+    body.chasejs-designfamily-blueprint .chaseui-pagecontentsectionbody {
+        min-height: 210px !important
+    }
+    body.chaseui-wires #chaseui-pagebody {
+        width: 98%
+    }
+    table.chase3ui-wire-Details .chase3ui-datefieldcontainer.chase3ui-singledatecontainer {
+        width: 29% !important
+    }
+    a#WireInformationForm1_WireSendDate_Value_calendar {
+        right: -20px !important
+    }
+    .chase3ui-wires-scheduling a#WireInformationForm1_WireSendDate_Value_calendar {
+        right: 4px !important
+    }
+    .chase3ui-blueprint-finishit .chaseui-layoutgrid-horizontalcalculator .chaseui-layoutgrid-cell {
+        padding: 12px 6px 6px !important
+    }
+    .escrow-proptax table.chaseui-grid tr.chaseui-grid-lastrow th {
+        line-height: normal !important
+    }
+    .chase3ui-verify-update-cost-basis table.chaseui-grid .chaseui-grid-innercell {
+        font-size: 12px !important
+    }
+    #HistoryList td,
+    #HistoryList th {
+        font-size: 12px !important
+    }
+    .chaseui-modal.chaseui-bp-modal.chaseutil-show {
+        left: 10% !important
+    }
+    body.chaseui-site-col.chase3ui-change-card-design {
+        padding: 45px 0 20px !important
+    }
+    body.chaseui-site-col.chase3ui-change-card-design-confirmation {
+        padding: 40px 0 20px !important
+    }
+    .footer_td_col1 .disclaimer {
+        padding: 25px 0 !important
+    }
+    .homefinance-hmg .chaseui-contentpanel.chaseui-contentpanel-plain {
+        min-height: 450px !important
+    }
+    .chaseui-site-clp .auto-lease-quote div.chaseui-statusmessage-alerthigh {
+        width: 95% !important
+    }
+    .chase3ui-wireactivity-table .summaryHeaderLgW input#FilterList_Show {
+        min-width: 165px !important
+    }
+    .invlabels div {
+        font-size: 10px !important
+    }
+    #ctl00_ctl00_MainContent_InnerLeftContent_DataItemAccountName .chaseui-value {
+        width: 58% !important
+    }
+    #costTable td *:not(img):not(button):not(a) {
+        padding: 5px
+    }
+    .chase3ui-home-equity-lock-rate {
+        text-align: left !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanel .chaseui-columns .chaseui-column-wide {
+        padding-right: 0px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-column.chaseui-column-last b {
+        font-size: 13px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanel .chaseui-columns .chaseui-column-wide {
+        width: 465px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-numbereditem {
+        margin-bottom: 20px
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanel .chaseui-columns .chaseui-column-wide {
+        padding: 0px 20px 0 0 !important;
+        margin-bottom: 15px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-numbereditem .chaseui-numbereditemnumeral .chaseui-numbereditemnumeral2 {
+        padding-top: 18px !important;
+        padding-left: 14px !important
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-numbereditem .chaseui-numbereditemnumeral.chaseui-numbereditemnumeral2 {
+        margin-top: 18px
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-numbereditem .chaseui-numbereditemnumeral.chaseui-numbereditemnumeral3 {
+        margin-top: 3px
+    }
+    .chase3ui-home-equity-lock-rate .chaseui-functionpanelbody .chaseui-column .chaseui-formerrormessage {
+        padding-left: 15px !important
+    }
+    .chase3ui-international-travel-notification a.chaseui-button>span.chaseui-buttoncontents,
+    .chase3ui-travel-notification-debit a.chaseui-button>span.chaseui-buttoncontents {
+        font-size: 16px !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid thead th,
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment table.chaseui-grid tr.chaseui-grid-thead.chaseui-grid-lastrow th {
+        padding: 10px 5px;
+        font-size: 10px !important
+    }
+    .chaseui-designfamilypart-mol:not(.chase3ui-payments) .chaseui-modal-widthlarge {
+        width: 90% !important;
+        left: 5% !important
+    }
+    .chase3ui-investment #ctl00_PageContentBody .chaseui-centercolumn {
+        width: 65% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:first-child {
+        width: 11% !important;
+        padding-right: 10px !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td {
+        font-size: 11px !important
+    }
+    .chase3ui-international-travel-notification-entry .chaseui-formlayout .chaseui-dataitem .chaseui-value {
+        width: 54% !important
+    }
+    .chase3ui-international-travel-notification-entry .chaseui-formlayout .chaseui-dataitem .chaseui-name {
+        width: 45% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-contentleft {
+        width: 50% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-header {
+        width: 49.3% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-fullpayenroll-resultpanel {
+        width: 90% !important
+    }
+    .chasejs-designfamily-blueprint table tbody tr:first-child td.chaseui-fullpayenroll-column div.chaseui-numbereditem ~ span.chaseutil-notetext {
+        padding-left: 6px
+    }
+    .chasejs-designfamily-blueprint .chaseui-numbereditemnumeral.chaseui-numbereditemnumeral2 {
+        margin-right: 10px
+    }
+    .chasejs-designfamily-blueprint .chaseui-featuremanage-summary {
+        width: 97% !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-numbereditemcontent-continued .chaseutil-heading4text {
+        padding-left: 0px !important
+    }
+    .chase3ui-help-icon-container a.helplinks {
+        right: 0px !important
+    }
+    .pwc-container {
+        min-width: 738px !important;
+        max-width: 738px !important
+    }
+    .chase3ui-wires-scheduling table.chase3ui-wire-details input#WireInformationForm1_WireSendDate_Value.inputtextbox {
+        width: 135px !important
+    }
+    body.investment-planning-retirement .layout-component-wrapper.border-thin,
+    body.investment-planning-retirement .investment-planning-retirement-content {
+        width: 125% !important
+    }
+    div#chasejs-contexthelpfloater.chaseui-contexthelpfloater.chaseui-chasefloater.chaseui-dynamic-modal.chaseui-modalbackground.modal-height-592.chaseui-chasefloater-border {
+        width: 600px !important
+    }
+    div.parsys.videoplayer.section video {
+        width: 600px !important
+    }
+    .chase3ui-investment .chaseui-styled-noselect {
+        font-size: 10px !important
+    }
+    div#chasejs-contexthelpfloater.chaseui-contexthelpfloater.chaseui-chasefloater.chaseui-contexthelpfloater-arrowtop.chaseui-contexthelpfloater-arrowbottom {
+        left: 600px !important
+    }
+    #GridContainerSubLevel1.chasejs-gridcontainer table td {
+        padding: 10px 0 !important
+    }
+    body.chaseui-designfamilypart-omnicol.chase3ui-investment #chaseui-pagebody {
+        min-width: 96% !important;
+        overflow-x: scroll
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:first-child {
+        width: 12% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(2) {
+        width: 5% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(3) {
+        width: 9% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(4) {
+        width: 5% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(5) {
+        width: 18% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(6) {
+        width: 5% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(7) {
+        width: 21% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#GroupBalanceSummaryGridContainer th:nth-child(11),
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#KeyAccountValuesGridContainer td:nth-child(8) {
+        width: 5% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#GroupBalanceSummaryGridContainer th:nth-child(4) {
+        width: 9% !important
+    }
+    .chase3ui-investment #BalancesContainer .chase3ui-investments-balances-detail-table#GroupBalanceSummaryGridContainer th:nth-child(2) {
+        width: 12% !important
+    }
+    form#Confirmation.chase3ui-ReportingtimeframeConf .constraint-container table.fullwidth {
+        width: 98% !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-transfer-balance-terms {
+        width: 96% !important;
+        margin: 0 !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-site-col.chase3ui-transfer-balance-confirm {
+        width: 97% !important;
+        margin: 0 !important
+    }
+    .chasejs-designfamily-blueprint .chaseui-bp-summarypayment .chaseui-bp-summary-duedate,
+    .chaseui-bp-summarypanelposition .chaseui-bp-summarypanel-datavalue,
+    .chaseui-bp-summarypaymentmain .chaseui-bp-summarypanel-datavalue,
+    body.chasejs-designfamily-blueprint .chaseui-bp-summarypayment {
+        font-size: 12px !important
+    }
+    .chasejs-designfamily-blueprint .chaseui-bp-summarypayment .chaseui-bp-summarypanel-datavalue {
+        font-size: 12px !important
+    }
+    body.chasejs-designfamily-blueprint .chaseui-pagecontentsectionbody {
+        min-height: 200px !important
+    }
+    .chasejs-designfamily-blueprint #chaseui-pagebody.chaseui-site-col {
+        padding: 22px 0px 0px !important
+    }
+    .chasejs-designfamily-blueprint .chase3ui-blueprint-fullpay .chaseui-testimonial-contentleft {
+        width: 50% !important
+    }
+    .chaseui-designfamilypart-cwm {
+        width: 730px !important
+    }
+    body.chaseui-designfamilypart-omnicol #chaseui-pagebody {
+        min-width: 730px !important;
+        max-width: 730px !important
+    }
+    body.chasejs-designfamily-lcol.chaseui-segment-ppl.chaseui-site-col.chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec {
+        width: 763px !important;
+        margin: 0 !important
+    }
+    .chase3ui-wires-scheduling table td.inputField1 label {
+        width: 90% !important
+    }
+    .chase3ui-wires-scheduling.chase3ui-wires-dst-info div.chase3ui-wires-scheduling-error {
+        width: 98% !important
+    }
+    .chase3ui-wires-dst-info .chase3ui-wires-scheduling-error .bodytext {
+        display: block !important;
+        padding: 0 !important
+    }
+    .chase3ui-wires-scheduling table.chase3ui-wire-details.chase3ui-wire-details-international tbody#FullView table#SWFC tr td.bodyTextSm,
+    .chase3ui-wires-scheduling table.chase3ui-wire-details.chase3ui-wire-details-international tbody#FullView table#SWUD tr td.bodyTextSm {
+        padding-right: 10px !important
+    }
+    #RecipientList tbody tr.bodyText5Sm th:nth-child(5).tanrow {
+        width: 20% !important
+    }
+    .chase3ui-wire-recipient-activation-code span.errortext {
+        width: 90% !important
+    }
+    .chase3ui-clioffer-entry .chaseui-utilinformation span {
+        font-size: 26px !important
+    }
+    .chase3ui-clioffer-confirm .chaseui-formnav {
+        margin-right: 0px !important;
+        padding-right: 0pxx !important
+    }
+    body.chase3ui-wire-recipient,
+    body.chase3ui-wire-recipient-activation-code,
+    body.chase3ui-wires-scheduling,
+    body.chase3ui-wires-activity,
+    body.chase3ui-wires-cancel,
+    body.chase3ui-wires-activity-inquiry,
+    body.chase3ui-wire-add-recipient-information,
+    body.chase3ui-wire-add-recipient-bank-information,
+    body.chase3ui-wire-delete-recipient,
+    body.chase3ui-wires-activity-detail {
+        width: auto !important
+    }
+    body.chase3ui-wire-recipient form,
+    body.chase3ui-wire-recipient-activation-code form,
+    body.chase3ui-wires-scheduling form,
+    body.chase3ui-wires-activity form,
+    body.chase3ui-wires-cancel form,
+    body.chase3ui-wires-activity-inquiry form,
+    body.chase3ui-wire-add-recipient-information form,
+    body.chase3ui-wire-add-recipient-bank-information form,
+    body.chase3ui-wire-delete-recipient form,
+    body.chase3ui-wires-activity-detail form {
+        overflow-x: auto
+    }
+    body.chasejs-designfamily-mm.chaseui-designfamilypart-mol.chaseui-designfamilypart-omnicol.chase3ui-investment.investment-full-width {
+        width: auto !important
+    }
+    .chase3ui-investment #chaseui-pagebody.chaseui-segment-paf.chaseui-site-col {
+        width: 100%;
+        overflow-x: scroll
+    }
+    .chase3ui-investment.chase3ui-inv-position-detail {
+        width: 98% !important
+    }
+    .chaseui-designfamilypart-omnicol.chase3ui-investment.chase3ui-inv-position-detail #chaseui-pagebody {
+        min-width: 100% !important
+    }
+    .chase3ui-wires-scheduling.chase3ui-wires-schedule-select-rec table#WireAddRecipientList_RecipientDataList td {
+        padding: 10px 0px 4px 140px !important
+    }
+    .investment-planning-retirement .chaseui-columns-smallright .chaseui-rightcolumn,
+    .our-expertise .chaseui-columns-smallright .chaseui-rightcolumn {
+        float: left !important;
+        width: 100%
+    }
+    body.investment-planning-retirement .chaseui-columns-smallright .chaseui-rightcolumn div,
+    body.our-expertise .chaseui-columns-smallright .chaseui-rightcolumn div {
+        float: left;
+        margin-right: 10px
+    }
+    #divCpfaSeeMyAnalysis .layout-component-wrapper .layout-column2.float-left {
+        width: auto !important
+    }
+    .chase3ui-sms-mobilenumber .constraint-container {
+        overflow-x: auto !important
+    }
+    .chase3ui-amui .fullwidth,
+    .chase3ui-amui .chaseui-pagecontent .chaseui-innerpagecontent,
+    .chase3ui-amui #chaseui-pagebody {
+        width: 994px !important
+    }
+}
+@media (min-width: 768px) and (max-width: 952px) {
+    .chase3ui-add-authorized-user .conftext {
+        margin-top: 15px !important
+    }
+    .chase3ui-add-authorized-user span.instrText {
+        line-height: 2
+    }
+    .chase3ui-auto-saveexit #AutoHeaderControl_PrintLink .jpui.icon.printer,
+    .chase3ui-auto-loanstatus #AutoHeaderControl_PrintLink .jpui.icon.printer {
+        margin-right: 40px !important
+    }
+    .chase3ui-redeem-coupon-code .errorText ~ .bodyText {
+        display: block;
+        margin-bottom: -50px
+    }
+    .chase3ui-wires-schedule-select-rec center {
+        width: 768px
+    }
+}
+@media (max-width: 1025px) {
+    .chase3ui-brokerage #FromAccountResponseContainer #ToAccountContainer>.chaseui-dataitem {
+        display: block !important
+    }
+    .chase3ui-brokerage #FromAccountResponseContainer #ToAccountContainer .chaseui-dataitem:nth-child(2) .chaseui-name {
+        display: inline-block !important
+    }
+    .chase3ui-brokerage #ToAccountContainer>.chaseui-dataitem:nth-child(2) {
+        position: static !important
+    }
+    .chasejs-designfamily-blueprint.chase3ui-blueprint-home {
+        width: 97% !important;
+        margin: 0 !important
+    }
+}
+@media (max-width: 946px) {
+    select#WireInformationForm1_CurrencyType ~ input {
+        margin: 10px 0 0 !important;
+        display: block !important
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    iframe#thirdPartyContent.chaseui-maintainsession.chaseui-autoresize {
+        -ms-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        -ms-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        -o-transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0
+    }
+    .chase3ui-markets .TabAndQuicklinksContainer {
+        width: 97%
+    }
+    .chase3ui-markets div#ctl00_PageContentBody.chaseui-contentbody {
+        width: 748px !important
+    }
+}

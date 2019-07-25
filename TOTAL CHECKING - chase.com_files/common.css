@@ -1,0 +1,1534 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,300);
+
+.spinnerWrapper{position:absolute;width:100%;top:50%;text-align:center;}
+#chaseSpinnerID.jpui.spinner{display:inline-block;overflow:visible!important;padding-top:0;margin-top:-50%;}
+#chaseSpinnerID.jpui.spinner:after{content:"\0020";-moz-animation:three-quarters-loader 780ms infinite linear;-webkit-animation:three-quarters-loader 780ms infinite linear;animation:three-quarters-loader 780ms infinite linear;border:4px solid #CCC;border-right-color:#0092FF;border-radius:50%;box-sizing:border-box;display:inline-block;position:relative;width:48px;height:48px}@media(max-width:991px){#chaseSpinnerID.jpui.spinner:after{width:38px;height:38px}}@media(max-width:767px){#chaseSpinnerID.jpui.spinner:after{width:28px;height:28px}}#chaseSpinnerID.jpui.spinner:before{content:"Loading";color:transparent;position:absolute;bottom:-1.25rem;font-size:1rem}#chaseSpinnerID.jpui.spinner:focus{outline:0}@-moz-keyframes three-quarters-loader{0%{-moz-transform:rotate(0);transform:rotate(0)}100%{-moz-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes three-quarters-loader{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes three-quarters-loader{0%{-moz-transform:rotate(0);-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}100%{-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}#chaseSpinnerID.jpui.spinner .util.accessible-text{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);padding:0!important;border:0!important;height:1px!important;width:1px!important;overflow:hidden}
+
+BODY{overflow-x:hidden; overflow-y: auto; margin:0; height: 100%;}
+        
+#init{
+  opacity:0; 
+  -webkit-transition: opacity 1s; 
+  transition:opacity 1s; 
+  z-index:-1; 
+  background: #1c4f82; /* Old browsers */
+  background: -moz-linear-gradient(top,  #1c4f82 0%, #2e6ea3 100%);
+  background: -webkit-linear-gradient(top,  #1c4f82 0%,#2e6ea3 100%);
+  background: linear-gradient(to bottom,  #1c4f82 0%,#2e6ea3 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 110%;
+}
+        
+DIV#body { background:#f3f0e9; opacity:1; -webkit-transition:opacity 1s; transition: opacity 1s; }
+
+/****************CBO investment Css ***************/
+.show-trade-padding{padding-bottom:12px;}
+#stockSymbol-input-field{padding:5px 0;  height: 32px; font-size:14px;}
+.transactions-container .investmenttable .simple.table th.investment-name-label{width:41.6667% ;}
+.transactions-container .investmenttable .simple.table th.investment-change-label{width:25% ;}
+.transactions-container .investmenttable .simple.table th.investment-change-label{width:25% ;}
+#inner-content-container #right-container .transactions-container #investment-transactions .transactionInnerContainer{height:auto;}
+
+.alerts-notifications.alerts-history-and-delivery .jpui.form.alertDeliveryForm label, .alerts-notifications.alerts-history-and-delivery .jpui.form.alertDeliveryForm legend{padding-right:15px;}
+.stub.simple.table > tbody > tr > td{line-height:2.9;}
+/*svg:not(:root){display:none;}*/
+.jpui.button.fluid{height:3.5rem;}
+ body #header .conversation-deck-primary-search{top:7px!important;}
+ /*body #header .search-suggestions{top:25px!important; border-top: 1px solid #ccc;}*/
+body #header .search-suggestions h4 {color: #414042;font-size: 14px;}
+body #header .search-suggestions h4  b {font-weight:600; padding:20px;}
+#primary-search-result  #conversation-deck-search-results{border-radius:12px; background:rgba(0,0,0,0.4)}
+body #header #primary-search-result #conversation-deck-search-results .primary-search-results-wrapper{opacity:1!important;}
+#body  #main #header  #primary-search-result .conversation-deck-search-results{margin:0px;}
+#body #main #header .conversation-deck-primary-search #primary-search-clear-text {color: inherit;display: block;position: absolute;right: 16px;top: 10px;
+    z-index: 5;}
+
+.jpui.radiobutton{
+	margin-bottom:5px;
+	font-size: 16px !important;
+}
+.jpui.radiobutton input[type="radio"] {
+    border: 0 none !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px !important;
+    overflow: hidden;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+.jpui.radiobutton input[type="radio"] + label::before {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #959595;
+    border-radius: 50%;
+    content: " ";
+    display: inline-block;
+    height: 1.375rem;
+    left: 0;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
+    width: 1.375rem;
+}
+.jpui.radiobutton input[type="radio"]:checked + label::after {
+    background: #0b6efd none repeat scroll 0 0;
+    color: transparent;
+    content: "●";
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 0.875rem;
+    position: absolute;
+}
+.jpui.radiobutton input[type="radio"] + label::after {
+    border: 1px solid #0b6efd;
+    border-radius: 50%;
+    content: " ";
+    display: inline-block;
+    
+    left: 0;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+    position: absolute;
+    top: 0;
+    
+}
+.jpui.radiobutton input[type="radio"] + label {
+    cursor: pointer;
+    padding-left: 30px;
+    position: relative;
+}
+#addPayeeMenu ul.list a span {
+    color: inherit;
+    display: block;
+    height: 100%;
+    padding: 1em 1em 1em 1.5em;
+    text-decoration: none;
+    width: 100%;
+}
+#addPayeeMenu ul.list a{padding:0px}
+#addPayeeMenu.dropdown .list-container{margin:0px!important;}
+#thingsYouCanDoContainer .jpui.dropdown.show .list > .option > .primary{padding:0.625rem ; visibility:visible;}
+#qpTodo_row_0 .aligned.right {    text-align: right;}
+#quickpay-content .labelWrap .jpui.tooltip-module, #qpMain .labelWrap .tooltip-module{display:inline-block;}
+#qpMain .tooltip-content{display:none;}
+#requestmoney-content .tooltip-content{display:none;}
+#requestmoney-content .jpui.tooltip{display:inline;}
+#qpThingsYouCanDo .jpui.dropdown.show .list > .option > .primary{padding:0.625rem ; visibility:visible;}
+#requestmoney-content .inputWrap .wrap {margin: 0.375em 0 0;}
+.jpui.datepicker .wrap {display: inline-table; padding: 0;position: relative;vertical-align: middle;width: 100%;}
+#requestmoney-content .jpui.datepicker .input-icon {padding: 0.5em 0.75em !important;position: absolute;right: 0;}
+#quickpay-content .inputWrap .wrap {/*margin: 0.375em 0 0;*/}
+#quickpay-content .common.form .labelWrap label.formLabel {margin-bottom:0px !important;}
+.jpui.datepicker .wrap {display: inline-table; padding: 0; position: relative; vertical-align: middle; width: 100%;}
+#quickpay-content #sendOnContainer .jpui.datepicker .input-icon {padding: 0.5em 0.75em !important; position: absolute; right: 0;}
+#quickpay-content .common.form .prompt{font-size:0.75rem; color:#717171;}
+.active1{
+	border-left: 0.375rem solid #0092ff;
+    padding-left: 1.125rem!important;
+	color: #414042!important;
+    font-size: 1rem!important;
+    font-weight: 600!important;
+    letter-spacing: 0!important;
+    text-decoration: none!important;
+	}
+img#creditcardLogo-tile-457098759{opacity:1 !important;}
+#containerContent #creditcardLogo-accountDisplay.accountLogo{background-color: transparent !important; float: right !important; height: 40px;  padding: 0 10px 0 0 !important;   width: 100px;}
+
+#inner-content-container .tileSectionHeader:first-child h2 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+#inner-content-container .tileFilterContainer {
+    margin-top: 29px;
+    margin-bottom: 36px;
+    z-index: 1;
+    position: relative;
+}
+.account.segment.account-summary-tab.rewardtile.activetile {
+    background: 2.25% 4% no-repeat #0c4e84;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0c4e84), color-stop(100%, #1d3e74));
+    background-image: -webkit-linear-gradient(top, #0c4e84 0, #1d3e74 100%);
+    background-image: linear-gradient(to bottom, #0c4e84 0, #1d3e74 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0c4e84', endColorstr='#1d3e74', GradientType=0)
+}
+.account.segment.account-summary-tab.rewardtile.activetile .message,
+.account.segment.account-summary-tab.rewardtile.activetile .smalltileamount,
+.account.segment.account-summary-tab.rewardtile.activetile .uRPtsLabel,
+.account.segment.account-summary-tab.rewardtile.activetile h4.title {
+    color: #FFF
+}
+.account.segment.account-summary-tab.rewardtile.inactivetile {
+    background: 2.25% 4% no-repeat #e2dfda;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e2dfda), color-stop(100%, #dad6d1));
+    background-image: -webkit-linear-gradient(top, #e2dfda 0, #dad6d1 100%);
+    background-image: linear-gradient(to bottom, #e2dfda 0, #dad6d1 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#e2dfda', endColorstr='#dad6d1', GradientType=0)
+}
+.account.segment.account-summary-tab.rewardtile.inactivetile .smalltileamount {
+    color: #666
+}
+.account.segment.account-summary-tab.rewardtile.inactivetile .smalltileamount.withFico {
+    color: #414042
+}
+.account.segment.account-summary-tab.rewardtile.showtile {
+    display: block
+}
+.account.segment.account-summary-tab.rewardtile.shortened-reward-tile {
+    margin-bottom: 6px
+}
+.account.segment.account-summary-tab.rewardtile .padding-left {
+    padding-left: 0
+}
+.account.segment.account-summary-tab.rewardtile .fico-score {
+    font-size: 12px;
+    color: #414042;
+    font-weight: 400;
+    padding: 8px 12px 10px 0
+}
+.account.segment.account-summary-tab.rewardtile .fico-score span {
+    font-size: 16px
+}
+.account.segment.account-summary-tab.rewardtile .fico-score.only-fico {
+    padding: 26px 26px 26px 0
+}
+#inner-content-container .accounttilegroup {
+    margin-bottom: 26px;
+}
+.account.segment.account-summary-tab.rewardtile {
+    display: none;
+    border-radius: 5px;
+    border-bottom: 0;
+    padding: 0 !important;
+}
+.small.account.segment.account-summary-tab .smalltileamount {
+    text-align: right;
+    padding-right: 16px;
+}
+.small.account.segment.account-summary-tab .smalltileamount.withFico {
+    padding-top: 0;
+    margin-top: -10px;
+    padding-bottom: 7px
+}
+.account.segment.account-summary-tab.rewardtile .smalltileamount {
+    padding-top: .2em;
+}
+.small.account.segment.account-summary-tab .smalltileheading {
+    padding-top: 1em;
+    padding-bottom: 5px;
+}
+.small.account.segment.account-summary-tab .smalltilemessage.rewardscontent {
+    text-align: left;
+}
+.small.account.segment.account-summary-tab .smalltilemessage {
+    float: right;
+}
+.small.account.segment .title {
+    margin-top: 0;
+    margin-bottom: 0;
+    min-height: 41px;
+}
+.small.account.segment {
+    display: block;
+    box-shadow: none;
+    margin: 2em 0
+}
+.small.account.segment.active {
+    box-shadow: 1px 1px 4px transparent;
+    padding-top: 16px;
+    background-color: #FFF!important;
+    margin: 2em 0
+}
+.small.account.segment h5.subtitle {
+    font-size: .72rem;
+    color: #333
+}
+.small.account.segment .amount {
+    text-align: right;
+    font-size: 3.75em;
+    font-weight: 300;
+    color: #666;
+    clear: both
+}
+.small.account.segment .message {
+    text-align: right;
+    font-size: .8125rem;
+    font-weight: 300
+}
+.small.account.segment {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    border: 1px solid #ededed;
+    padding-top: 16px
+}
+.small.account.segment.account-summary-tab {
+    padding: 8px 15px 12px 14px;
+    clear: both;
+	cursor: pointer;
+}
+.small.account.segment.account-summary-tab .closedAcctIcon {
+    padding: 0 0 0 8px
+}
+.small.account.segment.account-summary-tab .norightpadding {
+    padding-right: 0
+}
+.small.account.segment.adversement {
+    margin-top: 8px;
+    background-color: #FFF;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .28)
+}
+.small.account.segment.adversement .TileAdImg {
+    width: 100%;
+    height: 224px
+}
+.small.account.segment.adversement .benefitlabel {
+    color: #2F738E
+}
+.small.account.segment.advisorRole .norightpadding {
+    padding-left: 0
+}
+.small.account.segment.advisorRole .closedAcctIcon {
+    padding: 0
+}
+.small.account.segment .title {
+    margin-top: 0;
+    margin-bottom: 0;
+    min-height: 41px
+}
+.small.account.segment.collapse {
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0!important;
+    background: #f7f6f3;
+    border-left: none;
+    border-right: none
+}
+.small.account.segment.collapse .title {
+    min-height: 10px!important
+}
+.small.account.segment.collapse .subtitle.TILESUBTEXT.investmentsubtitle,
+.small.account.segment.collapse img {
+    display: none!important
+}
+.small.account.segment.collapse .cardImage {
+    min-height: 0;
+    padding-top: 0
+}
+.small.account.segment h4.title {
+    color: #414042
+}
+.small.account.segment .subtitle {
+    color: inherit;
+    font-size: 14px
+}
+.small.account.segment .subtitle.investmentsubtitle {
+    white-space: nowrap
+}
+@media (max-width: 768px) {
+    .small.account.segment .subtitle.investmentsubtitle {
+        margin-top: 0!important
+    }
+}
+.small.account.segment .tile-error {
+    float: left;
+    font-size: 13px;
+    margin-right: 5px;
+    margin-left: -2px;
+    margin-top: 3.5px
+}
+.small.account.segment .new-label {
+    background: #E3E3E3;
+    background: -moz-linear-gradient(top, #e3e3e3, #e3e3e3);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#e3e3e3));
+    padding-left: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    left: -10px;
+    position: absolute;
+    width: 70px;
+    color: #FFF;
+    font-size: 14px
+}
+.small.account.segment .new-label.withoutImage {
+    top: 38px
+}
+.small.account.segment .new-label.withImage {
+    top: 89px
+}
+.small.account.segment .arrow {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border-right: 10px solid transparent;
+    border-top: 7px solid #E3E3E3;
+    top: -26%;
+    left: 0;
+    position: absolute;
+    opacity: .5;
+    ms-transform: rotate(-180deg)!important;
+    -webkit-transform: rotate(-180deg)!important;
+    transform: rotate(-180deg)!important
+}
+.small.account.segment .cardImage {
+    min-height: 38px;
+    padding-top: 4px
+}
+.small.account.segment .cardTitle {
+    min-height: 14px!important
+}
+.small.account.segment .amount {
+    margin-top: 0;
+    margin-bottom: -2px;
+	padding-top: 8px;
+}
+.small.account.segment .amount .amountSpacing {
+    margin-bottom: -4px
+}
+.small.account.segment .amount .lockedLabel {
+    color: #666
+}
+.small.account.segment.active.lockedHeight {
+    min-height: 103px!important
+}
+.small.account.segment.active {
+    color: #0B4C87;
+    border: 0;
+    border-top: 5px solid #0B4c87
+}
+.small.account.segment.active .title {
+    min-height: 32px
+}
+.small.account.segment.active .lockedIcon {
+    margin-left: -4px
+}
+.small.account.segment.active .cardTitle {
+    min-height: 14px!important
+}
+.small.account.segment.active .new-label {
+    background: #6E6E6E;
+    background: -moz-linear-gradient(top, #6e6e6e, #6e6e6e);
+    background: -webkit-gradient(linear, left top, left bottom, from(#6e6e6e), to(#6e6e6e))
+}
+.small.account.segment.active .arrow {
+    border-top: 7px solid #6E6E6E
+}
+.small.account.segment.active .amount .amountSpacing {
+    margin-bottom: -6px
+}
+.small.account.segment.active .amount .AccountBalanceLabel {
+    margin-bottom: 1px
+}
+.small.account.segment .message {
+    color: #717171;
+}
+#inner-content-container #accounts-list .rewardsmessage {
+    height: 40px;
+    clear: left;
+	padding: 10px 0px !important;
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+#inner-content-container #accounts-list .rewardsmessage .smalltilemessage.totalrewards {
+    right: 0;
+    bottom: 0;
+}
+#inner-content-container #accounts-list .rewardsmessage .smalltilemessage {
+}
+#inner-content-container .small.account.segment .message {
+    font-size: .8125rem;
+}
+.small.account.segment.account-summary-tab .smalltilemessage {
+    float: right;
+}
+.small.account.segment.account-summary-tab .smalltilemessage.right {
+    text-align: right
+}
+.account-tile-container #tile-3771243:hover .amountSpacing {
+        color: #0a4386
+    }
+.account-summary-tab:hover .amountSpacing {
+    color: #0a4386
+}
+#tile-3771243 {
+	margin: 0;
+}
+#inner-content-container .tileSection .innerTileContainer .jpui.accordion {
+    border: none;
+    margin-bottom: 1em;
+}
+/*.jpui.accordion .header > .iconBox, .jpui.accordion .header .display{
+	padding: 0 !important;
+}
+.jpui.navbar.vertical.topLevel {
+	padding-top: 0 !important;
+}
+.jpui.accordion .blockContainer {
+	border-top: none !important;
+}*/
+.jpui.accordion a, .jpui.accordion span {
+    /*display: block;*/
+    text-decoration: none;
+    color: #414042;
+    height: auto;
+    width: auto;
+}
+
+.jpui.accordion a.dispinline, .jpui.accordion span.dispinline {
+    display: inline-block;
+}
+
+
+#inner-content-container .tileSection .innerTileContainer .jpui.accordion .header .display > span, #inner-content-container .tileSection .innerTileContainer .jpui.accordion .header .iconBox > i {
+    color: #126bc5;
+}
+.jpui.accordion.open .iconBox i {
+    -webkit-transform: rotate(90deg)  !important;
+    transform: rotate(90deg)  !important;
+}
+.jpui.accordion.open .iconBox.animateIcon i {
+    -webkit-transform: rotate(0) !important;
+    transform: rotate(0) !important;
+}
+.jpui.accordion.open .subtitle {
+    display: none;
+    visibility: hidden
+}
+.jpui.accordion.open .subtitle.persist {
+    display: block;
+    visibility: visible
+}
+.jpui.accordion.open .blockContainer {
+    visibility: visible;
+    background-color: #faf9f8;
+    overflow: visible;
+    opacity: 1;
+    -webkit-transition: opacity .2s ease-out 0s;
+    transition: opacity .2s ease-out 0s
+}
+.jpui.accordion.open .blockContainer.animating {
+    overflow: hidden;
+    opacity: 0
+}
+#inner-content-container .tileSection .innerTileContainer .jpui.accordion.open .jpui.navbar.vertical.topLevel .jpui.navbar.vertical.category .jpui.navbar.vertical.bottom {
+    background-color: #f9f5f2 !important;
+}
+.jpui.navbar.vertical .category .header-div {
+	/*margin: 0 !important;*/
+	padding: .4rem 1rem .4rem 1.5rem !important;
+}
+#inner-content-container #accounts-list .small.account.segment.active {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
+}
+.jpui.ad.accountHeaderImage .content .copy .image {
+    width: auto !important;
+}
+.account-tile-container .has-total-block .total-block :last-child
+{
+	float:right;
+}
+/*.common.form .radiobutton .radiobutton-label{display:inline-block;}*/
+body .div-header .chase.logo embed, body .div-header .chase.logo img {
+    position: relative;
+    /*left: -50%;*/
+    width: auto;
+    color: #fff;
+    margin: 1.2em auto 0;
+}
+body .div-header .chase.logo .chase-commercial-logo {
+	top: 5px;
+}
+.jpui.icon.menulines{
+    color: #fff;
+    font-size: 1.3em;
+}
+.hideoptions{display: none !important;}
+.showoptions{display: !important;}
+.account-tile-container .account-tile {
+    border: 1px solid #ededed;
+    background: #fff;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 1em;
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+#bottom-div-pa, #bottom-div-pb, #bottom-div-qp, #bottom-div-tm { 
+	border-bottom: solid .0625rem #ccc !important;
+	height: 42px !important;
+}	
+.inner-tile-container .account-summary-tab .tile-image img {
+    opacity: .3;
+}
+.inner-tile-container .account-summary-tab.active .tile-image img {
+    opacity: 1;
+}
+.accounttilegroup .account-reward-tile.active, .account-tile-container .credit-score-tile.active {
+    background: 2.25% 4% no-repeat #0a4386;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0a4386), color-stop(100%, #1d3e74));
+    background-image: -webkit-linear-gradient(top, #0a4386 0, #1d3e74 100%);
+    background-image: linear-gradient(to bottom, #0a4386 0, #1d3e74 100%);
+}
+#urPseudoTile {
+	margin-top: 10px !important;
+}
+
+.tile-section-header h2{
+	 padding-top:30px !important;
+	 margin-bottom:0px !important;
+ }
+ .accounttilegroup .tile-group-title h3.borderbtm {
+    border-bottom: 2px solid #959595;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+.accounttilegroup .tile-group-title  h3{
+
+}
+
+.accounttilegroup .inner-tile-container .sub-accounts-block .sub-accounts-title h5 {
+    margin: 0;
+    padding: 9px 0;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.accounttilegroup .account-tile .sub-accounts-block .sub-accounts h6 {
+    margin: 0;
+    padding: 6px 12px;
+    background: #ede9e3;
+	font-weight: 600;
+color: #666;
+letter-spacing: 0;
+text-decoration: none;
+font-size: .875rem;
+}
+.accounttilegroup .account-tile .sub-accounts-block .sub-accounts ul {
+    margin: 0 !important;
+	padding: 0 !important;
+}
+.accounttilegroup .account-tile .sub-accounts-block .sub-accounts li {
+    list-style: none;
+    /*padding: 9px 12px;*/
+	margin: 1px 0;
+}
+.account-tile { padding: 0 !important;}
+
+.main-tile{padding: 8px 15px 12px 14px !important;}
+
+.accounttilegroup .account-tile .sub-accounts-block .sub-accounts-title {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #ededed;
+    margin-top: 2px;
+	cursor: pointer;
+}
+.accounttilegroup .account-tile .sub-accounts-block .sub-accounts li:hover {
+        background: #f9f6f3;
+    }
+	
+.accounttilegroup .account-tile .sub-accounts-block .sub-accounts-title:hover {
+    background: #f9f6f3
+}
+.accounttilegroup .expand-tile.angleright {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: -webkit-transform .3s ease-out 0s;
+    transition: transform .3s ease-out 0s;
+}
+.accounttilegroup .account-tile .title {
+    margin: 0;
+    font-weight: 400;
+}
+.jpui.link, .jpui.link .link-anchor1 {
+    color: #126bc5;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.account-reward-tile {margin-top:30px !important;}
+.link-anchor1 {
+	color: #126bc5;
+	font-weight: 400;
+	letter-spacing: 0;
+	text-decoration: none;
+	font-size: .875rem;
+}
+.vtop{
+	vertical-align: top !important;
+}
+.current {
+	border-top: 0.25em solid #0b6efd !important;
+	padding-top: 3px;
+}
+
+.togglinks{
+	color: #3d3734 !important;
+	font-size: 14px;
+}
+ul.togglist{
+	padding-left: 0 !important;
+}
+
+ul.togglist li{
+	list-style-type: none;
+	display: inline-block;
+	border-left: 1px solid #ccc;
+	padding: 0px 15px 0 !important;
+}
+ul.togglist li:first-child {
+    border-left: 0;
+	padding-left: 0 !important;
+}
+.jpui.link .link-anchor1 {
+    color: #126bc5;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.dropLink{
+font-weight: 300 !important;
+color: #414042 !important;
+letter-spacing: 0 !important;
+text-decoration: none !important;
+}
+#inner-content-container .transactions-container .transactions-wrapper--dda span.subtitle{
+	width:auto!important
+}
+
+.lh21{line-height:21px}
+.mtzindx{margin-top:170px;z-index:1}
+#requestScheduledTransactions .jpui.icon{color:#0b6efd!important;}
+#brd_pd_tb .jpui.simple.table td[data-th]{border:none!important; padding:0.3rem!important}
+#secAddPayor .jpui.radiobutton .radiobutton-label-content{padding-left:0.8rem!important}
+#requestinfoContainer .jpui.radiobutton .radiobutton-label-content{padding-left:0.8rem!important}
+#payment_5012921149 .jpui.radiobutton .radiobutton-label-content{padding-left:0.8rem!important}
+#bankInformationEditArea .jpui.radiobutton .radiobutton-label-content{padding-left:0.8rem!important}
+#payment_2ndlevel .common.form .dataset .dataLabel{padding-bottom:30px}
+#payment_3rdlevel .common.form .dataset .dataLabel{padding-bottom:30px}
+#payment_2ndlevelRepeat .common.form .dataset .dataLabel{padding-bottom:30px}
+#payment_3rdlevelRepeat .common.form .dataset .dataLabel{padding-bottom:30px}
+
+.collections.container-fluid .payorGroupDetails span.greenText {color:#128842; font-size:20px; font-weight:600;}
+
+#schPayment .payee-list-search-input-container {margin:0px !important; padding:5px;}
+#schPayment .payee-list-search-input-container input#payee-list-search-input {background:#ededed; border:none;}
+.achPaymentSearchBox{
+	background-color: #ededed;
+    font-size: 1em;
+    font-weight: 300;
+    border: 0;
+    border-radius: 12px;
+    width: 70%;
+    height: 32px;
+    position: relative;
+    outline: 0;
+    text-align: left
+	}
+	
+#updateLimit0.jpui.button.fluid .label{margin: 0 0 0 0!important;}
+#updateLimit1.jpui.button.fluid .label{margin: 0 0 0 0!important;}
+#updateLimit2.jpui.button.fluid .label{margin: 0 0 0 0!important;}
+#updateLimit3.jpui.button.fluid .label{margin: 0 0 0 0!important;}
+#updateLimit4.jpui.button.fluid .label{margin: 0 0 0 0!important;}
+
+#schPayment .payorsList .pgTitle {padding:20px 12px 0px 12px !important;}
+
+.fps-iframe-main-container {background:#ffffff;}
+#fpReports {background:#ffffff;}
+.fpAcctMaint {background:#ffffff;}
+
+.jpui.inputIcon .imgContainer {position: absolute; right:2px; top:5px;}
+
+#accessMgr .jpui.dropdown .primary {
+	overflow:visible;
+}
+
+#accessMgr .jpui.table.data-table .table-container {
+	overflow:visible;
+}
+
+#accessMgr .jpui.dropdown .list  {
+	overflow:auto;
+}
+
+
+#header-inner-fixed-container div.disclaimer {
+    position: relative;
+    width: 100%;
+    z-index: 9999;
+	background: #fff;
+	text-align:center;
+	border:1px #ccc solid;
+	display:table;
+	margin:0 auto;
+	color:#ff0000;
+}
+
+div.disclaimer {
+    position: relative;
+    width: 100%;
+    z-index: 9999;
+	background: #fff;
+	text-align:center;
+	border:1px #ccc solid;
+	display:table;
+	margin:0 auto;
+	color:#ff0000;
+	
+	
+}
+div.disclaimer-ps {
+    position: fixed !important;
+    width: 100%;
+    z-index: 9999;
+	background: #fff;
+	text-align:center;
+	border:1px #ccc solid;
+	display:table;
+	margin:0 auto;
+	color:#ff0000;
+	bottom:0 !important;
+	
+}
+
+
+div.disclaimer p {
+    font-size:12px;
+	font-weight:400;
+}
+
+/*cashflow 360 enrollment */
+
+.cashflow a.skpEnrollLnk {font-size:14px; color:#126bc5;}
+
+.cashflow-review .account,.cashflow-review .company{font-size:16px;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow-review{font-family:"Open Sans"}
+.cashflow-review .subTitle{margin-top:16px;margin-bottom:32px}
+.cashflow-review .enroll-companies{margin-bottom:48px}
+.cashflow-review .horizontal-divider:after{display:block;content:'';position:relative;border-bottom:1px solid #ccc;margin-bottom:24px;margin-top:8px;width:100%}
+@media (min-width:768px) and (max-width:1199px){.cashflow-review .horizontal-divider:after{max-width:486px}
+}
+@media (min-width:1200px){.cashflow-review .horizontal-divider:after{max-width:564px}
+}
+.cashflow-review .company-group{margin-bottom:24px}
+.cashflow-review .details-bar{margin-top:0;margin-bottom:0;padding-left:32px}
+.cashflow-review .company{font-weight:600}
+.cashflow-review .account{font-weight:400}
+.cashflow-review .bottom-bar{margin:72px 0}
+.cashflow-review .bottom-bar .col-sm-6{padding-left:0}
+@media (max-width:767px){.cashflow-review .title{font-size:24px;font-weight:200;color:#000;letter-spacing:0;text-decoration:none}
+.cashflow-review .enroll-header{font-size:18px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow-review .subTitle{font-size:14px;font-weight:200;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow-review .horizontal-divider:after{width:100%}
+}
+@media (min-width:768px){.cashflow-review #closeReview #submitReview{width:50%;margin-right:24px;max-width:256px}
+.cashflow-review .title{font-size:26px;font-weight:200;color:#000;letter-spacing:0;text-decoration:none}
+.cashflow-review .enroll-header,.cashflow-review .subHeader,.cashflow-review .subTitle{color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow-review .subHeader{font-size:18px;font-weight:600}
+.cashflow-review .subTitle{font-size:17px;font-weight:200}
+.cashflow-review .enroll-header{font-size:20px;font-weight:600}
+}
+.cashflow,.cashflow #account-selection .multiselect__menu-option{height:100%}
+
+.cashflow{background:#fff}
+.cashflow p{margin:0;font-size:inherit}
+.cashflow .h1-head,.cashflow .h2-head{font-size:24px;font-weight:200;letter-spacing:0;text-decoration:none}
+.cashflow fieldset{margin-left:0}
+.cashflow .h1-head{margin:24px 0 16px;color:#666}
+.cashflow .h2-head{margin:32px 0;color:#414042}
+.cashflow .h3-head{font-size:20px;font-weight:400;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow .sub-content{margin:16px 0 32px;font-size:18px;font-weight:200;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow .content-title,.cashflow .inner-sub-content{font-size:14px;font-weight:400;text-decoration:none;letter-spacing:0}
+.cashflow .content-title{margin:8px 0 72px;color:#717171}
+.cashflow .content{margin:8px 0 72px}
+.cashflow .lg-margin-top-bottom{margin:24px 0}
+.cashflow .button{margin:0}
+.cashflow .container-fluid{padding:0}
+.cashflow .inner-sub-content{color:#414042}
+.cashflow .semi-bold{font-weight:600}
+.cashflow .float-right{float:right}
+@media (max-width:767px){.cashflow .cashflow-main-container{padding-left:16px;padding-right:16px}
+.cashflow .button-bar>div:not(:first-child){margin-top:24px}
+.cashflow .button-bar{padding-left:0;padding-right:0}
+.cashflow .hide-xs-only{display:none}
+}
+@media (min-width:768px){.cashflow .h1-head{margin:72px 0 24px;font-size:26px}
+.cashflow .h2-head{margin:72px 0 48px}
+.cashflow .sub-content{margin:24px 0 72px;font-size:20px}
+.cashflow .content,.cashflow .content-title{margin:48px 0 72px}
+.cashflow .content{font-size:20px}
+.cashflow .button-bar{margin:72px 0}
+.cashflow .show-xs-only{display:none}
+}
+.cashflow #contact-us-details{margin-top:72px;background:#fff}
+.cashflow #contact-us-details span{font:inherit}
+.cashflow #contact-us-details .h2-head{margin:0 0 24px;font-size:18px;font-weight:400;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #contact-us-details .sub-content{margin:24px 0;font-size:16px;font-weight:400;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #contact-us-details .contactus-phone{margin:24px 0;padding-bottom:32px;font-size:16px;font-weight:700;color:#414042;letter-spacing:0;text-decoration:none}
+@media (max-width:767px){.cashflow #contact-us-details{margin-top:72px}
+}
+.cashflow #account-selection .blockContainer{padding-top:0;padding-bottom:0}
+.cashflow #account-selection .blockContainer .sub-content{margin:0}
+.cashflow #account-selection .checkbox{margin:0;padding-bottom:24px}
+.cashflow #account-selection .checkboxWrap{font-size:16px}
+.cashflow #account-selection .multiselect{margin-bottom:32px}
+.cashflow #account-selection .multiselect__control-search{width:100%}
+.cashflow #account-selection .multiselect__control-icon{margin-left:16px}
+.cashflow #account-selection .multiselect__control-selected-button{margin:6px 10px 2px 0}
+.cashflow #account-selection .multiselect__control-selected-icon{margin-left:16px}
+.cashflow #account-selection .multiselect__control-selection{padding:0 0 4px 16px}
+.cashflow #account-selection .semi-bold .checkbox-label{font-weight:600}
+.cashflow #accounts-summary .fieldset{margin-bottom:24px}
+.cashflow #accounts-summary .h3-head{margin-bottom:16px}
+@media (min-width:768px){.cashflow #account-selection .accordion__header{padding-bottom:24px;padding-top:24px}
+.cashflow #account-selection .fieldset{padding-top:8px}
+.cashflow #account-selection .button-right,.cashflow #accounts-summary .button-right{padding-right:0}
+}
+.cashflow #enrollment{padding-left:0;padding-right:0}
+@media (max-width:767px){.cashflow #accounts-summary .inner-sub-content>div:not(:last-child){margin-bottom:24px}
+.cashflow #enrollment button{width:100%}
+.cashflow #enrollment .section-header{margin:0 16px 16px;text-align:left;font-size:24px}
+.cashflow #enrollment .section-sub-header{font-size:16px}
+.cashflow #enrollment .jpui.button{margin:0}
+.cashflow #enrollment .faq-button{padding-left:16px;padding-right:16px}
+}
+@media (min-width:768px){.cashflow #enrollment .section-header{margin:0 16px 24px 24px;text-align:center;font-size:26px}
+.cashflow #enrollment .section-sub-header{font-size:20px;margin-bottom:32px}
+}
+@media (min-width:1200px){.cashflow #enrollment .text-hidden-lg{text-indent:-10000px}
+.cashflow #enrollment .section{margin:0 12px;padding-top:0}
+.cashflow #enrollment .section h2{margin:0 16px 16px}
+.cashflow #enrollment .horizontal-divider:before{max-width:1152px}
+}
+.cashflow #enrollment .accessible-text{border:0!important;clip:rect(1px,1px,1px,1px)!important;-webkit-clip-path:inset(50%)!important;clip-path:inset(50%)!important;height:1px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important;white-space:nowrap!important}
+.cashflow #enrollment .horizontal-divider:before{display:block;content:'';position:relative;width:calc(98%);margin:0 auto 32px;border-bottom:1px solid #ededed}
+.cashflow #enrollment .section-header{color:#666;font-weight:200}
+.cashflow #enrollment .row-eq-height{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.cashflow #enrollment .fill-container{height:100%;width:100%}
+.cashflow #enrollment .semi-bold{font-weight:600}
+.cashflow #enrollment .image-row{margin:72px 0}
+.cashflow #enrollment .details-list dt{margin:16px 0}
+.cashflow #enrollment .details-list dd{margin:16px 0 24px;font-size:14px}
+.cashflow #enrollment .heading{font-weight:300}
+.cashflow #enrollment .intro{margin-top:32px}
+@media (min-width:768px){.cashflow #enrollment .intro{text-align:center;padding-top:0}
+}
+.cashflow #enrollment .intro .hero img{max-height:275px;width:100%}
+@media (max-width:767px){.cashflow #enrollment .intro{font-size:20px;font-weight:300}
+.cashflow #enrollment .intro .hero{margin-left:0;margin-top:0;margin-right:0}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .intro{margin-top:0}
+.cashflow #enrollment .intro.business{margin-bottom:32px}
+.cashflow #enrollment .intro.business .intro-message .enrollment-video-link{margin-bottom:0}
+.cashflow #enrollment .intro .hero{margin:32px 0}
+.cashflow #enrollment .intro .hero img{max-width:488px;height:288px}
+}
+.cashflow #enrollment .intro .intro-message{margin-top:8px;line-height:30px}
+@media (min-width:1200px){.cashflow #enrollment .intro .hero{float:right;width:45%;max-width:466px;margin-right:122px;margin-left:24px;text-align:left}
+.cashflow #enrollment .intro .hero img{margin-bottom:24px}
+.cashflow #enrollment .intro .intro-message h1{margin-top:0}
+}
+.cashflow #enrollment .intro .intro-message h1 sup{font-size:12px}
+.cashflow #enrollment .intro .intro-message .enrollment-video-link{position:relative;margin:32px 0}
+@media (min-width:1200px){.cashflow #enrollment .intro .intro-message .enrollment-video-link{margin-bottom:0}
+}
+.cashflow #enrollment .intro .intro-message .enrollment-video-link .enrollment-video-play i{position:relative;top:12px;margin-right:16px;font-size:48px;color:#0a4386}
+.cashflow #enrollment .intro .intro-message .enrollment-video-link .start-icon{font-size:3rem;padding-right:1rem;vertical-align:middle}
+.cashflow #enrollment .intro .intro-message .enrollment-video-link .enrollment-video-play i:hover:not(.touch){color:#0b6efd}
+.cashflow #enrollment .intro .intro-message .enrollment-video-link .enrollment-video-play i:active{color:#126bc5}
+.cashflow #enrollment .intro .intro-message .enrollment-video-link p{display:inline}
+.cashflow #enrollment .intro .intro-message .enrollment-video-link a{bottom:16px}
+@media (max-width:767px){.cashflow #enrollment .intro .intro-message .enrollment-video-link a{padding:0}
+.cashflow #enrollment .intro .intro-message{margin-left:16px;margin-right:16px}
+.cashflow #enrollment .intro .intro-message a{font-size:18px;font-weight:400;color:#126bc5;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .intro .intro-message h1{margin-bottom:16px;font-size:24px;font-weight:600;color:#666;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .intro .intro-message h3{font-size:20px;font-weight:200;color:#414042;letter-spacing:0;text-decoration:none;margin:16px 0 32px}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .intro .intro-message a{font-size:20px;font-weight:400;color:#126bc5;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .intro .intro-message h1{margin:0 0 16px;font-size:26px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .intro .intro-message h1 sup{font-size:12px}
+.cashflow #enrollment .intro .intro-message h3{line-height:30px;margin:0 auto 32px;max-width:488px;font-size:24px;font-weight:200;color:#414042;letter-spacing:0;text-decoration:none}
+}
+@media (min-width:1200px){.cashflow #enrollment .intro .intro-message{text-align:left;margin-left:122px;width:466px;height:300px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.cashflow #enrollment .intro .intro-message a{font-size:20px;font-weight:400;color:#126bc5;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .intro .intro-message h3{font-size:24px;font-weight:200;color:#414042;letter-spacing:0;text-decoration:none;margin:0}
+}
+.cashflow #enrollment .intro .commercial-nav{height:104px;padding:32px 0;background-color:#f7f6f3;border-bottom:1px solid #ccc}
+.cashflow #enrollment .intro .business-nav{height:64px;background-color:#ededed;padding-left:24px}
+@media (max-width:767px){.cashflow #enrollment .intro .business-nav,.cashflow #enrollment .intro .commercial-nav{margin-top:32px}
+}
+.cashflow #enrollment .intro .business-nav .link{float:left;margin:24px 48px 8px 24px}
+@media (min-width:768px){.cashflow #enrollment .intro .business-nav .link{font-size:16px;font-weight:400;color:#414042;letter-spacing:0;text-decoration:none}
+}
+.cashflow #enrollment .intro .business-nav .link a{font-size:16px;font-weight:400;color:#414042;letter-spacing:0;text-decoration:none}
+@media (max-width:767px){.cashflow #enrollment .intro .business-nav .link{margin:24px 32px 8px 16px;padding-right:0}
+.cashflow #enrollment .intro .business-nav .link a{padding:0;margin:0}
+.cashflow #enrollment .enrollment-benefits{padding-bottom:8px}
+.cashflow #enrollment .enrollment-benefits .benefits{margin:32px 0 0}
+.cashflow #enrollment .enrollment-benefits .benefits .benefitTitle{padding:0 4px;margin:0 auto 24px;font-size:20px;font-weight:200;color:#414042;letter-spacing:0;text-decoration:none;max-width:288px}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-benefits .benefits{margin:32px 0}
+.cashflow #enrollment .enrollment-benefits .benefits .benefitTitle{max-width:227px;padding:0;margin:auto;font-size:24px;font-weight:200;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .enrollment-benefits button{max-width:270px;width:100%}
+}
+@media (min-width:1200px){.cashflow #enrollment .enrollment-benefits.section{margin-top:0;padding-top:0}
+.cashflow #enrollment .enrollment-benefits.section.commercial{margin:0}
+.cashflow #enrollment .enrollment-benefits .benefits{margin:32px auto;max-width:956px}
+.cashflow #enrollment .enrollment-benefits .benefits .benefitTitle{max-width:341px;margin:auto}
+.cashflow #enrollment .enrollment-benefits .benefitTitle{max-width:287px;padding:0 15px;margin:auto;font-size:24px;font-weight:200;color:#414042;letter-spacing:0;text-decoration:none}
+}
+.cashflow #enrollment .enrollment-benefits .benefitTitle{text-align:center}
+.cashflow #enrollment .enrollment-benefits .row{margin-left:auto;margin-right:auto}
+.cashflow #enrollment .enrollment-benefits .enrollment{background-color:#f7f7f7;padding:32px 0}
+.cashflow #enrollment .enrollment-benefits .enrollment h2{margin-bottom:16px}
+@media (max-width:767px){.cashflow #enrollment .enrollment-benefits .enrollment h2{text-align:left;font-size:18px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none}
+}
+@media (min-width:768px){.cashflow #enrollment .enrollment-benefits .enrollment h2{text-align:center;font-size:20px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none}
+}
+@media (max-width:767px){.cashflow #enrollment .enrollment-features h3.section-header{padding-top:32px;margin-bottom:32px;font-size:24px}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-features h3.section-header{margin-bottom:16px}
+}
+.cashflow #enrollment .enrollment-features .feature-section .col-sm-6{padding:0}
+@media (max-width:767px){.cashflow #enrollment .enrollment-features .feature-section .feature{margin:0 16px 32px}
+.cashflow #enrollment .enrollment-features .feature-section .feature .feature-image{margin-right:16px}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-features .feature-section .feature{width:90%;margin:16px auto;padding-right:0;max-width:520px}
+.cashflow #enrollment .enrollment-features .feature-section .feature .feature-image{margin-right:16px}
+}
+@media (min-width:1200px){.cashflow #enrollment .enrollment-features .feature-section .feature{margin-top:24px;margin-bottom:16px}
+.cashflow #enrollment .enrollment-features .feature-section .feature .feature-image{margin-right:24px}
+}
+.cashflow #enrollment .enrollment-features .feature-section .feature .feature-image{float:left;max-width:56px}
+.cashflow #enrollment .enrollment-features .feature-section .feature .feature-details,.cashflow #enrollment .enrollment-features .feature-section .feature .feature-message{overflow:hidden}
+.cashflow #enrollment .enrollment-features .feature-section .feature .feature-message .feature-header{font-weight:700}
+@media (max-width:767px){.cashflow #enrollment .enrollment-features.business .section-header{padding-top:0;margin-bottom:16px;margin-left:16px;margin-right:16px}
+.cashflow #enrollment .enrollment-features.business .section-sub-header{font-size:16px;margin-bottom:24px}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-features.business h3.section-header{margin-bottom:16px}
+.cashflow #enrollment .enrollment-features.business .feature-section{margin:0 auto;padding:0}
+.cashflow #enrollment .enrollment-features.business .feature-section .feature{padding:0;margin-left:16px;margin-right:16px}
+.cashflow #enrollment .enrollment-features.business .feature-section .feature .feature-message{margin-left:auto;margin-right:auto}
+}
+@media (min-width:1200px){.cashflow #enrollment .enrollment-features.business{padding-bottom:16px}
+.cashflow #enrollment .enrollment-features.business .section-header p{margin-bottom:8px}
+.cashflow #enrollment .enrollment-features.business .feature-section{width:1152px;margin:0 auto;padding:0}
+.cashflow #enrollment .enrollment-features.business .feature-section .feature{padding-left:24px;padding-right:24px}
+.cashflow #enrollment .enrollment-features.business .feature-section .feature .feature-message{max-width:484px;margin-left:80px}
+}
+.cashflow #enrollment .enrollment-features.commercial{padding-bottom:0}
+@media (max-width:767px){.cashflow #enrollment .enrollment-features.commercial:before{margin:0}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-features.commercial{margin-top:32px}
+.cashflow #enrollment .enrollment-features.commercial h3.section-header{padding-top:0;margin-bottom:16px}
+.cashflow #enrollment .enrollment-features.commercial .feature-section .feature{margin-left:auto;margin-right:auto}
+}
+@media (min-width:1200px){.cashflow #enrollment .enrollment-features.commercial{padding-bottom:16px}
+.cashflow #enrollment .enrollment-features.commercial .feature-section .feature{padding-left:48px}
+.cashflow #enrollment .enrollment-features.commercial h3.section-header{margin-bottom:0}
+}
+.cashflow #enrollment .enrollment-features.commercial .feature-section .feature .feature-image{max-width:56px}
+.cashflow #enrollment .enrollment-plans{font-size:16px}
+.cashflow #enrollment .enrollment-plans.row{margin-left:0;margin-right:0}
+@media (max-width:767px){.cashflow #enrollment .enrollment-plans{padding-bottom:16px}
+.cashflow #enrollment .enrollment-plans .section-header{margin-bottom:16px}
+.cashflow #enrollment .enrollment-plans .section-sub-header{margin-bottom:32px}
+.cashflow #enrollment .enrollment-plans.commercial{text-align:center;padding-bottom:0}
+.cashflow #enrollment .enrollment-plans.commercial .section-header{margin-bottom:32px;text-align:center}
+.cashflow #enrollment .enrollment-plans.commercial .enrollment .section-header{text-align:left}
+.cashflow #enrollment .enrollment-plans .plan-details{padding:16px 16px 8px}
+}
+@media (max-width:1199px){.cashflow #enrollment .enrollment-plans .plan-details{padding-top:0;margin-bottom:8px;padding-bottom:8px}
+.cashflow #enrollment .enrollment-plans .plan-details li{margin-bottom:24px}
+.cashflow #enrollment .enrollment-plans .plan-details ul{padding-left:20px}
+.cashflow #enrollment .enrollment-plans .plan-details h3{font-size:16px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .enrollment-plans .plan-details .plan-description{margin:0}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-plans{margin:24px 0 8px}
+.cashflow #enrollment .enrollment-plans.section{margin-top:16px}
+.cashflow #enrollment .enrollment-plans.commercial .feeInfo{padding-bottom:0}
+}
+@media (min-width:768px){.cashflow #enrollment .enrollment-plans .plan-details{padding:0 32px 8px}
+.cashflow #enrollment .enrollment-plans .enroll-btn{padding:32px;margin:0}
+}
+@media (min-width:1200px){.cashflow #enrollment .enrollment-plans .plan-description p{margin-right:32px}
+.cashflow #enrollment .enrollment-plans .plan-description p:empty{display:none}
+.cashflow #enrollment .enrollment-plans .plan-description ul{padding-left:24px}
+.cashflow #enrollment .enrollment-plans .plan-description ul li{margin-bottom:24px}
+.cashflow #enrollment .enrollment-plans h2{margin:32px 0 16px;font-size:26px;font-weight:200;color:#414042;letter-spacing:0;text-decoration:none}
+}
+.cashflow #enrollment .enrollment-plans .plan-description p{margin-bottom:16px}
+.cashflow #enrollment .enrollment-plans .plan-description ul{margin-top:0}
+.cashflow #enrollment .enrollment-plans h4{margin:24px 0 24px 12px;font-size:20px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .enrollment-plans .commercial{background-color:#ededed;margin-top:8px}
+.cashflow #enrollment .enrollment-plans .commercial .section-header{color:#414042;font-weight:600;padding-top:32px;margin-top:0;margin-bottom:16px;text-align:center}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-plans .commercial .section-header{margin-bottom:16px}
+.cashflow #enrollment .enrollment-plans .commercial button{max-width:270px;width:100%}
+}
+.cashflow #enrollment .enrollment-plans .commercial button{margin-bottom:32px}
+.cashflow #enrollment .enrollment-plans .commercial .bold{font-weight:700}
+.cashflow #enrollment .enrollment-plans .commercial h4{font-size:16px;font-weight:400}
+@media (max-width:767px){.cashflow #enrollment .enrollment-plans .commercial h4{margin-left:16px;text-align:left}
+}
+@media (min-width:768px){.cashflow #enrollment .enrollment-plans .commercial h4{margin:16px 0 24px}
+}
+.cashflow #enrollment .enrollment-plans.commercial{margin-bottom:0}
+.cashflow #enrollment .enrollment-plans.commercial .feeInfo{margin-bottom:24px}
+.cashflow #enrollment .enrollment-plans .plan-info{padding-top:32px;background-color:#ededed;margin-top:32px}
+@media (max-width:767px){.cashflow #enrollment .enrollment-plans .plan-info{margin-top:8px}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-plans .plan-info{max-width:744px;margin-left:auto;margin-right:auto}
+}
+@media (min-width:1200px){.cashflow #enrollment .enrollment-plans .plan-info{margin-left:12px;margin-right:12px;margin-top:0}
+}
+.cashflow #enrollment .enrollment-plans .plan-header{font-size:16px;height:100%}
+.cashflow #enrollment .enrollment-plans .plan-header .col-lg-4{padding:0}
+@media (max-width:767px){.cashflow #enrollment .enrollment-plans .plan-header h4{margin:8px 0 24px;font-size:20px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .enrollment-plans .plan-header .plan-name{margin-top:0}
+.cashflow #enrollment .enrollment-plans .plan-header .fee-header{margin:24px 16px;font-weight:600}
+.cashflow #enrollment .enrollment-plans .plan-header .plan-bonus{font-size:16px;font-weight:400;color:#414042;letter-spacing:0;text-decoration:none;margin:16px 0 32px}
+.cashflow #enrollment .enrollment-plans .plan-header .plan-fees{margin-left:16px}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-plans .plan-header{padding-bottom:24px}
+.cashflow #enrollment .enrollment-plans .plan-header h4{margin:24px 0;font-weight:600}
+.cashflow #enrollment .enrollment-plans .plan-header .plan-bonus{margin:16px 0 32px;font-weight:400}
+.cashflow #enrollment .enrollment-plans .plan-header .plan-fees{margin:0 0 0 32px}
+.cashflow #enrollment .enrollment-plans .plan-header .plan-fees .col-sm-6{padding:0}
+.cashflow #enrollment .enrollment-plans .plan-header .fee-wrapper{max-width:744px;margin-left:auto;margin-right:auto;margin-bottom:-16px}
+}
+@media (min-width:768px){.cashflow #enrollment .enrollment-plans .plan-header h4{font-size:18px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none}
+}
+@media (min-width:1200px){.cashflow #enrollment .enrollment-plans .plan-header h4{margin:16px 0 24px}
+.cashflow #enrollment .enrollment-plans .plan-header .plan-bonus{margin:0;padding:16px 0 24px;font-weight:400}
+.cashflow #enrollment .enrollment-plans .plan-header .fee-wrapper{margin-left:12px;margin-right:12px;margin-top:24px}
+}
+.cashflow #enrollment .enrollment-plans .plan-header .footnote{font-size:60%;color:#126bc5}
+.cashflow #enrollment .enrollment-plans .plan-header h3{margin:6px 24px}
+.cashflow #enrollment .enrollment-plans .plan-header h3 .plan-footnote-label{text-decoration:underline;margin:0 0 4px;padding:0 0 0 4px}
+@media (max-width:767px){.cashflow #enrollment .enrollment-plans .plan-header h3{font-size:24px;font-weight:400;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .enrollment-plans .plan-header h3.plan-name{margin-top:0;margin-bottom:16px;font-size:20px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none}
+}
+@media (min-width:768px){.cashflow #enrollment .enrollment-plans .plan-header h3{font-size:26px;font-weight:400;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .enrollment-plans .plan-header h3.plan-name{margin-top:0;margin-bottom:16px;font-size:24px;font-weight:700;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .enrollment-plans .enroll-btn button{width:100%;max-width:304px}
+}
+.cashflow #enrollment .enrollment-plans .plan-header h5{margin:6px 24px}
+.cashflow #enrollment .enrollment-plans .plan-header .horizontal-divider{padding-top:8px}
+.cashflow #enrollment .enrollment-plans .plan-name{font-weight:700;margin-bottom:4px}
+@media (max-width:767px){.cashflow #enrollment .enrollment-plans .plan-name{font-size:20px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none;margin:0 0 24px}
+}
+.cashflow #enrollment .enrollment-plans .plan-details,.cashflow #enrollment .enrollment-plans .plan-items{background-color:#ededed;height:100%;line-height:21px}
+.cashflow #enrollment .enrollment-plans .plan-items h3{font-size:16px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .enrollment-plans .plan-items ul{padding:0 16px}
+@media (min-width:1200px){.cashflow #enrollment .enrollment-plans .plan-items h3{margin-bottom:32px}
+.cashflow #enrollment .enrollment-plans .plan-items ul{margin-left:32px;margin-right:16px}
+}
+.cashflow #enrollment .enrollment-plans .plan-items ul li{margin-right:8px;margin-bottom:24px;font-size:16px}
+.cashflow #enrollment .enrollment-plans .enroll-btn{text-align:center}
+.cashflow #enrollment .enrollment-plans .usage-header{font-size:20px}
+@media (max-width:767px){.cashflow #enrollment .enrollment-plans .enroll-btn{margin:32px 0}
+.cashflow #enrollment .enrollment-plans .feeInfo{padding:0 0 0 4px;margin:0 0 24px}
+}
+@media (min-width:992px){.cashflow #enrollment .enrollment-plans .feeInfo{margin-bottom:16px;margin-left:32px}
+}
+.cashflow #enrollment .enrollment-plans .feeInfo .feeHeader{font-weight:700}
+@media (max-width:767px){.cashflow #enrollment .enrollment-plans .feeInfo .feeHeader{font-weight:600;font-size:16px}
+}
+.cashflow #enrollment .enrollment.commercial .section-header{font-size:20px}
+.cashflow #enrollment .enrollment-faq{margin-top:8px;margin-left:16px;margin-right:16px;text-align:center}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-plans .feeInfo{padding-bottom:16px}
+.cashflow #enrollment .enrollment-faq.horizontal-divider{margin-top:0}
+.cashflow #enrollment .enrollment-faq.commercial{margin-top:32px}
+.cashflow #enrollment .enrollment-faq.commercial .enrollmentFAQBtn{max-width:270px;width:100%}
+}
+.cashflow #enrollment .enrollment-faq.commercial{margin-top:32px;padding-top:0}
+.cashflow #enrollment .enrollment-faq.commercial h2{font-size:22px}
+@media (max-width:767px){.cashflow #enrollment .enrollment-faq h2{margin:0 0 16px}
+.cashflow #enrollment .enrollment-faq .enrollmentFAQBtn{width:100%;max-width:288px}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-faq h2{margin-bottom:16px}
+.cashflow #enrollment .enrollment-faq .enrollmentFAQBtn{width:100%;max-width:304px}
+}
+.cashflow #enrollment .enrollment-faq h3{margin-bottom:16px;font-size:22px;font-weight:600;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #enrollment .enrollment-faq .requestFrequentlyAskedQuestionsTitle{margin:0}
+.cashflow #enrollment .enrollment-faq .enrollmentFAQBtn{margin-bottom:32px}
+.cashflow #enrollment .enrollment-faq .frequentlyAskedQuestionsHeader{margin-top:32px;font-weight:700}
+.cashflow #enrollment .enrollment-faq .frequentlyAskedQuestionsHeader h2{margin:0}
+.cashflow #enrollment .enrollment-contact{text-align:center;margin-bottom:72px;font-size:18px;font-weight:400;color:#414042;letter-spacing:0;text-decoration:none}
+@media (max-width:767px){.cashflow #enrollment .enrollment-contact{margin:0 16px 72px}
+}
+.cashflow #enrollment .enrollment-disclaimer{font-size:12px;color:#717171}
+.cashflow #enrollment .enrollment-disclaimer .footnote p{margin-bottom:24px}
+@media (max-width:767px){.cashflow #enrollment .enrollment-disclaimer{margin:0 16px 32px}
+}
+@media (min-width:768px) and (max-width:1199px){.cashflow #enrollment .enrollment-disclaimer{margin-left:16px}
+}
+@media (min-width:768px){.cashflow #enrollment .enrollment-disclaimer{margin-bottom:32px}
+}
+@media (min-width:1200px){.cashflow #enrollment .enrollment-disclaimer{margin-left:24px}
+}
+@media (max-width:767px){.cashflow #enrollment .enrollment-disclaimer .legalDisclaimer{margin-bottom:16px}
+}
+@media (min-width:768px){.cashflow #enrollment .enrollment-disclaimer .legalDisclaimer{margin-bottom:24px}
+}
+.cashflow #agreement .document.util.print-height-auto.js-docViewerContent h2{font-size:20px;color:#414042;font-weight:200}
+.cashflow #agreement .accept,.cashflow #agreement .document.util.print-height-auto.js-docViewerContent p{font-size:14px;color:#414042;font-weight:200}
+.cashflow #agreement .accept{margin-top:24px;margin-bottom:48px}
+@media (min-width:768px){.cashflow #agreement .h1-head{margin:72px 0 24px;font-size:26px;font-weight:200;color:#666}
+.cashflow #agreement .sub-content{margin:0 0 72px;font-size:14px;color:#414042;font-weight:200}
+}
+@media (max-width:991px){.cashflow #agreement .document.util.print-height-auto.js-docViewerContent{padding:16px}
+.cashflow #agreement .document.util.print-height-auto.js-docViewerContent h2{font-size:18px}
+.cashflow #agreement .document.util.print-height-auto.js-docViewerContent blockquote{-webkit-margin-end:0;-moz-margin-end:0}
+}
+.cashflow #faq .accordion.opensided .header .display{font-size:16px;font-weight:400;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #faq .accordion .blockContainer{padding-bottom:24px}
+.cashflow #faq .accordion .blockContainer li,.cashflow #faq .accordion .blockContainer p{font-size:14px;font-weight:300;color:#414042;letter-spacing:0;text-decoration:none}
+.cashflow #faq .accordion .blockContainer a{font-size:14px;font-weight:300;color:#414042;letter-spacing:0;text-decoration:underline;display:inline-block}
+.cashflow #faq .accordion .preview{display:none}
+.cashflow #faq .accordion .preview li,.cashflow #faq .accordion .preview p{font-size:14px;font-weight:300;color:#414042;letter-spacing:0;text-decoration:none}
+@media (min-width:768px){.cashflow #faq .blockContainer{padding-top:8px}
+}
+@media print{.cashflow #faq .accordion{box-shadow:none}
+.cashflow #faq .accordion .blockContainer{border:0}
+.cashflow #faq .accordion .header{padding-bottom:0}
+.cashflow #faq .accordion .iconBox{display:none}
+.cashflow #faq .accordion .preview{display:block;padding:0 1rem;margin-top:0}
+}
+@media (max-width:767px){.cashflow #faq .button-bar.row.bottom{margin-bottom:0}
+#not-eligible-overlay .cashflow-overlay .title,#problem-warning .cashflow-overlay .title,#site-exit-warning .cashflow-overlay .title{margin-bottom:0;font-size:24px;font-weight:200;color:#666}
+#not-eligible-overlay .cashflow-overlay .message,#problem-warning .cashflow-overlay .message,#site-exit-warning .cashflow-overlay .message{margin:16px 0 0;font-size:20px;font-weight:200;color:#414042}
+}
+@media (min-width:768px){#not-eligible-overlay .cashflow-overlay .title,#problem-warning .cashflow-overlay .title,#site-exit-warning .cashflow-overlay .title{margin-bottom:0;font-size:26px;font-weight:200;color:#000}
+#not-eligible-overlay .cashflow-overlay .message,#problem-warning .cashflow-overlay .message,#site-exit-warning .cashflow-overlay .message{margin:24px 0 0;font-size:20px;font-weight:200;color:#414042}
+#cashflow-service-error .cashflow-overlay .jpui.button.fluid{margin-left:32px;padding:0}
+#cashflow-service-error .cashflow-overlay .no-padding{padding:0}
+#cashflow-service-error .title{margin-bottom:0;font-size:26px;font-weight:200}
+#cashflow-service-error .message{margin:24px 0 0;font-size:20px;font-weight:200}
+}
+@media (max-width:767px){#cashflow-service-error .title{margin-bottom:0;font-size:24px;font-weight:200}
+#cashflow-service-error .message{margin:16px 0 0;font-size:20px;font-weight:200}
+#cashflow-service-error .cashflow-overlay .jpui.button{margin-top:48px}
+}
+#cashflow-video #cashflowVideoContainer{width:100%;height:100%}
+#cashflow-video #cashflowVideoContainer.vjs-paused.vjs-has-started .vjs-big-play-button{display:none}
+#cashflow-video #cashflowVideoContainer.vjs-paused .vjs-big-play-button{display:block}
+#cashflow-video #cashflowVideoContainer.vjs-paused .vjs-big-play-button .vjs-control-text{display:none}
+#cashflow-video .video-accessibility{margin-top:8px}
+#cashflow-video .video-accessibility .link{display:block;text-align:right}
+#cashflow-video .video-accessibility .link .video-link,#cashflow-video .video-accessibility .link .video-link.link-anchor{color:#6cc7ff}
+#cashflow-video .video-accessibility .link .video-link:focus{outline:#e6e6e6 dashed 1px}
+#cashflow-video .ios .jpmc-video.vjs-paused button.vjs-big-play-button{display:block;color:transparent;background-color:transparent}
+#cashflow-video .ios #cashflowVideoContainer.vjs-paused:before{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);font-family:video-icon;content:"\e901";background-color:rgba(0,0,0,.5);border-radius:50%;z-index:1;font-size:4em;pointer-events:none}
+.mortgage-application-esign .mortgageApplicationEverifyHeader,.mortgage-application-esign .mortgageApplicationEverifyHeader a{background-color:#d8d2c7!important}
+#cashflow-video .android .jpmc-video .vjs-control.vjs-button{width:3em}
+#cashflow-video .android .jpmc-video .vjs-control-bar .vjs-volume-control{width:5em}
+#cashflow-video .android .jpmc-video .vjs-time-control.vjs-time-divider{min-width:0;padding:0}
+#cashflow-video .android .jpmc-video .vjs-time-control{margin-left:0;min-width:1em;padding-left:.5em;padding-right:.5em}
+#cashflow-video .android .jpmc-video .vjs-time-control.vjs-current-time,#footnote-overlay .footnote-content{margin-left:0}
+@media (max-width:767px){#cashflow-settings-overlay .hide-xs-only,.cashflow-settings .hide-xs-only{display:none}
+	}
+@media (min-width:768px){#cashflow-settings-overlay .cashflow-review,.cashflow-settings .cashflow-review{width:486px}
+#cashflow-settings-overlay .show-xs-only,.cashflow-settings .show-xs-only{display:none}
+}
+@media (min-width:1200px){#cashflow-settings-overlay .cashflow-review,.cashflow-settings .cashflow-review{width:564px}
+}
+#cashflow-settings-overlay .sub-title,.cashflow-settings .sub-title{margin:16px 0 8px}
+#cashflow-settings-overlay .enroll-header,.cashflow-settings .enroll-header{font-size:18px;margin:24px 0 8px}
+#cashflow-settings-overlay .reviewed-companies,.cashflow-settings .reviewed-companies{margin:24px 0}
+#linkedAppsModal .table-xs-additionalContent .access-item .data-category-tooltip,#linkedAppsModal .table-xs-additionalContent .removed-access-container .removed-access-tooltip{margin-left:.5rem}
+#cashflow-settings-overlay .bottom-bar,.cashflow-settings .bottom-bar{margin-bottom:0}
+#cashflow-settings-overlay .accordion.warning,.cashflow-settings .accordion.warning{border:2px solid #bf2155}
+
+#cashflow-settings-overlay .accordion.warning span.display,.cashflow-settings .accordion.warning span.display{color:#bf2155}
+.jpui.link .link-anchor1.disabled {color: #ccc;}
+.green-highlight {border-left: 5px solid #2ca853;}
+
+@media (min-width: 768px) and (orientation: portrait) {
+	.col-md-9 .jpui.stickyfooter {
+	width: 95%!important;
+	}
+}
+
+@media (min-width: 768px) and (orientation: landscape){
+	.col-md-9 .jpui.stickyfooter,.sticky-footer-container .jpui.stickyfooter {
+	width: 71%!important;
+	}
+}
+@media screen and (min-width: 1900px) {
+  .col-md-9 .jpui.stickyfooter,.sticky-footer-container .jpui.stickyfooter {
+	width: 53.7%!important;
+	}
+}
+
+@media (max-width: 767px){
+	.col-md-9 .jpui.stickyfooter,.sticky-footer-container .jpui.stickyfooter {
+	width: 95%!important;
+	}
+}
+
+#paymentActivityMenuOptionsDropdownlistshow{
+    display: block;
+    visibility: visible;
+    height: auto;
+}
+
+.horizontalBar {
+    border-bottom: 1px solid #ccc;
+}
+
+.txt-download-links {
+    margin-top: 30px;
+    margin-bottom: 18px;
+}
+
+.csv-download-links {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.tooltip-content {white-space:normal !important;}
+
+/* Pay Loan*/
+#payLoanMainContainer .multiplePaymentsEnterNew.multiplePaymentsEnterContainerBottom.singlePaymentMode{margin-top:4rem}
+#payLoanMainContainer.multipleBills .multiplePaymentsHeaderContainer .multiplePaymentsHeaderMain dl.dataset.multipleBillPaymentAmount{border-left: 1px solid #ccc;}
+#payLoanMainContainer.multipleBills .multiplePaymentsHeaderContainer .multiplePaymentsHeaderMain dl.dataset .totalTransactionAmount{text-align: right;}
+
+/*Pending Approval - All Products*/
+.jpui.fieldgroup .fieldtext--input {
+    border: none;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+    display: block;
+}
+.jpui.accordion .accordion__header {
+    padding: 1.25rem 1rem;
+    height: auto;
+    background-color: #fff;
+}
+.jpui.accordion .accordion__header{
+	padding-bottom:0;
+}
+.pendingApprovalsContainer .jpui.accordion .accordion__header .secondaryText {
+    margin-left: auto;
+}
+.jpui.accordion .accordion__header .secondaryText {
+    -ms-flex-negative: 2;
+    flex-shrink: 2;
+}
+.jpui.accordion .secondaryText {
+    font-size: .75rem;
+    font-weight: 400;
+    color: #717171;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.pendingApprovalsContainer span.secondaryText {
+    font-size: 1.25rem !important;
+    font-weight: 600 !important;
+    text-align: right !important;
+}
+	.jpui.accordion .accordion__header .button__header {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.jpui.accordion .accordion__header .iconBox {
+		margin-right: .75rem;
+	}
+	.jpui.accordion.closed .accordion__header .iconBox i {
+		color: #666;
+	}
+.jpui.accordion .accordion__header .iconBox i {
+    color: #126bc5;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    transition: -webkit-transform .3s ease-out 0s;
+    transition: transform .3s ease-out 0s;
+    transition: transform .3s ease-out 0s,-webkit-transform .3s ease-out 0s;
+}
+
+/*ULID*/
+    #ULID .refine-options-inline {display: inline-block;padding-right: 41px;}
+    #ULID .refine-options .jpui.radiobutton {margin-bottom: 4px;}
+    #refineByOptions{margin-top: 10px;padding-left: 10px;}
+    #ULID{margin-bottom:15px;}
+
+/*Pending Approvals Due*/
+    .padding-bottom{padding-bottom:0 !important;}
+    .Pending-subtitle{padding-left: 44px !important;padding-bottom: 16px !important;}
+    .td-subtitle{padding-left: 10px !important;}
+    .td-subtitle .NOTE{font-size: 0.80rem !important;margin-top: 5px;}
+    .txt-Bold{font-size: 0.85rem;font-weight: 600}
+    .jpui.icon.ring {color: #E07B00;}
+
+/*Average Balance left Side tooltip*/
+    .jpui.tooltip.open .tooltip-body.tooltip-position--right {
+        right: -1.5rem !important;
+        -webkit-animation: fadeIn .3s ease 0s forwards;
+        animation: fadeIn .3s ease 0s forwards;
+    }
+    .jpui.tooltip .tooltip-body.avg_tooltip{left:auto !important}
+
+.overview.container-fluid .tile.merchant-services .msa-sales-summary > div {padding-bottom:12px;}
+.overview.container-fluid .tile.merchant-services .details-row {padding-bottom:24px;}
+#accountSummaryContainer.merchant .details-row {padding-bottom:24px;}
+
+jpui.accordion .accordion__header .button__header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    padding: 0;
+}
+	
+/*ACH Top Text*/
+#achPaymentWorkspace .message ul li, #secEdDelPayees .message ul li, #secEdDelPayor .message ul li{list-style-type:disc;}
+#achPaymentWorkspace .message p, #secEdDelPayees .message p, #secEdDelPayor .message p{font-size: 0.85rem;}
+
+.custom-group-selection .groups-label{border-bottom:.125rem solid #ccc;padding-bottom:12px;padding-top:30px}@media screen and (max-width:767px){.custom-group-selection .groups-label{padding-top:24px}}
+.my-profile .section-header .section-title,.profile-flyout .section-header .section-title{font-size:1.25rem;font-weight:300 !important;color:#414042;letter-spacing:0;text-decoration:none;line-height:1.1;margin:0}@media screen and (min-width:768px){.my-profile .section-header .section-title,.profile-flyout .section-header .section-title{font-size:1.5rem}}@media screen and (max-width:767px){body.brand-mbank .my-profile .section-header .section-title,body.brand-mbank .profile-flyout .section-header .section-title{font-size:1.0625rem;font-weight:600;color:#fff;letter-spacing:0;text-decoration:none}}
+
+.custom-group-selection .group-name {
+    border-top: .0625rem solid #ccc;
+    padding: 12px 0;
+}
+.modal.my-profile-modal .row, .my-profile .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.custom-group-selection .create-group-link a #create-group-link-startIcon {
+    position: absolute;
+    font-size: 1.5rem;
+    left: -1.875rem;
+}
+
+.custom-group-selection .group-name .right-checkMark {
+    color: #128842 !important;
+}
+.custom-group-selection .group-name .custom-group-list .align-right {
+    float: right;
+}
+/* Customize Settings 24 Jun 2019 */
+.flexbox-tile-widget.custom-settings-link{background-color:inherit;box-shadow:none;padding-right:0;margin-bottom:.4rem}
+@media screen and (min-width:992px){
+	.flexbox-tile-widget {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+	}
+
+}
+.customize-settings-dropdown {
+    width: 100%;
+    text-align: right;
+}
+.customize-settings-dropdown .dropdownchip {
+    width: 100%;
+}
+.customize-settings-dropdown .dropdownchip .input {
+    background-color: inherit;
+}
+.jpui.dropdownchip .list {
+    list-style: none;
+    border: .0625rem solid rgba(0,0,0,.17);
+    box-shadow: 0 .125rem .188rem rgba(0,0,0,.28);
+    padding: .0625rem;
+    margin: 0;
+    background: #fff;
+    z-index: 999;
+	text-align: left;}
+
+.jpui.dropdownchip .input {
+    position: relative;
+    font-weight: 400;
+    line-height: 1.375;
+    cursor: pointer;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    height: auto;
+    margin-bottom: 0;
+    color: #414042;
+    /* background-color: #fff; */
+    border: 0;
+    overflow-y: hidden;
+}
+.jpui.dropdownchip .header {
+    padding: .5rem .25rem;
+}
+.customize-settings-dropdown .dropdownchip .list.flip-left {
+    right: .75rem;
+}
+.jpui.dropdownchip.show .list {
+    -webkit-animation: slideDown .15s ease 0s forwards;
+    animation: slideDown .15s ease 0s forwards;
+    height: auto;
+    visibility: visible;
+	display: block;
+    margin: .25rem 0;
+	width: auto;
+}
+.jpui.dropdownchip .option {
+	cursor: pointer;
+    overflow: auto;
+    width: 100%;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.jpui.dropdownchip.show .list > .group-container > .group-title, .jpui.dropdownchip.show .list > .option > .primary {
+    opacity: 1;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    line-height: 1.5;
+}
+.jpui.dropdownchip .option .primary {
+    text-decoration: none;
+    -moz-text-decoration-color: inherit;
+    color: inherit;
+    display: block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.jpui.dropdownchip .primary span {
+    pointer-events: none;
+}
+.util.accessible-text{
+	
+	    position: absolute !important;
+   
+    clip: rect(.0625rem,.0625rem,.0625rem,.0625rem);
+    padding: 0 !important;
+    border: 0 !important;
+    height: .0625rem !important;
+    width: .0625rem !important;
+    overflow: hidden;
+
+}
+
+/* ACH File Upload 26 Jun 2019 */
+.importantInformation ul li{font-weight: 400;font-size: .875rem;}
+.achPayments.nacha.fileUpload dl.scheduleDataI .dataDetails {
+    width: auto;
+    padding-bottom: .875rem;
+	display: inline-block;
+}
+
+/*ACH Payment Services Enrollment*/
+#companyActivationContainer{height:100%}#companyActivationContainer #companyActivation{border:1px solid #ccc;padding:0 12px}#companyActivationContainer #activationMessages{margin-top:70px}#companyActivationContainer #activationMessages .messageAdvisory{margin-top:12px;margin-bottom:18px}#companyActivationContainer #activationCaption{background:#fff;height:1px;padding:0;border:none}#companyActivationContainer .payments .header-container .title{text-overflow:ellipsis}#companyActivationContainer .formSection-title .DATA.adjustHeightTitle{margin-top:3rem;margin-bottom:2rem}#companyActivationContainer .formSection-title .DATA.adjustHeightSection{margin-top:3rem;margin-bottom:1.5rem}#companyActivationContainer #questionnaireForm .footerTopPos{margin-top:1.5rem;clear:both}#companyActivationContainer .dataLabel.questionnaireLabel{padding-top:2rem;padding-bottom:2rem}#companyActivationContainer .dataLabel.affirmationLabel{padding-top:2rem;padding-bottom:1.5rem}#companyActivationContainer .activityError{padding-bottom:.5rem}#companyActivationContainer .companyPrimary{font-weight:700}#companyActivationContainer #activityTable thead tr th{padding:12px 0}#companyActivationContainer #activityTable thead tr th .jpui.tooltip.open .tooltip-body{width:auto}#companyActivationContainer #activityTable tbody tr td{padding:24px 0}#companyActivationContainer #activityTable tbody tr td i.jpui.confirmation.icon{margin-right:12px}#companyActivationContainer #activityTable tbody.activityRow:last-child,#companyActivationContainer #activityTable tbody.activityRow:last-child td[data-th]{border-bottom:none}@media screen and (min-width:1200px){#companyActivationContainer #activityTable .companyName{width:78%}#companyActivationContainer #activityTable .companyStatus{width:25%}}@media screen and (min-width:992px){#companyActivationContainer #activityTable .companyName{width:38%}#companyActivationContainer #activityTable .companyStatus{width:30%}}@media screen and (max-width:432px){#companyActivationContainer #activityTable tbody tr{padding:24px 0}#companyActivationContainer #activityTable tbody tr td{padding:3px 0}#companyActivationContainer #activityTable tbody tr td i.jpui.confirmation.icon{margin-right:12px}#companyActivationContainer #activityTable tbody tr td.jpui.link{font-size:.8125rem;font-weight:400;color:#126bc5;letter-spacing:0;text-decoration:none}}@media screen and (max-width:432px) and screen and (min-width:768px){#companyActivationContainer #activityTable tbody tr td.jpui.link{font-size:.875rem}}
+@media screen and (min-width:768px){#companyActivationContainer #activityTable .companyName{width:34%}#companyActivationContainer #activityTable .companyStatus{width:44%}.ACHRecipient .activate-company span,.achPayments .activate-company span,.collections .activate-company span,.pendingApprovals .activate-company span{font-size:.875rem}}

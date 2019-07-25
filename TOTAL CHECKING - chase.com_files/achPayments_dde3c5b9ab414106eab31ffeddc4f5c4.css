@@ -1,0 +1,4540 @@
+
+.achPayments.nacha.fileUpload .dataListPair .dataDetails, .achPayments.nacha.fileUpload .dataListPairs .dataDetails, .uploadActivity.achPayments .dataListPairs .dataDetails {
+    word-break: break-all;
+}
+.jpui.inputlabel {
+    color: #717171;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.jpui.navbar.vertical .category {
+    color: #666;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.jpui.navbar.vertical .subcategory {
+    color: #717171;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.inputlabel {
+    font-size: 0.875rem;
+}
+.jpui.navbar.vertical .subcategory {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical .subcategory > .listItem {
+    color: #717171;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical .subcategory > .listItem {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical .subcategory > .listItem:hover {
+    color: #414042;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical .subcategory > .listItem:hover {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical .subcategory > .listItem:hover a, .jpui.navbar.vertical .subcategory > .listItem:hover a:active, .jpui.navbar.vertical .subcategory > .listItem:hover a:hover, .jpui.navbar.vertical .subcategory > .listItem:hover a:visited {
+    color: #126bc5;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical .subcategory > .listItem:hover a, .jpui.navbar.vertical .subcategory > .listItem:hover a:active, .jpui.navbar.vertical .subcategory > .listItem:hover a:hover, .jpui.navbar.vertical .subcategory > .listItem:hover a:visited {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical .subcategory > .listItem.active, .jpui.navbar.vertical .subcategory > .listItem.active:hover {
+    color: #414042;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical .subcategory > .listItem.active, .jpui.navbar.vertical .subcategory > .listItem.active:hover {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical .bottom a {
+    color: #717171;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical .bottom a {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical .bottom a:hover {
+    color: #414042;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical .bottom a:hover {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical .bottom a:hover a, .jpui.navbar.vertical .bottom a:hover a:active, .jpui.navbar.vertical .bottom a:hover a:hover, .jpui.navbar.vertical .bottom a:hover a:visited {
+    color: #126bc5;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical .bottom a:hover a, .jpui.navbar.vertical .bottom a:hover a:active, .jpui.navbar.vertical .bottom a:hover a:hover, .jpui.navbar.vertical .bottom a:hover a:visited {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical .bottom a:active {
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical .bottom a:active {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical .bottom a.active {
+    color: #414042;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical .bottom a.active {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical .bottom a.active:active {
+    color: #fff;
+}
+.jpui.navbar.vertical .bottom span.disabled {
+    color: #bcbcbc;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical .bottom span.disabled {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical.dark .category .header-div .listItem {
+    color: #959595;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.jpui.navbar.vertical.dark .bottom a {
+    color: #ededed;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical.dark .bottom a {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical.dark .subcategory .listItem {
+    color: #ededed;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical.dark .subcategory .listItem {
+    font-size: 1rem;
+}
+}
+.jpui.navbar.vertical.dark .subcategory .listItem.active, .jpui.navbar.vertical.dark .subcategory .listItem.active:hover {
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.navbar.vertical.dark .subcategory .listItem.active, .jpui.navbar.vertical.dark .subcategory .listItem.active:hover {
+    font-size: 1rem;
+}
+}
+.jpui.segment:hover .amount {
+    color: #0a4386;
+    font-size: 1.875rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.segment:hover .amount {
+    font-size: 1.5rem;
+}
+}
+@media screen and (min-width: 992px) {
+.jpui.segment:hover .amount {
+    font-size: 1.875rem;
+}
+}
+.jpui.segment .title {
+    color: #414042;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.segment .title {
+    font-size: 1rem;
+    font-weight: 400;
+}
+}
+@media screen and (min-width: 992px) {
+.jpui.segment .title {
+    font-size: 1.125rem;
+}
+}
+.jpui.segment .subtitle {
+    color: #717171;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.jpui.segment .amount {
+    color: #666;
+    font-size: 1.875rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.segment .amount {
+    font-size: 1.5rem;
+}
+}
+@media screen and (min-width: 992px) {
+.jpui.segment .amount {
+    font-size: 1.875rem;
+}
+}
+.jpui.segment .message {
+    color: #666;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.jpui.segment .message {
+    font-size: 0.75rem;
+}
+}
+@media screen and (min-width: 992px) {
+.jpui.segment .message {
+    font-size: 0.875rem;
+}
+}
+html {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.ACMLABEL {
+    color: #666;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.ACSLABEL, .ACTHLINK {
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.ACSLABEL {
+    color: #717171;
+    font-size: 0.75rem;
+}
+.ACTHLINK {
+    color: #126bc5;
+    font-size: 1.125rem;
+}
+.ACTNAME {
+    color: #414042;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.ACTNUM, .ACTNUMLINK, .ALERTNOTE {
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.ACTNAME {
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+}
+.ACTNUM {
+    color: #717171;
+    font-size: 0.8125rem;
+}
+.ACTNUMLINK {
+    color: #fff;
+    font-size: 0.875rem;
+}
+@media screen and (min-width: 768px) {
+.ACTNUM {
+    font-size: 0.875rem;
+}
+.ACTNUMLINK {
+    color: #126bc5;
+}
+}
+.ALERTNOTE {
+    color: #bf2155;
+    font-size: 0.75rem;
+}
+.AMOUNT {
+    color: #414042;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.AMOUNT {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+}
+.AMOUNTPOS {
+    color: #128842;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.BODY, .BODY a, .BODY a:active, .BODY a:hover, .BODY a:visited, .BODY2, .BODYDISABLE {
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.AMOUNTPOS {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+}
+.BODY {
+    color: #414042;
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.BODY {
+    font-size: 0.875rem;
+}
+}
+.BODY a, .BODY a:active, .BODY a:hover, .BODY a:visited {
+    color: #126bc5;
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.BODY a, .BODY a:active, .BODY a:hover, .BODY a:visited {
+    font-size: 0.875rem;
+}
+}
+.BODY2 {
+    color: #717171;
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.BODY2 {
+    font-size: 0.875rem;
+}
+}
+.BODYDISABLE {
+    color: #bcbcbc;
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.BODYDISABLE {
+    color: #959595;
+    font-size: 0.875rem;
+}
+}
+.BODYLABEL {
+    color: #414042;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.BODYLINK, .BODYNEG, .BODYPOS, .CALERT {
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.BODYLABEL {
+    font-size: 0.875rem;
+}
+}
+.BODYLINK {
+    color: #126bc5;
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.BODYLINK {
+    font-size: 0.875rem;
+}
+}
+.BODYNEG {
+    color: #bf2155;
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.BODYNEG {
+    font-size: 0.875rem;
+}
+}
+.BODYPOS {
+    color: #128842;
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.BODYPOS {
+    font-size: 0.875rem;
+}
+}
+.CALERT {
+    color: #fff;
+    font-size: 0.625rem;
+}
+.CATLABEL {
+    color: #666;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.CDBODY, .CDCH, .CDLINK {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.CDBODY {
+    color: #fff;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.CDLINK {
+    color: #6cc7ff;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.CDCH, .CDH1 {
+    color: #fff;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.CDCH {
+    font-size: 1rem;
+}
+}
+.CDH1 {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.CDINPUTFIELD {
+    color: #414042;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.CDTABOFF, .CDTABON, .CGREETING {
+    color: #fff;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.CDTABON {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+.CDTABOFF {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.CGREETING, .CH1 {
+    font-weight: 300;
+}
+.CGREETING {
+    font-size: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+.CGREETING {
+    font-size: 1.75rem;
+}
+}
+@media screen and (min-width: 992px) {
+.CGREETING {
+    font-size: 1.875rem;
+}
+}
+.CH1 {
+    color: #414042;
+    font-size: 1rem;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.CH2, .CH3 {
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.CH1 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+}
+.CH2 {
+    color: #717171;
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.CH2 {
+    font-size: 0.875rem;
+}
+}
+.CH2 a, .CH2 a:active, .CH2 a:hover, .CH2 a:visited, .CH2LINK {
+    color: #126bc5;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.CH3 {
+    color: #414042;
+    font-size: 1.0625rem;
+}
+.CLASSIC {
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.CLASSIC a, .CLASSIC a:active, .CLASSIC a:hover, .CLASSIC a:visited, .CLASSICBODY, .CLASSICLINK {
+    color: #414042;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.CLASSIC a, .CLASSIC a:active, .CLASSIC a:hover, .CLASSIC a:visited {
+    font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+.CLASSIC {
+    font-size: 1rem;
+}
+}
+.CLASSICBODY {
+    font-size: 1.125rem;
+}
+.CLASSICLINK {
+    font-size: 1rem;
+}
+.CMSSG {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.CSEARCHDARK, .CSEARCHDARKBOLD, .DATA {
+    color: #414042;
+    font-size: 0.875rem;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.CSEARCHDARK {
+    font-weight: 400;
+}
+.CSEARCHDARKBOLD {
+    font-weight: 600;
+}
+.DATA {
+    font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+.DATA {
+    font-size: 1rem;
+}
+}
+.DATA a, .DATA a:active, .DATA a:hover, .DATA a:visited {
+    color: #126bc5;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.DATA a, .DATA a:active, .DATA a:hover, .DATA a:visited {
+    font-size: 1rem;
+}
+}
+.DATABOLD {
+    color: #414042;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.DATALABELH, .DATALABELV {
+    color: #717171;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.DATABOLD {
+    font-size: 1rem;
+}
+}
+.DATALABELH {
+    font-size: 0.875rem;
+}
+@media screen and (min-width: 768px) {
+.DATALABELH {
+    font-size: 1rem;
+}
+}
+.DATALABELV {
+    font-size: 0.75rem;
+}
+.DATALINK {
+    color: #126bc5;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.DATALABELV {
+    font-size: 0.875rem;
+}
+.DATALINK {
+    font-size: 1rem;
+}
+}
+.DATAPOS {
+    color: #128842;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 1200px) {
+.DATAPOS {
+    font-size: 1rem;
+}
+}
+.DISABLEBUTTON {
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.DISNEYLABEL {
+    color: #717171;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.DISPLAYOFF, .DISPLAYON {
+    font-size: 0.875rem;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.DISNEYLABEL {
+    font-size: 0.875rem;
+}
+}
+.DISPLAYOFF {
+    color: #717171;
+    font-weight: 600;
+}
+.DISPLAYON {
+    color: #128842;
+    font-weight: 600;
+}
+.EH1 {
+    color: #bf2155;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.EH1D, .EH2 {
+    font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+.EH1 {
+    font-size: 1.0625rem;
+    font-weight: 400;
+}
+}
+.EH1D {
+    color: #fff;
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.EH1D {
+    font-size: 1.25rem;
+}
+}
+.EH2 {
+    color: #717171;
+    font-size: 0.8125rem;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.EH2 a, .EH2 a:active, .EH2 a:hover, .EH2 a:visited, .EH2LINK {
+    color: #126bc5;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.EH2 {
+    font-size: 0.875rem;
+}
+}
+.EH2 a, .EH2 a:active, .EH2 a:hover, .EH2 a:visited {
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.EH2 a, .EH2 a:active, .EH2 a:hover, .EH2 a:visited {
+    font-size: 0.875rem;
+}
+}
+.EH2LINK {
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.EH2LINK {
+    font-size: 0.875rem;
+}
+}
+.ETEXT {
+    color: #fff;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.ETEXT {
+    font-size: 0.875rem;
+}
+}
+.ETEXTBOLD {
+    color: #fff;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.EDATALABELH, .EDATALABELV {
+    color: #bf2155;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.EDATALABELH {
+    font-size: 0.875rem;
+}
+@media screen and (min-width: 768px) {
+.ETEXTBOLD {
+    font-size: 0.875rem;
+}
+.EDATALABELH {
+    font-size: 1rem;
+}
+}
+.EDATALABELV {
+    font-size: 0.75rem;
+}
+@media screen and (min-width: 768px) {
+.EDATALABELV {
+    font-size: 0.875rem;
+}
+}
+.EXPLICITAD {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.FOOTNOTE, .FOOTNOTELINK {
+    font-size: 0.625rem;
+    font-weight: 400;
+}
+.FOOTNOTE {
+    color: #414042;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.FOOTNOTELINK {
+    color: #126bc5;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.FRONTLINKS, .H1D {
+    color: #fff;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.FRONTLINKS {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.H1D, .H1L, .H1P, .H2 {
+    font-weight: 300;
+}
+.H1D {
+    font-size: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+.H1D {
+    font-size: 1.625rem;
+}
+}
+.H1L {
+    color: #666;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.H1L {
+    font-size: 1.625rem;
+}
+}
+.H1P {
+    color: #717171;
+    font-size: 1.25rem;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.H2, .H3 {
+    color: #414042;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.H1P {
+    color: #414042;
+    font-size: 1.375rem;
+}
+}
+.H2 {
+    font-size: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+.H2 {
+    font-size: 1.5rem;
+}
+}
+.H3 {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+.H3 {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+}
+.H3L {
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.H3R, .H4 {
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.H3L {
+    font-size: 1.25rem;
+}
+}
+.H3R {
+    color: #414042;
+    font-size: 1.25rem;
+}
+.H4 {
+    color: #717171;
+    font-size: 0.75rem;
+}
+@media screen and (min-width: 768px) {
+.H4 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+}
+.HEADERLABEL {
+    color: #717171;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.HEADERNUMSTR, .HEADERNUMSTRLIGHT {
+    color: #414042;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.HEADERLABEL {
+    font-size: 0.875rem;
+}
+}
+.HEADERNUMSTR {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.HEADERNUMSTRLIGHT {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.HEADERNUMSTRNEG {
+    color: #bf2155;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.HEADERNUMSTRON, .HEADERNUMSTRPOS {
+    color: #128842;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.HEADERNUMSTRON {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.HEADERNUMSTRPOS {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.HEROLIGHT, .HEROREGULAR {
+    font-size: 1.5rem;
+}
+.HEROLIGHT {
+    color: #414042;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.HEROREGULAR, .INPUTFIELD {
+    color: #414042;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.INPUTFIELD {
+    font-size: 0.875rem;
+}
+@media screen and (min-width: 768px) {
+.INPUTFIELD {
+    color: #414042;
+    font-size: 1rem;
+}
+}
+.INPUTFIELD2 {
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.INPUTFIELD2 {
+    font-size: 1rem;
+}
+}
+.INPUTFIELDDISABLE {
+    color: #bcbcbc;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.INVHEADER, .INVNUMSTR {
+    color: #414042;
+}
+@media screen and (min-width: 768px) {
+.INPUTFIELDDISABLE {
+    font-size: 1rem;
+}
+}
+.INVHEADER {
+    font-size: 1.375rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.INVNUMSTR, .INVNUMSTRNEG, .INVNUMSTRPOS {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.INVNUMSTRNEG {
+    color: #bf2155;
+}
+.INVNUMSTRPOS {
+    color: #128842;
+}
+.LOGININPUT {
+    color: #414042;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.NOTE, .NOTE a, .NOTE a:active, .NOTE a:hover, .NOTE a:visited, .NOTEBOLD {
+    font-size: 0.75rem;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.NOTE {
+    color: #717171;
+    font-weight: 400;
+}
+.NOTE a, .NOTE a:active, .NOTE a:hover, .NOTE a:visited {
+    color: #126bc5;
+    font-weight: 400;
+}
+.NOTEBOLD {
+    color: #717171;
+    font-weight: 600;
+}
+.NOTEDARK, .NOTEDARKBOLD {
+    color: #414042;
+    font-size: 0.75rem;
+}
+.NOTEDARK {
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.NOTEDARKBOLD {
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.NOTELINK, .NUMSTR {
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.NOTELINK {
+    color: #126bc5;
+    font-size: 0.75rem;
+}
+.NUMSTR {
+    color: #414042;
+    font-size: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+.NUMSTR {
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+}
+.NUMSTR2 {
+    color: #717171;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.NUMSTRPOS {
+    color: #128842;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.OFFERAPR, .OFFERFEE {
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.NUMSTRPOS {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+}
+.OFFERAPR {
+    color: #0a4386;
+}
+.OFFERFEE {
+    color: #414042;
+}
+.PRIMARYBUTTON {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.SECONDARYBUTTON, .SECONDARYBUTTONLI, .SIDE {
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.SECONDARYBUTTON {
+    color: #414042;
+    font-size: 1rem;
+}
+.SECONDARYBUTTONLI {
+    color: #fff;
+    font-size: 0.875rem;
+}
+@media screen and (min-width: 768px) {
+.SECONDARYBUTTONLI {
+    font-size: 1rem;
+}
+}
+.SIDE {
+    color: #ededed;
+    font-size: 0.875rem;
+}
+@media screen and (min-width: 768px) {
+.SIDE {
+    font-size: 1rem;
+}
+}
+.SIDEF, .SIDEH1 {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+.SIDEF {
+    color: #ccc;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.SIDEH1 {
+    color: #959595;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.TABLEHEADER, .TABLEHEADERSLCT {
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.TABLEHEADER {
+    color: #717171;
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.TABLEHEADER {
+    font-size: 0.875rem;
+}
+}
+.TABLEHEADERSLCT {
+    color: #414042;
+    font-size: 0.8125rem;
+}
+@media screen and (min-width: 768px) {
+.TABLEHEADERSLCT {
+    font-size: 0.875rem;
+}
+}
+.TERTIARYBUTTON, .TERTIARYDISABLEDBUTTON {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.TERTIARYBUTTON {
+    color: #666;
+}
+.TERTIARYDISABLEDBUTTON {
+    color: #d8d8d8;
+}
+.TILEBUTTON {
+    color: #0b6efd;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 1200px) {
+.TILEBUTTON {
+    font-size: 0.875rem;
+}
+}
+.TILEHEADER {
+    color: #414042;
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.TILENUMACTIVE, .TILENUMACTIVELI {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.TILENUMACTIVE {
+    color: #717171;
+}
+.TILENUMACTIVELI {
+    color: #666;
+}
+.TILEBNUMACTIVE {
+    color: #0a4386;
+    font-size: 1.875rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.TILEBNUMACTIVE {
+    font-size: 1.5rem;
+}
+}
+@media screen and (min-width: 992px) {
+.TILEBNUMACTIVE {
+    font-size: 1.875rem;
+}
+}
+.TILEBNUMACTIVELI {
+    color: #0a4386;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.TILEBNUMINACTIVE, .TILEBNUMINACTIVELI {
+    color: #666;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.TILEBNUMINACTIVE {
+    font-size: 1.875rem;
+    font-weight: 300;
+}
+@media screen and (min-width: 768px) {
+.TILEBNUMINACTIVE {
+    font-size: 1.5rem;
+}
+}
+@media screen and (min-width: 992px) {
+.TILEBNUMINACTIVE {
+    font-size: 1.875rem;
+}
+}
+.TILEBNUMINACTIVELI {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.TILEBNUMWHITE {
+    color: #fff;
+    font-size: 1.875rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.TILEBNUMWHITE {
+    font-size: 1.5rem;
+}
+}
+@media screen and (min-width: 992px) {
+.TILEBNUMWHITE {
+    font-size: 1.875rem;
+}
+}
+.TILENAME {
+    color: #414042;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.TILESUBTEXT, .TILESUBTEXTWHITE {
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.TILENAME {
+    font-size: 1rem;
+    font-weight: 400;
+}
+}
+@media screen and (min-width: 992px) {
+.TILENAME {
+    font-size: 1.125rem;
+}
+}
+.TILESUBTEXT {
+    color: #666;
+    font-size: 0.875rem;
+}
+@media screen and (min-width: 768px) {
+.TILESUBTEXT {
+    font-size: 0.75rem;
+}
+}
+@media screen and (min-width: 992px) {
+.TILESUBTEXT {
+    font-size: 0.875rem;
+}
+}
+.TILESUBTEXTWHITE {
+    color: #fff;
+    font-size: 0.875rem;
+}
+@media screen and (min-width: 768px) {
+.TILESUBTEXTWHITE {
+    font-size: 0.75rem;
+}
+}
+.TILETYPE, .TILETYPEACCOUNT, .TOOLTIPLINK {
+    font-size: 0.875rem;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 992px) {
+.TILESUBTEXTWHITE {
+    font-size: 0.875rem;
+}
+}
+.TILETYPE {
+    color: #666;
+    font-weight: 600;
+}
+.TILETYPEACCOUNT {
+    color: #126bc5;
+    font-weight: 600;
+}
+.TOOLTIPLINK {
+    color: #1167b7;
+    font-weight: 400;
+}
+.URBNUMINACTIVE {
+    color: #414042;
+    font-size: 1.875rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.UREWARDSACTIVE, .UREWARDSINACTIVE, .UREWARDSSUBTEXT, .URTILESUBTEXT {
+    font-weight: 400;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.URBNUMINACTIVE {
+    font-size: 1.5rem;
+}
+}
+@media screen and (min-width: 992px) {
+.URBNUMINACTIVE {
+    font-size: 1.875rem;
+}
+}
+.UREWARDSACTIVE {
+    color: #fff;
+    font-size: 1.125rem;
+    letter-spacing: 0;
+}
+@media screen and (min-width: 768px) {
+.UREWARDSACTIVE {
+    font-size: 0.875rem;
+}
+}
+@media screen and (min-width: 992px) {
+.UREWARDSACTIVE {
+    font-size: 1.125rem;
+}
+}
+.UREWARDSINACTIVE {
+    color: #414042;
+    font-size: 0.875rem;
+    letter-spacing: 0;
+}
+@media screen and (min-width: 992px) {
+.UREWARDSINACTIVE {
+    font-size: 1.125rem;
+}
+}
+.UREWARDSSUBTEXT {
+    color: #fff;
+    font-size: 0.875rem;
+    letter-spacing: 0;
+}
+.URTILESUBTEXT {
+    color: #414042;
+    font-size: 0.75rem;
+    letter-spacing: 0;
+}
+@media screen and (min-width: 992px) {
+.URTILESUBTEXT {
+    font-size: 0.875rem;
+}
+}
+.scheduleAchPayments .payeesListHeader {
+    margin-top: 1.875em;
+}
+.scheduleAchPayments .payeesListHeader .payeeGroupFilterLabel {
+    padding-left: 0.7em;
+}
+.scheduleAchPayments .payeesListHeader .addPayeeLink {
+    padding-top: 0.5em;
+}
+.scheduleAchPayments .payeesListHeader .addPayeeLink .start-icon {
+    vertical-align: top;
+}
+.scheduleAchPayments .payeeGroup {
+    margin: 0 -1.5em;
+    padding: 0 1.5em;
+}
+.scheduleAchPayments .payeeGroup .payeeGroupName {
+    margin: 1.25em 0 0.625em;
+}
+.scheduleAchPayments .payeeGroup .payeeGroupName .checkbox-label {
+    color: #717171;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.scheduleAchPayments .payeeGroup .payeeGroupDetailsContainer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.scheduleAchPayments .payeeGroup .payeeGroupDetailsContainer .payeeGroupDetails {
+    border-bottom: 1px solid #ccc;
+    margin: 0 -1.5em;
+    padding: 0.6em 1.5em;
+}
+.scheduleAchPayments .payeeGroup .payeeGroupDetailsContainer .payeeGroupDetails .checkbox-label {
+    padding-left: 0;
+}
+.scheduleAchPayments .payeeGroup .payeeGroupDetailsContainer .payeeGroupDetails .checkbox-label > div {
+    padding-left: 0.625rem;
+}
+.scheduleAchPayments .payeeGroup .payeeGroupDetailsContainer .payeeGroupDetails .checkbox-label .NUMSTR {
+    font-size: 1.125rem;
+}
+.scheduleAchPayments .payeeGroup .payeeGroupDetailsContainer .payeeGroupDetails .payeeGroupDropdown {
+    float: right;
+    margin-top: 0.5em;
+}
+.scheduleAchPayments .payeeGroup .payeeGroupDetailsContainer .payeeGroupDetails .payeeGroupDropdown .header {
+    border-left: 1px solid #ccc;
+    padding-left: 1.8em;
+}
+@media screen and (max-width: 767px) {
+.scheduleAchPayments .payeeGroup .payeeGroupDetailsContainer .payeeGroupDetails .checkbox-label .NUMSTR {
+    font-size: 1.5rem;
+}
+.scheduleAchPayments .payeeGroup .payeeGroupDetailsContainer .payeeGroupDetails .checkboxWrap {
+    margin-top: 5px;
+}
+}
+@media print {
+#createGroupForm #closeButton, #createGroupForm #createAnotherGroup, #createGroupForm #scheduleAchButton {
+    display: none;
+}
+}
+.achPayeeGroup .payeeGroupLabel {
+    margin-bottom: 0.75em;
+}
+.achPayeeGroup table.group-table {
+    border-collapse: initial;
+    width: 100%;
+}
+.achPayeeGroup table.group-table th[scope] {
+    background: #ededed none repeat scroll 0 0;
+    border-bottom: 6px solid #fff;
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+.achPayeeGroup table.group-table tr:first-child td {
+    padding: 1rem 1rem 0;
+}
+.achPayeeGroup table.group-table tr:last-child td {
+    padding: 0.8rem 1rem 1rem;
+}
+.achPayeeGroup table.group-table .link-anchor.BODY, .achPayeeGroup table.group-table .link-anchor.BODYLABEL {
+    color: #414042;
+    font-size: 1rem;
+}
+.achPayeeGroup table.group-table .link-anchor.BODYLABEL {
+    font-weight: 600;
+}
+.achPayeeGroup table.group-table .link-anchor.BODYLABEL .jpui.icon.end-icon {
+    color: #126bc5 !important;
+}
+.achPayeeGroup table.group-table .jpui.link .link-anchor {
+    color: #414042;
+}
+.achPayeeGroup table.group-table tbody tr:first-child td, .achPayeeGroup table.group-table tbody:first-child {
+    border-top: 1px solid #ccc;
+}
+.achPayeeGroup table.group-table tbody tr:last-child td {
+    border-bottom: 1px solid #ccc;
+}
+.achPayeeGroup table.group-table td {
+    padding: 0.5rem 1rem;
+}
+.achPayeeGroup table.group-table td:first-child {
+    border-left: 1px solid #ccc;
+}
+@media only screen and (max-width: 767px) {
+.achPayeeGroup table.group-table td[data-group-name]::after {
+    color: #717171;
+    content: attr(data-group-name);
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding-left: 2rem;
+    text-decoration: none;
+}
+.achPayeeGroup table.group-table td:first-child {
+    border-right: 1px solid #ccc;
+}
+}
+.achPayeeGroup table.group-table td:last-child {
+    border-right: 1px solid #ccc;
+}
+.achPayeeGroup .recipient-gray {
+    color: #717171 !important;
+}
+.scheduleSingle .transactionsAccordion .sortIcon .angledown, .uploadPreview .transactionsAccordion .sortIcon .angledown, body .scheduleSingle.scheduleAchPayments .payeeActivity .fieldset.payeeActivityRow .accountDisplayName a .angleDownIcon .angledown {
+    color: #126bc5;
+}
+.achPayeeGroup .actionLinks.editDeleteRecipients {
+    transform: translate(0px, 12px);
+}
+.achPayeeGroup .actionLinks span:first-of-type {
+    padding: 6px 6px 6px 0;
+}
+.achPayeeGroup .actionLinks span:last-of-type {
+    border-left: 3px solid #ededed;
+    padding: 6px 0 6px 6px;
+}
+@media screen and (max-width: 767px) {
+.achPayeeGroup .checkbox-label {
+    padding-top: 0 !important;
+}
+}
+.achPayeeGroup .DATABOLD.checked, .achPayeeGroup .DATABOLD.checked .checkbox-label {
+    font-weight: 600;
+}
+@media only screen and (max-width: 767px) {
+.achPayeeGroup .group-name-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+.achPayeeGroup .hide-xs-table-cell {
+    display: none !important;
+}
+}
+@media only screen and (min-width: 768px) {
+.achPayeeGroup .show-sm-table-cell {
+    display: table-cell !important;
+}
+}
+.scheduleAchPayments .achPaymentsPayeeList .payeeListIcons {
+    margin-top: 0.625em;
+}
+.scheduleAchPayments .achPaymentsPayeeList .selectionDetails {
+    padding-top: 1em;
+}
+@media (min-width: 768px) {
+.achPayeeGroup .sm-aligned-right {
+    text-align: right;
+}
+.scheduleAchPayments .achPaymentsPayeeList .ACTNAME {
+    font-size: 1.125rem;
+}
+}
+body:not(.fixheader) .scheduleSingle .paymentsActivity .multiplePaymentsHeaderContainer {
+    position: relative;
+    top: 0 !important;
+}
+body:not(.fixheader) .scheduleSingle .paymentsActivity .payeeActivity {
+    margin-top: 0 !important;
+}
+body.fixheader-shadow .paymentsActivityStickyHeader {
+    box-shadow: 0 6px 6px -3px rgba(0, 0, 0, 0.3);
+    padding: 0 1.5em;
+}
+@media screen and (max-width: 767px) {
+body.fixheader-shadow .paymentsActivityStickyHeader {
+    padding: 0 1em;
+}
+}
+body.fixheader-shadow .payeeTransactions:first-of-type .validation-error-bubble-container {
+    z-index: initial !important;
+}
+@media print {
+body .achPaymentPrintActivity {
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+}
+body.fixheader .scheduleSingle .scheduleSingleVerify .addenda, body.fixheader .scheduleSingle .scheduleSingleVerify .form.common .field {
+    margin-bottom: 0;
+}
+body.fixheader .payeeActivity.payeeActivitySpacing {
+    margin-top: 5em;
+}
+@media screen and (max-width: 767px) {
+body.fixheader .payeeActivity.payeeActivitySpacing {
+    margin-top: 6em;
+}
+}
+body.fixheader .payeeActivity.payeeActivityErrorSpacing {
+    margin-top: 8em;
+}
+@media screen and (max-width: 767px) {
+body.fixheader .payeeActivity.payeeActivityErrorSpacing {
+    margin-top: 9em;
+}
+body .scheduleSingle.scheduleAchPayments .paymentsActivityTitle .paymentsActivityTitleHeader {
+    padding-bottom: 0.8em;
+}
+}
+body.fixheader .payeeActivity .payeeActivityRow .payeeDetails .fieldgroup .spoc-bubble-margin {
+    z-index: 10000;
+}
+body.fixheader .scheduleSingle .scheduleSingleVerify .addenda .vertical {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+body .scheduleSingle.scheduleAchPayments {
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    min-height: 100%;
+}
+body .scheduleSingle.scheduleAchPayments .paymentsActivityTitle {
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+body .scheduleSingle.scheduleAchPayments .paymentsActivityTitle .paymentsActivityTitleHeader {
+    margin: 0;
+}
+body .scheduleSingle.scheduleAchPayments .paymentsActivityTitle .paymentsActivityStickyHeader {
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 1.5em;
+}
+@media screen and (max-width: 767px) {
+body .scheduleSingle.scheduleAchPayments .paymentsActivityTitle .paymentsActivityStickyHeader {
+    padding: 0 1em;
+}
+.scheduleSingle.scheduleAchPayments .totalPaymentDetails .totalDetails {
+    display: block;
+}
+}
+body .scheduleSingle.scheduleAchPayments .paymentsActivityTitle .paymentsActivityStickyHeader .paymentsActivityTitleDetails {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+body .scheduleSingle.scheduleAchPayments .paymentsActivityTitle .paymentsActivityStickyHeader .paymentsActivityTitleDetails .totalPaymentDetails {
+    margin: 0;
+}
+body .scheduleSingle.scheduleAchPayments .paymentsActivityTitle .paymentsActivityStickyHeader .common.alertContainer {
+    margin-top: 0;
+    top: 1.375rem;
+}
+@media screen and (min-width: 768px) {
+body .scheduleSingle.scheduleAchPayments .paymentsActivityTitle .paymentsDetails, body .scheduleSingle.scheduleAchPayments .paymentsActivityTitle .totalDetails {
+    text-align: right;
+}
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .formLabel {
+    margin-bottom: 0;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .fundingAccount .field {
+    margin-bottom: 3px;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .fundingAccount select {
+    padding-left: 0;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .currenBalance {
+    margin-bottom: 24px;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .deliveryBy .label-wrapper {
+    margin-bottom: 0;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .hybridPayeeGroupName {
+    font-size: 1.7rem;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .hybridAccountName {
+    margin-bottom: 0.5em;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .hybridAccountName H2 {
+    margin: 0;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .hybridTransactionAmount {
+    padding-top: 30px;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .hybridTransactionAmount .input {
+    font-size: 2.7rem;
+    text-align: center;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .hybridTransactionAmount .input-icon {
+    font-size: 2.7rem;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .payeeTransactions:first-of-type .validation-error-bubble-container {
+    z-index: 9999;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .confirmIcon {
+    font-size: 58px;
+    padding-bottom: 12px;
+    padding-top: 24px;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .fieldset.payeeActivityRow.hybridHeaderPadding {
+    padding: 2em 1.5em 0.25em;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .fieldset.payeeActivityRow {
+    margin: 0 -24px;
+    padding: 3em 1.5em 0.75em;
+}
+@media screen and (min-width: 768px) {
+body .scheduleSingle.scheduleAchPayments .payeeActivity .fieldset.payeeActivityRow {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 1.5em 0.75em;
+}
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .fieldset.payeeActivityRow .singleHeaderError {
+    margin-bottom: 1.5em;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .fieldset.payeeActivityRow .accountDetails .DATA {
+    margin-top: 0.5em;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .fieldset.payeeActivityRow .accountDisplayName {
+    margin: 3px 0 5px;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .fieldset.payeeActivityRow .accountDisplayName a {
+    text-decoration: none;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .fieldset.payeeActivityRow .accountDisplayName a .angleDownIcon {
+    float: left;
+    padding-left: 0.4em;
+    position: relative;
+}
+body .scheduleSingle.scheduleAchPayments .payeeActivity .fieldset.payeeActivityRow .accountDisplayName a .payeeTypeDetails {
+    overflow-wrap: break-word;
+    padding-left: 1.8em;
+}
+body .scheduleSingle.scheduleAchPayments .singleScheduleStickyFooter.hybridStickyFooter .jpui.stickyfooter .next-button {
+    float: right;
+}
+body .jpui.fieldgroup .vertical .validation__bubble-container {
+    z-index: 99999;
+}
+.scheduleAchPayments.achPayments .stickyFooterButtons .jpui.stickyfooter, .scheduleSingle.scheduleAchPayments .singleScheduleStickyFooter .jpui.stickyfooter {
+    z-index: 1;
+}
+.scheduleSingle .transactionsAccordion, .uploadPreview .transactionsAccordion {
+    padding: 0.5em 0;
+}
+.scheduleSingle .transactionsAccordion.open, .uploadPreview .transactionsAccordion.open {
+    border-bottom: medium none;
+}
+.scheduleSingle .transactionsAccordion.close, .uploadPreview .transactionsAccordion.close {
+    border-bottom: 1px solid #ccc;
+}
+.scheduleSingle .transactionsAccordion .transactionsAccordionTitle, .uploadPreview .transactionsAccordion .transactionsAccordionTitle {
+    text-decoration: none;
+}
+.scheduleSingle .transactionsAccordion .transactionsAccordionTitle .sortIcon, .uploadPreview .transactionsAccordion .transactionsAccordionTitle .sortIcon {
+    float: left;
+    position: relative;
+    top: 0.5em;
+}
+.scheduleSingle .transactionsAccordion .transactionsAccordionTitle .paymentAlert, .uploadPreview .transactionsAccordion .transactionsAccordionTitle .paymentAlert {
+    margin-left: 2em;
+}
+.scheduleSingle .scheduleSingleDetailsContainer, .uploadPreview .scheduleSingleDetailsContainer {
+    border-bottom: 1px solid #ccc;
+    margin: 0 -24px;
+    padding: 1.5em;
+}
+.scheduleSingle .scheduleSingleDetailsContainer .accountDisplayName, .uploadPreview .scheduleSingleDetailsContainer .accountDisplayName {
+    overflow-wrap: break-word;
+}
+.scheduleSingle .scheduleSingleDetailsContainer.hybridStickyFooter, .uploadPreview .scheduleSingleDetailsContainer.hybridStickyFooter {
+    border-bottom: medium none;
+}
+.scheduleSingle.scheduleAchPayments .totalPaymentDetails {
+    margin: 1em 0;
+}
+@media screen and (min-width: 768px) {
+.scheduleSingle.scheduleAchPayments .paymentsActivity .payments {
+    padding-top: 120px;
+}
+.scheduleSingle.scheduleAchPayments .totalPaymentDetails .totalDetails {
+    padding-left: 1em;
+}
+.scheduleSingle.scheduleAchPayments .totalPaymentDetails {
+    text-align: right;
+}
+}
+.scheduleSingle.scheduleAchPayments .singleScheduleStickyFooter {
+    height: 6.25rem;
+}
+.scheduleSingle.scheduleAchPayments .singleScheduleStickyFooter .jpui.stickyfooter .content, .scheduleSingle.scheduleAchPayments .singleScheduleStickyFooter .jpui.stickyfooter .top-border {
+    margin-left: -24px;
+    margin-right: -24px;
+}
+.scheduleSingle.scheduleAchPayments .singleScheduleStickyFooter .jpui.stickyfooter .content {
+    background-color: inherit;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: auto;
+}
+@media screen and (max-width: 767px) {
+.scheduleSingle.scheduleAchPayments .singleScheduleStickyFooter.enter, .scheduleSingle.scheduleAchPayments .singleScheduleStickyFooter.verify {
+    height: 13rem;
+}
+}
+.scheduleSingle.scheduleAchPayments .scheduleSingleVerify.payments .hybridConfirmation {
+    margin-bottom: 2.45em;
+    margin-top: 2em;
+}
+.achEnrollmentConfirmContainer.payments .common.noFormHeader .alertContainer {
+    margin-bottom: -0.5em;
+    margin-top: 0.125em;
+}
+.achEnrollmentConfirmContainer.payments .common.alertContainer.confirmIcon {
+    padding-bottom: 0;
+    padding-top: 0.125em;
+}
+.scheduleAchPayments.achPayments {
+    min-height: 100%;
+}
+.scheduleAchPayments.achPayments .verifyMessage {
+    margin: 0;
+}
+.scheduleAchPayments.achPayments .stickyFooterButtons {
+    height: 7.5rem;
+}
+.scheduleAchPayments.achPayments .stickyFooterButtons .jpui.stickyfooter .content, .scheduleAchPayments.achPayments .stickyFooterButtons .jpui.stickyfooter .top-border {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+@media screen and (min-width: 992px) {
+.scheduleAchPayments.achPayments .stickyFooterButtons .jpui.stickyfooter .content, .scheduleAchPayments.achPayments .stickyFooterButtons .jpui.stickyfooter .top-border {
+    margin-left: -24px;
+    margin-right: -24px;
+}
+}
+.scheduleAchPayments.achPayments .stickyFooterButtons .jpui.stickyfooter .content {
+    background-color: inherit;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: auto;
+}
+.scheduleRepeatingAchPayments.achPayments section.hybrid-verify-payments .verify-payments-header {
+    text-align: center;
+}
+.scheduleRepeatingAchPayments.achPayments section.hybrid-verify-payments .verify-payments-header .H2 {
+    margin: 1.5em auto;
+}
+.scheduleRepeatingAchPayments.achPayments section.hybrid-verify-payments .verify-payments-header .H2.display-name {
+    margin-bottom: 0.6em;
+}
+.scheduleRepeatingAchPayments.achPayments section.hybrid-verify-payments .verify-payments-header .amount {
+    color: #414042;
+    font-size: 45px;
+    margin-bottom: 0.4em;
+}
+.scheduleRepeatingAchPayments.achPayments section.hybrid-verify-payments .panelContent {
+    margin-bottom: 8em;
+}
+.scheduleRepeatingAchPayments.achPayments section.hybrid-verify-payments .panelContent .field {
+    margin: 0;
+}
+.scheduleRepeatingAchPayments.achPayments section.hybrid-verify-payments dd.dataValue {
+    margin-bottom: 1.125em;
+}
+.editPayee.achPaymentsPayee .editPayeeList {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.editPayee.achPaymentsPayee .payeeStatus {
+    margin-top: 1em;
+}
+.editPayee.achPaymentsPayee .flyoutMenu .input {
+    top: 5px;
+}
+.addPayee.achPaymentsPayee .searchBank h4, .addPayee.achPaymentsPayee h2 {
+    margin: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.achPaymentActivity .table.achActivityTable td[data-th] {
+    padding-right: 0.5em;
+}
+}
+.achPaymentActivity .table.achActivityTable th.approvalCheckbox .jpui.checkbox .check {
+    display: block;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown {
+    display: inline-block;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown .input {
+    border: 0 none;
+    overflow-y: hidden;
+    padding-bottom: 0.1875rem;
+    padding-left: 0;
+    padding-top: 0.1875rem;
+    position: relative;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown .input:hover {
+    border: 0 none;
+    box-shadow: none;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown .input:focus {
+    box-shadow: none;
+    outline: 0.0625rem dashed #717171;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown .input .header-text {
+    display: inline-block;
+    margin-top: 0.3125rem;
+    padding-left: 0.375rem;
+    pointer-events: none;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown .icon {
+    color: #126bc5;
+    float: left;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown .list-container .list {
+    max-width: 28.125rem;
+    min-width: 10rem;
+    width: auto;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown .list-container .list .option {
+    padding: 1px;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown.rightAlignIcon.show .input:hover {
+    padding-left: 0.125rem;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown.rightAlignIcon .input.header.field {
+    text-overflow: unset;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown.rightAlignIcon .header-text {
+    padding-left: 0;
+    transform: translateY(-0.3125rem);
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown.rightAlignIcon .expanddown {
+    float: none;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown.disabled .header-text {
+    pointer-events: auto;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown.disabled .icon {
+    font-size: 1.5rem;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown.rightAlign {
+    float: right;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown.rightAlign .input {
+    padding: 0;
+}
+.achPaymentActivity .activityActionDropdown .jpui.dropdown.actionDropdown.rightAlign .list-container .list {
+    right: 0;
+}
+.achPaymentActivity .footer {
+    border-bottom: 1px solid #ccc;
+    margin-top: 1.125rem;
+    padding-bottom: 1.125rem;
+}
+.achPaymentActivity .footer .common.alertHeaderContainer {
+    margin-bottom: 0.875rem;
+    margin-top: 0;
+}
+.payments.paymentActivityContainer .achPaymentPrintActivity .filterTransactionsByCointainer {
+    margin-left: -20px;
+    margin-right: -12px;
+}
+.payments.paymentActivityContainer .achPaymentPrintActivity .styledselect .wrap button.input-icon {
+    bottom: 0.0625rem;
+}
+.payments.paymentActivityContainer .achPaymentPrintActivity .styledselect .wrap button.input-icon .expanddown::after {
+    color: #717171;
+}
+.payments.paymentActivityContainer .achPaymentPrintActivity .common.form input {
+    padding: 0 0 0 1rem;
+}
+.payments.paymentActivityContainer .achPaymentPrintActivity .simple.table.responsive.activityTable tr {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+.scheduleAchPayments.achPayments .stickyFooterButtons {
+    height: 11rem;
+}
+.payments.paymentActivityContainer .achPaymentPrintActivity .simple.table.responsive.activityTable tbody.activityRow td a.link-anchor {
+    display: block;
+}
+}
+.achPayments .hiddenAchPaymentLegalAgreementLabel .achPaymentActivity #requestAchPaymentLegalAgreementLabel, .achPayments .hiddenActionDropdown .jpui.table td.activityActionDropdown[data-th], .achPayments .hiddenActionDropdown .jpui.table th.activityActionDropdown[scope], .achPayments .hiddenActivityLinks .jpui.table td.activityActionLinks[data-th], .achPayments .hiddenActivityLinks .jpui.table th.activityActionLinks[scope], .achPayments .hiddenApprovalCheckbox .approvalCheckbox, .achPayments .hiddenNoActivityMessage #noActivityMessage, .achPayments .hiddenRequestInfo .requestTransactionDetailsLink, .brand-commercial .achPaymentActivity #requestAchPaymentLegalAgreementLabel {
+    display: none;
+}
+@media (max-width: 767px) {
+.payments.paymentActivityContainer .achPaymentPrintActivity .simple.table.responsive.activityTable tbody.activityRow > tr {
+    margin-bottom: 0;
+    padding: 1.5rem 0;
+}
+.payments.paymentActivityContainer .achPaymentPrintActivity .simple.table.responsive.activityTable tbody.activityRow:nth-of-type(1) > tr {
+    padding-top: 0;
+}
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+.payments.paymentActivityContainer .achPaymentPrintActivity .simple.table.responsive.activityTable {
+    table-layout: fixed;
+}
+.payments.paymentActivityContainer .achPaymentPrintActivity .simple.table.responsive.activityTable .fileUploadLink .link-anchor {
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+}
+.payments.paymentActivityContainer .achPaymentPrintActivity footer {
+    margin-top: 1.125em;
+    padding-bottom: 1.125em;
+}
+@media screen and (max-width: 767px) {
+.payments.paymentActivityContainer .achPaymentPrintActivity footer .footerContent {
+    text-align: center;
+}
+.payments.paymentActivityContainer .achPaymentPrintActivity footer .footerContent .DATA, .payments.paymentActivityContainer .achPaymentPrintActivity footer .footerContent .NOTE {
+    margin-bottom: 1.125rem;
+}
+.payments.paymentActivityContainer .achPaymentPrintActivity footer .footerContent .DATA + .activityActionLinks, .payments.paymentActivityContainer .achPaymentPrintActivity footer .footerContent .NOTE + .activityActionLinks {
+    margin-top: 0;
+}
+.achPayments .hiddenActivityLinks .jpui.table td.activityActionDropdown[data-th] .actionDropdown, .achPayments .hiddenActivityLinks .jpui.table th.activityActionDropdown[scope] .actionDropdown {
+    float: none;
+}
+}
+.achPayments.nacha.fileUpload .pull-right, .payments.paymentActivityContainer .hybrid-edit-bank-information .save-btn, .payments.paymentActivityContainer .hybrid-edit-group .save-btn, .payments.paymentActivityContainer .hybrid-edit-name .save-btn, section.payments.paymentActivityContainer .achPayeesPayeeList .pull-right {
+    float: right;
+}
+@media screen and (min-width: 1200px) {
+.achPayments .hiddenActivityLinks .jpui.table td.activityActionDropdown[data-th] .actionDropdown, .achPayments .hiddenActivityLinks .jpui.table th.activityActionDropdown[scope] .actionDropdown {
+    float: right;
+}
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search {
+    background-color: #fff;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .payee-list-search-input-container {
+    background-color: #ededed;
+    border: 1px solid #ededed;
+    border-radius: 12px;
+    line-height: 150%;
+    margin: 0;
+    padding-bottom: 1px;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .payee-list-search-input-container .jpui.search.icon {
+    color: #666;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .payee-list-search-input-container a.primary-search-clear-text {
+    bottom: 0.6em;
+    position: absolute;
+    right: 0.5em;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .payee-list-search-input-container .errorBubble {
+    position: relative;
+    top: -1.75rem;
+    z-index: 9999;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .payee-list-search-input-container .errorBubble .pointing.attached {
+    bottom: 0;
+    width: 100%;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .payee-list-search-input-container.inputError {
+    border-color: #bf2155;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .conversation-deck-search-box {
+    background-color: #ededed;
+    border: 0 none;
+    border-radius: 12px;
+    box-shadow: none;
+    font-size: 1em;
+    font-weight: 300;
+    height: 32px;
+    outline: 0 none;
+    position: relative;
+    text-align: left;
+    width: 70%;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .conversation-deck-search-box:-moz-placeholder {
+    color: #717171;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .conversation-deck-search-box::-moz-placeholder {
+    color: #717171;
+}
+@media screen and (max-width: 1199px) {
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .conversation-deck-search-box {
+    width: 65%;
+}
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .search-box-option-list {
+    background-color: #fff;
+    border: 0.0625rem solid silver;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.28);
+    height: 300px;
+    margin-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 1;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .search-box-option-list ul {
+    display: block;
+    visibility: visible;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .search-box-option-list li {
+    background-color: #fff;
+    min-height: 2.75rem;
+    padding: 0.625rem 1.5rem;
+    z-index: 10000000;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .search-suggestions {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 12px;
+    border-top: medium none;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    height: initial;
+    margin-left: 5px;
+    max-height: 28em;
+    overflow-y: auto;
+    position: absolute;
+    text-align: left;
+    width: 96%;
+    z-index: 30;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .search-suggestions a {
+    color: #656565;
+    display: block;
+    text-decoration: none;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .search-suggestions .payee-list-search-default-options:hover {
+    background-color: #f4f1ea;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .search-suggestions .payee-list-search-default-options:hover:last-child {
+    border-radius: 0 0 6px 6px;
+}
+.achPaymentsSearch .myPayeeSearch.managePayee.payments .payee-list-search .search-suggestions .search-suggestions-advisory {
+    color: #000;
+    margin-left: 1em;
+}
+.achPaymentsSearch .jpui.searchBox .closebutton {
+    right: 1.25rem;
+}
+.achEnrollment.container-fluid .formSection--title {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 24px;
+    padding-bottom: 6px;
+}
+@media screen and (max-width: 767px) {
+.achEnrollment.container-fluid .formSection--title {
+    margin-bottom: 18px;
+}
+}
+.achEnrollment.container-fluid .formSection--advisory {
+    padding-bottom: 18px;
+}
+.achEnrollment.container-fluid .textarea.increaseHeight {
+    height: 8rem;
+}
+.achEnrollment.container-fluid h2, .achEnrollment.container-fluid h3, .achEnrollment.container-fluid h4 {
+    margin: 0;
+}
+.achEnrollment.container-fluid .corporate-checkbox {
+    margin-top: 15px;
+}
+.achEnrollment.container-fluid .formSection .fieldset {
+    padding-top: 6px;
+}
+@media screen and (max-width: 767px) {
+.achEnrollment.container-fluid .corporate-checkbox {
+    margin-top: 9px;
+}
+.achEnrollment.container-fluid .common.formHeader {
+    margin-bottom: 18px;
+    margin-top: 12px;
+}
+}
+.companyActivation .companyActivationTable {
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    padding: 0 18px;
+}
+.companyActivation .companyActivationTable .simple.table.responsive.activityTable tbody.activityRow, .companyActivation .companyActivationTable .simple.table.responsive.activityTable tbody.activityRow tr:last-child td {
+    border-bottom: medium none;
+}
+.companyActivation .companyActivationTable .simple.table.responsive.activityTable .table-row th {
+    padding-bottom: 9.6px;
+}
+#uploadHelpOverlay table, #uploadHelpOverlay tbody, #uploadHelpOverlay td, #uploadHelpOverlay th, #uploadHelpOverlay tr {
+    border: 0 none;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table tr, section.payments.paymentActivityContainer .achPayeesPayeeList li:last-of-type {
+    border-bottom: 1px solid #ccc;
+}
+section.payments.paymentActivityContainer {
+    height: inherit;
+}
+section.payments.paymentActivityContainer .jpui.stickybuttons {
+    box-shadow: none;
+}
+@media screen and (max-width: 767px) {
+.companyActivation .companyActivationTable {
+    margin-top: 12px;
+}
+.companyActivation .companyActivationTable .simple.table.responsive.activityTable tbody.activityRow tr:first-child {
+    margin-top: 15px;
+}
+section.payments.paymentActivityContainer .jpui.stickybuttons {
+    padding-bottom: 20px;
+}
+}
+section.payments.paymentActivityContainer .myPayeeSearch.managePayee.payments {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+section.payments.paymentActivityContainer .myPayeeSearch.managePayee.payments .jpui.searchBox .search-box {
+    margin: 0 0.5rem 0 0;
+    padding-left: 0.75rem;
+}
+section.payments.paymentActivityContainer .myPayeeSearch.managePayee.payments .jpui.searchBox .closebutton {
+    right: -0.6rem;
+}
+section.payments.paymentActivityContainer .myPayeeSearch.managePayee.payments .jpui.searchBox .search-bar {
+    padding-right: 0.75rem;
+}
+section.payments.paymentActivityContainer .myPayeeSearch.managePayee.payments .jpui.searchBox li:first-of-type {
+    padding-top: 0.675rem;
+}
+section.payments.paymentActivityContainer .alertContainer.serverErrorUtil {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+section.payments.paymentActivityContainer .achPayeesPayeeList ul {
+    list-style-type: none;
+    margin: 0 -12px;
+    padding: 0;
+}
+section.payments.paymentActivityContainer .achPayeesPayeeList .eachpayee {
+    border-top: 1px solid #ccc;
+    cursor: pointer;
+    margin: 0 -15px 0 0.7em;
+    padding: 12px 18px 12px 0;
+}
+section.payments.paymentActivityContainer .achPayeesPayeeList .eachpayee > div > span:first-child {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 240px;
+}
+section.payments.paymentActivityContainer .achPayeesPayeeList li:first-of-type {
+    padding-top: 0.7em;
+}
+section.payments.paymentActivityContainer .achPayeesPayeeList li:first-of-type div > span:first-child {
+    width: 100%;
+}
+section.payments.paymentActivityContainer .achPayeesPayeeList li:first-of-type .add-payee-container {
+    margin-top: 3px;
+}
+section.payments.paymentActivityContainer .achPayeesPayeeList li:first-of-type .add-link {
+    display: inline-flex;
+    padding: 3px 8px 0;
+}
+section.payments.paymentActivityContainer .achPayeesPayeeList li:first-of-type .add-link i {
+    font-size: 1.5rem;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table th[scope] {
+    padding-bottom: 6px;
+    padding-top: 11px;
+    text-transform: uppercase;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table tr:first-child td {
+    cursor: pointer;
+    padding: 1rem 0.1rem 1rem 1rem;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table td {
+    padding: 0.8rem 1rem 0;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table tr:last-child td {
+    padding: 18px 0.1rem 18px 0;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table tr td.status-text {
+    margin-bottom: 25.2px;
+    padding-top: 0;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table tr td.status-text-repeating {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table tr td.date-text {
+    padding-bottom: 0;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table tr td.frequency-text {
+    padding-top: 0;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table tr td.frequency-text .repeating-icon {
+    font-size: 1.7em;
+    height: 30px;
+    margin-right: 3px;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table tr td.frequency-text span.status-text {
+    margin-top: 6px;
+}
+section.payments.paymentActivityContainer .achPayees table.payees-table tr td.amount-text {
+    vertical-align: bottom;
+}
+section.payments.paymentActivityContainer .achPayees .footer-hybrid-content .DATA_FOR_XS {
+    margin-top: 18px;
+}
+section.payments.paymentActivityContainer .payeeDetails .payeeHeader {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+    margin: 0 -16px 0 -12px;
+    padding: 18px 0.5em;
+}
+section.payments.paymentActivityContainer .payeeDetails .payeeHeader .h1 {
+    padding-top: 24px;
+}
+section.payments.paymentActivityContainer .payeeDetails .payeeHeader .ACTNAME {
+    color: #000;
+    margin-top: 0;
+}
+@media (min-width: 768px) {
+section.payments.paymentActivityContainer .payeeDetails .payeeHeader .ACTNAME {
+    font-size: 1.125rem;
+}
+}
+section.payments.paymentActivityContainer .payeeDetails .nickname-payee-header {
+    margin: 0 0 12px;
+    text-align: center;
+}
+section.payments.paymentActivityContainer .payeeDetails .nickname-payee-header h2#payeeNickname {
+    margin: 0;
+}
+section.payments.paymentActivityContainer .payeeDetails .payeename-container {
+    margin: 12px 0;
+}
+section.payments.paymentActivityContainer .payeeDetails .details-link-container, section.payments.paymentActivityContainer .payeeDetails .payeename-container .payee-name-row {
+    margin: 0;
+}
+section.payments.paymentActivityContainer .payeeDetails .payeename-container .pipesymbol {
+    text-align: center;
+}
+section.payments.paymentActivityContainer .payeeDetails .payeename-container .payee-name-grouped {
+    overflow-wrap: break-word;
+    text-align: right;
+}
+section.payments.paymentActivityContainer .payeeDetails .payeename-container .payee-group-name {
+    overflow-wrap: break-word;
+    text-align: left;
+}
+section.payments.paymentActivityContainer .payeeDetails .payeename-container .payee-name-ungrouped {
+    overflow-wrap: break-word;
+    text-align: center;
+}
+section.payments.paymentActivityContainer .payeeDetails .details-link-container .payee-details-link {
+    text-align: center;
+}
+section.payments.paymentActivityContainer .payeeDetails .payment-activity-hybrid {
+    margin: 0 -16px 0 0;
+}
+section.payments.paymentActivityContainer .payeeDetails .payment-activity-hybrid .achPayees {
+    margin-top: -12px;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid {
+    margin-bottom: 24px;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid #viewPayeeSuccessMsg {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 6px;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid #viewPayeeSuccessMsg .content.wrap {
+    margin-left: 10px;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .alertContainer {
+    margin-bottom: 0;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .nickNamePayee {
+    color: #000;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .payeeDetails {
+    border-bottom: 1px solid #959595;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+}
+.achPayments.nacha.fileUpload .horizontalBar, .paymentsActivity .payments.clearStickyFooter .payment-details-row:last-child {
+    border-bottom: 1px solid #ccc;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .payeeDetails .payeeSection {
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .payeeDetails .payeeSection .bankInformation .DATA {
+    margin-bottom: 18px;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .payeeDetails .payeeSection .bankInformation .DATA.vendorInformation, section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid dd {
+    margin-bottom: 0;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .payeeDetails .link-anchor {
+    color: #959595;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .payeeDetails .link-anchor .progressright {
+    font-size: 15px;
+    font-weight: 700;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .payeeDetails .employeeInformation {
+    margin-top: 18px;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .progressRightMiddle {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .progressRightTop {
+    margin-top: 7%;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid #deletePayeeAction::before {
+    margin-top: 72px;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid #deleteConfirmationDisplayPage .jpui.icon {
+    font-size: 48px;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .deleteconfirmation {
+    text-align: center;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .deleteconfirmationicon {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .navlist {
+    margin: 0 auto;
+    width: 80%;
+}
+@media screen and (max-width: 767px) {
+section.payments.paymentActivityContainer .viewPayeeDisplayPageHybrid .navlist {
+    margin: 12px auto;
+}
+}
+.fraudProtectionAdvisory {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.fraudProtectionAdvisory .BODYLABEL {
+    display: block;
+}
+#updatePayeeEntryHeader {
+    margin-bottom: 0;
+}
+section.editSingleEnter.achPayments .pushBottomMargin, section.hybrid-edit-repeating-enter.achPayments .pushBottomMargin {
+    margin-bottom: 100px;
+}
+@media screen and (max-width: 767px) {
+section.editSingleEnter.achPayments .jpui.fieldgroup .fieldhelpertext-container .fieldhelpertext, section.hybrid-edit-repeating-enter.achPayments .jpui.fieldgroup .fieldhelpertext-container .fieldhelpertext {
+    margin-top: 6px;
+}
+}
+section.editSingleEnter.achPayments .activateCollections h3, section.hybrid-edit-repeating-enter.achPayments .activateCollections h3 {
+    clear: both;
+}
+section.editSingleEnter.achPayments h1, section.hybrid-edit-repeating-enter.achPayments h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+section.editSingleEnter.achPayments .hybridPayeeGroupName h2, section.hybrid-edit-repeating-enter.achPayments .hybridPayeeGroupName h2 {
+    margin: 1.875em 0 0.75em;
+}
+section.editSingleEnter.achPayments .hybridNickName h2, section.hybrid-edit-repeating-enter.achPayments .hybridNickName h2 {
+    font-weight: 400;
+    margin: 24px 0;
+}
+section.editSingleEnter.achPayments .hybridTransactionAmount .input, section.hybrid-edit-repeating-enter.achPayments .hybridTransactionAmount .input {
+    color: #414042;
+    font-size: 2.5rem;
+    height: 4rem;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    text-align: center;
+}
+section.editSingleEnter.achPayments .hybridTransactionAmount .input-icon, section.hybrid-edit-repeating-enter.achPayments .hybridTransactionAmount .input-icon {
+    color: #414042 !important;
+    font-size: 46px;
+    padding-bottom: 6px;
+    padding-top: 0.5rem;
+}
+section.editSingleEnter.achPayments .hybridTransactionAmount .fieldhelpertext, section.hybrid-edit-repeating-enter.achPayments .hybridTransactionAmount .fieldhelpertext {
+    margin-top: 6px;
+    text-align: center;
+}
+section.editSingleEnter.achPayments .hybridConfirmation, section.hybrid-edit-repeating-enter.achPayments .hybridConfirmation {
+    margin-top: 2em;
+}
+section.editSingleEnter.achPayments .common.alertContainer, section.hybrid-edit-repeating-enter.achPayments .common.alertContainer {
+    margin-top: 0.125em;
+}
+section.editSingleEnter.achPayments .confirmIcon, section.hybrid-edit-repeating-enter.achPayments .confirmIcon {
+    font-size: 3.625em;
+}
+section.editSingleEnter.achPayments .editSingleStickyFooter, section.hybrid-edit-repeating-enter.achPayments .editSingleStickyFooter {
+    height: auto;
+    margin-bottom: 1.125rem;
+    margin-left: -0.75rem;
+}
+section.editSingleEnter.achPayments .editSingleStickyFooter .jpui.stickyfooter, section.hybrid-edit-repeating-enter.achPayments .editSingleStickyFooter .jpui.stickyfooter {
+    z-index: 1;
+}
+section.editSingleEnter.achPayments .editSingleStickyFooter .jpui.stickyfooter .content, section.hybrid-edit-repeating-enter.achPayments .editSingleStickyFooter .jpui.stickyfooter .content {
+    background-color: inherit;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: auto;
+}
+@media screen and (max-width: 767px) {
+section.editSingleEnter.achPayments .editSingleStickyFooter.enter, section.hybrid-edit-repeating-enter.achPayments .editSingleStickyFooter.enter {
+    height: 10rem;
+}
+section.editSingleEnter.achPayments .editSingleStickyFooter.verify, section.hybrid-edit-repeating-enter.achPayments .editSingleStickyFooter.verify {
+    height: 13rem;
+}
+}
+section.editSingleEnter.achPayments .edit-single-verify-hybrid, section.editSingleEnter.achPayments.edit-single-enter-container, section.hybrid-edit-repeating-enter.achPayments .edit-single-verify-hybrid, section.hybrid-edit-repeating-enter.achPayments.edit-single-enter-container, section.paymentsActivity {
+    height: 100%;
+}
+section.editSingleEnter.achPayments .jpui.segmentedradiogroup .segmentedradiogroup-label, section.hybrid-edit-repeating-enter.achPayments .jpui.segmentedradiogroup .segmentedradiogroup-label {
+    padding-bottom: 0.285rem;
+}
+section.editSingleEnter.achPayments .rightMargin16, section.hybrid-edit-repeating-enter.achPayments .rightMargin16 {
+    margin-right: -16px;
+}
+section.editSingleEnter.achPayments .marginBottom18, section.hybrid-edit-repeating-enter.achPayments .marginBottom18 {
+    margin-bottom: 12px;
+}
+@media screen and (max-width: 767px) {
+section.editSingleEnter.achPayments .edit-single-verify-hybrid .editSingleEnter .payments.container-fluid, section.hybrid-edit-repeating-enter.achPayments .edit-single-verify-hybrid .editSingleEnter .payments.container-fluid {
+    margin-bottom: 60px;
+}
+}
+section.editSingleEnter.achPayments .edit-single-verify-hybrid .editSingleEnter .hybridConfirmation, section.hybrid-edit-repeating-enter.achPayments .edit-single-verify-hybrid .editSingleEnter .hybridConfirmation {
+    font-size: 1.25rem;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+section.editSingleEnter.achPayments .edit-single-verify-hybrid .editSingleEnter .hybridAlignCenter .payeeNameLabel, section.hybrid-edit-repeating-enter.achPayments .edit-single-verify-hybrid .editSingleEnter .hybridAlignCenter .payeeNameLabel {
+    margin-bottom: 0.9em;
+    margin-top: 0;
+}
+section.editSingleEnter.achPayments .edit-single-verify-hybrid .editSingleEnter .hybridAlignCenter .transactionAmountLabel, section.hybrid-edit-repeating-enter.achPayments .edit-single-verify-hybrid .editSingleEnter .hybridAlignCenter .transactionAmountLabel {
+    margin-bottom: 0.4em;
+}
+section.editSingleEnter.achPayments .edit-single-verify-hybrid .editSingleEnter .form .dataset.row .formDataValue, section.hybrid-edit-repeating-enter.achPayments .edit-single-verify-hybrid .editSingleEnter .form .dataset.row .formDataValue {
+    margin-bottom: 1.125em;
+}
+section.scheduleSingle.scheduleAchPayments .addenda .jpui.fieldgroup .fieldTextValue {
+    font-family: inherit !important;
+    word-break: break-all;
+}
+section.scheduleSingle.scheduleAchPayments .achEnrollmentConfirmContainer.payments .payeeActivity .transactionTable .account-name-header {
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+section.scheduleSingle.scheduleAchPayments .achEnrollmentConfirmContainer.payments .payeeActivity .transactionTable .transaction-amount-header {
+    font-size: 2.5rem;
+    margin-top: 12px;
+}
+@media screen and (max-width: 767px) {
+section.paymentsActivity .addenda .jpui.fieldgroup .jpui.input {
+    font-family: inherit !important;
+    font-size: 0.875rem;
+    letter-spacing: 0;
+}
+.achPayments .jpui.wrap.left .input {
+    padding-left: 15px !important;
+}
+}
+section.paymentsActivity .hybridTransactionAmount .input-icon {
+    color: #414042 !important;
+}
+section.paymentsActivity .achHybridPages .jpui.stickyfooter {
+    left: 0;
+    width: 100% !important;
+}
+section.paymentsActivity .pdAmount {
+    color: #414042;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+section.paymentsActivity .pdAmount .amount-formatted {
+    color: #414042;
+}
+section.paymentsActivity .jpui.stickyfooter .col-xs-12:last-of-type button {
+    margin-bottom: 1.125em;
+}
+.achPayments .pdLabel h3, section.paymentsActivity .pdLabel h3 {
+    font-weight: 400;
+    margin-bottom: 0.313em;
+    text-align: center;
+}
+section.paymentsActivity .pdLabel {
+    text-align: center;
+}
+.achPayments .pdLabel {
+    text-align: center;
+}
+.achPayments .editSingleEnter .payments {
+    height: 100vh;
+}
+@media screen and (max-width: 767px) {
+.achPayments .editSingleEnter .payments {
+    margin-bottom: 60px;
+}
+section.achPayments .addenda input, section.paymentActivityContainer .addenda input, section.paymentsActivity .addenda input {
+    letter-spacing: normal !important;
+}
+}
+.achPayments .editSingleEnter .currentBalance {
+    color: #818181;
+    margin-bottom: 1.5rem;
+}
+.achPayments .editSingleEnter .jpui.stickyfooter {
+    width: 100%;
+}
+.achPayments .editSingleEnter .editSingleConfirmPanel {
+    margin-bottom: 60px;
+}
+.achPayments .paymentActivityContainer {
+    padding-right: 12px;
+}
+.achPayments .paymentActivityContainer .jpui.stickyfooter {
+    left: 0;
+    width: 100% !important;
+}
+.achPayments .paymentActivityContainer .jpui.stickyfooter .col-xs-12:last-of-type button {
+    margin-bottom: 1.125em;
+    margin-top: 0.75em;
+}
+.achPayments .paymentActivityContainer #achPayeesContainer {
+    height: 100%;
+    margin-bottom: 150px;
+}
+.achPayments .inputNoLeftPadding input {
+    padding-left: 0 !important;
+}
+.achPayments .hybrid-field {
+    margin-top: 6px;
+}
+.achPayments .hybrid-data-item {
+    margin-top: 7.98px;
+}
+.achPayments .payments .jpui.input {
+    font-family: inherit !important;
+}
+.achPayments .currenBalance {
+    margin-bottom: 1.5rem;
+}
+.achPayments .hybridAlignCenter {
+    text-align: center;
+}
+.achPayments .transAmountLabel {
+    display: block;
+    margin-top: -12px;
+}
+.achPayments .payeeHeader .DATALABELV {
+    margin-top: 1.5em;
+}
+.achPayments .payeeNameLabel {
+    margin-bottom: 1.75em;
+    margin-top: 1.15em;
+}
+.achPayments .transactionAmountLabel {
+    color: #414042;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+section.achPayments .top-border, section.paymentActivityContainer .top-border, section.paymentsActivity .top-border {
+    display: none;
+}
+section.paymentsActivity .clearStickyFooter {
+    margin-bottom: 100px;
+}
+dd.verifyAmount.dataValue .DATA {
+    font-size: 2.5rem;
+    margin: 0.67em 0;
+}
+dt.verifyLabel.dataLabel .DATALABELV {
+    color: #414042 !important;
+    font-size: 1.17rem !important;
+    font-weight: 400 !important;
+}
+.add-employee-vendor-payee .add-employee-vendor-payee-form {
+    margin-bottom: 72px;
+    margin-top: 30px;
+}
+.add-employee-vendor-payee .account-number, .add-employee-vendor-payee .account-type, .add-employee-vendor-payee .employee-id, .add-employee-vendor-payee .payee-group, .add-employee-vendor-payee .payee-name, .add-employee-vendor-payee .payee-nickname, .add-employee-vendor-payee .primary-account-number, .add-employee-vendor-payee .routing-number {
+    margin-top: 24px;
+}
+.add-employee-vendor-payee .hybrid-add-payee-footer {
+    margin-top: 18px;
+    padding-bottom: 18px;
+}
+.add-employee-vendor-payee .hybrid-add-payee-footer .hybrid-cancel, .add-employee-vendor-payee .hybrid-add-payee-footer .hybrid-next {
+    margin-bottom: 0;
+    margin-top: 18px;
+}
+.add-employee-vendor-payee .dataset.stack .dataValue.bank-name {
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+.add-employee-vendor-payee .field dd.dataValue.primary-name {
+    margin-top: 12px;
+}
+.add-employee-vendor-payee div.primary-single .field.column.primary-account-number {
+    margin-bottom: 0;
+}
+.add-employee-vendor-payee .common.form .input {
+    color: #414042;
+    font-size: 0.875rem;
+    font-weight: 400;
+    height: 31.98px;
+    letter-spacing: 0;
+    padding-left: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.add-employee-vendor-payee .common.form .input {
+    color: #414042;
+    font-size: 1rem;
+}
+}
+.add-employee-vendor-payee .common.form .selectClassic {
+    height: 36px;
+    padding-left: 0;
+}
+.add-employee-vendor-payee .common.form .jpui.fieldlabel {
+    color: #717171;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.ACHRecipient .haslinkwithhat a, .ACHRecipient .underline-link a, .achPayments .haslinkwithhat a, .achPayments .underline-link a, .collections .haslinkwithhat a, .collections .underline-link a, .pendingApprovals .haslinkwithhat a, .pendingApprovals .underline-link a {
+    text-decoration: underline !important;
+}
+@media screen and (min-width: 768px) {
+.add-employee-vendor-payee .common.form .jpui.fieldlabel {
+    font-size: 0.875rem;
+}
+}
+.add-employee-vendor-payee .checking-radio {
+    margin-bottom: 12px;
+}
+.add-employee-vendor-payee .savings-radio {
+    margin-bottom: 0;
+}
+.verify-header {
+    margin-top: 30px;
+    text-align: center;
+}
+.verify-header .CH1 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.confirm-header .jpui.alert.primary.inverted.success .content.wrap .title {
+    text-align: start;
+}
+.nickname-header, .paymentsActivity .payments.clearStickyFooter.repeating .common.form .pdLabel, section.hybrid-verify-payments .verify-payments-header {
+    text-align: center;
+}
+.nickname-header {
+    margin-top: 30px;
+}
+.nickname-header .H2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.payee-name-header {
+    margin-top: 12px;
+    text-align: center;
+}
+.payee-name-header .BODY2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.common.formHeader.verify-form {
+    margin-left: 9px;
+    margin-top: 24px;
+}
+.common.formHeader.verify-form .dataValue {
+    margin-bottom: 18px;
+}
+section.addPayee.achPaymentsPayee #stickyBtnContainer {
+    margin-bottom: 24px;
+}
+section.addPayee.achPaymentsPayee #stickyBtnContainer::before {
+    margin-top: 120px;
+}
+section.addPayee.achPaymentsPayee .stkyBtns {
+    margin-left: 8%;
+    width: 83.33%;
+}
+section.addPayee.achPaymentsPayee .nextBtn {
+    margin-bottom: 18px;
+}
+section.addPayee.achPaymentsPayee .confirm-next-btn span {
+    line-height: 1.5rem;
+    white-space: initial;
+}
+.payments.paymentActivityContainer .hybrid-edit-buttons {
+    margin-top: 0;
+    padding: 18px 0;
+    width: 100%;
+}
+.payments.paymentActivityContainer .hybrid-edit-bank-information .common.formHeader, .payments.paymentActivityContainer .hybrid-edit-group .common.formHeader, .payments.paymentActivityContainer .hybrid-edit-name .common.formHeader {
+    margin-bottom: 102px;
+    margin-top: 0;
+}
+.payments.paymentActivityContainer .hybrid-edit-group .payee-group, .payments.paymentActivityContainer .hybrid-edit-name .payee-name, .payments.paymentActivityContainer .hybrid-edit-name .payee-nickname {
+    margin-top: 24px;
+}
+.payments.paymentActivityContainer .hybrid-edit-bank-information .routing-number {
+    margin-top: 6px;
+}
+.payments.paymentActivityContainer .hybrid-edit-bank-information .account-number {
+    margin-top: 18px;
+}
+.payments.paymentActivityContainer .hybrid-edit-bank-information .account-type {
+    margin-top: 24px;
+}
+.payments.paymentActivityContainer .hybrid-edit-bank-information .dataset.stack .dataValue.bank-name {
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+.payments.paymentActivityContainer .hybrid-edit-bank-information .field dd.dataValue.primary-name {
+    margin-top: 12px;
+}
+.payments.paymentActivityContainer .alertContainer.serverErrorUtil .jpui.common .jpui.icon {
+    font-size: medium;
+}
+section.editSingleEnter {
+    height: 100%;
+}
+section.editSingleEnter .confirm-actions-footer {
+    padding-bottom: 1.5rem;
+    width: 100%;
+}
+section.editSingleEnter .addButtonPadding {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+@media screen and (max-width: 767px) {
+section.editSingleEnter .payments.container-fluid {
+    margin-bottom: 60px;
+}
+section.editSingleEnter .addenda .jpui.fieldgroup .fieldTextValue {
+    font-family: inherit !important;
+    word-break: break-all;
+}
+}
+.hybrid-sticky-btn-container {
+    overflow: unset !important;
+}
+.hybrid-sticky-btn-container .hybrid-sticky-buttons {
+    display: inherit;
+    left: 0;
+    width: 100% !important;
+}
+.hybrid-sticky-btn-container .hybrid-sticky-buttons .nextBtn {
+    float: right;
+    min-width: inherit;
+}
+.hybrid-sticky-btn-container .hybrid-sticky-buttons .cancelBtn {
+    min-width: inherit;
+}
+section.hybrid-edit-repeating-enter .hybridNickName h2 {
+    font-weight: 400;
+    margin: 30px 0;
+}
+section.hybrid-edit-repeating-enter .hybrid-date-item, section.hybrid-edit-repeating-enter .hybrid-field {
+    margin-top: 6px;
+}
+section.hybrid-edit-repeating-enter .hybrid-field .fieldgroup.field.column {
+    margin-bottom: 0;
+}
+section.hybrid-edit-repeating-enter .hybrid-data-item {
+    margin-top: 7.98px;
+}
+section.hybrid-edit-repeating-enter .hybrid-fieldset {
+    margin-bottom: 66px;
+    margin-top: 6px;
+}
+section.hybrid-edit-repeating-enter .hybrid-option-1 {
+}
+section.hybrid-edit-repeating-enter .hybrid-last-radio-container {
+    margin: 0 12px;
+}
+section.hybrid-edit-repeating-enter #transactionDurationOccurrences-text {
+    margin-top: -9.96px;
+}
+section.hybrid-verify-payments .verify-payments-header .H2 {
+    margin: 1.5em auto;
+}
+section.hybrid-verify-payments .verify-payments-header .H2.display-name {
+    margin-bottom: 0.6em;
+}
+section.hybrid-verify-payments .verify-payments-header .amount {
+    color: #414042;
+    font-size: 45px;
+    margin-bottom: 0.4em;
+}
+.achPaymentCancelConfirmation h1.pdAmount, .paymentsActivity .payments.clearStickyFooter.repeating .common.form .pdAmount .NUMBERXL2.amount-formatted {
+    color: #414042;
+    font-size: 2.5rem;
+}
+section.hybrid-verify-payments .panelContent {
+    margin-bottom: 8em;
+}
+section.hybrid-verify-payments dd.dataValue {
+    margin-bottom: 1.125em;
+}
+.paymentsActivity .payments.clearStickyFooter.repeating {
+    margin-bottom: 80px;
+}
+.paymentsActivity .payments.clearStickyFooter.repeating .common.form .pdLabel .H2 {
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+.paymentsActivity .payments.clearStickyFooter.repeating .common.form .field {
+    margin-bottom: 18px;
+}
+.paymentsActivity .payments.clearStickyFooter .payment-details-row {
+    border-top: 1px solid #ccc;
+    clear: both;
+    padding: 12px 0;
+}
+.paymentsActivity .payments.clearStickyFooter .payment-details-row .payment-detail-value {
+    overflow-wrap: break-word;
+    text-align: right;
+}
+.paymentsActivity .payments.clearStickyFooter .payment-details-row .ACMLABEL {
+    text-align: center;
+    text-transform: uppercase;
+}
+.editOptionsHybrid {
+    background-color: #fff;
+    display: table;
+    height: 100%;
+}
+.editOptionsHybrid .editRepeatingOptions {
+    display: table-cell;
+    height: 50%;
+    vertical-align: middle;
+}
+.achPaymentCancelConfirmation .singleScheduleStickyFooter .hybrid-sticky-buttons.repeating {
+    left: 0;
+}
+section.paymentsActivity .clearStickyFooter.canceled {
+    margin-bottom: 60px;
+}
+section.enrollment.achPayments .activateCollections h3 {
+    clear: both;
+    padding-left: 12px;
+}
+@media screen and (max-width: 767px) {
+.hybrid-otp-buttons .H2, section.achPayments .H2, section.achPaymentsPayee .H2, section.paymentActivityContainer .H2, section.paymentsActivity .H2 {
+    margin: 0;
+}
+.hybrid-otp-buttons .jpui.button:not(.fluid), section.achPayments .jpui.button:not(.fluid), section.achPaymentsPayee .jpui.button:not(.fluid), section.paymentActivityContainer .jpui.button:not(.fluid), section.paymentsActivity .jpui.button:not(.fluid) {
+    margin: 12px;
+    min-width: 0;
+}
+.hybrid-otp-buttons .jpui.stickybuttons, section.achPayments .jpui.stickybuttons, section.achPaymentsPayee .jpui.stickybuttons, section.paymentActivityContainer .jpui.stickybuttons, section.paymentsActivity .jpui.stickybuttons {
+    box-shadow: none;
+    padding: 0 0 20px;
+}
+.hybrid-otp-buttons .jpui.stickybuttons .stickybuttons__button:last-child, section.achPayments .jpui.stickybuttons .stickybuttons__button:last-child, section.achPaymentsPayee .jpui.stickybuttons .stickybuttons__button:last-child, section.paymentActivityContainer .jpui.stickybuttons .stickybuttons__button:last-child, section.paymentsActivity .jpui.stickybuttons .stickybuttons__button:last-child {
+    margin-bottom: 12px;
+}
+.hybrid-otp-buttons .jpui.stickybuttons .stickybuttons__button--inline:last-child, section.achPayments .jpui.stickybuttons .stickybuttons__button--inline:last-child, section.achPaymentsPayee .jpui.stickybuttons .stickybuttons__button--inline:last-child, section.paymentActivityContainer .jpui.stickybuttons .stickybuttons__button--inline:last-child, section.paymentsActivity .jpui.stickybuttons .stickybuttons__button--inline:last-child {
+    margin-left: 12px;
+}
+.bottomButtonFlexContainer {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+}
+.bottomButtonFlexContainer .bottomButtonFlexContainer:first-child {
+    max-width: 75%;
+}
+.bottomButtonFlexContainer .bottomButtonFlex {
+    flex-grow: 1;
+    margin: 0 12px;
+    max-width: 75%;
+    min-width: 43% !important;
+    width: 75%;
+}
+.bottomButtonFlexContainer .bottomButtonFlex .jpui.button.primary .label {
+    overflow-wrap: normal;
+}
+section.editRepeatingOptions .jpui.button.fluid .label {
+    word-break: break-all;
+}
+section.scheduleSingle.achPayments .hybridSticky .jpui.stickyfooter, section.scheduleSingle.scheduleAchPayments .achPaymentsActivityDetails .jpui.stickyfooter, section.scheduleSingle.scheduleAchPayments .singleScheduleStickyFooter .jpui.stickyfooter {
+    left: 0;
+}
+section.payeeDetails .jpui.stickyfooter, section.paymentsActivity .jpui.stickyfooter {
+    bottom: 0;
+    min-width: 100%;
+    width: 100% !important;
+}
+#achPaymentsActivityDetails .common.form {
+    padding-bottom: 24px;
+}
+section.scheduleSingle.achPayments .achEnrollmentConfirmContainer .jpui.stickyfooter {
+    left: auto;
+}
+section.scheduleSingle.achPayments .achEnrollmentConfirmContainer .scheduleSingleDetails {
+    padding-left: 12px;
+}
+section.paymentsActivity .payments .jpui.stickyfooter {
+    left: 0;
+}
+section.paymentsActivity .jpui.stickyfooter .col-xs-12:last-of-type button {
+    margin-bottom: 0;
+}
+section.payeeDetails {
+    margin-bottom: 125px;
+}
+.jpui.stickyfooter.schedule-single-verify-stickyfooter {
+    width: 100% !important;
+}
+}
+.achPayments.nacha.fileUpload {
+    background-color: #fff;
+    height: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.achPayments.nacha.fileUpload .reversalAmount, .achPayments.nacha.fileUpload .reversalAmount span {
+    color: #126bc5;
+}
+.achPayments.nacha.fileUpload .lineContainer .iconCollection {
+}
+.achPayments.nacha.fileUpload .messageLine {
+    margin-top: 1.5rem;
+}
+.achPayments.nacha.fileUpload .messageLine .jpui.alert.dark .message, .achPayments.nacha.fileUpload .messageLine i.jpui.icon {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.achPayments.nacha.fileUpload .messageLine .icon {
+    top: 0.25rem;
+}
+.achPayments.nacha.fileUpload .txt-download-links {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 18px;
+    margin-top: 30px;
+}
+.achPayments.nacha.fileUpload .csv-download-links {
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.achPayments.nacha.fileUpload .jpui.alert.primary.inverted.error .title, .achPayments.nacha.fileUpload .marginDown {
+    margin-bottom: 8px;
+}
+.achPayments.nacha.fileUpload .validationBox {
+    border-left: 1px solid #ccc;
+    padding-left: 24px;
+}
+.achPayments.nacha.fileUpload .validationBox .buttonRow {
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
+}
+.achPayments.nacha.fileUpload .upload .BODYLABEL {
+    margin-top: 12px;
+}
+.achPayments.nacha.fileUpload .achProgressHeaderLabel {
+    margin-bottom: 8px;
+}
+.achPayments.nacha.fileUpload .achProgressHeaderMsg {
+    margin-bottom: 30px;
+}
+.achPayments.nacha.fileUpload #cboAchfileHelpguideDropdown span {
+    font-size: 0.875rem;
+    transform: translateY(0px);
+}
+.achPayments.nacha.fileUpload #cboAchfileHelpguideDropdown i.plus {
+    float: none;
+    font-size: 0.6429rem;
+    transform: rotate(0deg);
+}
+.achPayments.nacha.fileUpload #cboAchfileHelpguideDropdown i.jpui.icon.plus::after {
+    content: "?";
+}
+.achPayments.nacha.fileUpload .jpui.progress.radial .circle .mask .fill {
+    background-color: #0b6efd;
+}
+.achPayments.nacha.fileUpload .jpui.spinner:not(.inline)::after {
+    border-right-color: #0b6efd !important;
+}
+.achPayments.nacha.fileUpload .spinner-error {
+    border-right-color: #bf2155 !important;
+}
+.achPayments.nacha.fileUpload .jpui.progress.radial.spinner-error .circle .mask .fill {
+    background-color: #bf2155 !important;
+}
+.achPayments.nacha.fileUpload .importantInformation ul li {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.achPayments.nacha.fileUpload .ach-header .flowProgressContainer {
+    padding-top: 18px;
+}
+.achPayments.nacha.fileUpload .ach-header .link {
+    margin: 1.875rem 0;
+}
+.achPayments.nacha.fileUpload .ach-header .headerPipe {
+    color: #ccc;
+}
+.achPayments.nacha.fileUpload .ach-header .printIcon i {
+    vertical-align: middle;
+}
+.achPayments.nacha.fileUpload .ach-header .dropdown.supressOverflow .option .primary {
+    overflow: hidden;
+}
+.achPayments.nacha.fileUpload .upload h2.title {
+    padding-top: 0;
+}
+.achPayments.nacha.fileUpload .upload .imp-msg {
+    padding-top: 12px;
+}
+.achPayments.nacha.fileUpload .upload .list-items {
+    margin: 0;
+    padding-top: 8px;
+}
+.achPayments.nacha.fileUpload .upload .format-msg {
+    padding-top: 0;
+}
+.achPayments.nacha.fileUpload .upload .choose-file-container {
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+}
+.achPayments.nacha.fileUpload .upload .choose-file-container .icon.confirmation {
+    margin-left: 1rem;
+}
+.achPayments.nacha.fileUpload .upload .download-links {
+    padding-top: 24px;
+}
+.achPayments.nacha.fileUpload .upload .footer {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    padding-top: 1.875rem;
+}
+.achPayments.nacha.fileUpload section.fullFooter {
+    background-color: #fff;
+}
+.achPayments.nacha.fileUpload button.showInput {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #a5a5a5;
+    border-radius: 7px;
+    color: #000;
+    padding: 5px 10px;
+    position: relative;
+}
+.achPayments.nacha.fileUpload .flowTitle {
+    margin: 1.875rem 0 0.438rem;
+}
+.achPayments.nacha.fileUpload .uploadSuccessConfirmation {
+    margin: 0 0 1.125rem;
+}
+.achPayments.nacha.fileUpload .uploadSuccessConfirmation .content.wrap {
+    margin-left: 0;
+}
+.achPayments.nacha.fileUpload .uploadSuccessConfirmation .content.wrap h2 {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.achPayments.nacha.fileUpload .uploadSuccessConfirmation .content.wrap .message {
+    color: #414042;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.achPayments.nacha.fileUpload .dataListPair .dataDetails .reversalText, .achPayments.nacha.fileUpload .dataListPairs .dataDetails .reversalText {
+    color: #126bc5;
+    font-size: 16px;
+}
+.achPayments.nacha.fileUpload ul.errorList {
+    line-height: 2rem;
+    list-style: outside none disc;
+    margin: 0 0 0 30px;
+    padding: 0;
+}
+.achPayments.nacha.fileUpload .fileSpecsLink {
+    line-height: 54px;
+}
+.achPayments.nacha.fileUpload ul.errorList li {
+    margin: 0;
+    padding: 0;
+}
+.achPayments.nacha.fileUpload .custommargin {
+    margin: 1.875rem 0;
+    vertical-align: middle;
+}
+.achPayments.nacha.fileUpload .custommargin .addButton {
+    float: none;
+    line-height: 1;
+    margin-left: 0.125rem;
+    vertical-align: middle;
+}
+.achPayments.nacha.fileUpload .custommargin .addButton a {
+    line-height: 1;
+}
+.achPayments.nacha.fileUpload .jpui.progress.radial {
+    float: none;
+    margin: 1.875rem auto;
+}
+.achPayments.nacha.fileUpload dl.scheduleData {
+    border: 1px solid #a5a5a5;
+    flex-wrap: wrap;
+    float: left;
+    margin: 1.875rem 0;
+    padding: 1.125rem 24px;
+    width: 100%;
+}
+.achPayments.nacha.fileUpload dl.scheduleDataI {
+    border-bottom: 1px solid #a5a5a5;
+    border-top: 1px solid #a5a5a5;
+    flex-wrap: wrap;
+    float: left;
+    margin: 1.875rem 0;
+    padding: 1.125rem 24px;
+    width: 100%;
+}
+.achPayments.nacha.fileUpload dl.previewData {
+    flex-wrap: wrap;
+    float: left;
+    margin: 1.875rem 0;
+    padding: 1.125rem 24px;
+    width: 100%;
+}
+.achPayments.nacha.fileUpload .dataListPair {
+    margin-bottom: 15px;
+}
+.achPayments.nacha.fileUpload .dataListPairs {
+    margin-bottom: 30px;
+}
+.achPayments.nacha.fileUpload .noMargin {
+    margin-left: 0;
+}
+.achPayments.nacha.fileUpload dl.scheduleDataConfirm {
+    border: 1px solid #a5a5a5;
+    float: left;
+    margin: 25px 0;
+    padding: 1.25rem 24px;
+    width: 100%;
+}
+.achPayments.nacha.fileUpload .scheduleData dd, .achPayments.nacha.fileUpload .scheduleDataConfirm dd {
+    margin-left: 0;
+}
+.achPayments.nacha.fileUpload .scheduleRightColumn {
+    border-left: 1px solid #a5a5a5;
+}
+.achPayments.nacha.fileUpload .DATALABELVI, .achPayments.nacha.fileUpload .dataLabel {
+    color: #717171;
+}
+.uploadActivity.achPayments .amountMoneyIn, .uploadActivity.achPayments .simple.table.responsive.activityTable .activityRow tr td.blue-color {
+    color: #126bc5;
+}
+.achPayments.nacha.fileUpload .BODY2 {
+    line-height: 3.875em;
+}
+.achPayments.nacha.fileUpload .text-center {
+    text-align: center;
+}
+.achPayments.nacha.fileUpload .jpui.progress.radial .inset .percentage {
+    left: 1.5rem;
+    top: 4rem;
+}
+.achPayments.nacha.fileUpload .jpui.spinner:not(.inline)::after {
+    animation: 1.3s linear 0s normal none infinite running spin;
+    border: 0.875rem solid #ccc;
+    border-radius: 50%;
+    box-sizing: border-box;
+    content: " ";
+    display: inline-block;
+    height: 13.5rem;
+    position: relative;
+    width: 13.5rem;
+}
+.achPayments.nacha.fileUpload .nacha-hide, .achPayments.nacha.fileUpload .spinner__block {
+    display: none;
+}
+@media (max-width: 1024px) {
+.achPayments.nacha.fileUpload .jpui.spinner:not(.inline)::after {
+    height: 180px;
+    width: 180px;
+}
+}
+.achPayments.nacha.fileUpload .jpui.spinner {
+    margin-top: 1.875em;
+}
+.achPayments.nacha.fileUpload .jpui.button {
+    margin: 6px 0;
+}
+.achPayments.nacha.fileUpload #nachaHeader {
+    margin-top: 28px;
+}
+.uploadSummary .below-sticky-header {
+    margin-top: 50px;
+}
+.uploadSummary .verticalSpacing {
+    padding: 0.5em 0;
+}
+@media screen and (min-width: 768px) {
+.uploadSummary .verticalSpacing.verticalBar {
+    border-left: 1px solid #ccc;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.uploadSummary .verticalSpacing.pre-last {
+    border: medium none;
+    clear: both;
+    margin-left: 0;
+    padding-left: 0;
+}
+.uploadSummary .verticalSpacing.pre-last + .last {
+    border-left: 1px solid #ccc;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+.uploadSummary .verticalSpacing.last {
+    border: medium none;
+    margin-left: 0;
+    padding-left: 0;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+.uploadSummary .verticalSpacing.pre-last {
+    border: medium none;
+    clear: both;
+    margin-left: 0;
+    padding-left: 0;
+}
+.uploadSummary .verticalSpacing.pre-last + .last {
+    border-left: 1px solid #ccc;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+}
+.payments div.footer {
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding-bottom: 1.875rem;
+    padding-top: 1.875rem;
+}
+.payments div.footer .common.alertHeaderContainer {
+    margin: 0;
+    padding: 0;
+}
+.errorListHeader {
+    display: inline-block;
+    font-weight: 400;
+    margin-right: 1rem;
+    margin-top: 0;
+}
+.containerContentPreview.fileUpload.uploadActivity.achPayments {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails, .containerContentPreview.fileUpload .uploadSummaryDetails {
+    padding: 0;
+}
+.containerContentPreview.fileUpload .iconCollection {
+    margin-top: 1.7em;
+}
+.containerContentPreview.fileUpload .uploadSummaryDetails .DATALABELV {
+    margin-bottom: 0.375rem;
+}
+.containerContentPreview.fileUpload .uploadSummary .error.primary {
+    margin-top: 1.875rem;
+}
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails .verticalSpacing {
+    padding: 0.5em 0;
+}
+@media screen and (min-width: 768px) {
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails .verticalSpacing.verticalBar {
+    border-left: 1px solid #ccc;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails .verticalSpacing.pre-last {
+    border: medium none;
+    clear: both;
+    margin-left: 0;
+    padding-left: 0;
+}
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails .verticalSpacing.pre-last + .last {
+    border-left: 1px solid #ccc;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails .verticalSpacing.last {
+    border: medium none;
+    margin-left: 0;
+    padding-left: 0;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails .verticalSpacing.pre-last {
+    border: medium none;
+    clear: both;
+    margin-left: 0;
+    padding-left: 0;
+}
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails .verticalSpacing.pre-last + .last {
+    border-left: 1px solid #ccc;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+}
+@media screen and (min-width: 1200px) {
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails .verticalSpacing.last {
+    border: medium none;
+    clear: both;
+    margin-left: 0;
+    padding-left: 0;
+}
+}
+@media (min-width: 1440px) {
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails .verticalSpacing.last {
+    border-left: 1px solid #ccc;
+    clear: none;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+}
+@media print {
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails .verticalSpacing.pre-last {
+    border-left: 0 none;
+    clear: both;
+    margin-left: 0;
+    padding-left: 0;
+}
+.containerContentPreview.fileUpload .uploadSummary .uploadSummaryDetails .verticalSpacing.pre-last + .last {
+    border-left: 1px solid #000;
+    clear: none;
+    float: left;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+.containerContentPreview.fileUpload .batchRecordsTable.achPaymentActivity .activityActionLinks.util.print-hide {
+    display: none;
+}
+}
+.containerContentPreview.fileUpload .batchRecordsTable.achPaymentActivity {
+    padding: 0 0.75rem;
+}
+.containerContentPreview.fileUpload .batchRecordsTable.achPaymentActivity .footer {
+    border-collapse: collapse;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding-bottom: 1.125rem;
+    padding-top: 1.125rem;
+}
+.containerContentPreview.fileUpload .batchRecordsTable.achPaymentActivity .footer .common.alertHeaderContainer {
+    margin: 0;
+    padding: 0;
+}
+.containerContentPreview.fileUpload .achActivityTable.simple.table.responsive > thead tr th, .containerContentPreview.fileUpload .batchRecordsTable.achPaymentActivity .table thead tr th {
+    padding-bottom: 0.625rem;
+}
+.containerContentPreview.fileUpload .batchRecordsTable.achPaymentActivity .table tbody tr td.util.aligned.right:nth-last-child(2), .containerContentPreview.fileUpload .batchRecordsTable.achPaymentActivity .table thead tr th:nth-last-child(2) {
+    text-align: right;
+}
+.containerContentPreview.fileUpload .achActivityTable {
+    margin-top: 1em;
+}
+.containerContentPreview.fileUpload .achActivityTable .activityRow td:not(.calendarcell) {
+    border-bottom: 1px solid #ccc;
+}
+.containerContentPreview.fileUpload .backButtonSticky {
+    margin-top: -2.8em;
+}
+.uploadActivity.achPayments .tableMargin {
+    margin: 1.875em 1.5em 1.5em;
+}
+.uploadActivity.achPayments .headerMargin {
+    margin: 1.5em 1.5em 0;
+}
+.uploadActivity.achPayments .alert.marginAlert {
+    margin-bottom: 1.25rem;
+    margin-top: -1rem;
+}
+.uploadActivity.achPayments .batchTableWrapper {
+    padding-top: 1.875rem;
+}
+.uploadActivity.achPayments .batchTableWrapper .verticalAlignLabel label {
+    position: relative;
+    top: 0.3125rem;
+}
+.uploadActivity.achPayments .simple.table.responsive.activityTable .activityRow:last-child, .uploadActivity.achPayments .simple.table.responsive.activityTable .activityRow:last-child td, .uploadActivity.achPayments .simple.table.responsive.activityTable .activityRow:last-child tr {
+    border-bottom: 0 none;
+}
+.uploadActivity.achPayments .simple.table.responsive.activityTable thead th {
+    padding-bottom: 1rem;
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError {
+    padding-top: 0;
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError > div {
+    margin-top: -1rem;
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .content.wrap {
+    display: inline-block;
+    margin-left: 0;
+    overflow: visible;
+    white-space: nowrap;
+    width: auto;
+}
+@media (max-width: 767px) {
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError > div {
+    margin-top: 0;
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .content.wrap {
+    white-space: normal;
+}
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .marginAlert {
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .alert-copy {
+    color: #717171;
+    margin-right: 1rem;
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .error, .uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .link {
+    display: inline-block;
+    overflow: auto;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: auto;
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .error h2, .uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .link h2 {
+    margin: 0;
+    overflow: auto;
+    width: auto;
+}
+@media (min-width: 767px) {
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .error h2.title {
+    width: auto;
+}
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .error .icon {
+    line-height: 1;
+    margin-right: 0.2rem;
+    top: 0.2rem;
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .link {
+    margin-left: 1rem;
+}
+@media (max-width: 767px) {
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .error, .uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .link {
+    display: block;
+    margin-bottom: 0.5rem;
+    white-space: normal;
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .error, .uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .error h2, .uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .link, .uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .link h2 {
+    overflow: visible;
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .error .icon {
+    top: 0.15rem;
+}
+.uploadActivity.achPayments .batchRecordsTable .batchRecordError .batchError .link {
+    margin-left: 0;
+}
+.uploadActivity.achPayments .batchRecordsTable .activityTable tbody.activityRow > tr {
+    padding-bottom: 1rem;
+}
+.uploadActivity.achPayments .tabs {
+    margin-top: 1.125rem;
+}
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+.uploadActivity.achPayments .batchRecordsTable {
+    overflow: auto;
+    width: 100%;
+}
+.uploadActivity.achPayments .batchRecordsTable .activityTable td[data-th], .uploadActivity.achPayments .batchRecordsTable .activityTable thead th, .uploadActivity.achPayments .batchRecordsTable .activityTable thead th[scope] {
+    padding-right: 0.5rem;
+}
+.manageUpload.nacha .manageUploadActivity .simple.table.responsive.activityTable {
+    table-layout: fixed;
+}
+.manageUpload.nacha .manageUploadActivity .simple.table.responsive.activityTable .fileUploadLink .link-anchor {
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+}
+.uploadActivity.achPayments .batchRecordsTable .reason {
+    white-space: normal;
+    width: 25%;
+}
+@media screen and (max-width: 767px) {
+.uploadActivity.achPayments .batchRecordsTable .reason {
+    text-align: left !important;
+}
+.uploadActivity.achPayments .batchRecordsTable .reason::before {
+    width: 100%;
+}
+}
+.uploadActivity.achPayments .batchRecordsTable.achPaymentActivity .footer {
+    border-top: 1px solid #ccc;
+    margin-top: 1.125rem;
+    padding-bottom: 1.125rem;
+    padding-top: 1.125rem;
+}
+.uploadActivity.achPayments .tabs {
+    margin-bottom: 1.125rem;
+}
+.uploadActivity.achPayments .tabs .tabContainer ul li:first-child {
+    padding-left: 0;
+}
+.uploadActivity.achPayments .tabs .tabContainer ul li:last-child {
+    padding-right: 0;
+}
+.uploadActivity.achPayments .alert {
+    margin-bottom: 1.875rem;
+}
+.uploadActivity.achPayments .uploadSummary h2 {
+    margin: 0;
+}
+.uploadActivity.achPayments .uploadSummary .printerclass {
+    vertical-align: sub;
+}
+.uploadActivity.achPayments .uploadSummary .verticalSpacing {
+    padding: 0.5em 0;
+}
+@media screen and (min-width: 768px) {
+.uploadActivity.achPayments .uploadSummary .verticalSpacing.verticalBar {
+    border-left: 1px solid #ccc;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.uploadActivity.achPayments .uploadSummary .verticalSpacing.pre-last {
+    border: medium none;
+    clear: both;
+    margin-left: 0;
+    padding-left: 0;
+}
+.uploadActivity.achPayments .uploadSummary .verticalSpacing.pre-last + .last {
+    border-left: 1px solid #ccc;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+.uploadActivity.achPayments .uploadSummary .verticalSpacing.last {
+    border: medium none;
+    margin-left: 0;
+    padding-left: 0;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+.uploadActivity.achPayments .uploadSummary .verticalSpacing.pre-last {
+    border: medium none;
+    clear: both;
+    margin-left: 0;
+    padding-left: 0;
+}
+.uploadActivity.achPayments .uploadSummary .verticalSpacing.pre-last + .last {
+    border-left: 1px solid #ccc;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+}
+@media screen and (min-width: 1200px) {
+.uploadActivity.achPayments .uploadSummary .verticalSpacing.last {
+    border: medium none;
+    clear: both;
+    margin-left: 0;
+    padding-left: 0;
+}
+}
+@media (min-width: 1440px) {
+.uploadActivity.achPayments .uploadSummary .verticalSpacing.last {
+    border-left: 1px solid #ccc;
+    clear: none;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+}
+@media print {
+.uploadActivity.achPayments .uploadSummary .verticalSpacing.pre-last {
+    border-left: 0 none;
+    clear: both;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+.uploadActivity.achPayments .uploadSummary .verticalSpacing.pre-last + .last {
+    border-left: 1px solid #000 !important;
+    clear: none;
+    float: left;
+    margin-left: 1em !important;
+    padding-left: 1em !important;
+}
+}
+.uploadActivity.achPayments .uploadSummary .uploadDetailsHeader {
+    margin-top: 4rem;
+}
+.uploadActivity.achPayments .uploadSummary .uploadDetailsHeader .alert {
+    margin-top: 1.875rem;
+}
+.uploadActivity.achPayments .uploadSummary .approvalsHeader {
+    margin-top: 1.9rem;
+}
+.uploadActivity.achPayments .uploadSummary .uploadSummaryDetails {
+    margin: 1em 0;
+}
+.uploadActivity.achPayments .uploadSummary .uploadSummaryDetails li {
+    display: block;
+    margin: auto;
+    width: auto;
+}
+@media screen and (max-width: 767px) {
+.uploadActivity.achPayments .uploadSummary .uploadSummaryDetails li .data:first-child {
+    display: inline-block;
+}
+.uploadActivity.achPayments .uploadSummary .uploadSummaryDetails li .data:last-child {
+    float: right;
+}
+}
+.uploadActivity.achPayments .pendingApprovals, .uploadActivity.achPayments .uploadSummary .uploadSummaryDetails .pendingApprovals {
+    display: none;
+}
+@media (min-width: 768px) {
+.uploadActivity.achPayments .uploadSummary .common.formHeader {
+    margin-top: 0;
+}
+}
+.uploadActivity.achPayments .containerHeader {
+    background-color: #f7f6f3;
+    margin-bottom: 1.125rem;
+    margin-top: 1.125rem;
+}
+.uploadActivity.achPayments .batchTransactionsDataset dd, .uploadActivity.achPayments .batchTransactionsDataset dt {
+    margin: 0;
+    padding: 0;
+}
+.uploadActivity.achPayments .achPaymentActivity .footer {
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding-bottom: 1.125rem;
+    padding-top: 1.125rem;
+}
+.uploadActivity.achPayments .achPaymentActivity .footer .common.alertHeaderContainer {
+    margin: 0;
+    padding: 0;
+}
+.uploadActivity.achPayments .achPaymentActivity .footer .footerContent {
+    text-align: center;
+}
+.uploadActivity.achPayments .backLink--stickyHeader {
+    background-color: #fff;
+    left: 0;
+    line-height: 2;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.uploadActivity.achPayments .backLink--stickyHeader .stickyTitleContainer {
+    background-color: #fff;
+    box-shadow: 0 0.25rem 0.25rem -0.25rem rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0.5em 1em;
+}
+.uploadActivity.achPayments .dataListPairs {
+    margin-bottom: 30px;
+}
+.uploadActivity.achPayments .dataListPairs .dataDetails .reversalText {
+    color: #126bc5;
+    font-size: 16px;
+}
+.uploadActivity.achPayments .DATA {
+    font-weight: 600;
+}
+.uploadActivity.achPayments .noMargin {
+    margin-left: 0;
+}
+.uploadActivity.achPayments .DATALABELVI {
+    color: #717171;
+}
+.uploadActivity.achPayments .noBorder td {
+    border-bottom: medium none !important;
+}
+.uploadActivity.achPayments ul {
+    margin: 0;
+}
+.uploadActivity.achPayments .footer, .uploadActivity.achPayments footer {
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+    border-top: 1px solid #ccc;
+    margin-top: 1.25em;
+    padding-bottom: 1.25em;
+    padding-top: 1.25em;
+}
+@media screen and (max-width: 767px) {
+.uploadActivity.achPayments .footer .footerContent, .uploadActivity.achPayments footer .footerContent {
+    text-align: center;
+}
+.uploadActivity.achPayments .footer .footerContent .DATA, .uploadActivity.achPayments .footer .footerContent .NOTE, .uploadActivity.achPayments footer .footerContent .DATA, .uploadActivity.achPayments footer .footerContent .NOTE {
+    margin-bottom: 1.125rem;
+}
+.uploadActivity.achPayments .footer .footerContent .DATA + .activityActionLinks, .uploadActivity.achPayments .footer .footerContent .NOTE + .activityActionLinks, .uploadActivity.achPayments footer .footerContent .DATA + .activityActionLinks, .uploadActivity.achPayments footer .footerContent .NOTE + .activityActionLinks {
+    margin-top: 0;
+}
+.manageUpload.nacha .manageUploadActivity .simple.table.responsive.activityTable tbody.activityRow td a.link-anchor {
+    display: block;
+}
+}
+.uploadActivity.achPayments .backButtonSticky {
+    border-bottom: 1px solid #ccc;
+    margin-top: -4em;
+    z-index: 100;
+}
+.manageUpload.nacha h2 {
+    margin: 0;
+}
+.manageUpload.nacha .iconCollection {
+    margin: 1em 0;
+}
+.manageUpload.nacha .styledselect input {
+    padding: 0 0 0 1rem;
+}
+.manageUpload.nacha .styledselect button {
+    top: 1px;
+}
+.manageUpload.nacha .dropdownWrapper {
+    margin-top: 30px;
+}
+.manageUpload.nacha .dropdownWrapper .label-wrapper {
+    padding-right: 1rem;
+}
+.manageUpload.nacha .manageUploadActivity .simple.table th[scope] .icon {
+    color: #959595;
+}
+.pendingApprovals.achPayments .amountMoneyIn, .pendingApprovals.achPayments .uploadSummary .uploadSummaryDetails .blueAmount {
+    color: #126bc5;
+}
+.manageUpload.nacha .manageUploadActivity .simple.table.responsive.activityTable tr {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+@media (max-width: 767px) {
+.manageUpload.nacha .manageUploadActivity .simple.table.responsive.activityTable tbody.activityRow > tr {
+    margin-bottom: 0;
+    padding: 1.5rem 0;
+}
+.manageUpload.nacha .manageUploadActivity .simple.table.responsive.activityTable tbody.activityRow:nth-of-type(1) > tr {
+    padding-top: 0;
+}
+}
+.manageUpload.nacha .manageUploadActivity footer {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1.5625rem;
+    margin-top: 1.5625rem;
+    padding-bottom: 1.5625rem;
+}
+.manageUpload.nacha .manageUploadActivity footer .footerContent .DATA {
+    margin-top: 5px;
+}
+.pendingApprovals.achPayments {
+    margin-bottom: 4em !important;
+    padding: 0 1em !important;
+}
+@media screen and (min-width: 768px) {
+.uploadActivity.achPayments .uploadSummary .uploadSummaryDetails li {
+    float: left;
+}
+.manageUpload.nacha .dropdownWrapper .jpui .styledselect {
+    width: 70%;
+}
+.pendingApprovals.achPayments {
+    margin-bottom: 2em !important;
+}
+}
+@media screen and (min-width: 992px) {
+.pendingApprovals.achPayments {
+    padding: 0 1.5em !important;
+}
+}
+.pendingApprovals.achPayments .uploadSummary .manageApprovalSummaryHeader {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 0;
+}
+.pendingApprovals.achPayments .uploadSummary .helpSupport {
+    margin-top: 1.5em;
+}
+.pendingApprovals.achPayments .uploadSummary .verticalSpacing {
+    padding: 0.5em 0;
+}
+@media screen and (min-width: 768px) {
+.pendingApprovals.achPayments .uploadSummary .verticalSpacing.verticalBar {
+    border-left: 1px solid #ccc;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+}
+.pendingApprovals.achPayments .uploadSummary .uploadSummaryDetails li {
+    display: block;
+    margin: auto;
+    width: auto;
+}
+@media screen and (max-width: 767px) {
+.manageUpload.nacha .manageUploadActivity footer .footerContent {
+    text-align: center;
+}
+.pendingApprovals.achPayments .uploadSummary .uploadSummaryDetails li .data:first-child {
+    display: inline-block;
+}
+.pendingApprovals.achPayments .uploadSummary .uploadSummaryDetails li .data:last-child {
+    float: right;
+    text-align: right;
+}
+}
+.pendingApprovals.achPayments .backLink--stickyHeader, .pendingApprovals.achPayments .uploadSummary .uploadSummaryDetails .uploadActivity {
+    display: none;
+}
+.pendingApprovals.achPayments .uploadSummary .uploadSummaryDetails.cr418 {
+    background-color: #f7f6f3;
+}
+@media screen and (min-width: 768px) {
+.pendingApprovals.achPayments .uploadSummary .uploadSummaryDetails li {
+    float: left;
+}
+.pendingApprovals.achPayments .uploadSummary .uploadSummaryDetails.cr418 {
+    padding-bottom: 1em;
+    padding-left: 0.875em;
+    padding-top: 1em;
+}
+.pendingApprovals.achPayments .uploadSummary .uploadSummaryDetails.cr418 .BODYLABEL.data {
+    line-height: 2em;
+}
+}
+.pendingApprovals.achPayments .transactionStatus {
+    display: none !important;
+}
+.pendingApprovals.achPayments .helpSupportLink, .pendingApprovals.achPayments .uploadActivity {
+    display: none;
+}
+.pendingApprovals.achPayments ul {
+    margin: 0;
+}
+.pendingApprovals.achPayments .batchRecordsTable {
+    margin-bottom: 6px;
+    margin-top: 1.5em;
+}
+@media screen and (max-width: 767px) {
+.pendingApprovals.achPayments .batchRecordsTable {
+    margin-bottom: 12px;
+}
+.pendingApprovals.achPayments .manageUploadActivity .footerContent {
+    text-align: center;
+}
+}
+.pendingApprovals.achPayments .batchRecordsTable thead tr th {
+    padding-bottom: 0.625rem;
+}
+.pendingApprovals.achPayments .batchRecordsTable.achPaymentActivity .footer {
+    border-bottom: 1px solid #ccc;
+    margin-top: 1.125rem;
+    padding-bottom: 1.125rem;
+}
+@media (max-width: 1199px) {
+.pendingApprovals.achPayments .stickyFooterBatchBtns {
+    left: 0;
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+}
+@media screen and (min-width: 1200px) {
+.pendingApprovals.achPayments .stickyFooterBatchBtns {
+    left: auto;
+    margin-left: -2.25rem !important;
+    max-width: 1440px;
+    width: 100% !important;
+}
+}
+.pendingApprovals.achPayments .common.noFormHeader {
+    margin-top: 0;
+}
+.pendingApprovals.achPayments .manageUploadActivity .H2, .pendingApprovals.achPayments .manageUploadActivity h2 {
+    padding-bottom: 1.875rem;
+}
+@media (max-width: 767px) {
+.pendingApprovals.achPayments .manageUploadActivity .simple.table.responsive.activityTable tbody.activityRow > tr {
+    margin-bottom: 0;
+    padding: 1.5rem 0;
+}
+.pendingApprovals.achPayments .manageUploadActivity .simple.table.responsive.activityTable thead + tbody.activityRow > tr {
+    padding-top: 0;
+}
+}
+.pendingApprovals.achPayments .uploadApprovalSummaryHeader .alert {
+    margin-top: 1.875rem;
+}
+.pendingApprovals.achPayments .uploadApprovalSummaryHeader .alertHeaderContainer {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.pendingApprovals.achPayments .uploadApprovalSummaryHeader .alertHeaderContainer .H2 {
+    margin-bottom: 1.375em;
+    margin-top: 1.375em;
+}
+.pendingApprovals.achPayments .uploadApprovalSummaryHeader .common.noFormHeader {
+    margin-top: 0;
+    padding-bottom: 1.875rem;
+    padding-top: 1.875rem;
+}
+.pendingApprovals.achPayments .uploadDetailsHeader .alert {
+    margin-bottom: 0.85rem;
+    margin-top: 1.875rem;
+}
+@media screen and (max-width: 767px) {
+.ACHRecipient .payeeActivity .common.form .hybridTransactionAmount .jpui.wrap.left .input, .achPayments .payeeActivity .common.form .hybridTransactionAmount .jpui.wrap.left .input, .collections .payeeActivity .common.form .hybridTransactionAmount .jpui.wrap.left .input, .pendingApprovals .payeeActivity .common.form .hybridTransactionAmount .jpui.wrap.left .input {
+    height: 4rem;
+}
+}
+@media print {
+.ACHRecipient .uploadSummaryDetails li, .achPayments .uploadSummaryDetails li, .collections .uploadSummaryDetails li, .pendingApprovals .uploadSummaryDetails li {
+    float: left;
+    margin-bottom: 1.125rem !important;
+}
+.ACHRecipient .uploadSummaryDetails li.verticalBar, .achPayments .uploadSummaryDetails li.verticalBar, .collections .uploadSummaryDetails li.verticalBar, .pendingApprovals .uploadSummaryDetails li.verticalBar {
+    border-left: 1px solid #ccc;
+    float: left;
+    margin-left: 1em !important;
+    padding-left: 1em !important;
+}
+.ACHRecipient .uploadSummaryDetails li.last, .achPayments .uploadSummaryDetails li.last, .collections .uploadSummaryDetails li.last, .pendingApprovals .uploadSummaryDetails li.last {
+    border: 0 none !important;
+    clear: both;
+    float: none;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+}
+.ACHRecipient.containerContentPreview, .achPayments.containerContentPreview, .collections.containerContentPreview, .pendingApprovals.containerContentPreview {
+    background: #fff none repeat scroll 0 0;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: relative;
+}
+@media (min-width: 1200px) {
+.ACHRecipient.containerContentPreview, .achPayments.containerContentPreview, .collections.containerContentPreview, .pendingApprovals.containerContentPreview {
+    max-width: 90em;
+}
+}
+@media screen and (max-width: 767px) {
+.ACHRecipient .containerBar, .achPayments .containerBar, .collections .containerBar, .pendingApprovals .containerBar {
+    border-bottom: 1px solid #ccc;
+}
+}
+.ACHRecipient .activityTable.achActivityTable .tooltip-body, .achPayments .activityTable.achActivityTable .tooltip-body, .collections .activityTable.achActivityTable .tooltip-body, .pendingApprovals .activityTable.achActivityTable .tooltip-body {
+    white-space: normal;
+}
+.ACHRecipient .searchBank.details.detailsContainer, .achPayments .searchBank.details.detailsContainer, .collections .searchBank.details.detailsContainer, .pendingApprovals .searchBank.details.detailsContainer {
+    margin-bottom: 1rem;
+}
+.ACHRecipient .searchBank.details.detailsContainer h4, .achPayments .searchBank.details.detailsContainer h4, .collections .searchBank.details.detailsContainer h4, .pendingApprovals .searchBank.details.detailsContainer h4 {
+    margin: 0;
+}
+.ACHRecipient .searchBank.details.detailsContainer .jpui.simple.table td[data-th], .achPayments .searchBank.details.detailsContainer .jpui.simple.table td[data-th], .collections .searchBank.details.detailsContainer .jpui.simple.table td[data-th], .pendingApprovals .searchBank.details.detailsContainer .jpui.simple.table td[data-th] {
+    border: medium none;
+}
+.ACHRecipient.achPaymentCancelConfirmation, .achPayments.achPaymentCancelConfirmation, .collections.achPaymentCancelConfirmation, .pendingApprovals.achPaymentCancelConfirmation {
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    min-height: 100%;
+}
+.ACHRecipient.achPaymentCancelConfirmation .transaction-details, .achPayments.achPaymentCancelConfirmation .transaction-details, .collections.achPaymentCancelConfirmation .transaction-details, .pendingApprovals.achPaymentCancelConfirmation .transaction-details {
+    margin-top: 0.875em;
+}
+.ACHRecipient.achPaymentCancelConfirmation .hybridAlignCenter, .achPayments.achPaymentCancelConfirmation .hybridAlignCenter, .collections.achPaymentCancelConfirmation .hybridAlignCenter, .pendingApprovals.achPaymentCancelConfirmation .hybridAlignCenter {
+    text-align: center;
+}
+.ACHRecipient.achPaymentCancelConfirmation .hybridAlignCenter h1, .achPayments.achPaymentCancelConfirmation .hybridAlignCenter h1, .collections.achPaymentCancelConfirmation .hybridAlignCenter h1, .pendingApprovals.achPaymentCancelConfirmation .hybridAlignCenter h1 {
+    margin: auto;
+    width: 65%;
+}
+.ACHRecipient.achPaymentCancelConfirmation .hybridAlignCenter i, .achPayments.achPaymentCancelConfirmation .hybridAlignCenter i, .collections.achPaymentCancelConfirmation .hybridAlignCenter i, .pendingApprovals.achPaymentCancelConfirmation .hybridAlignCenter i {
+    font-size: 3.625em;
+    margin-bottom: 0.75rem;
+    margin-top: 1.5rem;
+}
+.scheduleRepeatingEnterHybrid #transactionDurationOptionId_MULTIPLE, .scheduleRepeatingEnterHybrid .common.form .field, .scheduleRepeatingEnterHybrid .jpui.fieldgroup .vertical:not(.fieldtext) .label-wrapper, .scheduleRepeatingEnterHybrid .jpui.vertical {
+    margin-bottom: 0;
+}
+.ACHRecipient.scheduleRepeatingAchPayments .mainPanelWrapper, .achPayments.scheduleRepeatingAchPayments .mainPanelWrapper, .collections.scheduleRepeatingAchPayments .mainPanelWrapper, .pendingApprovals.scheduleRepeatingAchPayments .mainPanelWrapper {
+    z-index: auto;
+}
+.ACHRecipient.scheduleRepeatingAchPayments .mainPanelWrapper .scheduleRepeatingEnter .validation-error-bubble-container, .achPayments.scheduleRepeatingAchPayments .mainPanelWrapper .scheduleRepeatingEnter .validation-error-bubble-container, .collections.scheduleRepeatingAchPayments .mainPanelWrapper .scheduleRepeatingEnter .validation-error-bubble-container, .pendingApprovals.scheduleRepeatingAchPayments .mainPanelWrapper .scheduleRepeatingEnter .validation-error-bubble-container {
+    z-index: 9999;
+}
+.ACHRecipient .filterLabel, .achPayments .filterLabel, .collections .filterLabel, .pendingApprovals .filterLabel {
+    padding-left: 1em;
+}
+.ACHRecipient .payeeActivity .fieldgroup .vertical, .achPayments .payeeActivity .fieldgroup .vertical, .collections .payeeActivity .fieldgroup .vertical, .pendingApprovals .payeeActivity .fieldgroup .vertical {
+    margin-top: initial;
+}
+.ACHRecipient .radiobutton-container.tooltip, .achPayments .radiobutton-container.tooltip, .collections .radiobutton-container.tooltip, .pendingApprovals .radiobutton-container.tooltip {
+    vertical-align: top;
+}
+.ACHRecipient .radiobutton-container .yield, .achPayments .radiobutton-container .yield, .collections .radiobutton-container .yield, .pendingApprovals .radiobutton-container .yield {
+    margin: 0;
+    vertical-align: top;
+}
+.ACHRecipient .details, .achPayments .details, .collections .details, .pendingApprovals .details {
+    background-color: #fbfaf9;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+@media screen and (min-width: 768px) {
+.ACHRecipient .payeeActivity .common.form .jpui.wrap.left .input, .achPayments .payeeActivity .common.form .jpui.wrap.left .input, .collections .payeeActivity .common.form .jpui.wrap.left .input, .pendingApprovals .payeeActivity .common.form .jpui.wrap.left .input {
+    height: 4rem;
+}
+.ACHRecipient dd.dataValue.dataValueSpacing, .achPayments dd.dataValue.dataValueSpacing, .collections dd.dataValue.dataValueSpacing, .pendingApprovals dd.dataValue.dataValueSpacing {
+    margin-top: 0.875em;
+}
+}
+.ACHRecipient.paymentsList, .achPayments.paymentsList, .collections.paymentsList, .pendingApprovals.paymentsList {
+    background-color: #fff;
+    min-height: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+@media screen and (min-width: 992px) {
+.ACHRecipient.paymentsList, .achPayments.paymentsList, .collections.paymentsList, .pendingApprovals.paymentsList {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+}
+.ACHRecipient .haslinkwithhat a span, .achPayments .haslinkwithhat a span, .collections .haslinkwithhat a span, .pendingApprovals .haslinkwithhat a span {
+    border: 0 none !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px !important;
+    overflow: hidden;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+.ACHRecipient .common.form .rangeField .rangeLabel, .achPayments .common.form .rangeField .rangeLabel, .collections .common.form .rangeField .rangeLabel, .pendingApprovals .common.form .rangeField .rangeLabel {
+    margin-top: -6px;
+}
+.ACHRecipient .jpui.link .link-anchor.DATALINK, .achPayments .jpui.link .link-anchor.DATALINK, .collections .jpui.link .link-anchor.DATALINK, .pendingApprovals .jpui.link .link-anchor.DATALINK {
+    color: #126bc5;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.ACHRecipient .jpui.link .link-anchor.DATALINK, .achPayments .jpui.link .link-anchor.DATALINK, .collections .jpui.link .link-anchor.DATALINK, .pendingApprovals .jpui.link .link-anchor.DATALINK {
+    font-size: 1rem;
+}
+}
+.ACHRecipient .stepLabel--marginTop, .achPayments .stepLabel--marginTop, .collections .stepLabel--marginTop, .pendingApprovals .stepLabel--marginTop {
+    margin-top: 0.875rem;
+}
+.ACHRecipient .uploadAdvisory--marginTop, .achPayments .uploadAdvisory--marginTop, .collections .uploadAdvisory--marginTop, .pendingApprovals .uploadAdvisory--marginTop {
+    margin-top: 1rem;
+}
+.ACHRecipient .legalAgreementsCheckbox-paddingTop, .achPayments .legalAgreementsCheckbox-paddingTop, .collections .legalAgreementsCheckbox-paddingTop, .pendingApprovals .legalAgreementsCheckbox-paddingTop {
+    padding-top: 30px;
+}
+.ACHRecipient .businessUser-paddingTop, .achPayments .businessUser-paddingTop, .collections .businessUser-paddingTop, .pendingApprovals .businessUser-paddingTop {
+    padding-top: 24px;
+}
+.ACHRecipient .detailsHeader, .achPayments .detailsHeader, .collections .detailsHeader, .pendingApprovals .detailsHeader {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.ACHRecipient .jpui.table.data-table .table-container .table-body .cell .iconwrap.hasMinitooltip, .achPayments .jpui.table.data-table .table-container .table-body .cell .iconwrap.hasMinitooltip, .collections .jpui.table.data-table .table-container .table-body .cell .iconwrap.hasMinitooltip, .pendingApprovals .jpui.table.data-table .table-container .table-body .cell .iconwrap.hasMinitooltip {
+    white-space: normal;
+}
+@media print {
+.ACHRecipient .jpui.table.data-table, .achPayments .jpui.table.data-table, .collections .jpui.table.data-table, .pendingApprovals .jpui.table.data-table {
+}
+.ACHRecipient .jpui.table.data-table thead, .achPayments .jpui.table.data-table thead, .collections .jpui.table.data-table thead, .pendingApprovals .jpui.table.data-table thead {
+    display: none;
+}
+.ACHRecipient .jpui.table.data-table td, .achPayments .jpui.table.data-table td, .collections .jpui.table.data-table td, .pendingApprovals .jpui.table.data-table td {
+    display: block;
+    min-height: 2em;
+    padding: 0.313rem 0 !important;
+    text-align: right;
+    width: 100%;
+}
+.ACHRecipient .jpui.table.data-table tr.table-row, .achPayments .jpui.table.data-table tr.table-row, .collections .jpui.table.data-table tr.table-row, .pendingApprovals .jpui.table.data-table tr.table-row {
+    border-bottom: 0.0625rem solid #ccc;
+    display: table-row;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.ACHRecipient .jpui.table.data-table td[data-th]::before, .achPayments .jpui.table.data-table td[data-th]::before, .collections .jpui.table.data-table td[data-th]::before, .pendingApprovals .jpui.table.data-table td[data-th]::before {
+    content: attr(data-th) "";
+    display: block;
+    float: left;
+    text-align: left;
+}
+}
+.ACHRecipient .transactionsAccordionTitle:focus, .achPayments .transactionsAccordionTitle:focus, .collections .transactionsAccordionTitle:focus, .pendingApprovals .transactionsAccordionTitle:focus {
+    border: 1px dashed #000;
+}
+.scheduleRepeatingEnterHybrid {
+    margin-top: -12px;
+}
+.scheduleRepeatingEnterHybrid input#transactionAmount-text-input-field {
+    font-size: 2.5rem;
+    height: 60px;
+    padding-left: 12px;
+    text-align: center;
+}
+.scheduleRepeatingEnterHybrid #transactionDurationOptionId_MULTIPLE .align-label-input {
+    margin-left: 18px;
+}
+.scheduleRepeatingEnterHybrid .hybridAccountName, .scheduleRepeatingEnterHybrid .hybridTransactionAmount {
+    margin-top: 30px;
+}
+.scheduleRepeatingEnterHybrid .hybridAccountName .H2, .scheduleRepeatingEnterHybrid .hybridTransactionAmount .H2 {
+    margin: 0;
+}
+.scheduleRepeatingEnterHybrid .hybridAccountName .input-icon, .scheduleRepeatingEnterHybrid .hybridTransactionAmount .input-icon {
+    color: #414042 !important;
+}
+.scheduleRepeatingEnterHybrid .jpui.fieldgroup .fieldhelpertext-container .fieldhelpertext {
+    margin-top: 6px;
+}
+.scheduleRepeatingEnterHybrid .hybridPaymentInfo {
+    margin-top: 24px;
+}
+.scheduleRepeatingEnterHybrid .hybridPaymentFrequencyInfo {
+    margin-top: 39.96px;
+}
+.scheduleRepeatingEnterHybrid .transctionLabel {
+    margin-top: 7.98px;
+}
+.scheduleRepeatingEnterHybrid .hybrid-sticky-btn-container .hybrid-sticky-buttons {
+    display: inherit;
+    left: 0;
+}
+.scheduleRepeatingEnterHybrid .hybrid-sticky-btn-container .hybrid-sticky-buttons .nextBtn {
+    float: right;
+    min-width: inherit;
+}
+.scheduleRepeatingEnterHybrid .hybrid-sticky-btn-container .hybrid-sticky-buttons .cancelBtn {
+    min-width: inherit;
+}
+.scheduleRepeatingEnterHybrid #scheduleEnterPaymentsStickyButtonContainer {
+    margin-bottom: 24px;
+}
+.scheduleRepeatingEnterHybrid #scheduleEnterPaymentsStickyButtonContainer::before {
+    margin-top: 96px;
+}
+.scheduleRepeatingEnterHybrid .hybridTransactionAmount .input-icon {
+    color: #414042 !important;
+    font-size: 45.96px;
+    padding-bottom: 6px;
+    padding-top: 0.5rem;
+}
+#achPaymentRepeatingTransactionEditConfirmHybrid, #editSingleConfirmPanel {
+    padding-top: 30px;
+}
+.scheduleRepeatingEnterHybrid .hybridTransactionAmount .vertical .validation__bubble-container {
+    top: -4rem;
+}
+.activityAndFilter .activityActionDropdown {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+.activityTableOnly .activityActionDropdown {
+    display: none;
+}
+hr.renamePayeeGroupLine {
+    margin-top: 1em;
+}
+}
+#editSingleConfirmPanel #confirmationMessage, #hybridscheduleRepeatingConfirm.scheduleRepeatingConfirm #confirmationMessage {
+    margin: 30px auto 18px;
+    text-align: center;
+}
+#editSingleConfirmPanel #confirmationMessage h2, #hybridscheduleRepeatingConfirm.scheduleRepeatingConfirm #confirmationMessage h2 {
+    color: #414042;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+.scheduleRepeatingEnterHybrid .hybridTransactionAmount .jpui.input {
+    height: auto;
+    padding-left: 15px !important;
+}
+.activityTableOnly .activityActionLinks {
+    display: none;
+}
+#editSingleConfirmPanel #confirmationMessage h2, #hybridscheduleRepeatingConfirm.scheduleRepeatingConfirm #confirmationMessage h2 {
+    font-size: 1.5rem;
+}
+}
+#editSingleConfirmPanel #confirmationMessage #icon-type-icon-confirmationMessage, #hybridscheduleRepeatingConfirm.scheduleRepeatingConfirm #confirmationMessage #icon-type-icon-confirmationMessage {
+    font-size: 1.25rem;
+    vertical-align: bottom;
+}
+#editSingleConfirmPanel #confirmationMessage div, #hybridscheduleRepeatingConfirm.scheduleRepeatingConfirm #confirmationMessage div {
+    display: inline-block;
+    vertical-align: top;
+}
+#editSingleConfirmPanel #confirmationMessage .icon, #hybridscheduleRepeatingConfirm.scheduleRepeatingConfirm #confirmationMessage .icon {
+    float: none;
+}
+#editSingleConfirmPanel #confirmationMessage #content-confirmationMessage, #hybridscheduleRepeatingConfirm.scheduleRepeatingConfirm #confirmationMessage #content-confirmationMessage {
+    margin-left: 2px;
+}
+#editSingleConfirmPanel .H2.display-name, #hybridscheduleRepeatingConfirm.scheduleRepeatingConfirm .H2.display-name {
+    margin-bottom: 0.6em;
+    text-align: center;
+}
+#editSingleConfirmPanel .amount, #hybridscheduleRepeatingConfirm.scheduleRepeatingConfirm .amount {
+    color: #414042;
+    font-size: 45px;
+    margin-bottom: 0.4em;
+    text-align: center;
+}
+#editSingleConfirmPanel .dd.dataValue, #hybridscheduleRepeatingConfirm.scheduleRepeatingConfirm .dd.dataValue {
+    margin-bottom: 1.125em;
+}
+#editSingleConfirmPanel .form.common.panelContent, #hybridscheduleRepeatingConfirm.scheduleRepeatingConfirm .form.common.panelContent {
+    margin-bottom: 4em;
+}
+.confirm-header {
+    display: flex;
+    justify-content: center;
+}
+.confirm-header .jpui.alert.primary.inverted.success .content.wrap .title {
+    margin-bottom: 0;
+}
+#achPaymentRepeatingTransactionEditConfirmHybrid .H2.display-name {
+    margin-bottom: 0.6em;
+    margin-top: 0;
+    text-align: center;
+}
+#achPaymentRepeatingTransactionEditConfirmHybrid .amount {
+    color: #414042;
+    font-size: 45px;
+    margin-bottom: 0.4em;
+    text-align: center;
+}
+#achPaymentRepeatingTransactionEditConfirmHybrid .dd.dataValue {
+    margin-bottom: 1.125em;
+}
+#achPaymentRepeatingTransactionEditConfirmHybrid .form.common.panelContent {
+    margin-bottom: 4em;
+}
+.scheduleRepeatingAlert {
+    margin: 12px 0 24px;
+}
+.col-xs-10.editSingleExitSection {
+    float: none;
+    margin: 0 auto;
+}
+.modalContent .dialogButtonContainer .jpui.button {
+    min-width: 0;
+}
+.modalContent .dialogButtonContainer .hybrid-cancel-overlay-confirm {
+    float: right;
+}
+.add-payee-container #addPayeeLink {
+    margin: 0;
+    padding-right: 0;
+    width: 100%;
+}
+.add-payee-container #addPayeeLink-endIcon {
+    color: #666 !important;
+    font-size: 1rem;
+    margin-left: auto;
+}
+.blueAmount {
+    color: #126bc5;
+}
+.uploadDetailsHeader .helpSupport {
+    margin-top: 1.5em;
+}
+.uploadSummaryDetails.cr418 {
+    background-color: #f7f6f3;
+}
+.uploadSummaryDetails.cr418 .summary-items-row {
+    padding: 1rem;
+}
+@media screen and (min-width: 768px) {
+.uploadSummaryDetails.cr418 .summary-items-row {
+    padding: 1rem 1.5rem;
+}
+}
+.uploadSummaryDetails.cr418 .summary-items-row dd, .uploadSummaryDetails.cr418 .summary-items-row dt {
+    display: inline-block;
+    margin: 0 0 0.5rem;
+    white-space: normal;
+}
+.uploadSummaryDetails.cr418 .summary-items-row dt {
+    padding: 0 1rem 0 0;
+    width: 50%;
+}
+@media screen and (min-width: 768px) {
+.uploadSummaryDetails.cr418 .summary-items-row dt {
+    padding: 0 0.5rem 0 0;
+    width: 55%;
+}
+}
+@media screen and (min-width: 1200px) {
+.uploadSummaryDetails.cr418 .summary-items-row dt {
+    padding: 0 1rem 0 0;
+    width: 45%;
+}
+}
+.uploadSummaryDetails.cr418 .summary-items-row dd {
+    margin-left: 0;
+}
+.wireRecipient.payments .resendActivationLink {
+    padding-top: 0.625rem;
+}
+@media screen and (max-width: 767px) {
+.wireRecipient.payments .resendActivationLink {
+    padding-top: 0;
+}
+}
+.wireRecipient.payments .activationCodeLabel {
+    padding-top: 0.375rem;
+    text-align: right;
+}
+@media screen and (max-width: 767px) {
+.wireRecipient.payments .activationCodeLabel {
+    padding-top: 0;
+    text-align: left;
+}
+}

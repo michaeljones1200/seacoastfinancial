@@ -1,0 +1,46 @@
+@font-face {
+    font-family: openSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/opensans-regular.eot");
+    src: url("../fonts/opensans-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular.woff") format("woff"), url("../fonts/opensans-regular.ttf") format("truetype");
+}
+.print---print-body---2BWSh {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-family: openSans;
+}
+.print---print-content---2ZdNi {
+    height: 100%;
+    width: 100%;
+}
+.print---print-logo---3bMRL {
+    height: 30px;
+    left: 50%;
+    position: relative;
+    margin-left: -12.5%;
+}
+.print---print-table---LJjOB {
+    border-collapse: collapse;
+}
+.print---print-row---y-kaX {
+    border-bottom: 1px dashed #bcbcbc;
+    page-break-inside: auto;
+}
+.print---print-title---lNR-l {
+    text-align: center;
+    font-size: 20px;
+}
+.print---print-column---3wX6t {
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+.print---print-footer---10Z_Q:first-child {
+    text-align: left;
+}
+.print---print-footer---10Z_Q:last-child {
+    text-align: right;
+}
